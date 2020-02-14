@@ -1,0 +1,4 @@
+(executables
+(names check_data example_alignment)
+(libraries core owl
+lib))

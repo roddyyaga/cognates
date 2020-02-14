@@ -1,0 +1,4 @@
+(library
+(name lib)
+(libraries core owl)
+(preprocess (pps ppx_deriving.enum)))
