@@ -61,7 +61,7 @@ let align weights first second =
           List.iter all_optimal ~f:(fun (score, pointer) ->
               Generic.set scores [| y; x |] score;
               Generic.set pointers [| y; x; Pointers.to_enum pointer |] 1)));
-  (scores, pointers)
+  (scores, pointers, Generic.get scores [| first_dim - 1; second_dim - 1 |])
 
 let traceback first second pointers =
   let open Dense.Ndarray in

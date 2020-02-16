@@ -9,9 +9,16 @@ end
 
 open Infix
 
+type taxon = string
+
+type phone = string
+
+type word = phone list
+
 type dataset = {
-  phones: (string, (string, String.comparator_witness) Set.t) Hashtbl.t;
-  words: (string, string list list) Hashtbl.t;
+  phones: (string, (phone, String.comparator_witness) Set.t) Hashtbl.t;
+  words: (string, word list) Hashtbl.t;
+  cogs: (int, (taxon * word) list) Hashtbl.t;
 }
 
 (** Load a dataset from a CSV at a path *)
@@ -22,6 +29,7 @@ let load_dataset ?verbose path =
   let df = Dataframe.of_csv path in
 
   if verbose then (
+    Stdio.print_endline @@ Owl_pretty.dataframe_to_string ~max_row:10000 df;
     let x, y = Dataframe.shape df in
     Printf.sprintf "Shape: (%d, %d)" x y |> Stdio.print_endline;
 
@@ -32,11 +40,13 @@ let load_dataset ?verbose path =
 
   let phones = Hashtbl.create (module String) in
   let words = Hashtbl.create (module String) in
+  let cognate_candidates = Hashtbl.create (module Int) in
   let process_row =
     let open Dataframe in
     function
-    | [| _id; String taxon; _gloss; _gloss_id; _ipa; String tokens; _cog_id |]
-      ->
+    | [|
+        _id; String taxon; _gloss; Int gloss_id; _ipa; String tokens; _cog_id;
+      |] ->
         let token_list = String.split ~on:' ' tokens in
         let previous_set =
           match phones @? taxon with
@@ -50,7 +60,15 @@ let load_dataset ?verbose path =
         Hashtbl.set ~key:taxon ~data:new_set phones;
         let previous_list = Option.value ~default:[] @@ words @? taxon in
         let new_list = token_list :: previous_list in
-        Hashtbl.set ~key:taxon ~data:new_list words
+        Hashtbl.set ~key:taxon ~data:new_list words;
+        let previous_cognate_candidates =
+          Option.value ~default:[] @@ cognate_candidates @? gloss_id
+        in
+        let new_cognate_candidates =
+          (taxon, token_list) :: previous_cognate_candidates
+        in
+        Hashtbl.set ~key:gloss_id ~data:new_cognate_candidates
+          cognate_candidates
     | other -> Stdio.print_endline (Int.to_string @@ Array.length other)
   in
   let () = Dataframe.iter_row process_row df in
@@ -60,7 +78,7 @@ let load_dataset ?verbose path =
         Set.to_list (phones @! taxon)
         |> String.concat ~sep:" " |> Stdio.print_endline)
   in
-  { phones; words }
+  { phones; words; cogs = cognate_candidates }
 
 let index_exn ~equal xs element =
   match List.findi ~f:(fun _ x -> equal x element) xs with
@@ -76,4 +94,4 @@ let phone_coders phone_set =
   (encode, decode)
 
 let aligned_to_string decoder tokens =
-  String.concat @@ List.map ~f:decoder tokens
+  String.concat ~sep:" " @@ List.map ~f:decoder tokens

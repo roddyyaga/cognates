@@ -41,7 +41,7 @@ let first = Array.map ~f:token_of_char (String.to_array "GATTACA")
 
 let second = Array.map ~f:token_of_char (String.to_array "GCATGCU")
 
-let scores, pointers = Lib.Alignment.align weights first second
+let scores, pointers, score = Lib.Alignment.align weights first second
 
 let () =
   List.iter ~f:print_alignment @@ Lib.Alignment.traceback first second pointers
