@@ -1,4 +1,4 @@
 (tests
-(names alignment)
+(names alignment scoring)
 (libraries base owl lib alcotest qcheck qcheck-alcotest)
 (preprocess (pps ppx_compare)))

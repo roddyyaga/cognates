@@ -40,10 +40,9 @@ let make_test_case size =
   QCheck.make ~print:print_test_case (test_case_gen size)
 
 let test =
-  QCheck.Test.make ~name:"test" ~count:1000 (make_test_case 100)
-    (fun (f, s, w) ->
+  QCheck.Test.make ~name:"test" ~count:10 (make_test_case 100) (fun (f, s, w) ->
       let open Dense.Ndarray in
-      let scores, pointers = Lib.Alignment.align w f s in
+      let scores, pointers, returned_score = Lib.Alignment.align w f s in
       let alignment_score =
         Generic.get scores [| Array.length f; Array.length s |]
       in
@@ -56,15 +55,14 @@ let test =
         | true -> Stdio.print_endline @@ Int.to_string @@ List.length alignments
         | false -> ()
       in
-      (*Stdio.print_endline "Yaboi";
-        Stdio.print_endline @@ Int.to_string @@ List.hd_exn traceback_scores;
-        Stdio.print_endline @@ Int.to_string @@ alignment_score;
-        Owl_pretty.print_dsnda scores;
-        List.iter ~f:print_alignment alignments;
-        Stdio.print_endline "Dunow";*)
-      List.for_all
-        ~f:(fun x -> x = List.hd_exn traceback_scores)
-        traceback_scores
+      (* Stdio.print_endline @@ Int.to_string @@ List.hd_exn traceback_scores;
+         Stdio.print_endline @@ Int.to_string @@ alignment_score;
+         Owl_pretty.print_dsnda scores;
+         List.iter ~f:print_alignment alignments; *)
+      alignment_score = returned_score
+      && List.for_all
+           ~f:(fun x -> x = List.hd_exn traceback_scores)
+           traceback_scores
       && Option.is_none
          @@ List.find_a_dup ~compare:compare_alignment alignments
       && List.hd_exn traceback_scores = alignment_score)

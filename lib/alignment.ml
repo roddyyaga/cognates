@@ -104,3 +104,7 @@ let score weights first second =
   List.fold ~init:0 ~f:( + )
   @@ List.map ~f:(fun (f, s) -> Generic.get weights [| f; s |])
   @@ List.zip_exn first second
+
+let matched_elements alignment =
+  let first, second = alignment in
+  List.zip_exn first second

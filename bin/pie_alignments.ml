@@ -1,18 +1,19 @@
 open Owl
 open Base
 open Lib
-open Lib.Utils.Infix
+open Lib.Dataset_utils.Infix
 
-let Utils.{ phones; words; cogs } =
-  Utils.load_dataset ~verbose:true "../data/PIE.csv"
+let Dataset_utils.{ phones; words; cogs } =
+  Dataset_utils.load_dataset ~verbose:true
+    "/home/roddy/iii/project/code/data/PIE.csv"
 
-let first_lang, second_lang = ("Spanish", "Italian")
+let first_lang, second_lang = ("Spanish", "English")
 
-let spanish_phones, italian_phones = (phones @! "Spanish", phones @! "Italian")
+let spanish_phones, italian_phones = (phones.@!["Spanish"], phones.@!["English"])
 
-let encode_spanish, decode_spanish = Utils.phone_coders spanish_phones
+let encode_spanish, decode_spanish = Dataset_utils.phone_coders spanish_phones
 
-let encode_italian, decode_italian = Utils.phone_coders italian_phones
+let encode_italian, decode_italian = Dataset_utils.phone_coders italian_phones
 
 let weights =
   let open Dense.Ndarray in
@@ -27,17 +28,18 @@ let weights =
             match String.(t1 = t2) with
             | true -> 4
             | false -> (
-                match Bool.(Lib.Phon.syl t1 = Lib.Phon.syl t2) with
+                let open Lib.Phon in
+                match same_feature_value (syl t1) (syl t2) with
                 | true -> 2
                 | false -> -1 )
           in
           Generic.set weights [| encode_spanish t1; encode_italian t2 |] weight));
   weights
 
-let _ =
+let () =
   List.iter (Hashtbl.keys cogs) ~f:(fun i ->
-      let es_opt = List.Assoc.find ~equal:String.( = ) (cogs @! i) "Spanish" in
-      let it_opt = List.Assoc.find ~equal:String.( = ) (cogs @! i) "Italian" in
+      let es_opt = List.Assoc.find ~equal:String.( = ) cogs.@![i] "Spanish" in
+      let it_opt = List.Assoc.find ~equal:String.( = ) cogs.@![i] "English" in
       match (es_opt, it_opt) with
       | Some es, Some it ->
           let spanish_encoded =
@@ -56,9 +58,19 @@ let _ =
           in
           List.iter
             ~f:(fun (a, b) ->
-              Stdio.print_endline @@ Utils.aligned_to_string decode_spanish a;
-              Stdio.print_endline @@ Utils.aligned_to_string decode_italian b)
+              Stdio.print_endline
+              @@ Dataset_utils.aligned_to_string decode_spanish a;
+              Stdio.print_endline
+              @@ Dataset_utils.aligned_to_string decode_italian b)
             alignments;
           Stdio.print_endline @@ Int.to_string score;
           Stdio.print_endline ""
       | _ -> ())
+
+let () =
+  Set.iter spanish_phones ~f:(fun p ->
+      Stdio.print_endline
+      @@ Printf.sprintf "%s - %s" p
+           (Lib.Phon.feature_to_string @@ Lib.Phon.syl p))
+
+let () = Dataset_utils.print_weights decode_spanish decode_italian weights
