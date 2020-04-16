@@ -1,5 +1,9 @@
 open Base
 
+let array_to_string array ~to_string =
+  Printf.sprintf "[| %s |]"
+    (String.concat ~sep:"; " (List.map ~f:to_string @@ Array.to_list array))
+
 (* Abbreviations to make type signatures nicer *)
 type encoders_table = (string, string list -> int Array.t) Hashtbl.t
 
@@ -22,28 +26,55 @@ let align_pair encoders_table weights_table (first_row, second_row) =
   let open Dataset_utils.Infix in
   let first_encoder = encoders_table.@![first_row.taxon] in
   let second_encoder = encoders_table.@![second_row.taxon] in
-  let weights =
+  let weights, flip =
     match weights_table.@?[(first_row.taxon, second_row.taxon)] with
-    | Some weights -> weights
+    | Some weights -> (weights, false)
     | None -> (
         match weights_table.@?[(second_row.taxon, first_row.taxon)] with
-        | Some weights -> weights
+        | Some weights -> (weights, true)
         | None ->
-            failwith
-            @@ Printf.sprintf "No weights found for %s and %s" first_row.taxon
-                 second_row.taxon )
+            Printf.failwithf "No weights found for %s and %s" first_row.taxon
+              second_row.taxon () )
   in
-  ( (first_row, second_row),
-    Alignment.align weights
-      (first_encoder first_row.tokens)
-      (second_encoder second_row.tokens) )
+  let aligned =
+    let first_encoded = first_encoder first_row.tokens in
+    let second_encoded = second_encoder second_row.tokens in
+    if flip then Alignment.align weights second_encoded first_encoded
+    else Alignment.align weights first_encoded second_encoded
+    (*try Alignment.align weights first_encoded second_encoded
+      with Invalid_argument s ->
+        let trace = Backtrace.(Exn.most_recent () |> to_string) in
+        Stdio.print_endline trace;
+        let weights_shape =
+          array_to_string ~to_string:Int.to_string
+          @@ Owl.Dense.Ndarray.Generic.shape weights
+        in
+        let first_enc_string =
+          array_to_string ~to_string:Int.to_string first_encoded
+        in
+        let second_enc_string =
+          array_to_string ~to_string:Int.to_string second_encoded
+        in
+        Printf.failwithf
+          "Invalid_argument %s\nWeights shape: %s\nFirst: %s\nSecond: %s" s
+          weights_shape first_enc_string second_enc_string ()*)
+  in
+  ((first_row, second_row), aligned)
 
 let align_pairs encoders_table weights_table pairs =
   List.map ~f:(align_pair encoders_table weights_table) pairs
 
 let score_pair encoders_table weights_table (first_row, second_row) =
-  align_pair encoders_table weights_table (first_row, second_row)
-  |> fun (_, (_, _, score)) -> score
+  let open Dataset_utils in
+  match String.(first_row.taxon = second_row.taxon) with
+  | true -> Float.infinity
+  | false ->
+      let total_length =
+        List.length first_row.tokens + List.length second_row.tokens
+      in
+      align_pair encoders_table weights_table (first_row, second_row)
+      |> fun (_, (_, _, score)) ->
+      Float.of_int score /. Float.of_int total_length
 
 (** Make a table mapping row ids to possible cognates and associated scores. *)
 let score_graph encoders_table weights_table rows =
@@ -99,3 +130,27 @@ let cluster threshold score_graph =
     | None -> clusters_so_far
   in
   iter []
+
+(* Update a dataframe by setting cognate ids *)
+let set_cognates_from_clusters df clusters =
+  let open Dataset_utils.Infix in
+  let id_to_new_cogid = Hashtbl.create (module Int) in
+  List.iteri clusters ~f:(fun i cluster ->
+      List.iter cluster ~f:(fun id -> id_to_new_cogid.@[id] <- i));
+  let open Owl in
+  (*   Dataframe.set_heads df *)
+  (*     (Array.append (Dataframe.get_heads df) [| "NewCogID" |]); *)
+  let new_column_reversed = ref [] in
+  Dataframe.iter_row
+    (function
+      | [| Int id; _taxon; _gloss; _gloss_id; _ipa; _tokens; _original_cog_id |]
+        ->
+          new_column_reversed := id_to_new_cogid.@![id] :: !new_column_reversed
+      | _ -> failwith "Unexpected row shape in dataframe")
+    df;
+  let new_column =
+    !new_column_reversed |> List.rev |> Array.of_list
+    |> Dataframe.pack_int_series
+  in
+  Dataframe.append_col df new_column "NewCogID";
+  df

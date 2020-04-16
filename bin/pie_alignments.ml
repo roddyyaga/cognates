@@ -1,41 +1,68 @@
-open Owl
 open Base
 open Lib
-open Lib.Dataset_utils.Infix
+
+let data_path = "/home/roddy/iii/project/code/data/PIE.csv"
 
 let Dataset_utils.{ phones; words; cogs } =
-  Dataset_utils.load_dataset ~verbose:true
-    "/home/roddy/iii/project/code/data/PIE.csv"
+  Dataset_utils.load_dataset ~verbose:true data_path
 
-let first_lang, second_lang = ("Spanish", "English")
+(*let () =
+  List.iter (Hashtbl.keys phones) ~f:(fun taxon ->
+      let open Dataset_utils.Infix in
+      Stdio.print_endline taxon;
+      Set.iter phones.@![taxon] ~f:(fun phone ->
+          match Phon.phone_exists ~t:phone with
+          | true -> ()
+          | false -> Stdio.printf "%s doesn't exist\n" phone);
+      Stdio.print_endline "")
 
-let spanish_phones, italian_phones = (phones.@!["Spanish"], phones.@!["English"])
+let () = Stdio.print_endline "Done!"*)
 
-let encode_spanish, decode_spanish = Dataset_utils.phone_coders spanish_phones
+let rows = Dataset_utils.load_rows data_path
 
-let encode_italian, decode_italian = Dataset_utils.phone_coders italian_phones
+let basic_initialiser t1 t2 =
+  match String.(t1 = t2) with
+  | true -> 4
+  | false -> (
+      let open Phon in
+      match same_feature_value (syl t1) (syl t2) with true -> 2 | false -> -1 )
 
-let weights =
-  let open Dense.Ndarray in
-  let weights =
-    Generic.create Bigarray.Int
-      [| 1 + Set.length spanish_phones; 1 + Set.length italian_phones |]
-      (-1)
-  in
-  Set.iter spanish_phones ~f:(fun t1 ->
-      Set.iter italian_phones ~f:(fun t2 ->
-          let weight =
-            match String.(t1 = t2) with
-            | true -> 4
-            | false -> (
-                let open Lib.Phon in
-                match same_feature_value (syl t1) (syl t2) with
-                | true -> 2
-                | false -> -1 )
-          in
-          Generic.set weights [| encode_spanish t1; encode_italian t2 |] weight));
-  weights
+let () = Stdio.print_endline "Getting taxons"
 
+let taxons = Initialisation.all_taxons rows
+
+let () = Stdio.print_endline "Getting encoders"
+
+let encoders = Initialisation.all_encoders taxons phones
+
+let () = Stdio.print_endline "Getting weights tables"
+
+let weights_tables =
+  Initialisation.initialise_weights_tables taxons phones encoders
+    basic_initialiser ~initial_value:(-1)
+
+let word_encoder encoder word = List.to_array @@ List.map ~f:encoder word
+
+let () = Stdio.print_endline "Getting word encoders"
+
+let word_encoders = Hashtbl.map encoders ~f:word_encoder
+
+let () = Stdio.print_endline "Getting score graph"
+
+let score_graph = Scoring.score_graph word_encoders weights_tables rows
+
+let () =
+  List.iter (List.range 0 20) ~f:(fun i ->
+      Stdio.print_endline "Getting clusters";
+      let clusters =
+        Scoring.cluster Float.(-1.0 + (5.0 * of_int i / 20.0)) score_graph
+      in
+      Stdio.print_endline "Writing out";
+      let df = Owl.Dataframe.of_csv data_path in
+      let new_df = Scoring.set_cognates_from_clusters df clusters in
+      Owl.Dataframe.to_csv new_df (Printf.sprintf "PIE_scored_%d.csv" i))
+
+(*
 let () =
   List.iter (Hashtbl.keys cogs) ~f:(fun i ->
       let es_opt = List.Assoc.find ~equal:String.( = ) cogs.@![i] "Spanish" in
@@ -74,3 +101,4 @@ let () =
            (Lib.Phon.feature_to_string @@ Lib.Phon.syl p))
 
 let () = Dataset_utils.print_weights decode_spanish decode_italian weights
+*)

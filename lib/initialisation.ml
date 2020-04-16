@@ -1,4 +1,4 @@
-open Base
+open Core
 open Owl
 
 let unique_pairs xs =
@@ -18,12 +18,18 @@ let all_taxons rows =
   let open Dataset_utils in
   rows |> List.map ~f:taxon |> List.dedup_and_sort ~compare:String.compare
 
+let word_encoder encoder word = List.to_array @@ List.map ~f:encoder word
+
 (** Build encoders for some taxons and a table of the sets of phones for each *)
 let all_encoders taxons phones_tbl =
   let open Dataset_utils.Infix in
   let result_table = Hashtbl.create (module String) in
-  List.iter taxons ~f:(fun taxon ->
-      result_table.@[taxon] <- Dataset_utils.phone_coders phones_tbl.@![taxon])
+  let () =
+    List.iter taxons ~f:(fun taxon ->
+        result_table.@[taxon] <-
+          Tuple2.get1 @@ Dataset_utils.phone_coders phones_tbl.@![taxon])
+  in
+  result_table
 
 let initialise_weights_tables taxons phones_tbl encoders_tbl ~initial_value
     initialiser =
@@ -45,4 +51,17 @@ let initialise_weights_tables taxons phones_tbl encoders_tbl ~initial_value
             Generic.set weights [| encoder1 t1; encoder2 t2 |] weight));
     weights
   in
-  List.map (unique_pairs taxons) ~f
+  let result_table =
+    Hashtbl.create (module Tuple.Hashable_t (String) (String))
+  in
+  let () =
+    List.iter (unique_pairs taxons) ~f:(fun (taxon1, taxon2) ->
+        result_table.@[(taxon1, taxon2)] <- f taxon1 taxon2)
+  in
+  result_table
+
+let cognate_pairs taxon1 taxon2 cognates =
+  List.filter_map (Hashtbl.keys cognates) ~f:(fun i ->
+      let open Dataset_utils.Infix in
+      let lookup = List.Assoc.find ~equal:String.equal cognates.@![i] in
+      Option.both (lookup taxon1) (lookup taxon2))
