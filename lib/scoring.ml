@@ -7,9 +7,6 @@ let array_to_string array ~to_string =
 (* Abbreviations to make type signatures nicer *)
 type encoders_table = (string, string list -> int Array.t) Hashtbl.t
 
-type 'a weights_table =
-  (string * string, (Int.t, 'a) Owl.Dense.Ndarray.Generic.t) Hashtbl.t
-
 let possible_pairs rows =
   let gloss_groups = Hashtbl.create (module Int) in
   let open Dataset_utils in
@@ -21,11 +18,15 @@ let possible_pairs rows =
   |> List.map ~f:(fun xs -> List.cartesian_product xs xs)
   |> List.concat
 
+let encode encoders_table row =
+  let open Dataset_utils in
+  let open Dataset_utils.Infix in
+  let encoder = encoders_table.@![row.taxon] in
+  encoder row.tokens
+
 let align_pair encoders_table weights_table (first_row, second_row) =
   let open Dataset_utils in
   let open Dataset_utils.Infix in
-  let first_encoder = encoders_table.@![first_row.taxon] in
-  let second_encoder = encoders_table.@![second_row.taxon] in
   let weights, flip =
     match weights_table.@?[(first_row.taxon, second_row.taxon)] with
     | Some weights -> (weights, false)
@@ -37,29 +38,13 @@ let align_pair encoders_table weights_table (first_row, second_row) =
               second_row.taxon () )
   in
   let aligned =
-    let first_encoded = first_encoder first_row.tokens in
-    let second_encoded = second_encoder second_row.tokens in
+    let first_encoded = encode encoders_table first_row in
+    let second_encoded = encode encoders_table second_row in
     if flip then Alignment.align weights second_encoded first_encoded
     else Alignment.align weights first_encoded second_encoded
-    (*try Alignment.align weights first_encoded second_encoded
-      with Invalid_argument s ->
-        let trace = Backtrace.(Exn.most_recent () |> to_string) in
-        Stdio.print_endline trace;
-        let weights_shape =
-          array_to_string ~to_string:Int.to_string
-          @@ Owl.Dense.Ndarray.Generic.shape weights
-        in
-        let first_enc_string =
-          array_to_string ~to_string:Int.to_string first_encoded
-        in
-        let second_enc_string =
-          array_to_string ~to_string:Int.to_string second_encoded
-        in
-        Printf.failwithf
-          "Invalid_argument %s\nWeights shape: %s\nFirst: %s\nSecond: %s" s
-          weights_shape first_enc_string second_enc_string ()*)
   in
-  ((first_row, second_row), aligned)
+  if flip then ((second_row, first_row), aligned)
+  else ((first_row, second_row), aligned)
 
 let align_pairs encoders_table weights_table pairs =
   List.map ~f:(align_pair encoders_table weights_table) pairs
@@ -67,14 +52,18 @@ let align_pairs encoders_table weights_table pairs =
 let score_pair encoders_table weights_table (first_row, second_row) =
   let open Dataset_utils in
   match String.(first_row.taxon = second_row.taxon) with
-  | true -> Float.infinity
+  | true ->
+      if List.equal String.equal first_row.tokens second_row.tokens then
+        (* A word is always cognate with itself *)
+        Float.infinity
+        (* If two distinct words have the same language and same gloss they cannot be cognate *)
+      else -.Float.infinity
   | false ->
       let total_length =
         List.length first_row.tokens + List.length second_row.tokens
       in
       align_pair encoders_table weights_table (first_row, second_row)
-      |> fun (_, (_, _, score)) ->
-      Float.of_int score /. Float.of_int total_length
+      |> fun (_, (_, _, score)) -> score /. Float.of_int total_length
 
 (** Make a table mapping row ids to possible cognates and associated scores. *)
 let score_graph encoders_table weights_table rows =
@@ -89,6 +78,24 @@ let score_graph encoders_table weights_table rows =
           result)
   in
   result
+
+(** Make a list of pairs of rows that might be cognate (excluding "self-cognate" pairs),
+    with their alignments as given by [weights_tables] *)
+let align_rows encoders_table weights_tables rows =
+  List.filter_map (possible_pairs rows) ~f:(fun (first_row, second_row) ->
+      match String.(first_row.taxon = second_row.taxon) with
+      | true -> None
+      | false ->
+          let result =
+            align_pair encoders_table weights_tables (first_row, second_row)
+            |> fun ((first_row, second_row), (scores, pointers, score)) ->
+            let total_length =
+              List.length first_row.tokens + List.length second_row.tokens
+            in
+            let normalised_score = score /. Float.of_int total_length in
+            (first_row, second_row, (scores, pointers, normalised_score))
+          in
+          Some result)
 
 (** Aligns pairs and then discards alignment information other than final score *)
 let score_pairs encoders_table weights_table pairs =
@@ -154,3 +161,20 @@ let set_cognates_from_clusters df clusters =
   in
   Dataframe.append_col df new_column "NewCogID";
   df
+
+let all_finite_scores score_graph =
+  score_graph |> Hashtbl.data |> List.concat
+  |> List.map ~f:(fun (_row, score) -> score)
+  |> List.filter ~f:Float.is_finite
+
+let get_rows concept_to_gloss_id rows taxon gloss =
+  List.filter rows ~f:(fun row ->
+      let open Dataset_utils.Infix in
+      String.(row.Dataset_utils.taxon = taxon)
+      && row.Dataset_utils.gloss_id = concept_to_gloss_id.@![gloss])
+
+let get_row concept_to_gloss_id rows taxon gloss =
+  match get_rows concept_to_gloss_id rows taxon gloss with
+  | [] -> Error "No rows found"
+  | [ r ] -> Ok r
+  | _ -> Error "Multiple rows found"

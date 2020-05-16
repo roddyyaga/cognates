@@ -31,6 +31,17 @@ let all_encoders taxons phones_tbl =
   in
   result_table
 
+(* TODO - combine with all_encoders *)
+let all_decoders taxons phones_tbl =
+  let open Dataset_utils.Infix in
+  let result_table = Hashtbl.create (module String) in
+  let () =
+    List.iter taxons ~f:(fun taxon ->
+        result_table.@[taxon] <-
+          Tuple2.get2 @@ Dataset_utils.phone_coders phones_tbl.@![taxon])
+  in
+  result_table
+
 let initialise_weights_tables taxons phones_tbl encoders_tbl ~initial_value
     initialiser =
   let open Dense.Ndarray in
@@ -38,7 +49,7 @@ let initialise_weights_tables taxons phones_tbl encoders_tbl ~initial_value
   let f taxon1 taxon2 =
     let phones1, phones2 = (phones_tbl.@![taxon1], phones_tbl.@![taxon2]) in
     let weights =
-      Generic.create Bigarray.Int
+      Generic.create Bigarray.Float64
         [| 1 + Set.length phones1; 1 + Set.length phones2 |]
         initial_value
     in

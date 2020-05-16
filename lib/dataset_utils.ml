@@ -100,6 +100,8 @@ type dataset = {
   phones: (string, (phone, String.comparator_witness) Set.t) Hashtbl.t;
   words: (string, word list) Hashtbl.t;
   cogs: (int, (taxon * word) list) Hashtbl.t;
+  concept_to_gloss_id: (string, int) Hashtbl.t;
+  phone_counts: (string, int) Hashtbl.t;
 }
 
 type dataset_row = {
@@ -150,16 +152,25 @@ let load_dataset ?verbose path =
   let phones = Hashtbl.create (module String) in
   let words = Hashtbl.create (module String) in
   let cognate_candidates = Hashtbl.create (module Int) in
+  let concept_to_gloss_id = Hashtbl.create (module String) in
+  let phone_counts = Hashtbl.create (module String) in
   let process_row =
     let open Dataframe in
     function
     | [|
-        _id; String taxon; _gloss; Int gloss_id; _ipa; String tokens; _cog_id;
+        _id;
+        String taxon;
+        String gloss;
+        Int gloss_id;
+        _ipa;
+        String tokens;
+        _cog_id;
       |] ->
         let token_list =
           String.split ~on:' ' tokens
           |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
         in
+        List.iter token_list ~f:(fun t -> Hashtbl.incr phone_counts t ~by:1);
         let previous_set =
           match phones.@?[taxon] with
           | None -> Set.empty (module String)
@@ -179,7 +190,8 @@ let load_dataset ?verbose path =
         let new_cognate_candidates =
           (taxon, token_list) :: previous_cognate_candidates
         in
-        cognate_candidates.@[gloss_id] <- new_cognate_candidates
+        cognate_candidates.@[gloss_id] <- new_cognate_candidates;
+        concept_to_gloss_id.@[gloss] <- gloss_id
     | other -> Stdio.print_endline (Int.to_string @@ Array.length other)
   in
   let () = Dataframe.iter_row process_row df in
@@ -189,7 +201,13 @@ let load_dataset ?verbose path =
         Set.to_list phones.@![taxon]
         |> String.concat ~sep:" " |> Stdio.print_endline)
   in
-  { phones; words; cogs = cognate_candidates }
+  {
+    phones;
+    words;
+    cogs = cognate_candidates;
+    concept_to_gloss_id;
+    phone_counts;
+  }
 
 let index_exn ~equal xs element =
   match List.findi ~f:(fun _ x -> equal x element) xs with

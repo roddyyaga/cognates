@@ -12,11 +12,12 @@ let print_alignment (first, second) =
 
 let weight_matrix_gen vocab_size =
   let open QCheck.Gen in
+  let small_float = small_signed_int >|= Float.of_int in
   let open Dense.Ndarray in
   map
-    (Generic.of_arrays Bigarray.Int)
+    (Generic.of_arrays Bigarray.Float64)
     (array_repeat (vocab_size + 1)
-       (array_size (return (vocab_size + 1)) small_signed_int))
+       (array_size (return (vocab_size + 1)) small_float))
 
 (* let print_weight_matrix matrix = Owl_pretty.print_dsnda matrix *)
 
@@ -55,17 +56,13 @@ let test =
         | true -> Stdio.print_endline @@ Int.to_string @@ List.length alignments
         | false -> ()
       in
-      (* Stdio.print_endline @@ Int.to_string @@ List.hd_exn traceback_scores;
-         Stdio.print_endline @@ Int.to_string @@ alignment_score;
-         Owl_pretty.print_dsnda scores;
-         List.iter ~f:print_alignment alignments; *)
-      alignment_score = returned_score
+      Float.(alignment_score = returned_score)
       && List.for_all
-           ~f:(fun x -> x = List.hd_exn traceback_scores)
+           ~f:(fun x -> Float.(x = List.hd_exn traceback_scores))
            traceback_scores
       && Option.is_none
          @@ List.find_a_dup ~compare:compare_alignment alignments
-      && List.hd_exn traceback_scores = alignment_score)
+      && Float.(List.hd_exn traceback_scores = alignment_score))
 
 let () =
   let quickcheck = QCheck_alcotest.to_alcotest test in

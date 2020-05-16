@@ -11,13 +11,13 @@ let align weights first second =
   let open Dense.Ndarray in
   let first_dim = Array.length first + 1 in
   let second_dim = Array.length second + 1 in
-  let scores = Generic.zeros Bigarray.Int [| first_dim; second_dim |] in
+  let scores = Generic.zeros Bigarray.Float64 [| first_dim; second_dim |] in
   let pointers = Generic.zeros Bigarray.Int [| first_dim; second_dim; 3 |] in
   (* Initialise *)
   List.iter (List.range 1 first_dim) ~f:(fun y ->
       let score =
         Generic.get scores [| y - 1; 0 |]
-        + Generic.get weights [| first.(y - 1); 0 |]
+        +. Generic.get weights [| first.(y - 1); 0 |]
       in
       Generic.set scores [| y; 0 |] score;
       Generic.set pointers [| y; 0; Pointers.to_enum Up |] 1);
@@ -25,7 +25,7 @@ let align weights first second =
   List.iter (List.range 1 second_dim) ~f:(fun x ->
       let score =
         Generic.get scores [| 0; x - 1 |]
-        + Generic.get weights [| 0; second.(x - 1) |]
+        +. Generic.get weights [| 0; second.(x - 1) |]
       in
       Generic.set scores [| 0; x |] score;
       Generic.set pointers [| 0; x; Pointers.to_enum Left |] 1);
@@ -35,27 +35,29 @@ let align weights first second =
       List.iter (List.range 1 second_dim) ~f:(fun x ->
           let left =
             Generic.get scores [| y; x - 1 |]
-            + Generic.get weights [| 0; second.(x - 1) |]
+            +. Generic.get weights [| 0; second.(x - 1) |]
           in
           let up =
             Generic.get scores [| y - 1; x |]
-            + Generic.get weights [| first.(y - 1); 0 |]
+            +. Generic.get weights [| first.(y - 1); 0 |]
           in
           let diagonal =
             Generic.get scores [| y - 1; x - 1 |]
-            + Generic.get weights [| first.(y - 1); second.(x - 1) |]
+            +. Generic.get weights [| first.(y - 1); second.(x - 1) |]
           in
           let open Pointers in
           let previous_scores =
             [ (left, Left); (up, Up); (diagonal, Diagonal) ]
           in
           let sorted_previous =
-            List.sort ~compare:(fun (a, _) (b, _) -> b - a) previous_scores
+            List.sort
+              ~compare:(fun (a, _) (b, _) -> Float.compare b a)
+              previous_scores
           in
           let first_optimal = fst (List.hd_exn sorted_previous) in
           let all_optimal =
             List.take_while
-              ~f:(fun (score, _) -> score = first_optimal)
+              ~f:(fun (score, _) -> Float.(score = first_optimal))
               sorted_previous
           in
           List.iter all_optimal ~f:(fun (score, pointer) ->
@@ -101,7 +103,7 @@ let traceback first second pointers =
 let score weights first second =
   assert (List.length first = List.length second);
   let open Dense.Ndarray in
-  List.fold ~init:0 ~f:( + )
+  List.fold ~init:0.0 ~f:( +. )
   @@ List.map ~f:(fun (f, s) -> Generic.get weights [| f; s |])
   @@ List.zip_exn first second
 
