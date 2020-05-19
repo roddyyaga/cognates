@@ -1,4 +1,6 @@
 open Base
+open Dict.Infix
+open Types
 
 let array_to_string array ~to_string =
   Printf.sprintf "[| %s |]"
@@ -9,33 +11,32 @@ type encoders_table = (string, string list -> int Array.t) Hashtbl.t
 
 let possible_pairs rows =
   let gloss_groups = Hashtbl.create (module Int) in
-  let open Dataset_utils in
   let () =
     List.iter rows ~f:(fun row ->
-        list_tbl_append ~key:row.gloss_id ~data:row gloss_groups)
+        let open Row in
+        Dataset_utils.list_tbl_append ~key:row.gloss_id ~data:row gloss_groups)
   in
   Hashtbl.data gloss_groups
   |> List.map ~f:(fun xs -> List.cartesian_product xs xs)
   |> List.concat
 
 let encode encoders_table row =
-  let open Dataset_utils in
-  let open Dataset_utils.Infix in
-  let encoder = encoders_table.@![row.taxon] in
+  let encoder = encoders_table.@![row.Row.taxon] in
   encoder row.tokens
 
 let align_pair encoders_table weights_table (first_row, second_row) =
-  let open Dataset_utils in
-  let open Dataset_utils.Infix in
   let weights, flip =
-    match weights_table.@?[(first_row.taxon, second_row.taxon)] with
+    match weights_table.@?[(first_row.Row.taxon, second_row.Row.taxon)] with
     | Some weights -> (weights, false)
     | None -> (
         match weights_table.@?[(second_row.taxon, first_row.taxon)] with
         | Some weights -> (weights, true)
         | None ->
-            Printf.failwithf "No weights found for %s and %s" first_row.taxon
-              second_row.taxon () )
+            let open Row in
+            Printf.failwithf "No weights found for %s and %s"
+              (first_row.taxon |> Taxon.to_string)
+              (second_row.taxon |> Taxon.to_string)
+              () )
   in
   let aligned =
     let first_encoded = encode encoders_table first_row in
@@ -50,10 +51,9 @@ let align_pairs encoders_table weights_table pairs =
   List.map ~f:(align_pair encoders_table weights_table) pairs
 
 let score_pair encoders_table weights_table (first_row, second_row) =
-  let open Dataset_utils in
-  match String.(first_row.taxon = second_row.taxon) with
+  match Taxon.(first_row.Row.taxon = second_row.Row.taxon) with
   | true ->
-      if List.equal String.equal first_row.tokens second_row.tokens then
+      if List.equal Phone.( = ) first_row.tokens second_row.tokens then
         (* A word is always cognate with itself *)
         Float.infinity
         (* If two distinct words have the same language and same gloss they cannot be cognate *)
@@ -83,7 +83,7 @@ let score_graph encoders_table weights_table rows =
     with their alignments as given by [weights_tables] *)
 let align_rows encoders_table weights_tables rows =
   List.filter_map (possible_pairs rows) ~f:(fun (first_row, second_row) ->
-      match String.(first_row.taxon = second_row.taxon) with
+      match Taxon.(first_row.Row.taxon = second_row.Row.taxon) with
       | true -> None
       | false ->
           let result =
@@ -107,12 +107,11 @@ let int_list_to_string xs =
 
 (** Given rows, a score graph and a threshold, make clusters.
 
-    Scores must be strictly greater than the threshold. *)
+    Scores must be strictly greater than the threshold.
+    Score graph *)
 let cluster threshold score_graph =
   (* Make a copy because we mutate the graph *)
   let working_graph = Hashtbl.copy score_graph in
-  let open Dataset_utils in
-  let open Dataset_utils.Infix in
   let rec dfs result stack =
     match stack with
     | [] -> result
@@ -124,7 +123,7 @@ let cluster threshold score_graph =
               List.filter scored_neighbours ~f:(fun (neighbour, score) ->
                   Float.(score > threshold)
                   (* Only explore nodes that haven't already been removed *)
-                  && Hashtbl.mem working_graph neighbour.id)
+                  && Hashtbl.mem working_graph neighbour.Row.id)
             in
             dfs (row_id :: result)
               ( List.map next_nodes ~f:(fun (neighbour, _score) -> neighbour.id)
@@ -140,7 +139,6 @@ let cluster threshold score_graph =
 
 (* Update a dataframe by setting cognate ids *)
 let set_cognates_from_clusters df clusters =
-  let open Dataset_utils.Infix in
   let id_to_new_cogid = Hashtbl.create (module Int) in
   List.iteri clusters ~f:(fun i cluster ->
       List.iter cluster ~f:(fun id -> id_to_new_cogid.@[id] <- i));
@@ -169,9 +167,8 @@ let all_finite_scores score_graph =
 
 let get_rows concept_to_gloss_id rows taxon gloss =
   List.filter rows ~f:(fun row ->
-      let open Dataset_utils.Infix in
-      String.(row.Dataset_utils.taxon = taxon)
-      && row.Dataset_utils.gloss_id = concept_to_gloss_id.@![gloss])
+      Taxon.(row.Row.taxon = taxon)
+      && row.Row.gloss_id = concept_to_gloss_id.@![gloss])
 
 let get_row concept_to_gloss_id rows taxon gloss =
   match get_rows concept_to_gloss_id rows taxon gloss with

@@ -1,4 +1,5 @@
 open Base
+open Types
 
 let data_path = "/home/roddy/iii/project/code/data/PIE.csv"
 
@@ -10,6 +11,7 @@ let rows = Dataset_utils.load_rows data_path
 let lookup = Scoring.get_row concept_to_gloss_id rows
 
 let basic_initialiser t1 t2 =
+  let t1, t2 = (Phone.to_string t1, Phone.to_string t2) in
   let open Phon in
   (*   Stdio.printf "%s %s %d\n" t1 t2 (difference_count ~t1 ~t2); *)
   if String.(t1 = t2) then 5.0
@@ -52,18 +54,20 @@ let get_rows = Scoring.get_rows concept_to_gloss_id rows
 
 let threes =
   List.bind
-    ~f:(fun taxon -> get_rows taxon "all")
+    ~f:(fun taxon -> get_rows (Taxon.of_string taxon) "all")
     [ "Danish"; "English"; "German"; "Icelandic"; "Swedish" ]
 
 let fours =
-  List.bind ~f:(fun taxon -> get_rows taxon "all") [ "Dutch"; "Norwegian" ]
+  List.bind
+    ~f:(fun taxon -> get_rows (Taxon.of_string taxon) "all")
+    [ "Dutch"; "Norwegian" ]
 
 let elevens =
   List.bind
-    ~f:(fun taxon -> get_rows taxon "all")
+    ~f:(fun taxon -> get_rows (Taxon.of_string taxon) "all")
     [ "Romanian"; "Spanish"; "Italian" ]
   |> List.filter ~f:(fun row ->
-         not @@ List.mem [ 19; 9; 22 ] row.Dataset_utils.id ~equal:Int.equal)
+         not @@ List.mem [ 19; 9; 22 ] row.Row.id ~equal:Int.equal)
 
 let score = Scoring.score_pair word_encoders weights_tables
 

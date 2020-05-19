@@ -1,4 +1,3 @@
-open Owl
 open Base
 
 type token = int
@@ -8,7 +7,7 @@ module Pointers = struct
 end
 
 let align weights first second =
-  let open Dense.Ndarray in
+  let open Owl.Dense.Ndarray in
   let first_dim = Array.length first + 1 in
   let second_dim = Array.length second + 1 in
   let scores = Generic.zeros Bigarray.Float64 [| first_dim; second_dim |] in
@@ -66,7 +65,7 @@ let align weights first second =
   (scores, pointers, Generic.get scores [| first_dim - 1; second_dim - 1 |])
 
 let traceback first second pointers =
-  let open Dense.Ndarray in
+  let open Owl.Dense.Ndarray in
   let open Pointers in
   let one_step_back ((y, x), (f, s)) =
     let f pointer =
@@ -100,12 +99,13 @@ let traceback first second pointers =
   in
   iterate [ ((Array.length first, Array.length second), ([], [])) ] []
 
-let score weights first second =
+let scores weights first second =
   assert (List.length first = List.length second);
-  let open Dense.Ndarray in
-  List.fold ~init:0.0 ~f:( +. )
-  @@ List.map ~f:(fun (f, s) -> Generic.get weights [| f; s |])
-  @@ List.zip_exn first second
+  let open Owl.Dense.Ndarray in
+  List.map (List.zip_exn first second) ~f:(fun (f, s) ->
+      Generic.get weights [| f; s |])
+
+let score weights first second = Utils.float_sum (scores weights first second)
 
 let matched_elements alignment =
   let first, second = alignment in

@@ -1,4 +1,5 @@
 open Base
+open Lib.Types
 
 (** [cluster_gen [[1; 2; 3]; [4; 5]; [6]] threshold] returns a score graph
     where each sublist forms a cluster, connected by edges with scores exceeding [threshold] *)
@@ -14,7 +15,6 @@ let cluster_gen clusters threshold =
         not (List.mem ~equal cluster id))
       flattened_ids
   in
-  let open Lib.Dataset_utils in
   let graph = Hashtbl.create (module Int) in
   List.iteri clusters ~f:(fun index cluster ->
       (* Created edges for nodes that should be connected *)
@@ -28,11 +28,27 @@ let cluster_gen clusters threshold =
             if x = y then (x, y, Float.infinity) else (x, y, threshold +. 1.0))
       in
       List.iter scored_pairs ~f:(fun (x, y, score) ->
-          let x_row = { id = x; tokens = []; taxon = ""; gloss_id = index } in
-          let y_row = { id = y; tokens = []; taxon = ""; gloss_id = index } in
-          list_tbl_append ~key:x_row.id ~data:(y_row, score) graph;
+          let x_row =
+            {
+              Row.id = x;
+              tokens = [];
+              taxon = Taxon.of_string "";
+              gloss_id = index;
+            }
+          in
+          let y_row =
+            {
+              Row.id = y;
+              tokens = [];
+              taxon = Taxon.of_string "";
+              gloss_id = index;
+            }
+          in
+          Lib.Dataset_utils.list_tbl_append ~key:x_row.id ~data:(y_row, score)
+            graph;
           if x <> y then
-            list_tbl_append ~key:y_row.id ~data:(x_row, score) graph);
+            Lib.Dataset_utils.list_tbl_append ~key:y_row.id ~data:(x_row, score)
+              graph);
 
       (* Create edges for disconnected clusters (with scores below the threshold  *)
       let other_clusters = List.drop clusters (index + 1) in
@@ -49,13 +65,25 @@ let cluster_gen clusters threshold =
           List.iter scored_pairs ~f:(fun (x, y, score) ->
               assert (x <> y);
               let x_row =
-                { id = x; tokens = []; taxon = ""; gloss_id = index }
+                {
+                  Row.id = x;
+                  tokens = [];
+                  taxon = Taxon.of_string "";
+                  gloss_id = index;
+                }
               in
               let y_row =
-                { id = y; tokens = []; taxon = ""; gloss_id = index }
+                {
+                  Row.id = y;
+                  tokens = [];
+                  taxon = Taxon.of_string "";
+                  gloss_id = index;
+                }
               in
-              list_tbl_append ~key:x_row.id ~data:(y_row, score) graph;
-              list_tbl_append ~key:y_row.id ~data:(x_row, score) graph)));
+              Lib.Dataset_utils.list_tbl_append ~key:x_row.id
+                ~data:(y_row, score) graph;
+              Lib.Dataset_utils.list_tbl_append ~key:y_row.id
+                ~data:(x_row, score) graph)));
 
   let produced_clusters = Lib.Scoring.cluster threshold graph in
   (clusters, threshold, graph, produced_clusters)
@@ -74,7 +102,6 @@ let normalise clusters =
 
 let test_case_to_string (original_clusters, _threshold, graph, produced_clusters)
     =
-  let open Lib.Dataset_utils in
   "Original clusters:\n"
   ^ clusters_to_string (normalise original_clusters)
   ^ "\nProduced clusters:\n"
@@ -84,7 +111,7 @@ let test_case_to_string (original_clusters, _threshold, graph, produced_clusters
          let values =
            String.concat ~sep:"; "
              (List.map (Hashtbl.find_exn graph k) ~f:(fun (row, score) ->
-                  Printf.sprintf "{%d; %f}" row.id score))
+                  Printf.sprintf "{%d; %f}" row.Row.id score))
          in
          Printf.sprintf "%d -> [%s]" k values)
 

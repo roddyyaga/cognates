@@ -1,4 +1,3 @@
 (executables
-(names check_data example_alignment pie_alignments)
-(libraries core owl
-lib))
+ (names check_data example_alignment pie_alignments em_test em_pie)
+ (libraries core owl lib))

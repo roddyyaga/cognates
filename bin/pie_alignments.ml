@@ -1,5 +1,6 @@
 open Base
 open Lib
+open Lib.Types
 
 let data_path = "/home/roddy/iii/project/code/data/PIE.csv"
 
@@ -21,6 +22,7 @@ let () = Stdio.print_endline "Done!"*)
 let rows = Dataset_utils.load_rows data_path
 
 let basic_initialiser t1 t2 =
+  let t1, t2 = (Phone.to_string t1, Phone.to_string t2) in
   let open Phon in
   (*   Stdio.printf "%s %s %d\n" t1 t2 (difference_count ~t1 ~t2); *)
   if String.(t1 = t2) then 5.0
@@ -101,7 +103,7 @@ let iteration n =
     |> Hashtbl.filteri ~f:(fun ~key ~data ->
            ignore data;
            let t1, t2 = key in
-           String.(t1 <> t2 && t1 <> "-" && t2 <> "-"))
+           Phone.(t1 <> t2 && t1 <> null && t2 <> null))
     |> Hashtbl.data
   in
   let max_score, min_score = (max_exn filtered, min_exn filtered) in
@@ -113,11 +115,11 @@ let iteration n =
             ->
       let t1, t2 = (decoders.@![taxon1] phone1, decoders.@![taxon2] phone2) in
       let (t1', t2'), _flipped =
-        Updates.sort_tuple (t1, t2) ~compare:String.compare
+        Updates.sort_tuple (t1, t2) ~compare:Phone.compare
       in
       let score = pair_scores.@![(t1', t2')] in
       let update_function old_weight =
-        if String.(t1 = t2 || t1 = "-" || t2 = "-") then old_weight
+        if Phone.(t1 = t2 || t1 = null || t2 = null) then old_weight
         else if
           (*           Stdio.printf "%s %s %.2f    " t1' t2' scaled; *)
           Float.(score > 0.3)

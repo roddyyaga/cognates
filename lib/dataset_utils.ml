@@ -1,5 +1,6 @@
 open Base
 open Owl
+open Types
 
 let list_tbl_append ~key ~data table =
   Hashtbl.update table key ~f:(function
@@ -15,12 +16,6 @@ module Infix = struct
 end
 
 open Infix
-
-type taxon = string
-
-type phone = string
-
-type word = phone list
 
 let split_fused s =
   match
@@ -96,21 +91,15 @@ let split_fused s =
 
 let degrade = function "ḷ" -> "l" | other -> other
 
-type dataset = {
-  phones: (string, (phone, String.comparator_witness) Set.t) Hashtbl.t;
-  words: (string, word list) Hashtbl.t;
-  cogs: (int, (taxon * word) list) Hashtbl.t;
-  concept_to_gloss_id: (string, int) Hashtbl.t;
-  phone_counts: (string, int) Hashtbl.t;
-}
+type word = Phone.t list
 
-type dataset_row = {
-  id: int;
-  tokens: string list;
-  taxon: string;
-  gloss_id: int;
+type dataset = {
+  phones: (Taxon.t, (Phone.t, Phone.comparator_witness) Set.t) Hashtbl.t;
+  words: (Taxon.t, word list) Hashtbl.t;
+  cogs: (int, (Taxon.t * word) list) Hashtbl.t;
+  concept_to_gloss_id: (string, int) Hashtbl.t;
+  phone_counts: (Phone.t, int) Hashtbl.t;
 }
-[@@deriving fields]
 
 (** New function to load dataset *)
 let load_rows path =
@@ -125,8 +114,10 @@ let load_rows path =
         let tokens =
           String.split ~on:' ' tokens
           |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
+          |> List.map ~f:Phone.of_string
         in
-        rows := { id; tokens; taxon; gloss_id } :: !rows
+        rows :=
+          { Row.id; tokens; taxon = Taxon.of_string taxon; gloss_id } :: !rows
     | _ -> failwith "Row in dataset has unexpected length"
   in
   Dataframe.iter_row process_row df;
@@ -149,11 +140,11 @@ let load_dataset ?verbose path =
     | String_Series strings -> Array.iter ~f:Stdio.print_endline strings
     | _ -> assert false );
 
-  let phones = Hashtbl.create (module String) in
-  let words = Hashtbl.create (module String) in
+  let phones = Hashtbl.create (module Taxon) in
+  let words = Hashtbl.create (module Taxon) in
   let cognate_candidates = Hashtbl.create (module Int) in
   let concept_to_gloss_id = Hashtbl.create (module String) in
-  let phone_counts = Hashtbl.create (module String) in
+  let phone_counts = Hashtbl.create (module Phone) in
   let process_row =
     let open Dataframe in
     function
@@ -166,14 +157,16 @@ let load_dataset ?verbose path =
         String tokens;
         _cog_id;
       |] ->
+        let taxon = Taxon.of_string taxon in
         let token_list =
           String.split ~on:' ' tokens
           |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
+          |> List.map ~f:Phone.of_string
         in
         List.iter token_list ~f:(fun t -> Hashtbl.incr phone_counts t ~by:1);
         let previous_set =
           match phones.@?[taxon] with
-          | None -> Set.empty (module String)
+          | None -> Set.empty (module Phone)
           | Some set -> set
         in
         let new_set =
@@ -197,8 +190,9 @@ let load_dataset ?verbose path =
   let () = Dataframe.iter_row process_row df in
   let () =
     Hashtbl.iter_keys phones ~f:(fun taxon ->
-        Stdio.print_endline taxon;
+        Stdio.print_endline (Taxon.to_string taxon);
         Set.to_list phones.@![taxon]
+        |> List.map ~f:Phone.to_string
         |> String.concat ~sep:" " |> Stdio.print_endline)
   in
   {
@@ -218,8 +212,14 @@ let index_exn ~equal xs element =
     Encoding starts at 1 (0 represents a deletion).*)
 let phone_coders phone_set =
   let as_list = Base.Set.to_list phone_set in
-  let encode token = 1 + index_exn ~equal:String.equal as_list token in
-  let decode i = match i with 0 -> "-" | _ -> List.nth_exn as_list (i - 1) in
+  let encode token =
+    match Phone.(token = null) with
+    | true -> 0
+    | false -> 1 + index_exn ~equal:Phone.( = ) as_list token
+  in
+  let decode i =
+    match i with 0 -> Phone.null | _ -> List.nth_exn as_list (i - 1)
+  in
   (encode, decode)
 
 let aligned_to_string decoder tokens =
