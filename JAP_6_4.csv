@@ -1,0 +1,1987 @@
+ID	Taxon	Gloss	GlossID	IPA	Tokens	CogID	NewCogID	
+1	Miyako	I	1	ban	b a n	1	363	
+2	Tōkyō	I	1	watasi	w a t a s i	2	54	
+3	Amami	I	1	waɴ	w a ɴ	1	363	
+4	Kyōto	I	1	wate	w a t e	2	334	
+5	Hachijō	I	1	ware	w a r e	1	334	
+6	Shuri	I	1	waɴ	w a ɴ	1	363	
+7	Kōchi	I	1	asi	a s i	2	297	
+8	Sado	I	1	ore	o r e	3	46	
+9	Oki	I	1	ora	o r a	3	46	
+10	Kagoshima	I	1	oiː	oiː	3	228	
+11	Miyako	thou	2	vːa	vː a	10	231	
+12	Tōkyō	thou	2	anata	a n a t a	5	148	
+13	Amami	thou	2	ʔʲa	ʔʲ a	10	231	
+14	Kyōto	thou	2	aɴta	a ɴ t a	5	206	
+15	Hachijō	thou	2	omi	o m i	4	279	
+16	Shuri	thou	2	ʔʲaː	ʔʲ aː	10	231	
+17	Kōchi	thou	2	oɴsi	o ɴ s i	7	79	
+18	Sado	thou	2	ɴna	ɴ n a	6	287	
+19	Oki	thou	2	omae	o m ae	8	279	
+20	Kagoshima	thou	2	waiː	w aiː	9	50	
+21	Miyako	we	3	bantiː	b a n t iː	11	10	
+22	Tōkyō	we	3	watasitaʨi	w a t a s i t a ʨ i	12	119	
+23	Amami	we	3	waxja	w a x j a	11	454	
+24	Kyōto	we	3	watera	w a t e r a	12	213	
+25	Hachijō	we	3	wareɴisa	w a r e ɴ i s a	11	296	
+26	Shuri	we	3	watːaː	w a tː aː	11	454	
+27	Kōchi	we	3	asiraː	a s i r aː	12	53	
+28	Sado	we	3	oraʨi	o r a ʨ i	13	102	
+29	Oki	we	3	orara	o r a r a	13	274	
+30	Kagoshima	we	3	oidoɴ	oi d o ɴ	13	246	
+31	Miyako	this	4	kuri	k u r i	14	349	
+32	Tōkyō	this	4	kore	k o r e	14	349	
+33	Amami	this	4	xurɨ	x u r ɨ	14	349	
+34	Kyōto	this	4	kore	k o r e	14	349	
+35	Hachijō	this	4	kore	k o r e	14	349	
+36	Shuri	this	4	kuri	k u r i	14	349	
+37	Kōchi	this	4	kore	k o r e	14	349	
+38	Sado	this	4	kore	k o r e	14	349	
+39	Oki	this	4	kore	k o r e	14	349	
+40	Kagoshima	this	4	koiː	k oiː	14	349	
+41	Miyako	that	5	kari	k a r i	16	450	
+42	Tōkyō	that	5	are	a r e	15	450	
+43	Amami	that	5	ʔarɨ	ʔ a r ɨ	15	450	
+44	Kyōto	that	5	are	a r e	15	450	
+45	Hachijō	that	5	ore	o r e	17	450	
+46	Shuri	that	5	ʔari	ʔ a r i	15	450	
+47	Kōchi	that	5	are	a r e	15	450	
+48	Sado	that	5	are	a r e	15	450	
+49	Oki	that	5	are	a r e	15	450	
+50	Kagoshima	that	5	aiː	aiː	15	450	
+51	Miyako	who	6	taru	t a r u	18	431	
+52	Tōkyō	who	6	dare	d a r e	18	431	
+53	Amami	who	6	θaru	θ a r u	18	431	
+54	Kyōto	who	6	dare	d a r e	18	431	
+55	Hachijō	who	6	dare	d a r e	18	431	
+56	Shuri	who	6	taː	t aː	18	159	
+57	Kōchi	who	6	dare	d a r e	18	431	
+58	Sado	who	6	dare	d a r e	18	431	
+59	Oki	who	6	dare	d a r e	18	431	
+60	Kagoshima	who	6	daiː	d aiː	18	431	
+61	Miyako	what	7	nau	n au	21	445	
+62	Tōkyō	what	7	nani	n a n i	20	445	
+63	Amami	what	7	nuː	n uː	21	140	
+64	Kyōto	what	7	nani	n a n i	20	445	
+65	Hachijō	what	7	ani	a n i	19	445	
+66	Shuri	what	7	nuː	n uː	21	140	
+67	Kōchi	what	7	nani	n a n i	20	445	
+68	Sado	what	7	nani	n a n i	20	445	
+69	Oki	what	7	nani	n a n i	20	445	
+70	Kagoshima	what	7	naiː	n aiː	20	445	
+71	Miyako	not	8	araŋ	a r a ŋ	23	506	
+72	Tōkyō	not	8	nai	n ai	22	438	
+73	Amami	not	8	ʔaraɴ	ʔ a r a ɴ	23	506	
+74	Kyōto	not	8	nai	n ai	22	438	
+75	Hachijō	not	8	nakːja	n a kː j a	22	258	
+76	Shuri	not	8	neːɴ	n eː ɴ	22	414	
+77	Kōchi	not	8	nai	n ai	22	438	
+78	Sado	not	8	nai	n ai	22	438	
+79	Oki	not	8	neː	n eː	22	414	
+80	Kagoshima	not	8	naka	n a k a	22	258	
+81	Miyako	all	9	mːna	mː n a	24	480	
+82	Tōkyō	all	9	miɴna	m i ɴ n a	24	480	
+83	Amami	all	9	ʔaɴxaːri	ʔ a ɴ x aː r i	26	42	
+84	Kyōto	all	9	miɴna	m i ɴ n a	24	480	
+85	Hachijō	all	9	miɴna	m i ɴ n a	24	480	
+86	Shuri	all	9	ɴna	ɴ n a	24	480	
+87	Kōchi	all	9	miɴna	m i ɴ n a	24	480	
+88	Sado	all	9	miɴna	m i ɴ n a	24	480	
+89	Oki	all	9	ɴːna	ɴː n a	24	480	
+90	Kagoshima	all	9	sukːai	s u kː ai	25	235	
+91	Miyako	many	10	ukaːʃa	u k aː ʃ a	34	23	
+92	Tōkyō	many	10	takusaɴ	t a k u s a ɴ	31	303	
+93	Amami	many	10	ɕogoɕaɴ	ɕ o g o ɕ a ɴ	34	294	
+94	Kyōto	many	10	joːke	j oː k e	32	253	
+95	Hachijō	many	10	sikːari	s i kː a r i	30	299	
+96	Shuri	many	10	ʔuhoːku	ʔ u h oː k u	29	165	
+97	Kōchi	many	10	joke	j o k e	32	253	
+98	Sado	many	10	ikai	i k ai	33	187	
+99	Oki	many	10	etːo	e tː o	27	39	
+100	Kagoshima	many	10	dosːai	d o sː ai	28	417	
+101	Miyako	one	11	pɨtiːsɨ	p ɨ t iː s ɨ	35	434	
+102	Tōkyō	one	11	hitoʦu	h i t o ʦ u	35	434	
+103	Amami	one	11	tɨːʦɨ	t ɨː ʦ ɨ	35	434	
+104	Kyōto	one	11	hitoʦu	h i t o ʦ u	35	434	
+105	Hachijō	one	11	teːʦu	t eː ʦ u	35	434	
+106	Shuri	one	11	tiːɕi	t iː ɕ i	35	434	
+107	Kōchi	one	11	hitotu	h i t o t u	35	434	
+108	Sado	one	11	hitoʦu	h i t o ʦ u	35	434	
+109	Oki	one	11	ɸutoʦu	ɸ u t o ʦ u	35	434	
+110	Kagoshima	one	11	hitoi	h i t oi	35	434	
+111	Miyako	two	12	futaːʦɨ	f u t aː ʦ ɨ	36	502	
+112	Tōkyō	two	12	hutaʦːu	h u t a ʦː u	36	502	
+113	Amami	two	12	taːʦɨ	t aː ʦ ɨ	36	502	
+114	Kyōto	two	12	hutaʦu	h u t a ʦ u	36	502	
+115	Hachijō	two	12	hutaʦu	h u t a ʦ u	36	502	
+116	Shuri	two	12	taːɕi	t aː ɕ i	36	502	
+117	Kōchi	two	12	hutaːtu	h u t aː t u	36	502	
+118	Sado	two	12	hutaʦu	h u t a ʦ u	36	502	
+119	Oki	two	12	ɸutaːʦu	ɸ u t aː ʦ u	36	502	
+120	Kagoshima	two	12	hutai	h u t ai	36	502	
+121	Miyako	big	13	uku	u k u	38	38	
+122	Tōkyō	big	13	oːkiː	oː k iː	38	191	
+123	Amami	big	13	hwɨsːari	h w ɨ sː a r i	40	440	
+124	Kyōto	big	13	oːkiː	oː k iː	38	191	
+125	Hachijō	big	13	boːkʲa	b oː kʲ a	37	439	
+126	Shuri	big	13	magisaɴ	m a g i s a ɴ	41	55	
+127	Kōchi	big	13	hutoi	h u t oi	39	440	
+128	Sado	big	13	oːkiː	oː k iː	38	191	
+129	Oki	big	13	ɸuteː	ɸ u t eː	39	440	
+130	Kagoshima	big	13	hute	h u t e	39	440	
+131	Miyako	small	14	imi	i m i	47	171	
+132	Tōkyō	small	14	ʨiʨːai	ʨ i ʨː ai	43	127	
+133	Amami	small	14	ʔʲenasari	ʔʲ e n a s a r i	46	121	
+134	Kyōto	small	14	ʨiːsai	ʨ iː s ai	43	127	
+135	Hachijō	small	14	nekːokʲa	n e kː o kʲ a	42	129	
+136	Shuri	small	14	gumasaɴ	g u m a s a ɴ	45	109	
+137	Kōchi	small	14	hosoi	h o s oi	44	364	
+138	Sado	small	14	ʨiːsai	ʨ iː s ai	43	127	
+139	Oki	small	14	komeː	k o m eː	45	66	
+140	Kagoshima	small	14	ʨiɴke	ʨ i ɴ k e	43	127	
+141	Miyako	long	15	naga	n a g a	48	337	
+142	Tōkyō	long	15	naŋai	n a ŋ ai	48	337	
+143	Amami	long	15	nagasari	n a g a s a r i	48	337	
+144	Kyōto	long	15	naŋai	n a ŋ ai	48	337	
+145	Hachijō	long	15	nagakʲa	n a g a kʲ a	48	337	
+146	Shuri	long	15	nagasaɴ	n a g a s a ɴ	48	337	
+147	Kōchi	long	15	nagai	n a g ai	48	337	
+148	Sado	long	15	nagai	n a g ai	48	337	
+149	Oki	long	15	naŋeː	n a ŋ eː	48	337	
+150	Kagoshima	long	15	nage	n a g e	48	337	
+151	Miyako	woman	16	midum	m i d u m	51	27	
+152	Tōkyō	woman	16	oɴna	o ɴ n a	49	378	
+153	Amami	woman	16	onagu	o n a g u	49	378	
+154	Kyōto	woman	16	onaŋo	o n a ŋ o	49	378	
+155	Hachijō	woman	16	oɴnago	o ɴ n a g o	49	378	
+156	Shuri	woman	16	winagu	w i n a g u	49	378	
+157	Kōchi	woman	16	onago	o n a g o	49	378	
+158	Sado	woman	16	oɴna	o ɴ n a	49	378	
+159	Oki	woman	16	nʲoːba	nʲ oː b a	50	270	
+160	Kagoshima	woman	16	onago	o n a g o	49	378	
+161	Miyako	man	17	bɨkidum	b ɨ k i d u m	54	76	
+162	Tōkyō	man	17	otoko	o t o k o	53	339	
+163	Amami	man	17	jeɴga	j e ɴ g a	55	172	
+164	Kyōto	man	17	otoko	o t o k o	53	339	
+165	Hachijō	man	17	onokogo	o n o k o g o	52	339	
+166	Shuri	man	17	wikiga	w i k i g a	54	76	
+167	Kōchi	man	17	otoko	o t o k o	53	339	
+168	Sado	man	17	otoko	o t o k o	53	339	
+169	Oki	man	17	otoko	o t o k o	53	339	
+170	Kagoshima	man	17	otoko	o t o k o	53	339	
+171	Miyako	person	18	pɨtu	p ɨ t u	56	460	
+172	Tōkyō	person	18	hito	h i t o	56	460	
+173	Amami	person	18	ʨu	ʨ u	56	104	
+174	Kyōto	person	18	hito	h i t o	56	460	
+175	Hachijō	person	18	hito	h i t o	56	460	
+176	Shuri	person	18	ʦːu	ʦː u	56	104	
+177	Kōchi	person	18	hito	h i t o	56	460	
+178	Sado	person	18	niɴgeɴ	n i ɴ g e ɴ	57	5	
+179	Oki	person	18	ɸuto	ɸ u t o	56	460	
+180	Kagoshima	person	18	hiːto	h iː t o	56	460	
+181	Miyako	fish	19	izo	i z o	59	163	
+182	Tōkyō	fish	19	sakana	s a k a n a	58	497	
+183	Amami	fish	19	ʔʲu	ʔʲ u	59	469	
+184	Kyōto	fish	19	sakana	s a k a n a	58	497	
+185	Hachijō	fish	19	sakana	s a k a n a	58	497	
+186	Shuri	fish	19	ʔiju	ʔ i j u	59	241	
+187	Kōchi	fish	19	uo	uo	59	226	
+188	Sado	fish	19	uo	uo	59	226	
+189	Oki	fish	19	eo	eo	59	241	
+190	Kagoshima	fish	19	iːo	iːo	59	210	
+191	Miyako	bird	20	tui	t ui	60	410	
+192	Tōkyō	bird	20	tori	t o r i	60	410	
+193	Amami	bird	20	θuri	θ u r i	60	410	
+194	Kyōto	bird	20	tori	t o r i	60	410	
+195	Hachijō	bird	20	torime	t o r i m e	60	410	
+196	Shuri	bird	20	tui	t ui	60	410	
+197	Kōchi	bird	20	tori	t o r i	60	410	
+198	Sado	bird	20	tori	t o r i	60	410	
+199	Oki	bird	20	tori	t o r i	60	410	
+200	Kagoshima	bird	20	toiː	t oiː	60	410	
+201	Miyako	dog	21	in	i n	62	476	
+202	Tōkyō	dog	21	inu	i n u	62	476	
+203	Amami	dog	21	ʔiɴ	ʔ i ɴ	62	355	
+204	Kyōto	dog	21	inu	i n u	62	476	
+205	Hachijō	dog	21	ʨiɴme	ʨ i ɴ m e	61	194	
+206	Shuri	dog	21	ʔiɴ	ʔ i ɴ	62	355	
+207	Kōchi	dog	21	inu	i n u	62	476	
+208	Sado	dog	21	inu	i n u	62	476	
+209	Oki	dog	21	eno	e n o	62	476	
+210	Kagoshima	dog	21	iɴ	i ɴ	62	355	
+211	Miyako	louse	22	sːam	sː a m	63	426	
+212	Tōkyō	louse	22	sirami	s i r a m i	63	426	
+213	Amami	louse	22	siraɴ	s i r a ɴ	63	426	
+214	Kyōto	louse	22	sirami	s i r a m i	63	426	
+215	Hachijō	louse	22	ɕaɴme	ɕ a ɴ m e	63	426	
+216	Shuri	louse	22	siraɴ	s i r a ɴ	63	426	
+217	Kōchi	louse	22	sirami	s i r a m i	63	426	
+218	Sado	louse	22	sirami	s i r a m i	63	426	
+219	Oki	louse	22	sirame	s i r a m e	63	426	
+220	Kagoshima	louse	22	sitame	s i t a m e	63	426	
+221	Miyako	tree	23	kiː	k iː	64	464	
+222	Tōkyō	tree	23	ki	k i	64	464	
+223	Amami	tree	23	xɨ	x ɨ	64	261	
+224	Kyōto	tree	23	kiː	k iː	64	464	
+225	Hachijō	tree	23	ki	k i	64	464	
+226	Shuri	tree	23	kiː	k iː	64	464	
+227	Kōchi	tree	23	ki	k i	64	464	
+228	Sado	tree	23	ki	k i	64	464	
+229	Oki	tree	23	ki	k i	64	464	
+230	Kagoshima	tree	23	ki	k i	64	464	
+231	Miyako	bark (of tree)	24	kaː	k aː	65	218	
+232	Tōkyō	bark (of tree)	24	kawa	k a w a	65	356	
+233	Amami	bark (of tree)	24	xɨɴxo	x ɨ ɴ x o	66	198	
+234	Kyōto	bark (of tree)	24	kawa	k a w a	65	356	
+235	Hachijō	bark (of tree)	24	kua	k ua	65	356	
+236	Shuri	bark (of tree)	24	kaː	k aː	65	218	
+237	Kōchi	bark (of tree)	24	kawa	k a w a	65	356	
+238	Sado	bark (of tree)	24	kawa	k a w a	65	356	
+239	Oki	bark (of tree)	24	kawa	k a w a	65	356	
+240	Kagoshima	bark (of tree)	24	kawa	k a w a	65	356	
+241	Miyako	leaf	25	paː	p aː	67	471	
+242	Tōkyō	leaf	25	hapːa	h a pː a	67	471	
+243	Amami	leaf	25	hwa	h w a	67	471	
+244	Kyōto	leaf	25	haː	h aː	67	471	
+245	Hachijō	leaf	25	ha	h a	67	471	
+246	Shuri	leaf	25	hwaː	h w aː	67	471	
+247	Kōchi	leaf	25	ha	h a	67	471	
+248	Sado	leaf	25	ha	h a	67	471	
+249	Oki	leaf	25	ɸa	ɸ a	67	471	
+250	Kagoshima	leaf	25	hai	h ai	67	471	
+251	Miyako	root	26	niː	n iː	68	505	
+252	Tōkyō	root	26	nekːo	n e kː o	68	505	
+253	Amami	root	26	nɨguri	n ɨ g u r i	68	505	
+254	Kyōto	root	26	neː	n eː	68	505	
+255	Hachijō	root	26	ne	n e	68	505	
+256	Shuri	root	26	niː	n iː	68	505	
+257	Kōchi	root	26	ne	n e	68	505	
+258	Sado	root	26	ne	n e	68	505	
+259	Oki	root	26	ne	n e	68	505	
+260	Kagoshima	root	26	ne	n e	68	505	
+261	Miyako	seed	27	tani	t a n i	70	479	
+262	Tōkyō	seed	27	tane	t a n e	70	479	
+263	Amami	seed	27	θanɨ	θ a n ɨ	70	479	
+264	Kyōto	seed	27	tane	t a n e	70	479	
+265	Hachijō	seed	27	tane	t a n e	70	479	
+266	Shuri	seed	27	sani	s a n i	69	479	
+267	Kōchi	seed	27	tane	t a n e	70	479	
+268	Sado	seed	27	tane	t a n e	70	479	
+269	Oki	seed	27	tane	t a n e	70	479	
+270	Kagoshima	seed	27	tane	t a n e	70	479	
+271	Miyako	blood	28	akaʦɨ	a k a ʦ ɨ	71	78	
+272	Tōkyō	blood	28	ʨi	ʨ i	71	415	
+273	Amami	blood	28	ʨi	ʨ i	71	415	
+274	Kyōto	blood	28	ʨiː	ʨ iː	71	415	
+275	Hachijō	blood	28	ʨi	ʨ i	71	415	
+276	Shuri	blood	28	ʨiː	ʨ iː	71	415	
+277	Kōchi	blood	28	ti	t i	71	415	
+278	Sado	blood	28	ʨi	ʨ i	71	415	
+279	Oki	blood	28	ʨi	ʨ i	71	415	
+280	Kagoshima	blood	28	ʨiː	ʨ iː	71	415	
+281	Miyako	meat	29	sɨːsɨ	s ɨː s ɨ	73	168	
+282	Tōkyō	meat	29	niku	n i k u	72	322	
+283	Amami	meat	29	sisi	s i s i	73	168	
+284	Kyōto	meat	29	niku	n i k u	72	322	
+285	Hachijō	meat	29	niku	n i k u	72	322	
+286	Shuri	meat	29	sisi	s i s i	73	168	
+287	Kōchi	meat	29	niku	n i k u	72	322	
+288	Sado	meat	29	niku	n i k u	72	322	
+289	Oki	meat	29	niku	n i k u	72	322	
+290	Kagoshima	meat	29	ni	n i	72	322	
+291	Miyako	skin	30	kaː	k aː	75	292	
+292	Tōkyō	skin	30	kawa	k a w a	75	214	
+293	Amami	skin	30	duɴxo	d u ɴ x o	74	1	
+294	Kyōto	skin	30	kawa	k a w a	75	214	
+295	Hachijō	skin	30	kuabe	k ua b e	75	214	
+296	Shuri	skin	30	kaː	k aː	75	292	
+297	Kōchi	skin	30	kawa	k a w a	75	214	
+298	Sado	skin	30	kawa	k a w a	75	214	
+299	Oki	skin	30	kawa	k a w a	75	214	
+300	Kagoshima	skin	30	kawa	k a w a	75	214	
+301	Miyako	bone	31	puni	p u n i	76	290	
+302	Tōkyō	bone	31	hone	h o n e	76	290	
+303	Amami	bone	31	hunɨ	h u n ɨ	76	290	
+304	Kyōto	bone	31	hone	h o n e	76	290	
+305	Hachijō	bone	31	hone	h o n e	76	290	
+306	Shuri	bone	31	huni	h u n i	76	290	
+307	Kōchi	bone	31	hone	h o n e	76	290	
+308	Sado	bone	31	hone	h o n e	76	290	
+309	Oki	bone	31	ɸone	ɸ o n e	76	290	
+310	Kagoshima	bone	31	hone	h o n e	76	290	
+311	Miyako	grease (fat)	32	avːa	a vː a	78	37	
+312	Tōkyō	grease (fat)	32	aburami	a b u r a m i	78	507	
+313	Amami	grease (fat)	32	sirumi	s i r u m i	79	118	
+314	Kyōto	grease (fat)	32	abura	a b u r a	78	507	
+315	Hachijō	grease (fat)	32	aburaniku	a b u r a n i k u	78	507	
+316	Shuri	grease (fat)	32	ʔaɴdaʥisi	ʔ a ɴ d a ʥ i s i	77	233	
+317	Kōchi	grease (fat)	32	abura	a b u r a	78	507	
+318	Sado	grease (fat)	32	aburaniku	a b u r a n i k u	78	507	
+319	Oki	grease (fat)	32	abura	a b u r a	78	507	
+320	Kagoshima	grease (fat)	32	aburami	a b u r a m i	78	507	
+321	Miyako	egg	33	tunuka	t u n u k a	82	184	
+322	Tōkyō	egg	33	tamaŋo	t a m a ŋ o	80	332	
+323	Amami	egg	33	xoga	x o g a	81	43	
+324	Kyōto	egg	33	tamaŋo	t a m a ŋ o	80	332	
+325	Hachijō	egg	33	tamago	t a m a g o	80	332	
+326	Shuri	egg	33	kuːga	k uː g a	81	43	
+327	Kōchi	egg	33	tamago	t a m a g o	80	332	
+328	Sado	egg	33	tamago	t a m a g o	80	332	
+329	Oki	egg	33	tamaŋo	t a m a ŋ o	80	332	
+330	Kagoshima	egg	33	tamago	t a m a g o	80	332	
+331	Miyako	horn	34	ʦɨnu	ʦ ɨ n u	83	436	
+332	Tōkyō	horn	34	ʦuno	ʦ u n o	83	436	
+333	Amami	horn	34	ʦɨno	ʦ ɨ n o	83	436	
+334	Kyōto	horn	34	ʦuno	ʦ u n o	83	436	
+335	Hachijō	horn	34	ʦuno	ʦ u n o	83	436	
+336	Shuri	horn	34	ɕinu	ɕ i n u	83	436	
+337	Kōchi	horn	34	tuno	t u n o	83	436	
+338	Sado	horn	34	ʦuno	ʦ u n o	83	436	
+339	Oki	horn	34	ʦuno	ʦ u n o	83	436	
+340	Kagoshima	horn	34	ʦuno	ʦ u n o	83	436	
+341	Miyako	tail	35	ʣuː	ʣ uː	85	282	
+342	Tōkyō	tail	35	sipːo	s i pː o	86	319	
+343	Amami	tail	35	zubu	z u b u	85	422	
+344	Kyōto	tail	35	oː	oː	84	47	
+345	Hachijō	tail	35	oba	o b a	84	114	
+346	Shuri	tail	35	zuː	z uː	85	282	
+347	Kōchi	tail	35	o	o	84	176	
+348	Sado	tail	35	o	o	84	157	
+349	Oki	tail	35	o	o	84	281	
+350	Kagoshima	tail	35	siːbo	s iː b o	86	319	
+351	Miyako	feather	36	pani	p a n i	87	425	
+352	Tōkyō	feather	36	hane	h a n e	87	425	
+353	Amami	feather	36	haɴge	h a ɴ g e	87	425	
+354	Kyōto	feather	36	hane	h a n e	87	425	
+355	Hachijō	feather	36	hane	h a n e	87	425	
+356	Shuri	feather	36	hanigiː	h a n i g iː	87	425	
+357	Kōchi	feather	36	hane	h a n e	87	425	
+358	Sado	feather	36	hane	h a n e	87	425	
+359	Oki	feather	36	hane	h a n e	87	425	
+360	Kagoshima	feather	36	haine	h ai n e	87	425	
+361	Miyako	hair	37	p͡sɨgi	p͡s ɨ g i	88	189	
+362	Tōkyō	hair	37	ke	k e	89	484	
+363	Amami	hair	37	higi	h i g i	88	189	
+364	Kyōto	hair	37	keː	k eː	89	484	
+365	Hachijō	hair	37	kiː	k iː	89	484	
+366	Shuri	hair	37	kiː	k iː	89	484	
+367	Kōchi	hair	37	ke	k e	89	484	
+368	Sado	hair	37	ke	k e	89	484	
+369	Oki	hair	37	ke	k e	89	484	
+370	Kagoshima	hair	37	kei	k ei	89	484	
+371	Hachijō	hair	37	kebuɕo	k e b u ɕ o	89	17	
+372	Miyako	head	38	kanamaɭ	k a n a m a ɭ	94	175	
+373	Tōkyō	head	38	atama	a t a m a	91	175	
+374	Amami	head	38	xamaʨi	x a m a ʨ i	93	175	
+375	Kyōto	head	38	atama	a t a m a	91	175	
+376	Hachijō	head	38	ʦuburi	ʦ u b u r i	90	151	
+377	Shuri	head	38	ɕiburu	ɕ i b u r u	90	19	
+378	Kōchi	head	38	atama	a t a m a	91	175	
+379	Sado	head	38	atama	a t a m a	91	175	
+380	Oki	head	38	atama	a t a m a	91	175	
+381	Kagoshima	head	38	biɴta	b i ɴ t a	92	380	
+382	Miyako	ear	39	mim	m i m	95	402	
+383	Tōkyō	ear	39	mimi	m i m i	95	402	
+384	Amami	ear	39	miɴ	m i ɴ	95	402	
+385	Kyōto	ear	39	mimi	m i m i	95	402	
+386	Hachijō	ear	39	mimi	m i m i	95	402	
+387	Shuri	ear	39	mimi	m i m i	95	402	
+388	Kōchi	ear	39	mimi	m i m i	95	402	
+389	Sado	ear	39	mimi	m i m i	95	402	
+390	Oki	ear	39	mimi	m i m i	95	402	
+391	Kagoshima	ear	39	miɴ	m i ɴ	95	402	
+392	Miyako	eye	40	miː	m iː	96	312	
+393	Tōkyō	eye	40	me	m e	96	312	
+394	Amami	eye	40	mɨː	m ɨː	96	312	
+395	Kyōto	eye	40	meː	m eː	96	312	
+396	Hachijō	eye	40	manako	m a n a k o	97	173	
+397	Shuri	eye	40	miː	m iː	96	312	
+398	Kōchi	eye	40	me	m e	96	312	
+399	Sado	eye	40	me	m e	96	312	
+400	Oki	eye	40	me	m e	96	312	
+401	Kagoshima	eye	40	me	m e	96	312	
+402	Miyako	nose	41	pana	p a n a	98	248	
+403	Tōkyō	nose	41	hana	h a n a	98	248	
+404	Amami	nose	41	hana	h a n a	98	248	
+405	Kyōto	nose	41	hana	h a n a	98	248	
+406	Hachijō	nose	41	hana	h a n a	98	248	
+407	Shuri	nose	41	hana	h a n a	98	248	
+408	Kōchi	nose	41	hana	h a n a	98	248	
+409	Sado	nose	41	hana	h a n a	98	248	
+410	Oki	nose	41	hana	h a n a	98	248	
+411	Kagoshima	nose	41	haina	h ai n a	98	248	
+412	Miyako	mouth	42	fuʦɨ	f u ʦ ɨ	99	492	
+413	Tōkyō	mouth	42	kuʨi	k u ʨ i	99	492	
+414	Amami	mouth	42	kuʨi	k u ʨ i	99	492	
+415	Kyōto	mouth	42	kuʨi	k u ʨ i	99	492	
+416	Hachijō	mouth	42	kuʨi	k u ʨ i	99	492	
+417	Shuri	mouth	42	kuʨi	k u ʨ i	99	492	
+418	Kōchi	mouth	42	kuti	k u t i	99	492	
+419	Sado	mouth	42	kuʨi	k u ʨ i	99	492	
+420	Oki	mouth	42	kuʨi	k u ʨ i	99	492	
+421	Kagoshima	mouth	42	kui	k ui	99	492	
+422	Miyako	tooth	43	paː	p aː	101	478	
+423	Tōkyō	tooth	43	ha	h a	101	478	
+424	Amami	tooth	43	hwa	h w a	101	478	
+425	Kyōto	tooth	43	haː	h aː	101	478	
+426	Hachijō	tooth	43	nukaba	n u k a b a	100	77	
+427	Shuri	tooth	43	haː	h aː	101	478	
+428	Kōchi	tooth	43	ha	h a	101	478	
+429	Sado	tooth	43	ha	h a	101	478	
+430	Oki	tooth	43	ɸa	ɸ a	101	478	
+431	Kagoshima	tooth	43	ha	h a	101	478	
+432	Miyako	tongue	44	sɨta	s ɨ t a	-102	371	
+433	Tōkyō	tongue	44	sita	s i t a	-102	371	
+434	Amami	tongue	44	sɨba	s ɨ b a	-102	371	
+435	Kyōto	tongue	44	sita	s i t a	-102	371	
+436	Hachijō	tongue	44	sita	s i t a	-102	371	
+437	Shuri	tongue	44	ʃiba	ʃ i b a	-102	371	
+438	Kōchi	tongue	44	sita	s i t a	-102	371	
+439	Sado	tongue	44	sitabera	s i t a b e r a	-102	371	
+440	Oki	tongue	44	bero	b e r o	-102	9	
+441	Kagoshima	tongue	44	sita	s i t a	-102	371	
+442	Miyako	claw	45	ʦɨmi	ʦ ɨ m i	103	376	
+443	Tōkyō	claw	45	ʦume	ʦ u m e	103	376	
+444	Amami	claw	45	ʦɨmɨ	ʦ ɨ m ɨ	103	376	
+445	Kyōto	claw	45	ʦume	ʦ u m e	103	376	
+446	Hachijō	claw	45	ʦume	ʦ u m e	103	376	
+447	Shuri	claw	45	ɕimi	ɕ i m i	103	376	
+448	Kōchi	claw	45	tume	t u m e	103	376	
+449	Sado	claw	45	ʦume	ʦ u m e	103	376	
+450	Oki	claw	45	ʦume	ʦ u m e	103	376	
+451	Kagoshima	claw	45	ʦuime	ʦ ui m e	103	376	
+452	Miyako	foot	46	pɨsa	p ɨ s a	106	311	
+453	Tōkyō	foot	46	asi	a s i	104	310	
+454	Amami	foot	46	hagi	h a g i	105	362	
+455	Kyōto	foot	46	asi	a s i	104	310	
+456	Hachijō	foot	46	asi	a s i	104	310	
+457	Shuri	foot	46	hwiɕa	h w i ɕ a	106	311	
+458	Kōchi	foot	46	asi	a s i	104	310	
+459	Sado	foot	46	asi	a s i	104	310	
+460	Oki	foot	46	asi	a s i	104	310	
+461	Kagoshima	foot	46	aɕ	a ɕ	104	33	
+462	Miyako	knee	47	ʦɨgusɨ	ʦ ɨ g u s ɨ	109	257	
+463	Tōkyō	knee	47	hiza	h i z a	107	461	
+464	Amami	knee	47	ʦɨbusi	ʦ ɨ b u s i	109	257	
+465	Kyōto	knee	47	hiza	h i z a	107	461	
+466	Hachijō	knee	47	hiʥakabura	h i ʥ a k a b u r a	107	224	
+467	Shuri	knee	47	ʨiɴsi	ʨ i ɴ s i	109	257	
+468	Kōchi	knee	47	sune	s u n e	108	419	
+469	Sado	knee	47	hiza	h i z a	107	461	
+470	Oki	knee	47	ɸuza	ɸ u z a	-107	461	
+471	Kagoshima	knee	47	hiːza	h iː z a	-107	461	
+472	Miyako	hand	48	tiː	t iː	110	289	
+473	Tōkyō	hand	48	te	t e	110	289	
+474	Amami	hand	48	θɨ	θ ɨ	110	289	
+475	Kyōto	hand	48	teː	t eː	110	289	
+476	Hachijō	hand	48	te	t e	110	289	
+477	Shuri	hand	48	tiː	t iː	110	289	
+478	Kōchi	hand	48	te	t e	110	289	
+479	Sado	hand	48	te	t e	110	289	
+480	Oki	hand	48	te	t e	110	289	
+481	Kagoshima	hand	48	te	t e	110	289	
+482	Miyako	belly	49	bata	b a t a	113	396	
+483	Tōkyō	belly	49	onaka	o n a k a	112	193	
+484	Amami	belly	49	waθa	w a θ a	113	396	
+485	Kyōto	belly	49	hara	h a r a	111	396	
+486	Hachijō	belly	49	hara	h a r a	111	396	
+487	Shuri	belly	49	wata	w a t a	113	396	
+488	Kōchi	belly	49	hara	h a r a	111	396	
+489	Sado	belly	49	hara	h a r a	111	396	
+490	Oki	belly	49	ɸara	ɸ a r a	111	396	
+491	Kagoshima	belly	49	hara	h a r a	111	396	
+492	Miyako	neck	50	nudufuʣɨ	n u d u f u ʣ ɨ	115	350	
+493	Tōkyō	neck	50	kubi	k u b i	114	350	
+494	Amami	neck	50	kubi	k u b i	114	350	
+495	Kyōto	neck	50	kubi	k u b i	114	350	
+496	Hachijō	neck	50	kubi	k u b i	114	350	
+497	Shuri	neck	50	kubi	k u b i	114	350	
+498	Kōchi	neck	50	kubi	k u b i	114	350	
+499	Sado	neck	50	kubi	k u b i	114	350	
+500	Oki	neck	50	kubi	k u b i	114	350	
+501	Kagoshima	neck	50	kui	k ui	114	350	
+502	Miyako	breast	51	mːifuʦɨ	mː i f u ʦ ɨ	116	390	
+503	Tōkyō	breast	51	mune	m u n e	116	255	
+504	Amami	breast	51	munɨ	m u n ɨ	116	255	
+505	Kyōto	breast	51	mune	m u n e	116	255	
+506	Hachijō	breast	51	mune	m u n e	116	255	
+507	Shuri	breast	51	ɴni	ɴ n i	116	255	
+508	Kōchi	breast	51	mune	m u n e	116	255	
+509	Sado	breast	51	mune	m u n e	116	255	
+510	Oki	breast	51	ɴne	ɴ n e	116	255	
+511	Kagoshima	breast	51	muine	m ui n e	116	255	
+512	Tōkyō	heart	52	siɴzoː	s i ɴ z oː	118	473	
+513	Amami	heart	52	siɴdo	s i ɴ d o	118	473	
+514	Kyōto	heart	52	siɴzoː	s i ɴ z oː	118	473	
+515	Hachijō	heart	52	siɴzoː	s i ɴ z oː	118	473	
+516	Shuri	heart	52	ʨimu	ʨ i m u	117	143	
+517	Kōchi	heart	52	kimo	k i m o	117	143	
+518	Sado	heart	52	siɴzoː	s i ɴ z oː	118	473	
+519	Oki	heart	52	siɴzoː	s i ɴ z oː	118	473	
+520	Kagoshima	heart	52	siɴizoː	s i ɴ i z oː	118	473	
+521	Miyako	liver	53	ʦɨmu	ʦ ɨ m u	119	486	
+522	Tōkyō	liver	53	kimo	k i m o	119	486	
+523	Amami	liver	53	kimo	k i m o	119	486	
+524	Kyōto	liver	53	kimo	k i m o	119	486	
+525	Hachijō	liver	53	kimo	k i m o	119	486	
+526	Shuri	liver	53	ʨimu	ʨ i m u	119	486	
+527	Kōchi	liver	53	kimo	k i m o	119	486	
+528	Sado	liver	53	kimo	k i m o	119	486	
+529	Kagoshima	liver	53	kimo	k i m o	119	486	
+530	Miyako	drink	54	num	n u m	120	385	
+531	Tōkyō	drink	54	nomu	n o m u	120	385	
+532	Amami	drink	54	numuri	n u m u r i	120	385	
+533	Kyōto	drink	54	nomu	n o m u	120	385	
+534	Hachijō	drink	54	nomu	n o m u	120	385	
+535	Shuri	drink	54	nunuɴ	n u n u ɴ	120	385	
+536	Kōchi	drink	54	nomu	n o m u	120	385	
+537	Sado	drink	54	nomu	n o m u	120	385	
+538	Oki	drink	54	nomu	n o m u	120	385	
+539	Kagoshima	drink	54	noɴ	n o ɴ	120	385	
+540	Miyako	eat	55	fau	f au	125	264	
+541	Tōkyō	eat	55	taberu	t a b e r u	122	203	
+542	Amami	eat	55	xamuri	x a m u r i	124	264	
+543	Kyōto	eat	55	taberu	t a b e r u	122	203	
+544	Hachijō	eat	55	miaru	m ia r u	121	152	
+545	Shuri	eat	55	kanuɴ	k a n u ɴ	124	264	
+546	Kōchi	eat	55	taberu	t a b e r u	122	203	
+547	Sado	eat	55	kuː	k uː	123	238	
+548	Oki	eat	55	kuː	k uː	123	238	
+549	Kagoshima	eat	55	kuː	k uː	123	238	
+550	Miyako	bite	56	fuː	f uː	127	126	
+551	Tōkyō	bite	56	kamiʦuku	k a m i ʦ u k u	128	465	
+552	Amami	bite	56	kuiʦɨkɨruri	k ui ʦ ɨ k ɨ r u r i	126	465	
+553	Kyōto	bite	56	kamiʦuku	k a m i ʦ u k u	128	465	
+554	Hachijō	bite	56	kuiʦuku	k ui ʦ u k u	126	465	
+555	Shuri	bite	56	kuːjuɴ	k uː j u ɴ	126	126	
+556	Kōchi	bite	56	kuituku	k ui t u k u	126	465	
+557	Sado	bite	56	kamiʦuku	k a m i ʦ u k u	128	465	
+558	Oki	bite	56	kamu	k a m u	128	323	
+559	Kagoshima	bite	56	kaɴʦu	k a ɴ ʦ u	128	465	
+560	Miyako	see	57	miːɭ	m iː ɭ	130	374	
+561	Tōkyō	see	57	miru	m i r u	130	374	
+562	Amami	see	57	mʲuːri	mʲ uː r i	130	217	
+563	Kyōto	see	57	miru	m i r u	130	374	
+564	Hachijō	see	57	mabaru	m a b a r u	129	374	
+565	Shuri	see	57	ɴːzuɴ	ɴː z u ɴ	131	135	
+566	Kōchi	see	57	miru	m i r u	130	374	
+567	Sado	see	57	miru	m i r u	130	374	
+568	Oki	see	57	miru	m i r u	130	374	
+569	Kagoshima	see	57	mi	m i	130	374	
+570	Miyako	hear	58	ʦɨfu	ʦ ɨ f u	132	397	
+571	Tōkyō	hear	58	kiku	k i k u	132	397	
+572	Amami	hear	58	kikʲuri	k i kʲ u r i	132	397	
+573	Kyōto	hear	58	kiku	k i k u	132	397	
+574	Hachijō	hear	58	kiku	k i k u	132	397	
+575	Shuri	hear	58	ʨiʦuɴ	ʨ i ʦ u ɴ	132	397	
+576	Kōchi	hear	58	kiku	k i k u	132	397	
+577	Sado	hear	58	kiku	k i k u	132	397	
+578	Oki	hear	58	kiku	k i k u	132	397	
+579	Kagoshima	hear	58	kiː	k iː	132	397	
+580	Miyako	know	59	sɨː	s ɨː	134	86	
+581	Tōkyō	know	59	sitːeru	s i tː e r u	134	306	
+582	Amami	know	59	siʨuri	s i ʨ u r i	134	306	
+583	Kyōto	know	59	sitːeru	s i tː e r u	134	306	
+584	Hachijō	know	59	obietara	o b ie t a r a	133	482	
+585	Shuri	know	59	siʦːoːɴ	s i ʦː oː ɴ	134	306	
+586	Kōchi	know	59	sitːjuː	s i tː j uː	134	306	
+587	Sado	know	59	sitːoru	s i tː o r u	134	306	
+588	Oki	know	59	siʨːoru	s i ʨː o r u	134	306	
+589	Kagoshima	know	59	siːːʨo	s iːː ʨ o	134	306	
+590	Miyako	sleep	60	niv	n i v	136	335	
+591	Tōkyō	sleep	60	nemuru	n e m u r u	136	335	
+592	Amami	sleep	60	nɨbururi	n ɨ b u r u r i	136	335	
+593	Kyōto	sleep	60	neru	n e r u	-136	335	
+594	Hachijō	sleep	60	jodoru	j o d o r u	135	162	
+595	Shuri	sleep	60	niɴzuɴ	n i ɴ z u ɴ	136	335	
+596	Kōchi	sleep	60	neru	n e r u	-136	335	
+597	Sado	sleep	60	neburu	n e b u r u	-136	335	
+598	Oki	sleep	60	neru	n e r u	-136	335	
+599	Kagoshima	sleep	60	neimuʨːoi	n ei m u ʨː oi	136	335	
+600	Miyako	die	61	sɨn	s ɨ n	138	207	
+601	Tōkyō	die	61	sinu	s i n u	138	207	
+602	Amami	die	61	simʲuri	s i mʲ u r i	138	207	
+603	Kyōto	die	61	sinu	s i n u	138	207	
+604	Hachijō	die	61	marubu	m a r u b u	137	116	
+605	Shuri	die	61	sinuɴ	s i n u ɴ	138	207	
+606	Kōchi	die	61	sinuru	s i n u r u	138	207	
+607	Sado	die	61	sinu	s i n u	138	207	
+608	Oki	die	61	sinoru	s i n o r u	138	207	
+609	Kagoshima	die	61	siːɴ	s iː ɴ	138	207	
+610	Miyako	kill	62	kurusɨ	k u r u s ɨ	139	375	
+611	Tōkyō	kill	62	korosu	k o r o s u	139	375	
+612	Amami	kill	62	xusːuri	x u sː u r i	139	375	
+613	Kyōto	kill	62	korosu	k o r o s u	139	375	
+614	Hachijō	kill	62	korosu	k o r o s u	139	375	
+615	Shuri	kill	62	kuruɕuɴ	k u r u ɕ u ɴ	139	375	
+616	Kōchi	kill	62	korosu	k o r o s u	139	375	
+617	Sado	kill	62	korosu	k o r o s u	139	375	
+618	Oki	kill	62	korosu	k o r o s u	139	375	
+619	Kagoshima	kill	62	ukːoros	u kː o r o s	139	375	
+620	Miyako	swim	63	uːʣɨ	uː ʣ ɨ	140	35	
+621	Tōkyō	swim	63	ojoŋu	o j o ŋ u	140	302	
+622	Amami	swim	63	ʔwɨːguri	ʔ w ɨː g u r i	140	169	
+623	Kyōto	swim	63	ojoŋu	o j o ŋ u	140	302	
+624	Hachijō	swim	63	ojogu	o j o g u	140	302	
+625	Shuri	swim	63	ʔwiːzuɴ	ʔ w iː z u ɴ	140	169	
+626	Kōchi	swim	63	ojogu	o j o g u	140	302	
+627	Sado	swim	63	ojogu	o j o g u	140	302	
+628	Oki	swim	63	ojoŋu	o j o ŋ u	140	302	
+629	Kagoshima	swim	63	ojo	o j o	140	302	
+630	Miyako	fly	64	mau	m au	144	232	
+631	Tōkyō	fly	64	tobu	t o b u	142	481	
+632	Amami	fly	64	θuburi	θ u b u r i	142	481	
+633	Kyōto	fly	64	tobu	t o b u	142	481	
+634	Hachijō	fly	64	maku	m a k u	141	232	
+635	Shuri	fly	64	tubuɴ	t u b u ɴ	142	481	
+636	Kōchi	fly	64	tobu	t o b u	142	481	
+637	Sado	fly	64	tatːoru	t a tː o r u	143	453	
+638	Oki	fly	64	tobu	t o b u	142	481	
+639	Kagoshima	fly	64	toi	t oi	142	481	
+640	Miyako	walk	65	aɭɨfu	a ɭ ɨ f u	146	245	
+641	Tōkyō	walk	65	aruku	a r u k u	146	245	
+642	Amami	walk	65	ʔakːuri	ʔ a kː u r i	146	221	
+643	Kyōto	walk	65	aruku	a r u k u	146	245	
+644	Hachijō	walk	65	jamu	j a m u	145	128	
+645	Shuri	walk	65	ʔaʦːuɴ	ʔ a ʦː u ɴ	146	221	
+646	Kōchi	walk	65	aruku	a r u k u	146	245	
+647	Sado	walk	65	aruku	a r u k u	146	245	
+648	Oki	walk	65	aruku	a r u k u	146	245	
+649	Kagoshima	walk	65	ajuɴ	a j u ɴ	146	216	
+650	Miyako	come	66	fuː	f uː	147	243	
+651	Tōkyō	come	66	kuru	k u r u	149	468	
+652	Amami	come	66	xuri	x u r i	149	468	
+653	Kyōto	come	66	kuru	k u r u	149	468	
+654	Hachijō	come	66	kuru	k u r u	149	468	
+655	Shuri	come	66	ʦuːɴ	ʦ uː ɴ	148	125	
+656	Kōchi	come	66	kuru	k u r u	149	468	
+657	Sado	come	66	kuru	k u r u	149	468	
+658	Oki	come	66	kuru	k u r u	149	468	
+659	Kagoshima	come	66	ku	k u	149	468	
+660	Miyako	lie	67	jukutaːɭ	j u k u t aː ɭ	152	331	
+661	Tōkyō	lie	67	neteru	n e t e r u	150	457	
+662	Amami	lie	67	nɨhuθuri	n ɨ h u θ u r i	151	457	
+663	Kyōto	lie	67	neteru	n e t e r u	150	457	
+664	Hachijō	lie	67	nete	n e t e	150	457	
+665	Shuri	lie	67	niɴtoːɴ	n i ɴ t oː ɴ	151	457	
+666	Kōchi	lie	67	nejuː	n e j uː	150	457	
+667	Sado	lie	67	netoru	n e t o r u	150	457	
+668	Oki	lie	67	neʨoːru	n e ʨ oː r u	150	457	
+669	Kagoshima	lie	67	neiʨo	n ei ʨ o	150	457	
+670	Miyako	sit	68	b͡zɨː	b͡z ɨː	154	177	
+671	Tōkyō	sit	68	suwatːeru	s u w a tː e r u	153	508	
+672	Amami	sit	68	iruri	i r u r i	155	325	
+673	Kyōto	sit	68	suwatːeru	s u w a tː e r u	153	508	
+674	Hachijō	sit	68	ite	i t e	155	309	
+675	Shuri	sit	68	iʦoːn	i ʦ oː n	155	52	
+676	Kōchi	sit	68	suwaru	s u w a r u	153	508	
+677	Sado	sit	68	suwaru	s u w a r u	153	508	
+678	Oki	sit	68	suwaru	s u w a r u	153	508	
+679	Kagoshima	sit	68	suwaiːʨo	s u w aiː ʨ o	153	508	
+680	Miyako	stand	69	takiː	t a k iː	156	504	
+681	Tōkyō	stand	69	tatːeru	t a tː e r u	156	504	
+682	Amami	stand	69	θaʨːuri	θ a ʨː u r i	156	504	
+683	Kyōto	stand	69	tatːeru	t a tː e r u	156	504	
+684	Hachijō	stand	69	tatːe	t a tː e	156	504	
+685	Shuri	stand	69	taʦːoːn	t a ʦː oː n	156	504	
+686	Kōchi	stand	69	tatetːjuː	t a t e tː j uː	156	504	
+687	Sado	stand	69	tatːoru	t a tː o r u	156	504	
+688	Oki	stand	69	taʨːoru	t a ʨː o r u	156	504	
+689	Kagoshima	stand	69	taʨːo	t a ʨː o	156	504	
+690	Miyako	give	70	fiːɭ	f iː ɭ	160	514	
+691	Tōkyō	give	70	aŋeru	a ŋ e r u	158	514	
+692	Amami	give	70	kurɨruri	k u r ɨ r u r i	160	514	
+693	Kyōto	give	70	aŋeru	a ŋ e r u	158	514	
+694	Hachijō	give	70	muaseru	m ua s e r u	157	514	
+695	Shuri	give	70	kwiːjuɴ	k w iː j u ɴ	160	514	
+696	Kōchi	give	70	jaru	j a r u	159	514	
+697	Sado	give	70	jaru	j a r u	159	514	
+698	Oki	give	70	jaru	j a r u	159	514	
+699	Kagoshima	give	70	kuiru	k ui r u	160	514	
+700	Miyako	say	71	azɨ	a z ɨ	162	30	
+701	Tōkyō	say	71	juː	j uː	161	357	
+702	Amami	say	71	ʔʲuri	ʔʲ u r i	161	357	
+703	Kyōto	say	71	juː	j uː	161	357	
+704	Hachijō	say	71	ju	j u	161	357	
+705	Shuri	say	71	ʔʲuɴ	ʔʲ u ɴ	161	357	
+706	Kōchi	say	71	juː	j uː	161	357	
+707	Sado	say	71	juː	j uː	161	357	
+708	Oki	say	71	eo	eo	161	90	
+709	Kagoshima	say	71	juiu	j uiu	161	357	
+710	Miyako	sun	72	tida	t i d a	167	456	
+711	Tōkyō	sun	72	ohisama	o h i s a m a	164	347	
+712	Amami	sun	72	θeda	θ e d a	167	456	
+713	Kyōto	sun	72	ohisaɴ	o h i s a ɴ	164	347	
+714	Hachijō	sun	72	teɴtoːsama	t e ɴ t oː s a m a	163	522	
+715	Shuri	sun	72	tiːda	t iː d a	167	456	
+716	Kōchi	sun	72	ohisama	o h i s a m a	164	347	
+717	Sado	sun	72	nitːeɴsama	n i tː e ɴ s a m a	165	236	
+718	Oki	sun	72	oɸisaɴ	o ɸ i s a ɴ	164	347	
+719	Kagoshima	sun	72	oteɴtosaː	o t e ɴ t o s aː	166	522	
+720	Miyako	moon	73	ʦɨʦɨ	ʦ ɨ ʦ ɨ	168	275	
+721	Tōkyō	moon	73	ʦuki	ʦ u k i	168	275	
+722	Amami	moon	73	ʦɨki	ʦ ɨ k i	168	275	
+723	Kyōto	moon	73	ʦuki	ʦ u k i	168	275	
+724	Hachijō	moon	73	ʦuki	ʦ u k i	168	275	
+725	Shuri	moon	73	ɕiʨi	ɕ i ʨ i	168	275	
+726	Kōchi	moon	73	tuki	t u k i	168	275	
+727	Sado	moon	73	ʦuki	ʦ u k i	168	275	
+728	Oki	moon	73	ʦuki	ʦ u k i	168	275	
+729	Kagoshima	moon	73	oʦusːaː	o ʦ u sː aː	168	133	
+730	Miyako	star	74	pusɨ	p u s ɨ	169	474	
+731	Tōkyō	star	74	hosi	h o s i	169	474	
+732	Amami	star	74	husi	h u s i	169	474	
+733	Kyōto	star	74	hosi	h o s i	169	474	
+734	Hachijō	star	74	hosi	h o s i	169	474	
+735	Shuri	star	74	husi	h u s i	169	474	
+736	Kōchi	star	74	hosi	h o s i	169	474	
+737	Sado	star	74	hosi	h o s i	169	474	
+738	Oki	star	74	ɸosi	ɸ o s i	169	474	
+739	Kagoshima	star	74	hoiɕ	h oi ɕ	169	474	
+740	Miyako	water	75	miʣɨ	m i ʣ ɨ	170	324	
+741	Tōkyō	water	75	mizu	m i z u	170	324	
+742	Amami	water	75	mɨzɨ	m ɨ z ɨ	170	324	
+743	Kyōto	water	75	mizu	m i z u	170	324	
+744	Hachijō	water	75	mizu	m i z u	170	324	
+745	Shuri	water	75	miʤi	m i ʤ i	170	324	
+746	Kōchi	water	75	midu	m i d u	170	324	
+747	Sado	water	75	mizu	m i z u	170	324	
+748	Oki	water	75	mezu	m e z u	170	324	
+749	Kagoshima	water	75	miː	m iː	170	89	
+750	Miyako	river	76	kaː	k aː	171	427	
+751	Tōkyō	river	76	kawa	k a w a	171	427	
+752	Amami	river	76	harigo	h a r i g o	172	420	
+753	Kyōto	river	76	kawa	k a w a	171	427	
+754	Hachijō	river	76	kua	k ua	171	427	
+755	Shuri	river	76	kaːra	k aː r a	171	427	
+756	Kōchi	river	76	kawa	k a w a	171	427	
+757	Sado	river	76	kawa	k a w a	171	427	
+758	Oki	river	76	kawa	k a w a	171	427	
+759	Kagoshima	river	76	kaiwa	k ai w a	171	427	
+760	Miyako	stone	77	isɨ	i s ɨ	173	318	
+761	Tōkyō	stone	77	isi	i s i	173	318	
+762	Amami	stone	77	ʔisi	ʔ i s i	173	318	
+763	Kyōto	stone	77	isi	i s i	173	318	
+764	Hachijō	stone	77	isi	i s i	173	318	
+765	Shuri	stone	77	ʔisi	ʔ i s i	173	318	
+766	Kōchi	stone	77	isi	i s i	173	318	
+767	Sado	stone	77	isi	i s i	173	318	
+768	Oki	stone	77	esi	e s i	173	318	
+769	Kagoshima	stone	77	iːɕ	iː ɕ	173	293	
+770	Miyako	sand	78	mnagu	m n a g u	176	103	
+771	Tōkyō	sand	78	suna	s u n a	175	430	
+772	Amami	sand	78	sɨna	s ɨ n a	175	430	
+773	Kyōto	sand	78	suna	s u n a	175	430	
+774	Hachijō	sand	78	ʥari	ʥ a r i	174	388	
+775	Shuri	sand	78	ʃina	ʃ i n a	175	430	
+776	Kōchi	sand	78	suna	s u n a	175	430	
+777	Sado	sand	78	suna	s u n a	175	430	
+778	Oki	sand	78	suna	s u n a	175	430	
+779	Kagoshima	sand	78	zuina	z ui n a	175	430	
+780	Miyako	earth	79	mta	m t a	178	266	
+781	Tōkyō	earth	79	ʦuʨi	ʦ u ʨ i	179	305	
+782	Amami	earth	79	miʨa	m i ʨ a	178	266	
+783	Kyōto	earth	79	ʦuʨi	ʦ u ʨ i	179	305	
+784	Hachijō	earth	79	ʨiʨi	ʨ i ʨ i	179	305	
+785	Shuri	earth	79	ɴʦa	ɴ ʦ a	178	305	
+786	Kōchi	earth	79	tuti	t u t i	179	305	
+787	Sado	earth	79	ʦuʨi	ʦ u ʨ i	179	305	
+788	Oki	earth	79	ʨiʨi	ʨ i ʨ i	179	305	
+789	Kagoshima	earth	79	doro	d o r o	177	359	
+790	Miyako	cloud	80	fumu	f u m u	180	452	
+791	Tōkyō	cloud	80	kumo	k u m o	180	452	
+792	Amami	cloud	80	kumo	k u m o	180	452	
+793	Kyōto	cloud	80	kumo	k u m o	180	452	
+794	Hachijō	cloud	80	kumo	k u m o	180	452	
+795	Shuri	cloud	80	kumu	k u m u	180	452	
+796	Kōchi	cloud	80	kumo	k u m o	180	452	
+797	Sado	cloud	80	kumo	k u m o	180	452	
+798	Oki	cloud	80	kumo	k u m o	180	452	
+799	Kagoshima	cloud	80	kumo	k u m o	180	452	
+800	Miyako	smoke	81	kiβusɨ	k i β u s ɨ	182	441	
+801	Tōkyō	smoke	81	kemu	k e m u	182	441	
+802	Amami	smoke	81	xɨbusi	x ɨ b u s i	182	441	
+803	Kyōto	smoke	81	kemuri	k e m u r i	182	441	
+804	Hachijō	smoke	81	iburi	i b u r i	181	441	
+805	Shuri	smoke	81	kibusi	k i b u s i	182	441	
+806	Kōchi	smoke	81	kemuri	k e m u r i	182	441	
+807	Sado	smoke	81	kemuri	k e m u r i	182	441	
+808	Oki	smoke	81	kemori	k e m o r i	182	441	
+809	Kagoshima	smoke	81	keimui	k ei m ui	182	441	
+810	Miyako	fire	82	umaʦɨ	u m a ʦ ɨ	184	141	
+811	Tōkyō	fire	82	hi	h i	183	276	
+812	Amami	fire	82	uaʦɨ	ua ʦ ɨ	184	141	
+813	Kyōto	fire	82	hiː	h iː	183	276	
+814	Hachijō	fire	82	hi	h i	183	276	
+815	Shuri	fire	82	hwiː	h w iː	183	276	
+816	Kōchi	fire	82	hi	h i	183	276	
+817	Sado	fire	82	hi	h i	183	276	
+818	Oki	fire	82	ɸi	ɸ i	183	276	
+819	Kagoshima	fire	82	hi	h i	183	276	
+820	Miyako	ash	83	pazɨ	p a z ɨ	185	499	
+821	Tōkyō	ash	83	hai	h ai	185	499	
+822	Amami	ash	83	hwe	h w e	185	499	
+823	Kyōto	ash	83	hai	h ai	185	499	
+824	Hachijō	ash	83	hia	h ia	185	499	
+825	Shuri	ash	83	hweː	h w eː	185	499	
+826	Kōchi	ash	83	hai	h ai	185	499	
+827	Sado	ash	83	hai	h ai	185	499	
+828	Oki	ash	83	ɸeː	ɸ eː	185	499	
+829	Kagoshima	ash	83	hei	h ei	185	499	
+830	Miyako	burn	84	muiɭ	m ui ɭ	186	513	
+831	Tōkyō	burn	84	moeru	m oe r u	186	513	
+832	Amami	burn	84	meːruri	m eː r u r i	186	513	
+833	Kyōto	burn	84	moeru	m oe r u	186	513	
+834	Hachijō	burn	84	mieru	m ie r u	186	513	
+835	Shuri	burn	84	meːjuɴ	m eː j u ɴ	186	513	
+836	Kōchi	burn	84	moeru	m oe r u	186	513	
+837	Sado	burn	84	moeru	m oe r u	186	513	
+838	Oki	burn	84	moeru	m oe r u	186	513	
+839	Kagoshima	burn	84	moiju	m oi j u	186	513	
+840	Miyako	path (road)	85	mʦɨ	m ʦ ɨ	187	433	
+841	Tōkyō	path (road)	85	miʨi	m i ʨ i	187	433	
+842	Amami	path (road)	85	miʨi	m i ʨ i	187	433	
+843	Kyōto	path (road)	85	miʨi	m i ʨ i	187	433	
+844	Hachijō	path (road)	85	miʨi	m i ʨ i	187	433	
+845	Shuri	path (road)	85	miʨi	m i ʨ i	187	433	
+846	Kōchi	path (road)	85	miti	m i t i	187	433	
+847	Sado	path (road)	85	miʨi	m i ʨ i	187	433	
+848	Oki	path (road)	85	meʨi	m e ʨ i	187	433	
+849	Kagoshima	path (road)	85	miː	m iː	187	57	
+850	Miyako	mountain	86	jama	j a m a	188	519	
+851	Tōkyō	mountain	86	jama	j a m a	188	519	
+852	Amami	mountain	86	jama	j a m a	188	519	
+853	Kyōto	mountain	86	jama	j a m a	188	519	
+854	Hachijō	mountain	86	jama	j a m a	188	519	
+855	Shuri	mountain	86	mui	m ui	189	110	
+856	Kōchi	mountain	86	jama	j a m a	188	519	
+857	Sado	mountain	86	jama	j a m a	188	519	
+858	Oki	mountain	86	jama	j a m a	188	519	
+859	Kagoshima	mountain	86	jama	j a m a	188	519	
+860	Miyako	red	87	aka	a k a	190	435	
+861	Tōkyō	red	87	akai	a k ai	190	435	
+862	Amami	red	87	haːsari	h aː s a r i	190	435	
+863	Kyōto	red	87	akai	a k ai	190	435	
+864	Hachijō	red	87	akakʲa	a k a kʲ a	190	435	
+865	Shuri	red	87	ʔakasaɴ	ʔ a k a s a ɴ	190	435	
+866	Kōchi	red	87	akai	a k ai	190	435	
+867	Sado	red	87	akai	a k ai	190	435	
+868	Oki	red	87	akeː	a k eː	190	435	
+869	Kagoshima	red	87	aike	ai k e	190	435	
+870	Miyako	green	88	au	au	192	273	
+871	Tōkyō	green	88	a.oi	a oi	192	273	
+872	Amami	green	88	ʔoːsari	ʔ oː s a r i	191	220	
+873	Kyōto	green	88	a.oi	a oi	192	273	
+874	Hachijō	green	88	a.okʲa	a o kʲ a	192	273	
+875	Shuri	green	88	ʔoːsaɴ	ʔ oː s a ɴ	191	220	
+876	Kōchi	green	88	a.oi	a oi	192	273	
+877	Sado	green	88	a.oi	a oi	192	273	
+878	Oki	green	88	aweː	a w eː	192	273	
+879	Kagoshima	green	88	a.o	a o	192	273	
+880	Miyako	yellow	89	ʦɨːru	ʦ ɨː r u	193	400	
+881	Tōkyō	yellow	89	kiːroi	k iː r oi	193	400	
+882	Amami	yellow	89	kiːsari	k iː s a r i	193	400	
+883	Kyōto	yellow	89	kiːroi	k iː r oi	193	400	
+884	Hachijō	yellow	89	kiːrokʲa	k iː r o kʲ a	193	400	
+885	Shuri	yellow	89	ʨiːru	ʨ iː r u	193	400	
+886	Kōchi	yellow	89	kiːroi	k iː r oi	193	400	
+887	Sado	yellow	89	kiːroi	k iː r oi	193	400	
+888	Oki	yellow	89	kiːro	k iː r o	193	400	
+889	Kagoshima	yellow	89	kiː	k iː	193	400	
+890	Miyako	white	90	sːu	sː u	194	98	
+891	Tōkyō	white	90	siroi	s i r oi	194	317	
+892	Amami	white	90	sirusari	s i r u s a r i	194	317	
+893	Kyōto	white	90	siroi	s i r oi	194	317	
+894	Hachijō	white	90	sirokʲa	s i r o kʲ a	194	317	
+895	Shuri	white	90	sirusaɴ	s i r u s a ɴ	194	317	
+896	Kōchi	white	90	siroi	s i r oi	194	317	
+897	Sado	white	90	siroi	s i r oi	194	317	
+898	Oki	white	90	sireː	s i r eː	194	317	
+899	Kagoshima	white	90	sire	s i r e	194	317	
+900	Miyako	black	91	fu	f u	195	399	
+901	Tōkyō	black	91	kuroi	k u r oi	195	399	
+902	Amami	black	91	kurusari	k u r u s a r i	195	399	
+903	Kyōto	black	91	kuroi	k u r oi	195	399	
+904	Hachijō	black	91	kurokʲa	k u r o kʲ a	195	399	
+905	Shuri	black	91	kurusaɴ	k u r u s a ɴ	195	399	
+906	Kōchi	black	91	kuroi	k u r oi	195	399	
+907	Sado	black	91	kuroi	k u r oi	195	399	
+908	Oki	black	91	kureː	k u r eː	195	399	
+909	Kagoshima	black	91	kure	k u r e	195	399	
+910	Miyako	night	92	juɭ	j u ɭ	196	387	
+911	Tōkyō	night	92	joru	j o r u	196	387	
+912	Amami	night	92	juru	j u r u	196	387	
+913	Kyōto	night	92	joru	j o r u	196	387	
+914	Hachijō	night	92	joru	j o r u	196	387	
+915	Shuri	night	92	juru	j u r u	196	387	
+916	Kōchi	night	92	joru	j o r u	196	387	
+917	Sado	night	92	joru	j o r u	196	387	
+918	Oki	night	92	joru	j o r u	196	387	
+919	Kagoshima	night	92	baiɴ	b ai ɴ	197	161	
+920	Miyako	hot (warm)	93	aʦɨ	a ʦ ɨ	199	284	
+921	Tōkyō	hot (warm)	93	aʦui	a ʦ ui	199	284	
+922	Amami	hot (warm)	93	ʔaʦɨsari	ʔ a ʦ ɨ s a r i	199	284	
+923	Kyōto	hot (warm)	93	aʦui	a ʦ ui	199	284	
+924	Hachijō	hot (warm)	93	hotoːtːe	h o t oː tː e	198	180	
+925	Shuri	hot (warm)	93	ʔaɕisaɴ	ʔ a ɕ i s a ɴ	199	284	
+926	Kōchi	hot (warm)	93	atui	a t ui	199	284	
+927	Sado	hot (warm)	93	aʦui	a ʦ ui	199	284	
+928	Oki	hot (warm)	93	nokiː	n o k iː	200	84	
+929	Kagoshima	hot (warm)	93	aʨi	a ʨ i	199	284	
+930	Miyako	cold	94	piʃi	p i ʃ i	201	95	
+931	Tōkyō	cold	94	samui	s a m ui	203	333	
+932	Amami	cold	94	higurusari	h i g u r u s a r i	201	333	
+933	Kyōto	cold	94	sabui	s a b ui	203	333	
+934	Hachijō	cold	94	kogiete	k o g ie t e	202	40	
+935	Shuri	cold	94	hwiːsaɴ	h w iː s a ɴ	201	304	
+936	Kōchi	cold	94	hijai	h i j ai	201	304	
+937	Sado	cold	94	samui	s a m ui	203	333	
+938	Oki	cold	94	sabiː	s a b iː	203	333	
+939	Kagoshima	cold	94	sami	s a m i	203	333	
+940	Miyako	full	95	mti	m t i	206	447	
+941	Tōkyō	full	95	ipːai	i pː ai	204	237	
+942	Amami	full	95	zoɴbai	z o ɴ b ai	205	62	
+943	Kyōto	full	95	ipːai	i pː ai	204	237	
+944	Hachijō	full	95	ipːia	i pː ia	204	237	
+945	Shuri	full	95	miː	m iː	206	447	
+946	Kōchi	full	95	ipːai	i pː ai	204	237	
+947	Sado	full	95	ipːai	i pː ai	204	237	
+948	Oki	full	95	epːeː	e pː eː	204	237	
+949	Kagoshima	full	95	pːe	pː e	204	237	
+950	Miyako	new	96	mɨː	m ɨː	210	247	
+951	Tōkyō	new	96	atarasiː	a t a r a s iː	207	418	
+952	Amami	new	96	miːsari	m iː s a r i	210	56	
+953	Kyōto	new	96	sara	s a r a	208	13	
+954	Hachijō	new	96	atarasikʲa	a t a r a s i kʲ a	207	418	
+955	Shuri	new	96	miːsaɴ	m iː s a ɴ	210	56	
+956	Kōchi	new	96	siɴkina	s i ɴ k i n a	209	123	
+957	Sado	new	96	atarasiː	a t a r a s iː	207	418	
+958	Oki	new	96	atarasi	a t a r a s i	207	418	
+959	Kagoshima	new	96	nike	n i k e	210	208	
+960	Miyako	good	97	ʣautuː	ʣ au t uː	214	74	
+961	Tōkyō	good	97	iː	iː	211	190	
+962	Amami	good	97	iʨːari	i ʨː a r i	212	412	
+963	Kyōto	good	97	eː	eː	211	25	
+964	Hachijō	good	97	jokːja	j o kː j a	215	130	
+965	Shuri	good	97	jutaɕaɴ	j u t a ɕ a ɴ	213	196	
+966	Kōchi	good	97	eː	eː	211	156	
+967	Sado	good	97	eː	eː	211	120	
+968	Oki	good	97	eː	eː	211	34	
+969	Kagoshima	good	97	joka	j o k a	215	130	
+970	Miyako	round	98	maːkoːmaːko	m aː k oː m aː k o	216	308	
+971	Tōkyō	round	98	marui	m a r ui	216	179	
+972	Amami	round	98	marusari	m a r u s a r i	216	179	
+973	Kyōto	round	98	marui	m a r ui	216	179	
+974	Hachijō	round	98	marukʲa	m a r u kʲ a	216	179	
+975	Shuri	round	98	marusaɴ	m a r u s a ɴ	216	179	
+976	Kōchi	round	98	marui	m a r ui	216	179	
+977	Sado	round	98	marui	m a r ui	216	179	
+978	Oki	round	98	mariː	m a r iː	216	179	
+979	Kagoshima	round	98	maɴmairi	m a ɴ m ai r i	216	179	
+980	Miyako	dry	99	kaːraʦɨ	k aː r a ʦ ɨ	217	509	
+981	Tōkyō	dry	99	kawaita	k a w ai t a	218	509	
+982	Amami	dry	99	xoraʨaɴ	x o r a ʨ a ɴ	217	2	
+983	Kyōto	dry	99	kawaita	k a w ai t a	218	509	
+984	Hachijō	dry	99	kuatːe	k ua tː e	218	509	
+985	Shuri	dry	99	kaːraʦoːru	k aː r a ʦ oː r u	217	509	
+986	Kōchi	dry	99	kawaita	k a w ai t a	218	509	
+987	Sado	dry	99	hoseta	h o s e t a	219	278	
+988	Oki	dry	99	ɸita	ɸ i t a	220	215	
+989	Kagoshima	dry	99	kaeta	k ae t a	218	509	
+990	Miyako	name	100	naː	n aː	221	384	
+991	Tōkyō	name	100	namae	n a m ae	221	384	
+992	Amami	name	100	naː	n aː	221	384	
+993	Kyōto	name	100	naː	n aː	221	384	
+994	Hachijō	name	100	namia	n a m ia	221	384	
+995	Shuri	name	100	naː	n aː	221	384	
+996	Kōchi	name	100	na	n a	221	384	
+997	Sado	name	100	nama	n a m a	221	384	
+998	Oki	name	100	na	n a	221	384	
+999	Kagoshima	name	100	nai	n ai	221	384	
+1000	Miyako	ye	101	vːadu	vː a d u	222	365	
+1001	Tōkyō	ye	101	aɴtataʨi	a ɴ t a t a ʨ i	224	295	
+1002	Amami	ye	101	ʔʲaxja	ʔʲ a x j a	222	142	
+1003	Kyōto	ye	101	aɴtara	a ɴ t a r a	224	45	
+1004	Hachijō	ye	101	omiɴsia	o m i ɴ s ia	223	300	
+1005	Shuri	ye	101	ʔitːaː	ʔ i tː aː	222	204	
+1006	Kōchi	ye	101	oɴsiraː	o ɴ s i r aː	226	117	
+1007	Sado	ye	101	unaʨi	u n a ʨ i	225	181	
+1008	Oki	ye	101	omaera	o m ae r a	227	6	
+1009	Kagoshima	ye	101	waidoɴ	w ai d o ɴ	228	212	
+1010	Miyako	he	102	kanup͡sɨtu	k a n u p͡s ɨ t u	231	517	
+1011	Tōkyō	he	102	anohito	a n o h i t o	230	517	
+1012	Amami	he	102	ʔaɴʨu	ʔ a ɴ ʨ u	230	517	
+1013	Kyōto	he	102	anohito	a n o h i t o	230	517	
+1014	Hachijō	he	102	ora	o r a	229	31	
+1015	Shuri	he	102	ʔanuʦːu	ʔ a n u ʦː u	230	517	
+1016	Kōchi	he	102	anohito	a n o h i t o	230	517	
+1017	Sado	he	102	anohito	a n o h i t o	230	517	
+1018	Oki	he	102	are	a r e	230	268	
+1019	Kagoshima	he	102	aiː	aiː	230	268	
+1020	Miyako	they	103	kanukʲa	k a n u kʲ a	234	69	
+1021	Tōkyō	they	103	anohitotaʨi	a n o h i t o t a ʨ i	233	327	
+1022	Amami	they	103	ʔaɴʨuɴxja	ʔ a ɴ ʨ u ɴ x j a	233	398	
+1023	Kyōto	they	103	anohitojara	a n o h i t o j a r a	233	327	
+1024	Hachijō	they	103	oraɴsia	o r a ɴ s ia	232	108	
+1025	Shuri	they	103	ʔatːaː	ʔ a tː aː	233	197	
+1026	Kōchi	they	103	anohitotati	a n o h i t o t a t i	233	327	
+1027	Sado	they	103	anohitotaʨi	a n o h i t o t a ʨ i	233	327	
+1028	Oki	they	103	aera	ae r a	233	515	
+1029	Kagoshima	they	103	aiːdoɴ	aiː d o ɴ	233	345	
+1030	Miyako	how	104	nau	n au	236	32	
+1031	Tōkyō	how	104	doː	d oː	238	432	
+1032	Amami	how	104	xjasi	x j a s i	235	11	
+1033	Kyōto	how	104	doː	d oː	238	432	
+1034	Hachijō	how	104	zuguan	z u g ua n	237	342	
+1035	Shuri	how	104	ʦaː	ʦ aː	235	72	
+1036	Kōchi	how	104	doː	d oː	238	432	
+1037	Sado	how	104	dogaini	d o g ai n i	238	462	
+1038	Oki	how	104	doŋe	d o ŋ e	238	462	
+1039	Kagoshima	how	104	ikeɴ	i k e ɴ	235	451	
+1040	Miyako	when	105	iʦɨ	i ʦ ɨ	239	313	
+1041	Tōkyō	when	105	iʦu	i ʦ u	239	313	
+1042	Amami	when	105	ʔiʦɨ	ʔ i ʦ ɨ	239	313	
+1043	Kyōto	when	105	iʦu	i ʦ u	239	313	
+1044	Hachijō	when	105	iʦu	i ʦ u	239	313	
+1045	Shuri	when	105	ʔiɕi	ʔ i ɕ i	239	313	
+1046	Kōchi	when	105	itu	i t u	239	313	
+1047	Sado	when	105	iʦu	i ʦ u	239	313	
+1048	Oki	when	105	eʦu	e ʦ u	239	313	
+1049	Kagoshima	when	105	iː	iː	239	186	
+1050	Miyako	where	106	izaŋ	i z a ŋ	243	444	
+1051	Tōkyō	where	106	doko	d o k o	240	421	
+1052	Amami	where	106	daː	d aː	241	354	
+1053	Kyōto	where	106	doko	d o k o	240	421	
+1054	Hachijō	where	106	doko	d o k o	240	421	
+1055	Shuri	where	106	maː	m aː	242	367	
+1056	Kōchi	where	106	doko	d o k o	240	421	
+1057	Sado	where	106	doko	d o k o	240	421	
+1058	Oki	where	106	doko	d o k o	240	421	
+1059	Kagoshima	where	106	doko	d o k o	240	421	
+1060	Miyako	here	107	koman	k o m a n	244	49	
+1061	Tōkyō	here	107	koko	k o k o	245	340	
+1062	Amami	here	107	xuma	x u m a	244	49	
+1063	Kyōto	here	107	koko	k o k o	245	340	
+1064	Hachijō	here	107	koko	k o k o	245	340	
+1065	Shuri	here	107	kuma	k u m a	244	49	
+1066	Kōchi	here	107	koko	k o k o	245	340	
+1067	Sado	here	107	koko	k o k o	245	340	
+1068	Oki	here	107	koko	k o k o	245	340	
+1069	Kagoshima	here	107	koko	k o k o	245	340	
+1070	Miyako	there	108	kama	k a m a	249	377	
+1071	Tōkyō	there	108	asuko	a s u k o	247	343	
+1072	Amami	there	108	ʔama	ʔ a m a	248	377	
+1073	Kyōto	there	108	ako	a k o	247	343	
+1074	Hachijō	there	108	uku	u k u	246	510	
+1075	Shuri	there	108	ʔama	ʔ a m a	248	377	
+1076	Kōchi	there	108	ako	a k o	247	343	
+1077	Sado	there	108	ako	a k o	247	343	
+1078	Oki	there	108	asuko	a s u k o	247	343	
+1079	Kagoshima	there	108	asiko	a s i k o	247	343	
+1080	Miyako	other	109	pukanu	p u k a n u	250	437	
+1081	Tōkyō	other	109	hokano	h o k a n o	250	437	
+1082	Amami	other	109	biʨina	b i ʨ i n a	251	448	
+1083	Kyōto	other	109	hokano	h o k a n o	250	437	
+1084	Hachijō	other	109	hokua	h o k ua	250	437	
+1085	Shuri	other	109	biɕinu	b i ɕ i n u	251	448	
+1086	Kōchi	other	109	hokano	h o k a n o	250	437	
+1087	Sado	other	109	hokanoɴ	h o k a n o ɴ	250	437	
+1088	Oki	other	109	hokano	h o k a n o	250	437	
+1089	Kagoshima	other	109	hokaɴ	h o k a ɴ	250	437	
+1090	Miyako	three	110	miːʦɨ	m iː ʦ ɨ	252	498	
+1091	Tōkyō	three	110	miʦːu	m i ʦː u	252	498	
+1092	Amami	three	110	miːʦɨ	m iː ʦ ɨ	252	498	
+1093	Kyōto	three	110	miʦːu	m i ʦː u	252	498	
+1094	Hachijō	three	110	miʦːu	m i ʦː u	252	498	
+1095	Shuri	three	110	miːɕi	m iː ɕ i	252	498	
+1096	Kōchi	three	110	mitːu	m i tː u	252	498	
+1097	Sado	three	110	miʦːu	m i ʦː u	252	498	
+1098	Oki	three	110	miʦːu	m i ʦː u	252	498	
+1099	Kagoshima	three	110	mi	m i	252	59	
+1100	Miyako	four	111	juːʦɨ	j uː ʦ ɨ	253	416	
+1101	Tōkyō	four	111	joʦːu	j o ʦː u	253	416	
+1102	Amami	four	111	juːʦɨ	j uː ʦ ɨ	253	416	
+1103	Kyōto	four	111	joʦːu	j o ʦː u	253	416	
+1104	Hachijō	four	111	joʦːu	j o ʦː u	253	416	
+1105	Shuri	four	111	juːɕi	j uː ɕ i	253	416	
+1106	Kōchi	four	111	jotːu	j o tː u	253	416	
+1107	Sado	four	111	joʦːu	j o ʦː u	253	416	
+1108	Oki	four	111	joʦːu	j o ʦː u	253	416	
+1109	Kagoshima	four	111	joi	j oi	253	137	
+1110	Miyako	five	112	iʦɨʦɨ	i ʦ ɨ ʦ ɨ	254	401	
+1111	Tōkyō	five	112	iʦuʦu	i ʦ u ʦ u	254	401	
+1112	Amami	five	112	ʔiʦɨʦɨ	ʔ i ʦ ɨ ʦ ɨ	254	401	
+1113	Kyōto	five	112	iʦuʦu	i ʦ u ʦ u	254	401	
+1114	Hachijō	five	112	iʦuʦu	i ʦ u ʦ u	254	401	
+1115	Shuri	five	112	ʔiɕiɕi	ʔ i ɕ i ɕ i	254	401	
+1116	Kōchi	five	112	itutu	i t u t u	254	401	
+1117	Sado	five	112	iʦuʦu	i ʦ u ʦ u	254	401	
+1118	Oki	five	112	eʦuʦu	e ʦ u ʦ u	254	401	
+1119	Kagoshima	five	112	iʦu	i ʦ u	254	401	
+1120	Miyako	few	113	ipiːtʃa	i p iː t ʃ a	259	251	
+1121	Tōkyō	few	113	sukunai	s u k u n ai	256	199	
+1122	Amami	few	113	ʔikirasari	ʔ i k i r a s a r i	258	199	
+1123	Kyōto	few	113	sukenai	s u k e n ai	256	199	
+1124	Hachijō	few	113	ʨiːto	ʨ iː t o	255	94	
+1125	Shuri	few	113	ʔikirasaɴ	ʔ i k i r a s a ɴ	258	199	
+1126	Kōchi	few	113	bitːo	b i tː o	257	63	
+1127	Sado	few	113	sukunai	s u k u n ai	256	199	
+1128	Oki	few	113	ʨiːto	ʨ iː t o	255	94	
+1129	Kagoshima	few	113	sunːe	s u nː e	256	199	
+1130	Miyako	sky	114	tin	t i n	-260	392	
+1131	Tōkyō	sky	114	sora	s o r a	261	150	
+1132	Amami	sky	114	θɨɴ	θ ɨ ɴ	-260	392	
+1133	Kyōto	sky	114	teɴ	t e ɴ	-260	392	
+1134	Hachijō	sky	114	sora	s o r a	261	150	
+1135	Shuri	sky	114	tiɴ	t i ɴ	-260	392	
+1136	Kōchi	sky	114	sora	s o r a	261	150	
+1137	Sado	sky	114	teɴʥiku	t e ɴ ʥ i k u	-260	211	
+1138	Oki	sky	114	teɴ	t e ɴ	-260	392	
+1139	Kagoshima	sky	114	teiɴ	t ei ɴ	-260	392	
+1140	Miyako	day	115	sɨkama	s ɨ k a m a	263	124	
+1141	Tōkyō	day	115	hiruma	h i r u m a	262	526	
+1142	Amami	day	115	hiruhiɴma	h i r u h i ɴ m a	262	526	
+1143	Kyōto	day	115	hiruma	h i r u m a	262	526	
+1144	Hachijō	day	115	hiruma	h i r u m a	262	526	
+1145	Shuri	day	115	hwiru	h w i r u	262	526	
+1146	Kōchi	day	115	hiruma	h i r u m a	262	526	
+1147	Sado	day	115	hiruma	h i r u m a	262	526	
+1148	Oki	day	115	ɸiru	ɸ i r u	262	526	
+1149	Kagoshima	day	115	hiːi	h iːi	262	526	
+1150	Miyako	fog	116	ʦɨː	ʦ ɨː	264	338	
+1151	Tōkyō	fog	116	kiri	k i r i	264	338	
+1152	Amami	fog	116	kiri	k i r i	264	338	
+1153	Kyōto	fog	116	kiri	k i r i	264	338	
+1154	Hachijō	fog	116	kiri	k i r i	264	338	
+1155	Shuri	fog	116	ʨiri	ʨ i r i	264	338	
+1156	Kōchi	fog	116	kiri	k i r i	264	338	
+1157	Sado	fog	116	moja	m o j a	265	285	
+1158	Oki	fog	116	moja	m o j a	265	285	
+1159	Kagoshima	fog	116	kiːi	k iːi	264	338	
+1160	Miyako	wind	117	kaʤi	k a ʤ i	266	458	
+1161	Tōkyō	wind	117	kaze	k a z e	266	458	
+1162	Amami	wind	117	xaze	x a z e	266	458	
+1163	Kyōto	wind	117	kaze	k a z e	266	458	
+1164	Hachijō	wind	117	kaze	k a z e	266	458	
+1165	Shuri	wind	117	kaʤi	k a ʤ i	266	458	
+1166	Kōchi	wind	117	kaze	k a z e	266	458	
+1167	Sado	wind	117	kaze	k a z e	266	458	
+1168	Oki	wind	117	kaze	k a z e	266	458	
+1169	Kagoshima	wind	117	kaize	k ai z e	266	458	
+1170	Miyako	flow	118	nagariɭ	n a g a r i ɭ	267	525	
+1171	Tōkyō	flow	118	naŋareru	n a ŋ a r e r u	267	525	
+1172	Amami	flow	118	nagareruri	n a g a r e r u r i	267	525	
+1173	Kyōto	flow	118	naŋareru	n a ŋ a r e r u	267	525	
+1174	Hachijō	flow	118	nagareru	n a g a r e r u	267	525	
+1175	Shuri	flow	118	nagarijuɴ	n a g a r i j u ɴ	267	525	
+1176	Kōchi	flow	118	nagareru	n a g a r e r u	267	525	
+1177	Sado	flow	118	nagareru	n a g a r e r u	267	525	
+1178	Oki	flow	118	nagareru	n a g a r e r u	267	525	
+1179	Kagoshima	flow	118	nagaru	n a g a r u	267	525	
+1180	Miyako	sea	119	im	i m	268	370	
+1181	Tōkyō	sea	119	umi	u m i	268	370	
+1182	Amami	sea	119	ʔumi	ʔ u m i	268	370	
+1183	Kyōto	sea	119	umi	u m i	268	370	
+1184	Hachijō	sea	119	umi	u m i	268	370	
+1185	Shuri	sea	119	ʔumi	ʔ u m i	268	370	
+1186	Kōchi	sea	119	umi	u m i	268	370	
+1187	Sado	sea	119	umi	u m i	268	370	
+1188	Oki	sea	119	omi	o m i	268	370	
+1189	Kagoshima	sea	119	uɴ	u ɴ	268	96	
+1190	Tōkyō	lake	120	mizuːmi	m i z uː m i	270	351	
+1191	Amami	lake	120	ʔixi	ʔ i x i	269	487	
+1192	Kyōto	lake	120	mizuːmi	m i z uː m i	270	351	
+1193	Hachijō	lake	120	ike	i k e	269	487	
+1194	Shuri	lake	120	ʔuhugumui	ʔ u h u g u m ui	271	70	
+1195	Kōchi	lake	120	ike	i k e	269	487	
+1196	Sado	lake	120	ike	i k e	269	487	
+1197	Oki	lake	120	eke	e k e	269	487	
+1198	Kagoshima	lake	120	mizuiuɴ	m i z uiu ɴ	270	351	
+1199	Miyako	rain	121	ami	a m i	272	500	
+1200	Tōkyō	rain	121	ameŋa	a m e ŋ a	272	500	
+1201	Amami	rain	121	ʔamɨ	ʔ a m ɨ	272	500	
+1202	Kyōto	rain	121	ameŋa	a m e ŋ a	272	500	
+1203	Hachijō	rain	121	ame	a m e	272	500	
+1204	Shuri	rain	121	ʔaminu	ʔ a m i n u	272	500	
+1205	Kōchi	rain	121	ame	a m e	272	500	
+1206	Sado	rain	121	amega	a m e g a	272	500	
+1207	Oki	rain	121	ame	a m e	272	500	
+1208	Kagoshima	rain	121	ame	a m e	272	500	
+1209	Miyako	wet	122	mːiɭ	mː i ɭ	275	41	
+1210	Tōkyō	wet	122	nureta	n u r e t a	274	239	
+1211	Amami	wet	122	neːθa	n eː θ a	274	259	
+1212	Kyōto	wet	122	nureta	n u r e t a	274	239	
+1213	Hachijō	wet	122	pietua	p ie t ua	273	131	
+1214	Shuri	wet	122	ɴditoːru	ɴ d i t oː r u	274	382	
+1215	Kōchi	wet	122	nureta	n u r e t a	274	239	
+1216	Sado	wet	122	nureta	n u r e t a	274	239	
+1217	Oki	wet	122	noreta	n o r e t a	274	239	
+1218	Kagoshima	wet	122	nureita	n u r ei t a	274	239	
+1219	Miyako	wash	123	arau	a r au	276	393	
+1220	Tōkyō	wash	123	arau	a r au	276	393	
+1221	Amami	wash	123	ʔarauri	ʔ a r au r i	276	393	
+1222	Kyōto	wash	123	arau	a r au	276	393	
+1223	Hachijō	wash	123	arau	a r au	276	393	
+1224	Shuri	wash	123	ʔarajuɴ	ʔ a r a j u ɴ	276	393	
+1225	Kōchi	wash	123	arau	a r au	276	393	
+1226	Sado	wash	123	arau	a r au	276	393	
+1227	Oki	wash	123	arao	a r ao	276	393	
+1228	Kagoshima	wash	123	airu	ai r u	276	393	
+1229	Miyako	snake	124	pau	p au	277	386	
+1230	Tōkyō	snake	124	hebi	h e b i	278	386	
+1231	Amami	snake	124	nagamuɴ	n a g a m u ɴ	280	201	
+1232	Kyōto	snake	124	hebi	h e b i	278	386	
+1233	Hachijō	snake	124	hebume	h e b u m e	278	386	
+1234	Shuri	snake	124	nagamuɴ	n a g a m u ɴ	280	201	
+1235	Kōchi	snake	124	hebi	h e b i	278	386	
+1236	Sado	snake	124	hebi	h e b i	278	386	
+1237	Oki	snake	124	kuʨina	k u ʨ i n a	279	383	
+1238	Kagoshima	snake	124	he	h e	278	386	
+1239	Miyako	worm	125	musɨ	m u s ɨ	281	348	
+1240	Tōkyō	worm	125	musi	m u s i	281	348	
+1241	Amami	worm	125	musi	m u s i	281	348	
+1242	Kyōto	worm	125	musi	m u s i	281	348	
+1243	Hachijō	worm	125	musime	m u s i m e	281	348	
+1244	Shuri	worm	125	musi	m u s i	281	348	
+1245	Kōchi	worm	125	musi	m u s i	281	348	
+1246	Sado	worm	125	musi	m u s i	281	348	
+1247	Oki	worm	125	mosi	m o s i	281	348	
+1248	Kagoshima	worm	125	muiɕ	m ui ɕ	281	348	
+1249	Tōkyō	back	126	senaka	s e n a k a	283	360	
+1250	Amami	back	126	xusi	x u s i	284	138	
+1251	Kyōto	back	126	senaka	s e n a k a	283	360	
+1252	Hachijō	back	126	hedaka	h e d a k a	282	360	
+1253	Shuri	back	126	nagani	n a g a n i	285	360	
+1254	Kōchi	back	126	senaka	s e n a k a	283	360	
+1255	Sado	back	126	senaka	s e n a k a	283	360	
+1256	Oki	back	126	sena	s e n a	283	360	
+1257	Kagoshima	back	126	senaka	s e n a k a	283	360	
+1258	Miyako	leg	127	karapaʣɨ	k a r a p a ʣ ɨ	287	12	
+1259	Tōkyō	leg	127	asi	a s i	288	472	
+1260	Amami	leg	127	hagi	h a g i	287	139	
+1261	Kyōto	leg	127	asi	a s i	288	472	
+1262	Hachijō	leg	127	hagi	h a g i	287	139	
+1263	Shuri	leg	127	hwiɕa	h w i ɕ a	286	252	
+1264	Kōchi	leg	127	asi	a s i	288	472	
+1265	Sado	leg	127	mukoːzune	m u k oː z u n e	286	403	
+1266	Oki	leg	127	asi	a s i	288	472	
+1267	Kagoshima	leg	127	aɕ	a ɕ	288	61	
+1268	Miyako	arm	128	udi	u d i	289	442	
+1269	Tōkyō	arm	128	ude	u d e	289	442	
+1270	Amami	arm	128	xeːnʲa	x eː nʲ a	291	250	
+1271	Kyōto	arm	128	teː	t eː	290	81	
+1272	Hachijō	arm	128	ude	u d e	289	442	
+1273	Shuri	arm	128	tiː	t iː	290	81	
+1274	Kōchi	arm	128	ude	u d e	289	442	
+1275	Sado	arm	128	ude	u d e	289	442	
+1276	Oki	arm	128	ode	o d e	289	442	
+1277	Kagoshima	arm	128	te	t e	290	81	
+1278	Miyako	wing	129	panigazɨ	p a n i g a z ɨ	292	443	
+1279	Tōkyō	wing	129	hane	h a n e	294	443	
+1280	Amami	wing	129	haɴge	h a ɴ g e	294	443	
+1281	Kyōto	wing	129	hane	h a n e	294	443	
+1282	Hachijō	wing	129	hane	h a n e	294	443	
+1283	Shuri	wing	129	hani	h a n i	294	443	
+1284	Kōchi	wing	129	tubasa	t u b a s a	293	115	
+1285	Sado	wing	129	hane	h a n e	295	443	
+1286	Oki	wing	129	hane	h a n e	294	443	
+1287	Kagoshima	wing	129	haine	h ai n e	294	443	
+1288	Miyako	lip	130	suba	s u b a	297	485	
+1289	Tōkyō	lip	130	kuʨibiru	k u ʨ i b i r u	296	485	
+1290	Amami	lip	130	ʔwɨːsɨba	ʔ w ɨː s ɨ b a	297	97	
+1291	Kyōto	lip	130	kuʨibiru	k u ʨ i b i r u	296	485	
+1292	Hachijō	lip	130	kuʨibiru	k u ʨ i b i r u	296	485	
+1293	Shuri	lip	130	ʃiba	ʃ i b a	297	485	
+1294	Kōchi	lip	130	kutibiro	k u t i b i r o	296	485	
+1295	Sado	lip	130	kuʨibera	k u ʨ i b e r a	296	485	
+1296	Oki	lip	130	kuʨibero	k u ʨ i b e r o	296	485	
+1297	Kagoshima	lip	130	suba	s u b a	297	485	
+1298	Amami	lip	130	ɕaːsɨba	ɕ aː s ɨ b a	297	485	
+1299	Tōkyō	fur	131	keŋawa	k e ŋ a w a	298	511	
+1300	Amami	fur	131	xɨɴxo	x ɨ ɴ x o	298	315	
+1301	Kyōto	fur	131	keŋawa	k e ŋ a w a	298	511	
+1302	Hachijō	fur	131	kegua	k e g ua	298	511	
+1303	Shuri	fur	131	kaː	k aː	299	91	
+1304	Kōchi	fur	131	kegawa	k e g a w a	298	511	
+1305	Sado	fur	131	kegawa	k e g a w a	298	511	
+1306	Oki	fur	131	keŋawa	k e ŋ a w a	298	511	
+1307	Kagoshima	fur	131	kegaiwa	k e g ai w a	298	511	
+1308	Miyako	navel	132	mːbu	mː b u	301	113	
+1309	Tōkyō	navel	132	oheso	o h e s o	300	326	
+1310	Amami	navel	132	husu	h u s u	300	326	
+1311	Kyōto	navel	132	heso	h e s o	300	326	
+1312	Hachijō	navel	132	heʦːogo	h e ʦː o g o	300	326	
+1313	Shuri	navel	132	husu	h u s u	300	326	
+1314	Kōchi	navel	132	heso	h e s o	300	326	
+1315	Sado	navel	132	heso	h e s o	300	326	
+1316	Oki	navel	132	ɸeso	ɸ e s o	300	326	
+1317	Kagoshima	navel	132	heiso	h ei s o	300	326	
+1318	Tōkyō	guts	133	harawata	h a r a w a t a	303	265	
+1319	Amami	guts	133	waθa	w a θ a	303	223	
+1320	Kyōto	guts	133	harawata	h a r a w a t a	303	265	
+1321	Hachijō	guts	133	haruta	h a r u t a	303	265	
+1322	Shuri	guts	133	watamiːmuɴ	w a t a m iː m u ɴ	302	51	
+1323	Kōchi	guts	133	harawata	h a r a w a t a	303	265	
+1324	Sado	guts	133	harawata	h a r a w a t a	303	265	
+1325	Oki	guts	133	harawata	h a r a w a t a	303	265	
+1326	Kagoshima	guts	133	zuzuwata	z u z u w a t a	303	265	
+1327	Miyako	saliva (splits)	134	ʦɨʦɨ	ʦ ɨ ʦ ɨ	304	446	
+1328	Tōkyō	saliva (splits)	134	ʦuba	ʦ u b a	304	446	
+1329	Amami	saliva (splits)	134	ʦɨzɨ	ʦ ɨ z ɨ	304	446	
+1330	Kyōto	saliva (splits)	134	ʦuba	ʦ u b a	304	446	
+1331	Hachijō	saliva (splits)	134	ʦudaki	ʦ u d a k i	304	446	
+1332	Shuri	saliva (splits)	134	ɕiɴpeː	ɕ i ɴ p eː	304	64	
+1333	Kōchi	saliva (splits)	134	tuba	t u b a	304	446	
+1334	Sado	saliva (splits)	134	ʦubaki	ʦ u b a k i	304	446	
+1335	Oki	saliva (splits)	134	ʦubake	ʦ u b a k e	304	446	
+1336	Kagoshima	saliva (splits)	134	ʦuba	ʦ u b a	304	446	
+1337	Miyako	milk	135	ʦɨː	ʦ ɨː	305	395	
+1338	Tōkyō	milk	135	oʨiʨi	o ʨ i ʨ i	305	395	
+1339	Amami	milk	135	ʨi	ʨ i	305	395	
+1340	Kyōto	milk	135	ʨiʨi	ʨ i ʨ i	305	395	
+1341	Hachijō	milk	135	ʨi	ʨ i	305	395	
+1342	Shuri	milk	135	ʨiː	ʨ iː	305	395	
+1343	Kōchi	milk	135	titi	t i t i	305	395	
+1344	Sado	milk	135	ʨiʨi	ʨ i ʨ i	305	395	
+1345	Oki	milk	135	ʨi	ʨ i	305	395	
+1346	Kagoshima	milk	135	ʨiʨi	ʨ i ʨ i	305	395	
+1347	Miyako	fruit	136	naɭ	n a ɭ	306	483	
+1348	Tōkyō	fruit	136	mi	m i	307	483	
+1349	Amami	fruit	136	nari	n a r i	306	483	
+1350	Kyōto	fruit	136	miː	m iː	307	483	
+1351	Hachijō	fruit	136	mi	m i	307	483	
+1352	Shuri	fruit	136	nai	n ai	306	483	
+1353	Kōchi	fruit	136	mi	m i	307	483	
+1354	Sado	fruit	136	mi	m i	307	483	
+1355	Oki	fruit	136	mi	m i	307	483	
+1356	Kagoshima	fruit	136	miː	m iː	307	483	
+1357	Miyako	flower	137	pana	p a n a	308	449	
+1358	Tōkyō	flower	137	hana	h a n a	308	449	
+1359	Amami	flower	137	hana	h a n a	308	449	
+1360	Kyōto	flower	137	hana	h a n a	308	449	
+1361	Hachijō	flower	137	hana	h a n a	308	449	
+1362	Shuri	flower	137	hana	h a n a	308	449	
+1363	Kōchi	flower	137	hana	h a n a	308	449	
+1364	Sado	flower	137	hana	h a n a	308	449	
+1365	Oki	flower	137	hana	h a n a	308	449	
+1366	Kagoshima	flower	137	hana	h a n a	308	449	
+1367	Miyako	gras	138	fusa	f u s a	309	490	
+1368	Tōkyō	gras	138	kusa	k u s a	309	490	
+1369	Amami	gras	138	kusa	k u s a	309	490	
+1370	Kyōto	gras	138	kusa	k u s a	309	490	
+1371	Hachijō	gras	138	kusa	k u s a	309	490	
+1372	Shuri	gras	138	kusa	k u s a	309	490	
+1373	Kōchi	gras	138	kusa	k u s a	309	490	
+1374	Sado	gras	138	kusa	k u s a	309	490	
+1375	Oki	gras	138	kusa	k u s a	309	490	
+1376	Kagoshima	gras	138	kusa	k u s a	309	490	
+1377	Miyako	with	139	tu	t u	310	269	
+1378	Tōkyō	with	139	to	t o	310	269	
+1379	Amami	with	139	θu	θ u	310	269	
+1380	Kyōto	with	139	to	t o	310	269	
+1381	Hachijō	with	139	to	t o	310	269	
+1382	Shuri	with	139	tu	t u	310	269	
+1383	Kōchi	with	139	to	t o	310	269	
+1384	Sado	with	139	to	t o	310	269	
+1385	Oki	with	139	to	t o	310	269	
+1386	Kagoshima	with	139	to	t o	310	269	
+1387	Miyako	in	140	n	n	311	29	
+1388	Tōkyō	in	140	ni	n i	311	413	
+1389	Amami	in	140	naɴ	n a ɴ	311	26	
+1390	Kyōto	in	140	ni	n i	311	413	
+1391	Hachijō	in	140	ni	n i	311	413	
+1392	Shuri	in	140	nakai	n a k ai	311	28	
+1393	Kōchi	in	140	ni	n i	311	413	
+1394	Sado	in	140	ni	n i	311	413	
+1395	Oki	in	140	ni	n i	311	413	
+1396	Kagoshima	in	140	i	i	311	4	
+1397	Miyako	at	141	n	n	312	205	
+1398	Tōkyō	at	141	de	d e	313	470	
+1399	Amami	at	141	naɴθɨ	n a ɴ θ ɨ	313	14	
+1400	Kyōto	at	141	de	d e	313	470	
+1401	Hachijō	at	141	de	d e	313	470	
+1402	Shuri	at	141	uti	u t i	313	0	
+1403	Kōchi	at	141	de	d e	313	470	
+1404	Sado	at	141	de	d e	313	470	
+1405	Oki	at	141	de	d e	313	470	
+1406	Kagoshima	at	141	de	d e	313	470	
+1407	Miyako	if	142	musɨ	m u s ɨ	314	240	
+1408	Tōkyō	if	142	mosi	m o s i	314	240	
+1409	Amami	if	142	jaθaʨiʨi	j a θ a ʨ i ʨ i	316	222	
+1410	Kyōto	if	142	mosi	m o s i	314	240	
+1411	Hachijō	if	142	mosi	m o s i	314	240	
+1412	Shuri	if	142	musi	m u s i	314	240	
+1413	Kōchi	if	142	hjotːo	h j o tː o	315	80	
+1414	Sado	if	142	mosi	m o s i	314	240	
+1415	Oki	if	142	mosi	m o s i	314	240	
+1416	Kagoshima	if	142	moɕika	m o ɕ i k a	314	83	
+1417	Miyako	mother	143	mːa	mː a	317	195	
+1418	Tōkyō	mother	143	okaːsaɴ	o k aː s a ɴ	318	256	
+1419	Amami	mother	143	ʔaɴma	ʔ a ɴ m a	320	68	
+1420	Kyōto	mother	143	okaːʨaɴ	o k aː ʨ a ɴ	318	256	
+1421	Hachijō	mother	143	kaka	k a k a	318	209	
+1422	Shuri	mother	143	winagunu	w i n a g u n u	321	516	
+1423	Kōchi	mother	143	okaːsaɴ	o k aː s a ɴ	318	256	
+1424	Sado	mother	143	umai	u m ai	319	195	
+1425	Oki	mother	143	kaka	k a k a	318	209	
+1426	Kagoshima	mother	143	okaːhaɴ	o k aː h a ɴ	318	256	
+1427	Miyako	father	144	ɨza	ɨ z a	328	106	
+1428	Tōkyō	father	144	otoːsaɴ	o t oː s a ɴ	323	391	
+1429	Amami	father	144	ʥu	ʥ u	326	136	
+1430	Kyōto	father	144	otoʨːaɴ	o t o ʨː a ɴ	323	391	
+1431	Hachijō	father	144	ma	m a	322	368	
+1432	Shuri	father	144	wikiganu	w i k i g a n u	327	60	
+1433	Kōchi	father	144	otoːsaɴ	o t oː s a ɴ	323	391	
+1434	Sado	father	144	daɴ	d a ɴ	324	146	
+1435	Oki	father	144	teʦːaɴ	t e ʦː a ɴ	325	391	
+1436	Kagoshima	father	144	otoʦːaɴ	o t o ʦː a ɴ	323	391	
+1437	Miyako	husband	145	butu	b u t u	331	493	
+1438	Tōkyō	husband	145	ɕuʥiɴ	ɕ u ʥ i ɴ	330	512	
+1439	Amami	husband	145	uθu	u θ u	331	493	
+1440	Kyōto	husband	145	ɕuʥiɴ	ɕ u ʥ i ɴ	330	512	
+1441	Hachijō	husband	145	ʨieɕu	ʨ ie ɕ u	329	234	
+1442	Shuri	husband	145	utu	u t u	331	493	
+1443	Kōchi	husband	145	ɕuʥiɴ	ɕ u ʥ i ɴ	330	512	
+1444	Sado	husband	145	otːo	o tː o	331	493	
+1445	Oki	husband	145	otoko	o t o k o	332	24	
+1446	Kagoshima	husband	145	jado	j a d o	333	107	
+1447	Miyako	wife	146	tuʣɨ	t u ʣ ɨ	336	254	
+1448	Tōkyō	wife	146	kanai	k a n ai	338	280	
+1449	Amami	wife	146	θuʥi	θ u ʥ i	336	254	
+1450	Kyōto	wife	146	kaka	k a k a	338	280	
+1451	Hachijō	wife	146	jome	j o m e	337	8	
+1452	Shuri	wife	146	tuʥi	t u ʥ i	336	254	
+1453	Kōchi	wife	146	kanai	k a n ai	338	280	
+1454	Sado	wife	146	kaːsaɴ	k aː s a ɴ	338	92	
+1455	Oki	wife	146	nʲoːba	nʲ oː b a	334	182	
+1456	Kagoshima	wife	146	ukːaita	u kː ai t a	335	280	
+1457	Miyako	salt	147	maːso	m aː s o	340	495	
+1458	Tōkyō	salt	147	si.o	s i o	339	495	
+1459	Amami	salt	147	maɕu	m a ɕ u	340	495	
+1460	Kyōto	salt	147	si.o	s i o	339	495	
+1461	Hachijō	salt	147	ɕo	ɕ o	339	495	
+1462	Shuri	salt	147	maːɕu	m aː ɕ u	340	495	
+1463	Kōchi	salt	147	sijo	s i j o	339	495	
+1464	Sado	salt	147	si.o	s i o	339	495	
+1465	Oki	salt	147	si.o	s i o	339	495	
+1466	Kagoshima	salt	147	si.o	s i o	339	495	
+1467	Tōkyō	ice	148	koːri	k oː r i	341	489	
+1468	Kyōto	ice	148	koːri	k oː r i	341	489	
+1469	Hachijō	ice	148	koːri	k oː r i	341	489	
+1470	Kōchi	ice	148	koːri	k oː r i	341	489	
+1471	Sado	ice	148	koːri	k oː r i	341	489	
+1472	Oki	ice	148	koːri	k oː r i	341	489	
+1473	Kagoshima	ice	148	koːi	k oːi	341	489	
+1474	Miyako	snow	149	juʦɨ	j u ʦ ɨ	342	455	
+1475	Tōkyō	snow	149	juki	j u k i	342	455	
+1476	Amami	snow	149	juki	j u k i	342	455	
+1477	Kyōto	snow	149	juki	j u k i	342	455	
+1478	Hachijō	snow	149	juki	j u k i	342	455	
+1479	Shuri	snow	149	juʨi	j u ʨ i	342	455	
+1480	Kōchi	snow	149	juki	j u k i	342	455	
+1481	Sado	snow	149	juki	j u k i	342	455	
+1482	Oki	snow	149	eki	e k i	342	82	
+1483	Kagoshima	snow	149	jui	j ui	342	455	
+1484	Tōkyō	freeze	150	koːru	k oː r u	343	316	
+1485	Kyōto	freeze	150	koːru	k oː r u	343	316	
+1486	Hachijō	freeze	150	koːru	k oː r u	343	316	
+1487	Kōchi	freeze	150	koːru	k oː r u	343	316	
+1488	Sado	freeze	150	koːru	k oː r u	343	316	
+1489	Oki	freeze	150	koːru	k oː r u	343	316	
+1490	Kagoshima	freeze	150	koː	k oː	343	316	
+1491	Miyako	child	151	jarabi	j a r a b i	345	185	
+1492	Tōkyō	child	151	kodomo	k o d o m o	344	320	
+1493	Amami	child	151	warabɨ	w a r a b ɨ	345	185	
+1494	Kyōto	child	151	kodomo	k o d o m o	344	320	
+1495	Hachijō	child	151	kodomo	k o d o m o	344	320	
+1496	Shuri	child	151	warabi	w a r a b i	345	185	
+1497	Kōchi	child	151	kodomo	k o d o m o	344	320	
+1498	Sado	child	151	kodomo	k o d o m o	344	320	
+1499	Oki	child	151	kodomo	k o d o m o	344	320	
+1500	Kagoshima	child	151	koidoɴ	k oi d o ɴ	344	320	
+1501	Miyako	dark	152	fːa	fː a	346	149	
+1502	Tōkyō	dark	152	kurai	k u r ai	346	501	
+1503	Amami	dark	152	kurasari	k u r a s a r i	346	501	
+1504	Kyōto	dark	152	kurai	k u r ai	346	501	
+1505	Hachijō	dark	152	kurakʲa	k u r a kʲ a	346	501	
+1506	Shuri	dark	152	kurasaɴ	k u r a s a ɴ	346	501	
+1507	Kōchi	dark	152	kurai	k u r ai	346	501	
+1508	Sado	dark	152	kurai	k u r ai	346	501	
+1509	Oki	dark	152	kureː	k u r eː	346	501	
+1510	Kagoshima	dark	152	kuire	k ui r e	346	501	
+1511	Miyako	cut	153	ʦɨːʦɨː	ʦ ɨː ʦ ɨː	347	477	
+1512	Tōkyō	cut	153	kiru	k i r u	347	477	
+1513	Amami	cut	153	kiruri	k i r u r i	347	477	
+1514	Kyōto	cut	153	kiru	k i r u	347	477	
+1515	Hachijō	cut	153	kiru	k i r u	347	477	
+1516	Shuri	cut	153	ʨijuɴ	ʨ i j u ɴ	347	477	
+1517	Kōchi	cut	153	kiru	k i r u	347	477	
+1518	Sado	cut	153	kiru	k i r u	347	477	
+1519	Oki	cut	153	kiru	k i r u	347	477	
+1520	Kagoshima	cut	153	kit	k i t	347	477	
+1521	Miyako	wide	154	p͡sɨsu	p͡s ɨ s u	348	373	
+1522	Tōkyō	wide	154	hiroi	h i r oi	348	373	
+1523	Amami	wide	154	hirusari	h i r u s a r i	348	373	
+1524	Kyōto	wide	154	hiroi	h i r oi	348	373	
+1525	Hachijō	wide	154	hirokʲa	h i r o kʲ a	348	373	
+1526	Shuri	wide	154	hwirusaɴ	h w i r u s a ɴ	348	373	
+1527	Kōchi	wide	154	hiroi	h i r oi	348	373	
+1528	Sado	wide	154	hiroi	h i r oi	348	373	
+1529	Oki	wide	154	ɸureː	ɸ u r eː	348	373	
+1530	Kagoshima	wide	154	hire	h i r e	348	373	
+1531	Miyako	narrow	155	iba	i b a	0	229	
+1532	Tōkyō	narrow	155	semai	s e m ai	350	329	
+1533	Amami	narrow	155	sebasari	s e b a s a r i	350	329	
+1534	Kyōto	narrow	155	sebai	s e b ai	350	329	
+1535	Hachijō	narrow	155	sebakʲa	s e b a kʲ a	350	329	
+1536	Shuri	narrow	155	ʃibasaɴ	ʃ i b a s a ɴ	350	329	
+1537	Kōchi	narrow	155	sebai	s e b ai	350	329	
+1538	Sado	narrow	155	semai	s e m ai	350	329	
+1539	Oki	narrow	155	semeː	s e m eː	350	329	
+1540	Kagoshima	narrow	155	seme	s e m e	350	329	
+1541	Miyako	far	156	tuː	t uː	351	521	
+1542	Tōkyō	far	156	toːi	t oːi	351	521	
+1543	Amami	far	156	θuːsari	θ uː s a r i	351	521	
+1544	Kyōto	far	156	toi	t oi	351	521	
+1545	Hachijō	far	156	toːkʲa	t oː kʲ a	351	521	
+1546	Shuri	far	156	tuːsaɴ	t uː s a ɴ	351	521	
+1547	Kōchi	far	156	toːi	t oːi	351	521	
+1548	Sado	far	156	toːkui	t oː k ui	351	521	
+1549	Oki	far	156	toweː	t o w eː	351	521	
+1550	Kagoshima	far	156	toie	t oie	351	521	
+1551	Miyako	near	157	atːsa	a tː s a	353	48	
+1552	Tōkyō	near	157	ʨikai	ʨ i k ai	352	260	
+1553	Amami	near	157	ʨikʲasari	ʨ i kʲ a s a r i	352	260	
+1554	Kyōto	near	157	ʨikai	ʨ i k ai	352	260	
+1555	Hachijō	near	157	ʨikakʲa	ʨ i k a kʲ a	352	260	
+1556	Shuri	near	157	ʨiʦasaɴ	ʨ i ʦ a s a ɴ	352	260	
+1557	Kōchi	near	157	tikai	t i k ai	352	260	
+1558	Sado	near	157	ʨikai	ʨ i k ai	352	260	
+1559	Oki	near	157	ʨikeː	ʨ i k eː	352	260	
+1560	Kagoshima	near	157	ʨike	ʨ i k e	352	260	
+1561	Miyako	thick	158	uda	u d a	355	7	
+1562	Tōkyō	thick	158	aʦui	a ʦ ui	354	409	
+1563	Amami	thick	158	ʔaʨiɕari	ʔ a ʨ i ɕ a r i	354	409	
+1564	Kyōto	thick	158	goʦui	g o ʦ ui	355	409	
+1565	Hachijō	thick	158	aʦukʲa	a ʦ u kʲ a	354	409	
+1566	Shuri	thick	158	ʔaɕisaɴ	ʔ a ɕ i s a ɴ	354	409	
+1567	Kōchi	thick	158	atui	a t ui	354	409	
+1568	Sado	thick	158	aʦui	a ʦ ui	354	409	
+1569	Oki	thick	158	aʨiː	a ʨ iː	354	409	
+1570	Kagoshima	thick	158	aiʨi	ai ʨ i	354	409	
+1571	Miyako	thin	159	p͡sɨsɨ	p͡s ɨ s ɨ	357	405	
+1572	Tōkyō	thin	159	usui	u s ui	356	405	
+1573	Amami	thin	159	hisːari	h i sː a r i	357	192	
+1574	Kyōto	thin	159	usui	u s ui	356	405	
+1575	Hachijō	thin	159	usukʲa	u s u kʲ a	356	405	
+1576	Shuri	thin	159	hwisːaɴ	h w i sː a ɴ	357	192	
+1577	Kōchi	thin	159	usui	u s ui	356	405	
+1578	Sado	thin	159	usui	u s ui	356	405	
+1579	Oki	thin	159	osiː	o s iː	356	405	
+1580	Kagoshima	thin	159	uisi	ui s i	356	405	
+1581	Miyako	short	160	maru	m a r u	358	271	
+1582	Tōkyō	short	160	miʥikai	m i ʥ i k ai	359	271	
+1583	Amami	short	160	ʔikːjasari	ʔ i kː j a s a r i	360	166	
+1584	Kyōto	short	160	miʥikai	m i ʥ i k ai	359	271	
+1585	Hachijō	short	160	miʥikakʲa	m i ʥ i k a kʲ a	359	271	
+1586	Shuri	short	160	ʔiɴʦasaɴ	ʔ i ɴ ʦ a s a ɴ	360	166	
+1587	Kōchi	short	160	mizoi	m i z oi	359	271	
+1588	Sado	short	160	miʥikai	m i ʥ i k ai	359	271	
+1589	Oki	short	160	meʨikeː	m e ʨ i k eː	359	271	
+1590	Kagoshima	short	160	miɕke	m i ɕ k e	359	271	
+1591	Miyako	heavy	161	ivu	i v u	361	145	
+1592	Tōkyō	heavy	161	omoi	o m oi	361	429	
+1593	Amami	heavy	161	ʔubusari	ʔ u b u s a r i	361	429	
+1594	Kyōto	heavy	161	omotai	o m o t ai	361	429	
+1595	Hachijō	heavy	161	omokʲa	o m o kʲ a	361	429	
+1596	Shuri	heavy	161	ʔɴbusaɴ	ʔ ɴ b u s a ɴ	361	429	
+1597	Kōchi	heavy	161	omotai	o m o t ai	361	429	
+1598	Sado	heavy	161	omoi	o m oi	361	429	
+1599	Oki	heavy	161	omeː	o m eː	361	429	
+1600	Kagoshima	heavy	161	oimi	oi m i	361	429	
+1601	Miyako	dull	162	pizuriːduːɭ	p i z u r iː d uː ɭ	366	16	
+1602	Tōkyō	dull	162	kirenai	k i r e n ai	362	341	
+1603	Amami	dull	162	kiriraɴ	k i r i r a ɴ	362	341	
+1604	Kyōto	dull	162	kireheɴ	k i r e h e ɴ	362	341	
+1605	Hachijō	dull	162	kireɴnua	k i r e ɴ n ua	362	341	
+1606	Shuri	dull	162	tataɴ	t a t a ɴ	365	75	
+1607	Kōchi	dull	162	namakura	n a m a k u r a	364	170	
+1608	Sado	dull	162	nibui	n i b ui	363	3	
+1609	Oki	dull	162	kireɴ	k i r e ɴ	362	341	
+1610	Kagoshima	dull	162	kireɴ	k i r e ɴ	362	341	
+1611	Miyako	sharp	163	ʧːi	ʧː i	369	44	
+1612	Tōkyō	sharp	163	kireru	k i r e r u	369	488	
+1613	Amami	sharp	163	kiriruɴ	k i r i r u ɴ	369	488	
+1614	Kyōto	sharp	163	kireru	k i r e r u	369	488	
+1615	Hachijō	sharp	163	kirero	k i r e r o	369	488	
+1616	Shuri	sharp	163	taʦuɴ	t a ʦ u ɴ	368	488	
+1617	Kōchi	sharp	163	kireru	k i r e r u	369	488	
+1618	Sado	sharp	163	surudoi	s u r u d oi	367	167	
+1619	Oki	sharp	163	joː	j oː	369	153	
+1620	Kagoshima	sharp	163	kiru	k i r u	369	488	
+1621	Miyako	dirty	164	ʃːanagi	ʃː a n a g i	375	328	
+1622	Tōkyō	dirty	164	kitanai	k i t a n ai	370	424	
+1623	Amami	dirty	164	janagesari	j a n a g e s a r i	373	93	
+1624	Kyōto	dirty	164	kitanai	k i t a n ai	370	424	
+1625	Hachijō	dirty	164	kitanakʲa	k i t a n a kʲ a	370	424	
+1626	Shuri	dirty	164	hagoːsaɴ	h a g oː s a ɴ	374	36	
+1627	Kōchi	dirty	164	dakina	d a k i n a	372	344	
+1628	Sado	dirty	164	jogoretoru	j o g o r e t o r u	371	20	
+1629	Oki	dirty	164	kitaneː	k i t a n eː	370	424	
+1630	Kagoshima	dirty	164	kisːane	k i sː a n e	370	424	
+1631	Miyako	rotten	165	p͡sɨta	p͡s ɨ t a	378	100	
+1632	Tōkyō	rotten	165	warui	w a r ui	376	298	
+1633	Amami	rotten	165	warusari	w a r u s a r i	376	298	
+1634	Kyōto	rotten	165	warui	w a r ui	376	298	
+1635	Hachijō	rotten	165	warukʲa	w a r u kʲ a	376	298	
+1636	Shuri	rotten	165	wasːaɴ	w a sː a ɴ	376	394	
+1637	Kōchi	rotten	165	hegona	h e g o n a	377	244	
+1638	Sado	rotten	165	warui	w a r ui	376	298	
+1639	Oki	rotten	165	wariː	w a r iː	376	298	
+1640	Kagoshima	rotten	165	wari	w a r i	376	298	
+1641	Miyako	bad	166	fusaritam	f u s a r i t a m	379	466	
+1642	Tōkyō	bad	166	kusatːa	k u s a tː a	379	466	
+1643	Amami	bad	166	kusareθa	k u s a r e θ a	379	466	
+1644	Kyōto	bad	166	kusatːa	k u s a tː a	379	466	
+1645	Hachijō	bad	166	kusarua	k u s a r ua	379	466	
+1646	Shuri	bad	166	kuʦːoːru	k u ʦː oː r u	379	466	
+1647	Kōchi	bad	166	kusatːa	k u s a tː a	379	466	
+1648	Sado	bad	166	kusatːa	k u s a tː a	379	466	
+1649	Oki	bad	166	kusatːa	k u s a tː a	379	466	
+1650	Kagoshima	bad	166	kesːareta	k e sː a r e t a	379	466	
+1651	Miyako	smooth	167	nabɭɨː	n a b ɭ ɨː	383	158	
+1652	Tōkyō	smooth	167	subekːoi	s u b e kː oi	381	379	
+1653	Amami	smooth	167	nabirosari	n a b i r o s a r i	383	85	
+1654	Kyōto	smooth	167	ʦuruʦuru	ʦ u r u ʦ u r u	382	202	
+1655	Hachijō	smooth	167	zuberua	z u b e r ua	381	379	
+1656	Shuri	smooth	167	nadutːeːɴ	n a d u tː eː ɴ	380	88	
+1657	Kōchi	smooth	167	subesubesitʲuː	s u b e s u b e s i tʲ uː	381	291	
+1658	Sado	smooth	167	ʦuraʦura	ʦ u r a ʦ u r a	382	202	
+1659	Oki	smooth	167	ʦuruʦuru	ʦ u r u ʦ u r u	382	202	
+1660	Kagoshima	smooth	167	ʦuruɴ	ʦ u r u ɴ	382	202	
+1661	Miyako	straight	168	matːoːβu	m a tː oː β u	386	494	
+1662	Tōkyō	straight	168	masːuŋuna	m a sː u ŋ u n a	384	494	
+1663	Amami	straight	168	masːɨgu	m a sː ɨ g u	384	494	
+1664	Kyōto	straight	168	masːuŋuna	m a sː u ŋ u n a	384	494	
+1665	Hachijō	straight	168	masːugudua	m a sː u g u d ua	384	494	
+1666	Shuri	straight	168	matːoːba	m a tː oː b a	386	494	
+1667	Kōchi	straight	168	masːugu	m a sː u g u	384	494	
+1668	Sado	straight	168	masːugu	m a sː u g u	384	494	
+1669	Oki	straight	168	nosana	n o s a n a	385	423	
+1670	Kagoshima	straight	168	masːugu	m a sː u g u	384	494	
+1671	Miyako	correct (right)	169	atariːduːɭ	a t a r iː d uː ɭ	392	188	
+1672	Tōkyō	correct (right)	169	iː	iː	387	307	
+1673	Amami	correct (right)	169	iʨːari	i ʨː a r i	390	144	
+1674	Kyōto	correct (right)	169	eː	eː	387	112	
+1675	Hachijō	correct (right)	169	jokːja	j o kː j a	393	174	
+1676	Shuri	correct (right)	169	jutaɕaɴ	j u t a ɕ a ɴ	391	134	
+1677	Kōchi	correct (right)	169	eː	eː	387	71	
+1678	Sado	correct (right)	169	tadasiː	t a d a s iː	388	301	
+1679	Oki	correct (right)	169	eː	eː	387	277	
+1680	Kagoshima	correct (right)	169	naiːʨo	n aiː ʨ o	389	219	
+1681	Miyako	left	170	pɨdaɭ	p ɨ d a ɭ	394	407	
+1682	Tōkyō	left	170	hidari	h i d a r i	394	407	
+1683	Amami	left	170	hiʥari	h i ʥ a r i	394	407	
+1684	Kyōto	left	170	hidari	h i d a r i	394	407	
+1685	Hachijō	left	170	hidari	h i d a r i	394	407	
+1686	Shuri	left	170	hwizai	h w i z ai	394	407	
+1687	Kōchi	left	170	hidari	h i d a r i	394	407	
+1688	Sado	left	170	hidari	h i d a r i	394	407	
+1689	Oki	left	170	ɸudari	ɸ u d a r i	394	407	
+1690	Kagoshima	left	170	hidai	h i d ai	394	407	
+1691	Miyako	right	171	nʦɨ	n ʦ ɨ	395	111	
+1692	Tōkyō	right	171	miŋi	m i ŋ i	395	242	
+1693	Amami	right	171	nigiri	n i g i r i	395	242	
+1694	Kyōto	right	171	miŋi	m i ŋ i	395	242	
+1695	Hachijō	right	171	nigiri	n i g i r i	395	242	
+1696	Shuri	right	171	niʥiri	n i ʥ i r i	395	242	
+1697	Kōchi	right	171	migi	m i g i	395	242	
+1698	Sado	right	171	migi	m i g i	395	242	
+1699	Oki	right	171	miŋi	m i ŋ i	395	242	
+1700	Kagoshima	right	171	miː	m iː	395	65	
+1701	Miyako	old	172	gaba	g a b a	397	99	
+1702	Tōkyō	old	172	hurui	h u r ui	396	520	
+1703	Amami	old	172	hurusari	h u r u s a r i	396	520	
+1704	Kyōto	old	172	hurui	h u r ui	396	520	
+1705	Hachijō	old	172	hurusikʲa	h u r u s i kʲ a	396	520	
+1706	Shuri	old	172	hurusaɴ	h u r u s a ɴ	396	520	
+1707	Kōchi	old	172	hurui	h u r ui	396	520	
+1708	Sado	old	172	hurusiː	h u r u s iː	396	520	
+1709	Oki	old	172	ɸuriː	ɸ u r iː	396	520	
+1710	Kagoshima	old	172	ɸuri	ɸ u r i	396	520	
+1711	Tōkyō	rub	173	kosuru	k o s u r u	398	286	
+1712	Amami	rub	173	sɨruri	s ɨ r u r i	399	286	
+1713	Kyōto	rub	173	kosuru	k o s u r u	398	286	
+1714	Hachijō	rub	173	kosuru	k o s u r u	398	286	
+1715	Shuri	rub	173	ʃijuɴ	ʃ i j u ɴ	399	286	
+1716	Kōchi	rub	173	kosuru	k o s u r u	398	286	
+1717	Sado	rub	173	kosuru	k o s u r u	398	286	
+1718	Oki	rub	173	kosuru	k o s u r u	398	286	
+1719	Kagoshima	rub	173	kosu	k o s u	398	286	
+1720	Miyako	pull	174	pikau	p i k au	400	496	
+1721	Tōkyō	pull	174	hipːaru	h i pː a r u	400	496	
+1722	Amami	pull	174	hipːaruri	h i pː a r u r i	400	496	
+1723	Kyōto	pull	174	hipːaru	h i pː a r u	400	496	
+1724	Hachijō	pull	174	hipːaru	h i pː a r u	400	496	
+1725	Shuri	pull	174	hwiʦuɴ	h w i ʦ u ɴ	400	496	
+1726	Kōchi	pull	174	hipːaru	h i pː a r u	400	496	
+1727	Sado	pull	174	hipːaru	h i pː a r u	400	496	
+1728	Oki	pull	174	ɕabaru	ɕ a b a r u	400	496	
+1729	Kagoshima	pull	174	hipːa	h i pː a	400	496	
+1730	Miyako	push	175	usɨ	u s ɨ	401	428	
+1731	Tōkyō	push	175	osu	o s u	401	428	
+1732	Amami	push	175	ʔusuri	ʔ u s u r i	401	428	
+1733	Kyōto	push	175	osu	o s u	401	428	
+1734	Hachijō	push	175	osu	o s u	401	428	
+1735	Shuri	push	175	ʔuɕuɴ	ʔ u ɕ u ɴ	401	428	
+1736	Kōchi	push	175	tuku	t u k u	402	22	
+1737	Sado	push	175	osu	o s u	401	428	
+1738	Oki	push	175	osu	o s u	401	428	
+1739	Kagoshima	push	175	ois	oi s	401	428	
+1740	Miyako	throw	176	jaɭ	j a ɭ	405	15	
+1741	Tōkyō	throw	176	naŋeru	n a ŋ e r u	404	408	
+1742	Amami	throw	176	nagɨruri	n a g ɨ r u r i	404	408	
+1743	Kyōto	throw	176	horu	h o r u	403	155	
+1744	Hachijō	throw	176	hoːru	h oː r u	403	155	
+1745	Shuri	throw	176	nagijuɴ	n a g i j u ɴ	404	408	
+1746	Kōchi	throw	176	hoːru	h oː r u	403	155	
+1747	Sado	throw	176	nageru	n a g e r u	404	408	
+1748	Oki	throw	176	naŋeru	n a ŋ e r u	404	408	
+1749	Kagoshima	throw	176	nagu	n a g u	404	408	
+1750	Miyako	hit	177	uʦɨ	u ʦ ɨ	411	389	
+1751	Tōkyō	hit	177	naŋuru	n a ŋ u r u	406	58	
+1752	Amami	hit	177	ʔuθuri	ʔ u θ u r i	410	389	
+1753	Kyōto	hit	177	doʦuku	d o ʦ u k u	407	330	
+1754	Hachijō	hit	177	naguru	n a g u r u	406	58	
+1755	Shuri	hit	177	ʔuʦuɴ	ʔ u ʦ u ɴ	410	389	
+1756	Kōchi	hit	177	tataku	t a t a k u	408	249	
+1757	Sado	hit	177	naguru	n a g u r u	406	58	
+1758	Oki	hit	177	dojasu	d o j a s u	409	67	
+1759	Kagoshima	hit	177	utːaku	u tː a k u	410	249	
+1760	Miyako	split	178	sakiɭ	s a k i ɭ	412	372	
+1761	Tōkyō	split	178	sakeru	s a k e r u	412	372	
+1762	Amami	split	178	seheruri	s e h e r u r i	412	372	
+1763	Kyōto	split	178	sakeru	s a k e r u	412	372	
+1764	Hachijō	split	178	sakeru	s a k e r u	412	372	
+1765	Shuri	split	178	sakijuɴ	s a k i j u ɴ	412	372	
+1766	Kōchi	split	178	ɕakeru	ɕ a k e r u	412	372	
+1767	Sado	split	178	sakeru	s a k e r u	412	372	
+1768	Oki	split	178	sakeru	s a k e r u	412	372	
+1769	Kagoshima	split	178	saku	s a k u	412	372	
+1770	Miyako	stick (stab)	179	ʦɨfu	ʦ ɨ f u	413	200	
+1771	Tōkyō	stick (stab)	179	ʦukisasu	ʦ u k i s a s u	413	147	
+1772	Amami	stick (stab)	179	ʦɨkisasuri	ʦ ɨ k i s a s u r i	413	147	
+1773	Kyōto	stick (stab)	179	ʦukisasu	ʦ u k i s a s u	413	147	
+1774	Hachijō	stick (stab)	179	ʦuʨːasu	ʦ u ʨː a s u	413	147	
+1775	Shuri	stick (stab)	179	ɕiʨikuʥijuɴ	ɕ i ʨ i k u ʥ i j u ɴ	413	267	
+1776	Kōchi	stick (stab)	179	tukisasu	t u k i s a s u	413	147	
+1777	Sado	stick (stab)	179	ʦukisasu	ʦ u k i s a s u	413	147	
+1778	Oki	stick (stab)	179	sasu	s a s u	413	18	
+1779	Kagoshima	stick (stab)	179	ʦu.iːsa	ʦ u iː s a	413	147	
+1780	Miyako	dig	180	puɭ	p u ɭ	414	314	
+1781	Tōkyō	dig	180	horu	h o r u	414	314	
+1782	Amami	dig	180	hururi	h u r u r i	414	314	
+1783	Kyōto	dig	180	horu	h o r u	414	314	
+1784	Hachijō	dig	180	horu	h o r u	414	314	
+1785	Shuri	dig	180	hujuɴ	h u j u ɴ	414	314	
+1786	Kōchi	dig	180	horu	h o r u	414	314	
+1787	Sado	dig	180	horu	h o r u	414	314	
+1788	Oki	dig	180	horu	h o r u	414	314	
+1789	Kagoshima	dig	180	ho	h o	414	314	
+1790	Tōkyō	tie	181	musubu	m u s u b u	415	227	
+1791	Amami	tie	181	musuburi	m u s u b u r i	415	227	
+1792	Kyōto	tie	181	musubu	m u s u b u	415	227	
+1793	Hachijō	tie	181	musubu	m u s u b u	415	227	
+1794	Shuri	tie	181	musubuɴ	m u s u b u ɴ	415	227	
+1795	Kōchi	tie	181	musubu	m u s u b u	415	227	
+1796	Sado	tie	181	musubu	m u s u b u	415	227	
+1797	Oki	tie	181	mosubu	m o s u b u	415	227	
+1798	Kagoshima	tie	181	kiːbi	k iː b i	416	101	
+1799	Miyako	sew	182	nuzɨ	n u z ɨ	418	353	
+1800	Tōkyō	sew	182	nuː	n uː	418	353	
+1801	Amami	sew	182	nouri	n ou r i	418	353	
+1802	Kyōto	sew	182	nuː	n uː	418	353	
+1803	Hachijō	sew	182	tozuru	t o z u r u	417	122	
+1804	Shuri	sew	182	noːjuɴ	n oː j u ɴ	419	353	
+1805	Kōchi	sew	182	nuː	n uː	418	353	
+1806	Sado	sew	182	noː	n oː	418	353	
+1807	Oki	sew	182	noː	n oː	418	353	
+1808	Kagoshima	sew	182	nuː	n uː	418	353	
+1809	Miyako	fall	183	utiɭ	u t i ɭ	420	503	
+1810	Tōkyō	fall	183	okːoʨiru	o kː o ʨ i r u	420	503	
+1811	Amami	fall	183	ʔuθɨruri	ʔ u θ ɨ r u r i	420	503	
+1812	Kyōto	fall	183	oʨiru	o ʨ i r u	420	503	
+1813	Hachijō	fall	183	oteru	o t e r u	420	503	
+1814	Shuri	fall	183	ʔutijuɴ	ʔ u t i j u ɴ	420	503	
+1815	Kōchi	fall	183	kokeru	k o k e r u	421	503	
+1816	Sado	fall	183	oʨiru	o ʨ i r u	420	503	
+1817	Oki	fall	183	oʨiru	o ʨ i r u	420	503	
+1818	Kagoshima	fall	183	oʦu	o ʦ u	420	503	
+1819	Miyako	swell	184	fukuriɭ	f u k u r i ɭ	422	467	
+1820	Tōkyō	swell	184	hukureru	h u k u r e r u	422	467	
+1821	Amami	swell	184	hukurɨruri	h u k u r ɨ r u r i	422	467	
+1822	Kyōto	swell	184	hukureru	h u k u r e r u	422	467	
+1823	Hachijō	swell	184	hukureru	h u k u r e r u	422	467	
+1824	Shuri	swell	184	hukːwijuɴ	h u kː w i j u ɴ	422	467	
+1825	Kōchi	swell	184	hukureru	h u k u r e r u	422	467	
+1826	Sado	swell	184	hukureru	h u k u r e r u	422	467	
+1827	Oki	swell	184	ɸukureru	ɸ u k u r e r u	422	467	
+1828	Kagoshima	swell	184	hukuru	h u k u r u	422	467	
+1829	Miyako	think	185	kaŋgaiɭ	k a ŋ g ai ɭ	423	283	
+1830	Tōkyō	think	185	kaɴŋaeru	k a ɴ ŋ ae r u	423	283	
+1831	Amami	think	185	xaɴgeruri	x a ɴ g e r u r i	423	283	
+1832	Kyōto	think	185	kaɴŋaeru	k a ɴ ŋ ae r u	423	283	
+1833	Hachijō	think	185	kaɴgiaru	k a ɴ g ia r u	423	283	
+1834	Shuri	think	185	kaɴgeːjuɴ	k a ɴ g eː j u ɴ	423	283	
+1835	Kōchi	think	185	kaɴgaeru	k a ɴ g ae r u	423	283	
+1836	Sado	think	185	kaɴgaeru	k a ɴ g ae r u	423	283	
+1837	Oki	think	185	kaɴŋaeru	k a ɴ ŋ ae r u	423	283	
+1838	Kagoshima	think	185	kaɴgu	k a ɴ g u	423	283	
+1839	Miyako	sing	186	aːgoː	aː g oː	425	160	
+1840	Tōkyō	sing	186	utau	u t au	424	523	
+1841	Amami	sing	186	oθauri	o θ au r i	424	523	
+1842	Kyōto	sing	186	utau	u t au	424	523	
+1843	Hachijō	sing	186	utou	u t ou	424	523	
+1844	Shuri	sing	186	ʔutajuɴ	ʔ u t a j u ɴ	424	523	
+1845	Kōchi	sing	186	utau	u t au	424	523	
+1846	Sado	sing	186	utau	u t au	424	523	
+1847	Oki	sing	186	otao	o t ao	424	523	
+1848	Kagoshima	sing	186	uito	ui t o	424	523	
+1849	Tōkyō	smell	187	kaŋu	k a ŋ u	427	272	
+1850	Amami	smell	187	xazamuri	x a z a m u r i	429	272	
+1851	Kyōto	smell	187	nioŋu	n io ŋ u	428	183	
+1852	Hachijō	smell	187	kamaru	k a m a r u	426	272	
+1853	Shuri	smell	187	kaʤaɕuɴ	k a ʤ a ɕ u ɴ	429	272	
+1854	Kōchi	smell	187	kamu	k a m u	426	272	
+1855	Sado	smell	187	kagu	k a g u	427	272	
+1856	Oki	smell	187	kaŋu	k a ŋ u	427	272	
+1857	Kagoshima	smell	187	kaizuɴ	k ai z u ɴ	429	272	
+1858	Miyako	puke (vomit)	188	pafu	p a f u	430	406	
+1859	Tōkyō	puke (vomit)	188	haku	h a k u	430	406	
+1860	Amami	puke (vomit)	188	haxuri	h a x u r i	430	406	
+1861	Kyōto	puke (vomit)	188	haku	h a k u	430	406	
+1862	Hachijō	puke (vomit)	188	haku	h a k u	430	406	
+1863	Shuri	puke (vomit)	188	haʦuɴ	h a ʦ u ɴ	430	406	
+1864	Kōchi	puke (vomit)	188	haku	h a k u	430	406	
+1865	Sado	puke (vomit)	188	haku	h a k u	430	406	
+1866	Oki	puke (vomit)	188	haku	h a k u	430	406	
+1867	Kagoshima	puke (vomit)	188	ha	h a	430	406	
+1868	Miyako	suck	189	jub͡zɨ	j u b͡z ɨ	434	87	
+1869	Tōkyō	suck	189	suː	s uː	432	459	
+1870	Amami	suck	189	sibururi	s i b u r u r i	433	459	
+1871	Kyōto	suck	189	suː	s uː	432	459	
+1872	Hachijō	suck	189	nomu	n o m u	431	225	
+1873	Shuri	suck	189	ʃipujuɴ	ʃ i p u j u ɴ	433	459	
+1874	Kōchi	suck	189	nomu	n o m u	431	225	
+1875	Sado	suck	189	suː	s uː	432	459	
+1876	Oki	suck	189	suː	s uː	432	459	
+1877	Kagoshima	suck	189	suiu	s uiu	432	459	
+1878	Miyako	blow	190	fːu	fː u	435	352	
+1879	Tōkyō	blow	190	huku	h u k u	435	352	
+1880	Amami	blow	190	hukuri	h u k u r i	435	352	
+1881	Kyōto	blow	190	huku	h u k u	435	352	
+1882	Hachijō	blow	190	huku	h u k u	435	352	
+1883	Shuri	blow	190	huʦuɴ	h u ʦ u ɴ	435	352	
+1884	Kōchi	blow	190	huku	h u k u	435	352	
+1885	Sado	blow	190	huku	h u k u	435	352	
+1886	Oki	blow	190	ɸuku	ɸ u k u	435	352	
+1887	Kagoshima	blow	190	hu	h u	435	352	
+1888	Miyako	fear	191	uvːiɭ	u vː i ɭ	441	230	
+1889	Tōkyō	fear	191	kowaŋaru	k o w a ŋ a r u	437	381	
+1890	Amami	fear	191	ʔuθuruɕa	ʔ u θ u r u ɕ a	440	381	
+1891	Kyōto	fear	191	kowaŋaru	k o w a ŋ a r u	437	381	
+1892	Hachijō	fear	191	okːanagaru	o kː a n a g a r u	436	381	
+1893	Shuri	fear	191	ʔuturusa	ʔ u t u r u s a	440	381	
+1894	Kōchi	fear	191	odiru	o d i r u	439	230	
+1895	Sado	fear	191	osogagaru	o s o g a g a r u	438	381	
+1896	Oki	fear	191	osoreru	o s o r e r u	440	381	
+1897	Kagoshima	fear	191	otorosːesui	o t o r o sː e s ui	440	381	
+1898	Miyako	squeeze	192	ʃimiɭ	ʃ i m i ɭ	442	411	
+1899	Tōkyō	squeeze	192	simeʦukeru	s i m e ʦ u k e r u	442	411	
+1900	Amami	squeeze	192	semeʦɨkɨruri	s e m e ʦ ɨ k ɨ r u r i	442	411	
+1901	Hachijō	squeeze	192	simeʦukeru	s i m e ʦ u k e r u	442	411	
+1902	Shuri	squeeze	192	simijuɴ	s i m i j u ɴ	442	411	
+1903	Kōchi	squeeze	192	simeru	s i m e r u	442	411	
+1904	Sado	squeeze	192	simeʦukeru	s i m e ʦ u k e r u	442	411	
+1905	Oki	squeeze	192	simeru	s i m e r u	442	411	
+1906	Kagoshima	squeeze	192	simeʦuku	s i m e ʦ u k u	442	411	
+1907	Miyako	hold	193	muʦɨ	m u ʦ ɨ	444	336	
+1908	Tōkyō	hold	193	moʦu	m o ʦ u	444	336	
+1909	Amami	hold	193	muθuri	m u θ u r i	444	336	
+1910	Kyōto	hold	193	moʦu	m o ʦ u	444	336	
+1911	Hachijō	hold	193	sageru	s a g e r u	443	262	
+1912	Shuri	hold	193	muʦuɴ	m u ʦ u ɴ	444	336	
+1913	Kōchi	hold	193	sageru	s a g e r u	443	262	
+1914	Sado	hold	193	moʦu	m o ʦ u	444	336	
+1915	Oki	hold	193	moʦu	m o ʦ u	444	336	
+1916	Kagoshima	hold	193	mo	m o	445	336	
+1917	Miyako	down	194	sɨtaːra	s ɨ t aː r a	446	346	
+1918	Tōkyō	down	194	sitae	s i t ae	446	346	
+1919	Amami	down	194	ɕaːʨi	ɕ aː ʨ i	446	73	
+1920	Kyōto	down	194	sitae	s i t ae	446	346	
+1921	Hachijō	down	194	sita	s i t a	446	346	
+1922	Shuri	down	194	siʦaɴkai	s i ʦ a ɴ k ai	446	366	
+1923	Kōchi	down	194	sita	s i t a	446	346	
+1924	Sado	down	194	sita	s i t a	446	346	
+1925	Oki	down	194	sita	s i t a	446	346	
+1926	Kagoshima	down	194	site	s i t e	446	346	
+1927	Miyako	up	195	waːra	w aː r a	447	164	
+1928	Tōkyō	up	195	ueː	ueː	447	369	
+1929	Amami	up	195	ʔwɨːʨi	ʔ w ɨː ʨ i	447	463	
+1930	Kyōto	up	195	ueː	ueː	447	369	
+1931	Hachijō	up	195	we	w e	447	21	
+1932	Shuri	up	195	ʔwiːɴkai	ʔ w iː ɴ k ai	447	463	
+1933	Kōchi	up	195	ue	ue	447	369	
+1934	Sado	up	195	ue	ue	447	369	
+1935	Oki	up	195	ewe	e w e	447	263	
+1936	Kagoshima	up	195	ueː	ueː	447	369	
+1937	Miyako	ripe	196	mː	mː	448	178	
+1938	Tōkyō	ripe	196	ʥukusita	ʥ u k u s i t a	449	132	
+1939	Amami	ripe	196	ʔuduɴ	ʔ u d u ɴ	448	358	
+1940	Kyōto	ripe	196	ʥukusita	ʥ u k u s i t a	449	132	
+1941	Hachijō	ripe	196	umu	u m u	448	358	
+1942	Shuri	ripe	196	ʔɴdoːru	ʔ ɴ d oː r u	448	154	
+1943	Kōchi	ripe	196	ureta	u r e t a	450	321	
+1944	Sado	ripe	196	uɴda	u ɴ d a	448	105	
+1945	Oki	ripe	196	oreta	o r e t a	450	321	
+1946	Kagoshima	ripe	196	ureita	u r ei t a	450	321	
+1947	Miyako	dust	197	puki	p u k i	451	524	
+1948	Tōkyō	dust	197	hokori	h o k o r i	451	524	
+1949	Amami	dust	197	huhuɴ	h u h u ɴ	453	524	
+1950	Kyōto	dust	197	hokori	h o k o r i	451	524	
+1951	Hachijō	dust	197	hokori	h o k o r i	451	524	
+1952	Shuri	dust	197	hukui	h u k ui	451	524	
+1953	Kōchi	dust	197	hokori	h o k o r i	451	524	
+1954	Sado	dust	197	hokori	h o k o r i	451	524	
+1955	Oki	dust	197	hoke	h o k e	451	524	
+1956	Kagoshima	dust	197	goɴ	g o ɴ	452	518	
+1957	Miyako	alive (live)	198	nːuʦɨduaɭ	nː u ʦ ɨ d ua ɭ	454	475	
+1958	Tōkyō	alive (live)	198	ikiteru	i k i t e r u	455	491	
+1959	Amami	alive (live)	198	ʔikiʨuri	ʔ i k i ʨ u r i	455	491	
+1960	Kyōto	alive (live)	198	ikiteru	i k i t e r u	455	491	
+1961	Hachijō	alive (live)	198	ikite	i k i t e	455	491	
+1962	Shuri	alive (live)	198	ʔiʨiʦoːɴ	ʔ i ʨ i ʦ oː ɴ	455	491	
+1963	Kōchi	alive (live)	198	ikitʲuː	i k i tʲ uː	455	491	
+1964	Sado	alive (live)	198	ikitoru	i k i t o r u	455	491	
+1965	Oki	alive (live)	198	ekeʨoru	e k e ʨ o r u	455	491	
+1966	Kagoshima	alive (live)	198	ikiːʨːo	i k iː ʨː o	455	491	
+1967	Miyako	rope	199	ʦɨna	ʦ ɨ n a	456	404	
+1968	Tōkyō	rope	199	ʦuna	ʦ u n a	456	404	
+1969	Amami	rope	199	ʦɨna	ʦ ɨ n a	456	404	
+1970	Kyōto	rope	199	nawa	n a w a	457	361	
+1971	Hachijō	rope	199	ʦuna	ʦ u n a	456	404	
+1972	Shuri	rope	199	ɕina	ɕ i n a	456	404	
+1973	Kōchi	rope	199	tuna	t u n a	456	404	
+1974	Sado	rope	199	nawa	n a w a	457	361	
+1975	Oki	rope	199	ʦuna	ʦ u n a	456	404	
+1976	Kagoshima	rope	199	ʦuna	ʦ u n a	456	404	
+1977	Miyako	year	200	tusɨ	t u s ɨ	458	288	
+1978	Tōkyō	year	200	tosi	t o s i	458	288	
+1979	Amami	year	200	θusi	θ u s i	458	288	
+1980	Kyōto	year	200	tosi	t o s i	458	288	
+1981	Hachijō	year	200	tosi	t o s i	458	288	
+1982	Shuri	year	200	tusi	t u s i	458	288	
+1983	Kōchi	year	200	tosi	t o s i	458	288	
+1984	Sado	year	200	tosi	t o s i	458	288	
+1985	Oki	year	200	tosi	t o s i	458	288	
+1986	Kagoshima	year	200	toɕ	t o ɕ	458	288	

@@ -17,6 +17,8 @@ module Log : sig
   val lse : t -> t -> t
 
   val sum : t list -> t
+
+  val compare : t -> t -> int
 end
 
 val of_float : float -> t

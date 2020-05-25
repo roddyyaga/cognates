@@ -1,0 +1,590 @@
+ID	Taxon	Gloss	GlossID	IPA	Tokens	CogID	NewCogID	
+1	Spanish	all	1	entero	e n t e r o	2	202	
+2	French	all	1	tu	t u	1	74	
+3	Portuguese	all	1	todu	t o d u	1	102	
+4	Romanian	all	1	tot	t o t	1	102	
+5	Italian	all	1	intɛro	i n t ɛ r o	2	202	
+6	Spanish	all	1	toðo	t o ð o	1	102	
+7	French	all	1	ɑ̃tje	ɑ̃ t j e	2	153	
+8	Romanian	all	1	ɨntreg	ɨ n t r e g	2	52	
+9	Italian	all	1	tutto	t u tː o	1	62	
+10	Spanish	ashes	2	θeniθa	θ e n i θ a	3	91	
+11	French	ashes	2	sɑ̃dʁ	s ɑ̃ d ʁ	3	82	
+12	Portuguese	ashes	2	sĩzɐ	s ĩ z ɐ	3	268	
+13	Romanian	ashes	2	ʧenuʃə	ʧ e n u ʃ ə	3	91	
+14	Italian	ashes	2	ʧenere	ʧ e n e r e	3	91	
+15	Spanish	bark	3	koɾteθa	k o ɾ t e θ a	5	143	
+16	French	bark	3	ekɔʁs	e k ɔ ʁ s	6	145	
+17	Portuguese	bark	3	kaʃkɐ	k a ʃ k ɐ	4	124	
+18	Romanian	bark	3	skwarʦə	s k w a r ʦ ə	6	148	
+19	Italian	bark	3	korteʧʧa	k o r t e ʧː a	5	143	
+20	Spanish	belly	4	bjentre	b j e n t r e	8	246	
+21	French	belly	4	vɑ̃tʁ	v ɑ̃ t ʁ	8	9	
+22	Portuguese	belly	4	vẽtrə	v ẽ t r ə	8	246	
+23	Romanian	belly	4	pənteʦe	p ə n t e ʦ e	7	266	
+24	Italian	belly	4	panʧa	p a n ʧ a	7	246	
+25	Portuguese	belly	4	bɐʀigɐ	b ɐ ʀ i g ɐ	9	151	
+26	Italian	belly	4	vɛntre	v ɛ n t r e	8	246	
+27	Spanish	big	5	ɡɾande	ɡ ɾ a n d e	11	140	
+28	French	big	5	ɡʁã	ɡ ʁ ã	11	163	
+29	Portuguese	big	5	grɐ̃də	g r ɐ̃ d ə	11	140	
+30	Romanian	big	5	mare	m a r e	10	105	
+31	Italian	big	5	ɡrande	ɡ r a n d e	11	140	
+32	Spanish	bird	6	paxaro	p a x a r o	12	305	
+33	French	bird	6	wazo	w a z o	13	189	
+34	Portuguese	bird	6	avə	a v ə	13	51	
+35	Romanian	bird	6	pasəre	p a s ə r e	12	305	
+36	Italian	bird	6	uʧːɛllo	u ʧː ɛ lː o	13	159	
+37	Spanish	bird	6	ave	a v e	13	51	
+38	Portuguese	bird	6	pasɐru	p a s ɐ r u	12	305	
+39	Spanish	bite (V)	7	moɾðeɾ	m o ɾ ð e ɾ	14	265	
+40	French	bite (V)	7	mɔʁdʁ	m ɔ ʁ d ʁ	14	265	
+41	Portuguese	bite (V)	7	murder	m u r d e r	14	265	
+42	Romanian	bite (V)	7	muʃka	m u ʃ k a	14	21	
+43	Italian	bite (V)	7	mɔrdere	m ɔ r d e r e	14	265	
+44	Spanish	black	8	neɣɾo	n e ɣ ɾ o	15	142	
+45	French	black	8	nwaʁ	n w a ʁ	15	177	
+46	Portuguese	black	8	pretu	p r e t u	16	220	
+47	Romanian	black	8	neɡru	n e ɡ r u	15	142	
+48	Italian	black	8	nero	n e r o	15	142	
+49	Spanish	blood	9	saŋɡɾe	s a ŋ ɡ ɾ e	17	116	
+50	French	blood	9	sɑ̃	s ɑ̃	17	24	
+51	Portuguese	blood	9	sɐ̃gə	s ɐ̃ g ə	17	116	
+52	Romanian	blood	9	sɨnʤe	s ɨ n ʤ e	17	86	
+53	Italian	blood	9	saŋɡwe	s a ŋ ɡ w e	17	116	
+54	Spanish	bone	10	weso	w e s o	18	306	
+55	French	bone	10	ɔs	ɔ s	18	306	
+56	Portuguese	bone	10	osu	o s u	18	306	
+57	Romanian	bone	10	os	o s	18	306	
+58	Italian	bone	10	ɔsso	ɔ sː o	18	306	
+59	Spanish	breast	11	seno	s e n o	19	299	
+60	French	breast	11	pwatʁin	p w a t ʁ i n	20	302	
+61	Portuguese	breast	11	pɐjtu	p ɐ j t u	20	137	
+62	Romanian	breast	11	pjept	p j e p t	20	33	
+63	Italian	breast	11	seno	s e n o	19	299	
+64	Spanish	breast	11	peʧo	p e ʧ o	20	263	
+65	French	breast	11	sɛ̃	s ɛ̃	19	2	
+66	Portuguese	breast	11	sɐju	s ɐ j u	19	254	
+67	Romanian	breast	11	sɨn	s ɨ n	19	299	
+68	Italian	breast	11	pɛtto	p ɛ tː o	20	263	
+69	Spanish	burn (V)	12	kemaɾ	k e m a ɾ	21	255	
+70	French	burn (V)	12	bʁyle	b ʁ y l e	22	11	
+71	Portuguese	burn (V)	12	kɐjmar	k ɐ j m a r	21	255	
+72	Romanian	burn (V)	12	arde	a r d e	23	205	
+73	Italian	burn (V)	12	bruʧːare	b r u ʧː a r e	22	296	
+74	Spanish	claw	13	uɲa	u ɲ a	24	138	
+75	French	claw	13	ɔ̃ɡl	ɔ̃ ɡ l	24	267	
+76	Portuguese	claw	13	uɲɐ	u ɲ ɐ	24	138	
+77	Romanian	claw	13	ungje	u n g j e	24	258	
+78	Italian	claw	13	unɡja	u n ɡ j a	24	258	
+79	Spanish	cloud	14	nuβe	n u β e	25	235	
+80	French	cloud	14	nɥaj	n ɥ a j	25	118	
+81	Portuguese	cloud	14	nuvɐ̃j	n u v ɐ̃ j	25	235	
+82	Romanian	cloud	14	nor	n o r	25	262	
+83	Italian	cloud	14	nuvola	n u v o l a	25	235	
+84	Spanish	cold	15	fri.o	f r i o	27	282	
+85	French	cold	15	fʁwa	f ʁ w a	27	80	
+86	Portuguese	cold	15	friw	f r i w	27	282	
+87	Romanian	cold	15	reʧe	r e ʧ e	26	22	
+88	Italian	cold	15	freddo	f r e dː o	27	282	
+89	Romanian	cold	15	frig	f r i g	27	282	
+90	Spanish	come (V)	16	beniɾ	b e n i ɾ	28	161	
+91	French	come (V)	16	vəniʁ	v ə n i ʁ	28	161	
+92	Portuguese	come (V)	16	vir	v i r	28	161	
+93	Romanian	come (V)	16	veni	v e n i	28	161	
+94	Italian	come (V)	16	venire	v e n i r e	28	161	
+95	Spanish	die (V)	17	moɾiɾ	m o ɾ i ɾ	29	154	
+96	French	die (V)	17	muʁiʁ	m u ʁ i ʁ	29	154	
+97	Portuguese	die (V)	17	muʀer	m u ʀ e r	29	154	
+98	Romanian	die (V)	17	muri	m u r i	29	154	
+99	Italian	die (V)	17	morire	m o r i r e	29	154	
+100	Spanish	dog	18	pero	p e r o	-30	238	
+101	French	dog	18	ʃjɛ̃	ʃ j ɛ̃	31	127	
+102	Portuguese	dog	18	kɐ̃uː	k ɐ̃uː	31	15	
+103	Romanian	dog	18	kɨjne	k ɨ j n e	31	253	
+104	Italian	dog	18	kane	k a n e	31	253	
+105	Spanish	drink (V)	19	beβeɾ	b e β e ɾ	32	221	
+106	French	drink (V)	19	bwɑʁ	b w ɑ ʁ	32	16	
+107	Portuguese	drink (V)	19	bəber	b ə b e r	32	221	
+108	Romanian	drink (V)	19	be.a	b e a	32	221	
+109	Italian	drink (V)	19	bere	b e r e	32	221	
+110	Spanish	dry	20	seko	s e k o	33	293	
+111	French	dry	20	sɛk	s ɛ k	33	293	
+112	Portuguese	dry	20	seku	s e k u	33	293	
+113	Romanian	dry	20	sek	s e k	33	293	
+114	Italian	dry	20	sekko	s e kː o	33	293	
+115	Portuguese	dry	20	ẽʃutu	ẽ ʃ u t u	34	294	
+116	Romanian	dry	20	uskat	u s k a t	34	240	
+117	Italian	dry	20	aʃʃutto	a ʃː u tː o	34	294	
+118	Spanish	ear 1	21	oɾexa	o ɾ e x a	35	157	
+119	French	ear 1	21	ɔʁɛj	ɔ ʁ ɛ j	35	157	
+120	Portuguese	ear 1	21	oreʎɐ	o r e ʎ ɐ	35	157	
+121	Romanian	ear 1	21	ureke	u r e k e	35	157	
+122	Italian	ear 1	21	ɔrekkjo	ɔ r e kː j o	35	157	
+123	Spanish	earth	22	tjera	t j e r a	37	260	
+124	French	earth	22	tɛʁ	t ɛ ʁ	37	260	
+125	Portuguese	earth	22	tɛʀɐ	t ɛ ʀ ɐ	37	260	
+126	Romanian	earth	22	pəmɨnt	p ə m ɨ n t	36	75	
+127	Italian	earth	22	tɛrra	t ɛ rː a	37	260	
+128	Spanish	eat (V)	23	komeɾ	k o m e ɾ	39	261	
+129	French	eat (V)	23	mɑ̃ʒe	m ɑ̃ ʒ e	38	211	
+130	Portuguese	eat (V)	23	kumer	k u m e r	39	261	
+131	Romanian	eat (V)	23	mɨnka	m ɨ n k a	38	7	
+132	Italian	eat (V)	23	manʤare	m a n ʤ a r e	38	20	
+133	Spanish	egg	24	weβo	w e β o	40	229	
+134	French	egg	24	œf	œ f	40	108	
+135	Portuguese	egg	24	ovu	o v u	40	229	
+136	Romanian	egg	24	ow	o w	40	178	
+137	Italian	egg	24	wɔvo	w ɔ v o	40	229	
+138	Spanish	eye	25	oxo	o x o	41	232	
+139	French	eye	25	œj	œ j	41	92	
+140	Portuguese	eye	25	oʎu	o ʎ u	41	232	
+141	Romanian	eye	25	oki	o k i	41	232	
+142	Italian	eye	25	ɔkkjo	ɔ kː j o	41	232	
+143	Spanish	fat	26	ɡɾasa	ɡ ɾ a s a	43	147	
+144	French	fat	26	ɡʁɛs	ɡ ʁ ɛ s	43	147	
+145	Portuguese	fat	26	gurdurɐ	g u r d u r ɐ	42	176	
+146	Romanian	fat	26	grəsime	g r ə s i m e	43	139	
+147	Italian	fat	26	ɡrasso	ɡ r a sː o	43	147	
+148	Spanish	fat	26	ɡoɾðo	ɡ o ɾ ð o	42	162	
+149	Spanish	feather	27	pluma	p l u m a	45	96	
+150	French	feather	27	plym	p l y m	45	96	
+151	Portuguese	feather	27	penɐ	p e n ɐ	44	214	
+152	Romanian	feather	27	panə	p a n ə	44	214	
+153	Italian	feather	27	pjuma	p j u m a	45	96	
+154	Italian	feather	27	pɛnna	p ɛ nː a	44	214	
+155	Spanish	fire	28	fweɣo	f w e ɣ o	46	166	
+156	French	fire	28	fø	f ø	46	166	
+157	Portuguese	fire	28	fogu	f o g u	46	166	
+158	Romanian	fire	28	fok	f o k	46	166	
+159	Italian	fire	28	fwɔko	f w ɔ k o	46	166	
+160	Spanish	fish	29	peskaðo	p e s k a ð o	47	17	
+161	French	fish	29	pwasõ	p w a s õ	47	58	
+162	Portuguese	fish	29	pɐjʃə	p ɐ j ʃ ə	47	156	
+163	Romanian	fish	29	peʃte	p e ʃ t e	47	97	
+164	Italian	fish	29	peʃʃe	p e ʃː e	47	97	
+165	Spanish	fly (V)	30	bolaɾ	b o l a ɾ	48	181	
+166	French	fly (V)	30	vɔle	v ɔ l e	48	181	
+167	Portuguese	fly (V)	30	vwar	v w a r	48	181	
+168	Romanian	fly (V)	30	zbura	z b u r a	48	281	
+169	Italian	fly (V)	30	volare	v o l a r e	48	181	
+170	Spanish	foot	31	pje	p j e	49	257	
+171	French	foot	31	pje	p j e	49	257	
+172	Portuguese	foot	31	pɛ	p ɛ	49	257	
+173	Romanian	foot	31	piʧjor	p i ʧ j o r	49	31	
+174	Italian	foot	31	pjɛde	p j ɛ d e	49	257	
+175	Spanish	full	32	ʎeno	ʎ e n o	50	87	
+176	French	full	32	plɛ̃	p l ɛ̃	50	164	
+177	Portuguese	full	32	ʃɐju	ʃ ɐ j u	50	269	
+178	Romanian	full	32	plin	p l i n	50	87	
+179	Italian	full	32	pjɛno	p j ɛ n o	50	87	
+180	Spanish	give (V)	33	daɾ	d a ɾ	51	274	
+181	French	give (V)	33	dɔne	d ɔ n e	51	3	
+182	Portuguese	give (V)	33	dar	d a r	51	274	
+183	Romanian	give (V)	33	da	d a	51	274	
+184	Italian	give (V)	33	dare	d a r e	51	274	
+185	Spanish	good	34	bweno	b w e n o	52	291	
+186	French	good	34	bɔ̃	b ɔ̃	52	95	
+187	Portuguese	good	34	bõ	b õ	52	95	
+188	Romanian	good	34	bun	b u n	52	30	
+189	Italian	good	34	bwɔno	b w ɔ n o	52	291	
+190	Spanish	green	35	beɾðe	b e ɾ ð e	53	131	
+191	French	green	35	vɛʁ	v ɛ ʁ	53	131	
+192	Portuguese	green	35	verdə	v e r d ə	53	131	
+193	Romanian	green	35	verde	v e r d e	53	131	
+194	Italian	green	35	verde	v e r d e	53	131	
+195	Spanish	hair	36	kaβeʎo	k a β e ʎ o	55	234	
+196	French	hair	36	ʃəvø	ʃ ə v ø	55	38	
+197	Portuguese	hair	36	kɐbelu	k ɐ b e l u	55	234	
+198	Romanian	hair	36	pər	p ə r	54	121	
+199	Italian	hair	36	kapello	k a p e lː o	55	234	
+200	Spanish	hand	37	mano	m a n o	56	68	
+201	French	hand	37	mɛ̃	m ɛ̃	56	50	
+202	Portuguese	hand	37	mɐ̃w	m ɐ̃ w	56	68	
+203	Romanian	hand	37	mɨnə	m ɨ n ə	56	152	
+204	Italian	hand	37	mano	m a n o	56	68	
+205	Spanish	head	38	kaβeθa	k a β e θ a	58	278	
+206	French	head	38	tɛt	t ɛ t	57	196	
+207	Portuguese	head	38	kɐbesɐ	k ɐ b e s ɐ	58	278	
+208	Romanian	head	38	kap	k a p	58	250	
+209	Italian	head	38	tɛsta	t ɛ s t a	57	196	
+210	Spanish	hear (V)	39	o.ir	o i r	59	134	
+211	French	hear (V)	39	ɑ̃tɑ̃dʁ	ɑ̃ t ɑ̃ d ʁ	60	247	
+212	Portuguese	hear (V)	39	ovir	o v i r	59	134	
+213	Romanian	hear (V)	39	awzi	a w z i	59	66	
+214	Italian	hear (V)	39	udire	u d i r e	59	120	
+215	Spanish	heart	40	koraθon	k o r a θ o n	62	298	
+216	French	heart	40	kœʁ	k œ ʁ	62	78	
+217	Portuguese	heart	40	kurɐsõ	k u r ɐ s õ	62	298	
+218	Romanian	heart	40	inimə	i n i m ə	61	165	
+219	Italian	heart	40	kwɔre	k w ɔ r e	62	100	
+220	Spanish	horn	41	kweɾno	k w e ɾ n o	63	301	
+221	French	horn	41	kɔʁn	k ɔ ʁ n	63	301	
+222	Portuguese	horn	41	kornu	k o r n u	63	301	
+223	Romanian	horn	41	korn	k o r n	63	301	
+224	Italian	horn	41	kɔrno	k ɔ r n o	63	301	
+225	Spanish	i	42	ʝo	ʝ o	64	132	
+226	French	i	42	ʒə	ʒ ə	64	130	
+227	Portuguese	i	42	ew	e w	64	61	
+228	Romanian	i	42	jo	j o	64	132	
+229	Italian	i	42	io	io	64	8	
+230	Spanish	kill (V)	43	mataɾ	m a t a ɾ	65	237	
+231	French	kill (V)	43	tɥe	t ɥ e	66	184	
+232	Portuguese	kill (V)	43	mɐtar	m ɐ t a r	65	237	
+233	Romanian	kill (V)	43	uʧide	u ʧ i d e	67	103	
+234	Italian	kill (V)	43	uʧːidere	u ʧː i d e r e	67	103	
+235	Spanish	knee	44	roðiʎa	r o ð i ʎ a	68	28	
+236	French	knee	44	ʒənu	ʒ ə n u	69	197	
+237	Portuguese	knee	44	ʒuɐʎu	ʒ uɐ ʎ u	69	197	
+238	Romanian	knee	44	ʤenunkʲ	ʤ e n u n kʲ	69	210	
+239	Italian	knee	44	ʤinɔkkjo	ʤ i n ɔ kː j o	69	35	
+240	Spanish	know (V)	45	konoθer	k o n o θ e r	71	275	
+241	French	know (V)	45	savwaʁ	s a v w a ʁ	70	216	
+242	Portuguese	know (V)	45	kuɲəser	k u ɲ ə s e r	71	275	
+243	Romanian	know (V)	45	ʃti	ʃ t i	72	23	
+244	Italian	know (V)	45	konoʃʃere	k o n o ʃː e r e	71	275	
+245	Spanish	know (V)	45	saβeɾ	s a β e ɾ	70	216	
+246	French	know (V)	45	kɔnɛtʁ	k ɔ n ɛ t ʁ	71	113	
+247	Portuguese	know (V)	45	sɐber	s ɐ b e r	70	216	
+248	Romanian	know (V)	45	kunwaʃte	k u n w a ʃ t e	71	275	
+249	Italian	know (V)	45	sapere	s a p e r e	70	216	
+250	Spanish	leaf	46	oxa	o x a	73	295	
+251	French	leaf	46	fœj	f œ j	73	295	
+252	Portuguese	leaf	46	foʎɐ	f o ʎ ɐ	73	295	
+253	Romanian	leaf	46	fwaje	f w a j e	73	98	
+254	Italian	leaf	46	fɔʎʎa	f ɔ ʎː a	73	295	
+255	Spanish	lie 1 (V)	47	kostaðo	k o s t a ð o	74	18	
+256	French	lie 1 (V)	47	kuʃe	k u ʃ e	75	206	
+257	Portuguese	lie 1 (V)	47	dɐjtar	d ɐ j t a r	76	70	
+258	Romanian	lie 1 (V)	47	kulka	k u l k a	75	206	
+259	Italian	lie 1 (V)	47	ʤaʧere	ʤ a ʧ e r e	76	13	
+260	Spanish	liver	48	iɣaðo	i ɣ a ð o	77	279	
+261	French	liver	48	fwɑ	f w ɑ	77	72	
+262	Portuguese	liver	48	figɐdu	f i g ɐ d u	77	279	
+263	Romanian	liver	48	fikat	f i k a t	77	279	
+264	Italian	liver	48	feɡato	f e ɡ a t o	77	279	
+265	Spanish	long	49	laɾɣo	l a ɾ ɣ o	79	180	
+266	French	long	49	lõ	l õ	78	141	
+267	Portuguese	long	49	lõgu	l õ g u	78	180	
+268	Romanian	long	49	luŋ	l u ŋ	78	40	
+269	Italian	long	49	lunɡo	l u n ɡ o	78	180	
+270	Spanish	louse	50	pjoxo	p j o x o	80	193	
+271	French	louse	50	pu	p u	80	123	
+272	Portuguese	louse	50	pi.oʎu	p i o ʎ u	80	115	
+273	Romanian	louse	50	pəduke	p ə d u k e	80	71	
+274	Italian	louse	50	pidɔkkjo	p i d ɔ kː j o	80	115	
+275	Portuguese	man	51	ɔmɐ̃	ɔ m ɐ̃	82	171	
+276	Romanian	man	51	bərbat	b ə r b a t	81	222	
+277	Romanian	man	51	om	o m	82	171	
+278	Spanish	many	52	muʧo	m u ʧ o	83	251	
+279	French	many	52	boku	b o k u	84	236	
+280	Portuguese	many	52	mũj̃tu	m ũ j̃ t u	83	251	
+281	Romanian	many	52	mulʦʲ	m u l ʦʲ	83	251	
+282	Italian	many	52	molto	m o l t o	83	251	
+283	Spanish	meat	53	kaɾne	k a ɾ n e	85	182	
+284	French	meat	53	ʃɛʁ	ʃ ɛ ʁ	85	110	
+285	Portuguese	meat	53	karnə	k a r n ə	85	182	
+286	Romanian	meat	53	karne	k a r n e	85	182	
+287	Italian	meat	53	karne	k a r n e	85	182	
+288	French	meat	53	vjɑ̃d	v j ɑ̃ d	86	194	
+289	Spanish	moon	54	luna	l u n a	87	149	
+290	French	moon	54	lyn	l y n	87	149	
+291	Portuguese	moon	54	luɐ	l uɐ	87	149	
+292	Romanian	moon	54	lunə	l u n ə	87	149	
+293	Italian	moon	54	luna	l u n a	87	149	
+294	Spanish	mountain	55	montaɲa	m o n t a ɲ a	88	218	
+295	French	mountain	55	mɔ̃taɲ	m ɔ̃ t a ɲ	88	218	
+296	Portuguese	mountain	55	mõtə	m õ t ə	88	218	
+297	Romanian	mountain	55	munte	m u n t e	88	218	
+298	Italian	mountain	55	montaɲɲa	m o n t a ɲː a	88	218	
+299	Spanish	mouth	56	boka	b o k a	89	190	
+300	French	mouth	56	buʃ	b u ʃ	89	83	
+301	Portuguese	mouth	56	bokɐ	b o k ɐ	89	190	
+302	Romanian	mouth	56	gurə	g u r ə	90	84	
+303	Italian	mouth	56	bokka	b o kː a	89	190	
+304	Spanish	name	57	nombɾe	n o m b ɾ e	91	300	
+305	French	name	57	nɔ̃	n ɔ̃	91	42	
+306	Portuguese	name	57	nomə	n o m ə	91	300	
+307	Romanian	name	57	nume	n u m e	91	300	
+308	Italian	name	57	nome	n o m e	91	300	
+309	Spanish	neck	58	kweʎo	k w e ʎ o	92	200	
+310	French	neck	58	ku	k u	92	26	
+311	Portuguese	neck	58	kɔlu	k ɔ l u	92	200	
+312	Romanian	neck	58	gɨt	g ɨ t	-93	69	
+313	Italian	neck	58	kɔllo	k ɔ lː o	92	200	
+314	Spanish	new	59	nweβo	n w e β o	94	88	
+315	French	new	59	nœf	n œ f	94	88	
+316	Portuguese	new	59	novu	n o v u	94	88	
+317	Romanian	new	59	now	n o w	94	88	
+318	Italian	new	59	nwɔvo	n w ɔ v o	94	88	
+319	Spanish	night	60	noʧe	n o ʧ e	95	297	
+320	French	night	60	nɥi	n ɥ i	95	37	
+321	Portuguese	night	60	nojtə	n o j t ə	95	297	
+322	Romanian	night	60	nwapte	n w a p t e	95	43	
+323	Italian	night	60	nɔtte	n ɔ tː e	95	297	
+324	Spanish	nose	61	naɾiθ	n a ɾ i θ	96	36	
+325	French	nose	61	ne	n e	96	179	
+326	Portuguese	nose	61	nɐriʃ	n ɐ r i ʃ	96	36	
+327	Romanian	nose	61	nas	n a s	96	179	
+328	Italian	nose	61	naso	n a s o	96	179	
+329	Spanish	not	62	no	n o	97	65	
+330	French	not	62	nə	n ə	97	111	
+331	Portuguese	not	62	nɐ̃w	n ɐ̃ w	97	119	
+332	Romanian	not	62	nu	n u	97	65	
+333	Italian	not	62	non	n o n	97	284	
+334	Spanish	one	63	uno	u n o	98	172	
+335	French	one	63	œ̃	œ̃	98	122	
+336	Portuguese	one	63	ũ	ũ	98	248	
+337	Romanian	one	63	unu	u n u	98	172	
+338	Italian	one	63	uno	u n o	98	172	
+339	Spanish	person	64	ombɾe	o m b ɾ e	99	256	
+340	French	person	64	ɔm	ɔ m	99	244	
+341	Portuguese	person	64	ɔmɐ̃	ɔ m ɐ̃	99	244	
+342	Romanian	person	64	om	o m	99	244	
+343	Italian	person	64	wɔmo	w ɔ m o	99	244	
+344	Spanish	rain (V)	65	ʎuβja	ʎ u β j a	100	64	
+345	French	rain (V)	65	plɥi	p l ɥ i	100	188	
+346	Portuguese	rain (V)	65	ʃuvɐ	ʃ u v ɐ	100	63	
+347	Romanian	rain (V)	65	plwaje	p l w a j e	100	14	
+348	Italian	rain (V)	65	pjɔʤːa	p j ɔ ʤː a	100	292	
+349	Spanish	red	66	roxo	r o x o	102	150	
+350	French	red	66	ʁuj	ʁ u j	102	12	
+351	Portuguese	red	66	vərmeʎu	v ə r m e ʎ u	101	167	
+352	Romanian	red	66	roʃu	r o ʃ u	-102	150	
+353	Italian	red	66	rosso	r o sː o	102	150	
+354	Spanish	road	67	bia	b ia	104	192	
+355	French	road	67	ʃɛmɛ̃	ʃ ɛ m ɛ̃	-105	29	
+356	Portuguese	road	67	əʃtradɐ	ə ʃ t r a d ɐ	103	245	
+357	Romanian	road	67	kale	k a l e	106	46	
+358	Italian	road	67	strada	s t r a d a	103	245	
+359	Portuguese	road	67	viɐ	v iɐ	104	192	
+360	Italian	road	67	via	v ia	104	192	
+361	Spanish	root	68	ra.iθ	r a i θ	107	286	
+362	French	root	68	ʁasin	ʁ a s i n	107	5	
+363	Portuguese	root	68	ʀɐ.iʃ	ʀ ɐ i ʃ	107	286	
+364	Romanian	root	68	rədəʧinə	r ə d ə ʧ i n ə	107	286	
+365	Italian	root	68	radiʧe	r a d i ʧ e	107	286	
+366	Spanish	round	69	reðondo	r e ð o n d o	108	243	
+367	French	round	69	ʁɔ̃	ʁ ɔ̃	108	99	
+368	Portuguese	round	69	ʀədõdu	ʀ ə d õ d u	108	243	
+369	Romanian	round	69	rotund	r o t u n d	108	243	
+370	Italian	round	69	rotondo	r o t o n d o	108	243	
+371	Spanish	sand	70	aɾena	a ɾ e n a	109	25	
+372	French	sand	70	sabl	s a b l	111	55	
+373	Portuguese	sand	70	ɐrɐjɐ	ɐ r ɐ j ɐ	109	25	
+374	Romanian	sand	70	nisip	n i s i p	-110	233	
+375	Italian	sand	70	sabbja	s a bː j a	111	55	
+376	Spanish	say (V)	71	deθiɾ	d e θ i ɾ	112	273	
+377	French	say (V)	71	diʁ	d i ʁ	112	273	
+378	Portuguese	say (V)	71	dizer	d i z e r	112	273	
+379	Romanian	say (V)	71	ziʧe	z i ʧ e	112	273	
+380	Italian	say (V)	71	dire	d i r e	112	273	
+381	Spanish	see (V)	72	beɾ	b e ɾ	113	217	
+382	French	see (V)	72	vwaʁ	v w a ʁ	113	217	
+383	Portuguese	see (V)	72	ver	v e r	113	217	
+384	Romanian	see (V)	72	vedea	v e d ea	113	217	
+385	Italian	see (V)	72	vedere	v e d e r e	113	217	
+386	Spanish	seed	73	semiʎa	s e m i ʎ a	115	230	
+387	French	seed	73	semɑ̃s	s e m ɑ̃ s	115	230	
+388	Portuguese	seed	73	səmẽtə	s ə m ẽ t ə	115	230	
+389	Romanian	seed	73	səmɨnʦə	s ə m ɨ n ʦ ə	115	230	
+390	Italian	seed	73	seme	s e m e	115	230	
+391	French	seed	73	ɡʁɛn	ɡ ʁ ɛ n	114	199	
+392	Spanish	sit (V)	74	sentaðo	s e n t a ð o	116	146	
+393	French	sit (V)	74	ɛtʁasi	ɛ t ʁ a s i	116	169	
+394	Portuguese	sit (V)	74	sẽtar	s ẽ t a r	116	93	
+395	Romanian	sit (V)	74	ʃedea	ʃ e d ea	116	93	
+396	Italian	sit (V)	74	sedere	s e d e r e	116	93	
+397	Spanish	skin	75	pjel	p j e l	117	212	
+398	French	skin	75	po	p o	117	67	
+399	Portuguese	skin	75	pɛlə	p ɛ l ə	117	212	
+400	Romanian	skin	75	pjele	p j e l e	117	212	
+401	Italian	skin	75	pɛlle	p ɛ lː e	117	212	
+402	Portuguese	skin	75	koru	k o r u	118	107	
+403	Spanish	sleep (V)	76	doɾmiɾ	d o ɾ m i ɾ	119	289	
+404	French	sleep (V)	76	dɔʁmiʁ	d ɔ ʁ m i ʁ	119	289	
+405	Portuguese	sleep (V)	76	durmir	d u r m i r	119	289	
+406	Romanian	sleep (V)	76	dormi	d o r m i	119	289	
+407	Italian	sleep (V)	76	dormire	d o r m i r e	119	289	
+408	Spanish	small	77	pekeɲo	p e k e ɲ o	122	136	
+409	French	small	77	pəti	p ə t i	120	60	
+410	Portuguese	small	77	pəkenu	p ə k e n u	122	136	
+411	Romanian	small	77	mik	m i k	-121	27	
+412	Italian	small	77	pikkolo	p i kː o l o	122	136	
+413	Spanish	smoke	78	umo	u m o	123	287	
+414	French	smoke	78	fyme	f y m e	123	287	
+415	Portuguese	smoke	78	fumu	f u m u	123	287	
+416	Romanian	smoke	78	fum	f u m	123	287	
+417	Italian	smoke	78	fumo	f u m o	123	287	
+418	Romanian	stand (V)	79	sta	s t a	124	174	
+419	Italian	stand (V)	79	stare	s t a r e	124	174	
+420	Spanish	star	80	estɾeʎa	e s t ɾ e ʎ a	125	290	
+421	French	star	80	etwal	e t w a l	125	125	
+422	Portuguese	star	80	əʃtrelɐ	ə ʃ t r e l ɐ	125	290	
+423	Romanian	star	80	stea	s t ea	125	290	
+424	Italian	star	80	stella	s t e lː a	125	290	
+425	Spanish	stone	81	pjeðɾa	p j e ð ɾ a	126	303	
+426	French	stone	81	pjɛʁ	p j ɛ ʁ	126	303	
+427	Portuguese	stone	81	pɛdrɐ	p ɛ d r ɐ	126	303	
+428	Romanian	stone	81	pjatrə	p j a t r ə	126	303	
+429	Italian	stone	81	sasso	s a sː o	127	304	
+430	Spanish	sun	82	sol	s o l	128	280	
+431	French	sun	82	sɔlɛj	s ɔ l ɛ j	128	280	
+432	Portuguese	sun	82	sɔl	s ɔ l	128	280	
+433	Romanian	sun	82	sware	s w a r e	128	48	
+434	Italian	sun	82	sole	s o l e	128	280	
+435	Spanish	swim (V)	83	naðaɾ	n a ð a ɾ	130	207	
+436	French	swim (V)	83	naʒe	n a ʒ e	129	207	
+437	Portuguese	swim (V)	83	nɐdar	n ɐ d a r	130	207	
+438	Romanian	swim (V)	83	ɨnota	ɨ n o t a	130	207	
+439	Italian	swim (V)	83	nwotare	n w o t a r e	130	207	
+440	Spanish	tail	84	kola	k o l a	131	175	
+441	French	tail	84	kø	k ø	131	77	
+442	Portuguese	tail	84	kawdɐ	k a w d ɐ	131	76	
+443	Romanian	tail	84	kwadə	k w a d ə	131	76	
+444	Italian	tail	84	koda	k o d a	131	175	
+445	Spanish	tail	84	ravo	r a v o	132	57	
+446	Portuguese	tail	84	ʀabu	ʀ a b u	132	0	
+447	Spanish	that	85	akel	a k e l	133	231	
+448	French	that	85	səla	s ə l a	133	209	
+449	Portuguese	that	85	ɐkelə	ɐ k e l ə	133	231	
+450	Romanian	that	85	aʧel	a ʧ e l	133	231	
+451	Italian	that	85	kwello	k w e lː o	133	158	
+452	Spanish	this	86	este	e s t e	134	201	
+453	French	this	86	səsi	s ə s i	135	56	
+454	Portuguese	this	86	əʃtə	ə ʃ t ə	134	201	
+455	Romanian	this	86	aʧest	a ʧ e s t	135	19	
+456	Italian	this	86	kwesto	k w e s t o	135	89	
+457	Spanish	thou	87	tu	t u	136	168	
+458	French	thou	87	ty	t y	136	168	
+459	Portuguese	thou	87	tu	t u	136	168	
+460	Romanian	thou	87	tu	t u	136	168	
+461	Italian	thou	87	tu	t u	136	168	
+462	Spanish	tongue	88	leŋɡwa	l e ŋ ɡ w a	137	117	
+463	French	tongue	88	lɑ̃ɡ	l ɑ̃ ɡ	137	128	
+464	Portuguese	tongue	88	lĩgwɐ	l ĩ g w ɐ	137	117	
+465	Romanian	tongue	88	limbə	l i m b ə	137	270	
+466	Italian	tongue	88	liŋɡwa	l i ŋ ɡ w a	137	117	
+467	Spanish	tooth	89	djente	d j e n t e	138	160	
+468	French	tooth	89	dɑ̃	d ɑ̃	138	241	
+469	Portuguese	tooth	89	dẽtə	d ẽ t ə	138	160	
+470	Romanian	tooth	89	dinte	d i n t e	138	160	
+471	Italian	tooth	89	dɛnte	d ɛ n t e	138	160	
+472	Spanish	tree	90	arvol	a r v o l	139	215	
+473	French	tree	90	aʁbʁ	a ʁ b ʁ	139	101	
+474	Portuguese	tree	90	arvurə	a r v u r ə	139	215	
+475	Romanian	tree	90	arbore	a r b o r e	139	215	
+476	Italian	tree	90	albero	a l b e r o	139	215	
+477	Spanish	two	91	dos	d o s	140	272	
+478	French	two	91	dø	d ø	140	272	
+479	Portuguese	two	91	doiʃ	d oi ʃ	140	272	
+480	Romanian	two	91	doj	d o j	140	272	
+481	Italian	two	91	due	d ue	140	272	
+482	Spanish	walk (V)	92	andar	a n d a r	143	183	
+483	French	walk (V)	92	vɛ	v ɛ	144	32	
+484	Portuguese	walk (V)	92	ɐ̃dar	ɐ̃ d a r	143	183	
+485	Romanian	walk (V)	92	umbla	u m b l a	141	227	
+486	Italian	walk (V)	92	vo	v o	144	85	
+487	Spanish	walk (V)	92	boi	b oi	144	81	
+488	French	walk (V)	92	ale	a l e	142	126	
+489	Italian	walk (V)	92	andare	a n d a r e	143	183	
+490	Spanish	warm	93	kaliðo	k a l i ð o	146	114	
+491	French	warm	93	ʃo	ʃ o	146	49	
+492	Portuguese	warm	93	kẽtə	k ẽ t ə	146	6	
+493	Romanian	warm	93	kald	k a l d	146	114	
+494	Italian	warm	93	tiepido	t ie p i d o	145	155	
+495	Spanish	water	94	aɣwa	a ɣ w a	147	79	
+496	French	water	94	o	o	147	45	
+497	Portuguese	water	94	agwɐ	a g w ɐ	147	79	
+498	Romanian	water	94	apə	a p ə	147	54	
+499	Italian	water	94	akkwa	a kː w a	147	79	
+500	Spanish	we	95	nosotɾos	n o s o t ɾ o s	148	191	
+501	French	we	95	nu	n u	148	106	
+502	Portuguese	we	95	nɔʃ	n ɔ ʃ	148	225	
+503	Romanian	we	95	noj	n o j	148	225	
+504	Italian	we	95	noi	n oi	148	1	
+505	Spanish	what	96	ke	k e	149	277	
+506	French	what	96	kwa	k w a	149	277	
+507	Portuguese	what	96	kə	k ə	149	277	
+508	Romanian	what	96	ʧe	ʧ e	149	112	
+509	Italian	what	96	ke	k e	149	277	
+510	Spanish	white	97	blaŋko	b l a ŋ k o	150	144	
+511	French	white	97	blɑ̃	b l ɑ̃	150	213	
+512	Portuguese	white	97	alvu	a l v u	151	135	
+513	Romanian	white	97	alb	a l b	151	135	
+514	Italian	white	97	bjanko	b j a n k o	150	144	
+515	Spanish	who	98	kjen	k j e n	152	276	
+516	French	who	98	ki	k i	152	186	
+517	Portuguese	who	98	kɐ̃j	k ɐ̃ j	152	259	
+518	Romanian	who	98	ʧine	ʧ i n e	152	276	
+519	Italian	who	98	ki	k i	152	186	
+520	Spanish	woman	99	muxeɾ	m u x e ɾ	154	185	
+521	French	woman	99	fam	f a m	155	249	
+522	Portuguese	woman	99	muʎɛr	m u ʎ ɛ r	154	185	
+523	Romanian	woman	99	femeje	f e m e j e	155	264	
+524	Italian	woman	99	dɔnna	d ɔ nː a	153	90	
+525	Spanish	yellow	100	amaɾiʎo	a m a ɾ i ʎ o	157	288	
+526	French	yellow	100	ʒon	ʒ o n	156	252	
+527	Portuguese	yellow	100	ɐmɐrɛlu	ɐ m ɐ r ɛ l u	157	288	
+528	Romanian	yellow	100	ɡalben	ɡ a l b e n	156	224	
+529	Italian	yellow	100	ʤallo	ʤ a lː o	156	198	
+530	Spanish	far	101	lexano	l e x a n o	160	170	
+531	French	far	101	lwɛ̃	l w ɛ̃	159	59	
+532	Portuguese	far	101	lõʒə	l õ ʒ ə	159	203	
+533	Romanian	far	101	depərte	d e p ə r t e	158	73	
+534	Italian	far	101	lontano	l o n t a n o	159	170	
+535	Spanish	heavy	102	pesaðo	p e s a ð o	161	223	
+536	French	heavy	102	luʁ	l u ʁ	163	4	
+537	Portuguese	heavy	102	pəzadu	p ə z a d u	161	223	
+538	Romanian	heavy	102	grew	g r e w	162	109	
+539	Italian	heavy	102	pesante	p e s a n t e	161	223	
+540	Spanish	near	103	θerka	θ e r k a	165	129	
+541	French	near	103	prɔʃ	p r ɔ ʃ	164	219	
+542	Portuguese	near	103	prɔsimu	p r ɔ s i m u	164	283	
+543	Romanian	near	103	apropia	a p r o p ia	164	47	
+544	Italian	near	103	prossimo	p r o sː i m o	164	283	
+545	Spanish	salt	104	sal	s a l	166	94	
+546	French	salt	104	sɛl	s ɛ l	166	94	
+547	Portuguese	salt	104	sal	s a l	166	94	
+548	Romanian	salt	104	sare	s a r e	166	94	
+549	Italian	salt	104	sale	s a l e	166	94	
+550	Spanish	short	105	koɾto	k o ɾ t o	168	173	
+551	French	short	105	kuʁ	k u ʁ	168	271	
+552	Portuguese	short	105	kurtu	k u r t u	168	173	
+553	Romanian	short	105	skurt	s k u r t	168	173	
+554	Italian	short	105	brɛve	b r ɛ v e	167	226	
+555	Spanish	short	105	breve	b r e v e	167	226	
+556	French	short	105	bʁɛf	b ʁ ɛ f	167	226	
+557	Portuguese	short	105	brɛvə	b r ɛ v ə	167	226	
+558	Italian	short	105	korto	k o r t o	168	173	
+559	Spanish	snake	106	kulevra	k u l e v r a	169	39	
+560	French	snake	106	sɛʁpɑ̃	s ɛ ʁ p ɑ̃	170	208	
+561	Portuguese	snake	106	sərpẽtə	s ə r p ẽ t ə	170	204	
+562	Romanian	snake	106	ʃarpe	ʃ a r p e	170	53	
+563	Italian	snake	106	sɛrpɛnte	s ɛ r p ɛ n t e	170	204	
+564	Spanish	snake	106	seɾpjente	s e ɾ p j e n t e	170	204	
+565	Portuguese	snake	106	kɔbrɐ	k ɔ b r ɐ	169	239	
+566	Spanish	thin	107	delɣaðo	d e l ɣ a ð o	174	44	
+567	French	thin	107	mɛ̃s	m ɛ̃ s	173	34	
+568	Portuguese	thin	107	finu	f i n u	172	187	
+569	Romanian	thin	107	subʦire	s u b ʦ i r e	171	104	
+570	Italian	thin	107	fine	f i n e	172	187	
+571	Spanish	thin	107	sutil	s u t i l	171	242	
+572	Portuguese	thin	107	dɛlgadu	d ɛ l g a d u	174	44	
+573	Romanian	thin	107	fin	f i n	172	187	
+574	Italian	thin	107	sottile	s o tː i l e	171	242	
+575	Spanish	wind	108	bjento	b j e n t o	175	228	
+576	French	wind	108	vɑ̃	v ɑ̃	175	133	
+577	Portuguese	wind	108	vẽtu	v ẽ t u	175	228	
+578	Romanian	wind	108	vɨnt	v ɨ n t	175	228	
+579	Italian	wind	108	vɛnto	v ɛ n t o	175	228	
+580	Spanish	worm	109	berme	b e r m e	176	285	
+581	French	worm	109	vɛʁ	v ɛ ʁ	176	10	
+582	Portuguese	worm	109	vɛrmə	v ɛ r m ə	176	285	
+583	Romanian	worm	109	vjerme	v j e r m e	176	285	
+584	Italian	worm	109	vɛrme	v ɛ r m e	176	285	
+585	Spanish	year	110	aɲo	a ɲ o	177	195	
+586	French	year	110	ɑ̃	ɑ̃	177	41	
+587	Portuguese	year	110	ɐnu	ɐ n u	177	195	
+588	Romanian	year	110	an	a n	177	195	
+589	Italian	year	110	anno	a nː o	177	195	

@@ -23,6 +23,8 @@ module Log = struct
     Float.(max_val + log1p (exp (other - max_val)))
 
   let sum = Utils.float_sum
+
+  let compare = Float.compare
 end
 
 let of_float x =

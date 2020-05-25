@@ -82,3 +82,10 @@ val score_graph :
   Row.t list ->
   word_pair_distribution list ->
   (int, (Row.t * float) list) Dict.t
+
+val sorted_thetas :
+  Probability.Log.t Theta_family.t ->
+  ( Taxon.t Sorted_pair.Derived.t
+  * Phone.t Sorted_pair.Derived.t
+  * Probability.Log.t )
+  list

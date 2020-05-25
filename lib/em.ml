@@ -175,8 +175,9 @@ let word_encoder encoder word = List.to_array @@ List.map ~f:encoder word
 
 let expectations ?(explain = false) encoders decoders row_pairs weights_table
     alphas thetas ~base_cognate_prob =
+  Stdio.print_endline "Expecting";
   let word_encoders = Dict.map encoders ~f:word_encoder in
-
+  Stdio.print_endline "Filling weights tables";
   (* Put theta values in weights tables *)
   List.iter
     (Utils.unique_pairs (Dict.keys encoders))
@@ -195,7 +196,9 @@ let expectations ?(explain = false) encoders decoders row_pairs weights_table
           Generic.set weights [| encoder1 t1; encoder2 t2 |] w));
 
   (* Compute expectations *)
+  Stdio.print_endline "Making expectations";
   List.map row_pairs ~f:(fun (row1, row2) ->
+      let start_time = Unix.gettimeofday () in
       let row_pair =
         Sorted_pair.of_tup (row1, row2) ~compare:(fun r1 r2 ->
             Taxon.compare r1.Row.taxon r2.Row.taxon)
@@ -262,7 +265,11 @@ let expectations ?(explain = false) encoders decoders row_pairs weights_table
         in
         let row1_log_probs =
           List.map row1.Aligned_row.aligned ~f:(fun phone ->
-              alpha_for_row1.@![phone])
+              try alpha_for_row1.@![phone]
+              with _ ->
+                Stdio.printf "Warning: Couldn't find phone %s\n"
+                  (Phone.to_string phone);
+                Probability.(zero |> to_log))
         in
 
         let alpha_for_row2 =
@@ -273,8 +280,13 @@ let expectations ?(explain = false) encoders decoders row_pairs weights_table
         in
         let row2_log_probs =
           List.map row2.Aligned_row.aligned ~f:(fun phone ->
-              alpha_for_row2.@![phone])
+              try alpha_for_row2.@![phone]
+              with _ ->
+                Stdio.printf "Warning: Couldn't find phone %s\n"
+                  (Phone.to_string phone);
+                Probability.(zero |> to_log))
         in
+
         if explain then (
           Stdio.printf "%s " (Utils.word_of_phones row1.Aligned_row.aligned);
           List.iter row1_log_probs ~f:(fun x ->
@@ -305,6 +317,21 @@ let expectations ?(explain = false) encoders decoders row_pairs weights_table
       let non_cognate_log_prob =
         Probability.Log.(cond_non_cognate_log_lik - total_lik)
       in
+      let duration = Float.(Unix.gettimeofday () - start_time) in
+      if Float.(duration > 1.0) then (
+        Stdio.printf "\nTraces: %d %s %s %s %s\n" (List.length traces)
+          (Taxon.to_string row1.Row.taxon)
+          (Taxon.to_string row2.Row.taxon)
+          (row1.Row.tokens |> Utils.word_of_phones)
+          (row2.Row.tokens |> Utils.word_of_phones);
+        Stdio.printf "Explaining %s %s:\n"
+          ((fst an_alignment).Aligned_row.aligned |> Utils.word_of_phones)
+          ((snd an_alignment).Aligned_row.aligned |> Utils.word_of_phones);
+        let scores =
+          Alignment.scores weights (fst aligneds_raw) (snd aligneds_raw)
+        in
+        List.iter scores ~f:(fun x -> Stdio.printf "%.2f " x);
+        Stdio.printf "\n" );
       [
         Cognate (Probability.of_log cognate_log_prob, cognate_data);
         Not_cognate (Probability.of_log non_cognate_log_prob, non_cognate_data);
@@ -424,3 +451,8 @@ let score_graph rows dist =
       Dataset_utils.list_tbl_append ~key:row.Row.id ~data:(row, Float.infinity)
         result);
   result
+
+let sorted_thetas theta_family =
+  Dict.to_alist2 theta_family
+  |> List.sort ~compare:(fun (_, _, v1) (_, _, v2) ->
+         Probability.Log.compare v1 v2)

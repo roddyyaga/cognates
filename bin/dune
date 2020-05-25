@@ -1,3 +1,4 @@
 (executables
- (names check_data example_alignment pie_alignments em_test em_pie)
+ (names print_thetas_pie check_data example_alignment pie_alignments em_test
+   em_pie test_file_load_error run_em fuckoff)
  (libraries core owl lib))

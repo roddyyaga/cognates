@@ -25,3 +25,10 @@ let sorted_items t ~compare =
     keys t |> List.sort ~compare:(fun x y -> compare t.@![x] t.@![y])
   in
   List.map sorted_keys ~f:(fun k -> (k, t.@![k]))
+
+let to_alist2 t =
+  fold t ~init:[] ~f:(fun ~key ~data accum ->
+      let new_tuples =
+        to_alist data |> List.map ~f:(fun (k2, v) -> (key, k2, v))
+      in
+      accum @ new_tuples)

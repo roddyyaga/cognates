@@ -65,13 +65,14 @@ let phone_exists ~t =
   match rows with
   | [| _row |] -> true
   | [||] -> false
-  | _ ->
-      failwith @@ Printf.sprintf "Multiple feature table entries found for %s" t
+  | _multiple ->
+      Stdio.printf "Warning: multiple feature table entries found for %s\n" t;
+      true
 
 let row_cache = Hashtbl.create (module String)
 
 let row_for_phon ~t =
-  let open Dataset_utils.Infix in
+  let open Dict.Infix in
   match row_cache.@?[t] with
   | Some row -> row
   | None -> (
@@ -87,9 +88,10 @@ let row_for_phon ~t =
           row_cache.@[t] <- row;
           row
       | [||] -> failwith @@ Printf.sprintf "%s not found in feature table" t
-      | _ ->
-          failwith
-          @@ Printf.sprintf "Multiple feature table entries found for %s" t )
+      | multiple ->
+          Stdio.printf "Warning: multiple feature table entries found for %s\n"
+            t;
+          multiple.(0) )
 
 let difference_count ~t1 ~t2 =
   let open Dataframe in

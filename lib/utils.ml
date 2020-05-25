@@ -23,3 +23,7 @@ let phones_of_word w =
 
 let word_of_phones ps = ps |> List.map ~f:Phone.to_string |> String.concat
 
+let is_list_prefix ~equal ~prefix xs =
+  List.equal equal prefix (List.take xs (List.length prefix))
+
+let take_last xs n = List.drop xs (List.length xs - n)
