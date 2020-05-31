@@ -1,7 +1,7 @@
 open Base
 open Owl
 
-let df = Dataframe.of_csv "../data/PIE.csv"
+let df = Dataframe.of_csv "../data/BAI.csv"
 
 let () =
   let x, y = Dataframe.shape df in

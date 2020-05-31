@@ -174,7 +174,7 @@ let maximise ~smoothing data =
 let word_encoder encoder word = List.to_array @@ List.map ~f:encoder word
 
 let expectations ?(explain = false) encoders decoders row_pairs weights_table
-    alphas thetas ~base_cognate_prob =
+    alphas thetas ~base_cognate_probs ~default_base_cognate_prob =
   Stdio.print_endline "Expecting";
   let word_encoders = Dict.map encoders ~f:word_encoder in
   Stdio.print_endline "Filling weights tables";
@@ -297,6 +297,16 @@ let expectations ?(explain = false) encoders decoders row_pairs weights_table
               Stdio.printf "%.2f " (Probability.Log.to_float x));
           Stdio.printf "\n" );
         (Probability.Log.sum (row1_log_probs @ row2_log_probs), an_alignment)
+      in
+      let taxon_pair =
+        Sorted_pair.of_tup
+          (row1.Row.taxon, row2.Row.taxon)
+          ~compare:Taxon.compare
+      in
+      let base_cognate_prob =
+        base_cognate_probs.@?[taxon_pair]
+        |> Option.value ~default:default_base_cognate_prob
+        |> Probability.of_float
       in
       let base_cognate_log_prob = Probability.to_log base_cognate_prob in
       let base_non_cognate_log_prob =
@@ -430,14 +440,6 @@ let score_graph rows dist =
   let result = Dict.create (module Int) in
   List.iter dist ~f:(function
     | Cognate (p, (row1, row2)) ->
-        (* if row1.Aligned_row.row.Row.gloss_id = 47 then
-           let r1, r2 = (row1.Aligned_row.row, row2.Aligned_row.row) in
-           let open Row in
-           Stdio.printf "%s %s %s %s %d %d %.6f\n" (Taxon.to_string r1.taxon)
-             (Taxon.to_string r2.taxon)
-             (Utils.word_of_phones r1.tokens)
-             (Utils.word_of_phones r2.tokens)
-             r1.id r2.id (Probability.to_float p) );*)
         Dataset_utils.list_tbl_append ~key:row1.Aligned_row.row.Row.id
           ~data:(row2.Aligned_row.row, Probability.to_float p)
           result;
@@ -456,3 +458,15 @@ let sorted_thetas theta_family =
   Dict.to_alist2 theta_family
   |> List.sort ~compare:(fun (_, _, v1) (_, _, v2) ->
          Probability.Log.compare v1 v2)
+
+let infer_taxon_pair_cognate_probs dist =
+  let counts = Dict.create (module Sorted_pair.Hashable_t (Taxon)) in
+  List.iter dist ~f:(function
+    | Cognate (p, (row1, row2)) ->
+        let key =
+          (row1.Aligned_row.row.Row.taxon, row2.Aligned_row.row.Row.taxon)
+          |> Sorted_pair.of_tup ~compare:Taxon.compare
+        in
+        Dict.extend counts key [ Probability.to_float p ]
+    | _ -> ());
+  Dict.map counts ~f:Utils.float_mean

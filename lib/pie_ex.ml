@@ -1,3 +1,4 @@
+(*
 open Base
 open Types
 
@@ -79,4 +80,4 @@ let tes =
   List.cartesian_product threes elevens
   |> List.map ~f:(fun pair -> (pair, score pair))
 
-let r = lookup
+let r = lookup*)

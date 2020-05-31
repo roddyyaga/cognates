@@ -138,7 +138,7 @@ let cluster threshold score_graph =
   iter []
 
 (* Update a dataframe by setting cognate ids *)
-let set_cognates_from_clusters df clusters =
+let set_cognates_from_clusters ?(row_format = Dataset_utils.Basic) df clusters =
   let id_to_new_cogid = Hashtbl.create (module Int) in
   List.iteri clusters ~f:(fun i cluster ->
       List.iter cluster ~f:(fun id -> id_to_new_cogid.@[id] <- i));
@@ -147,11 +147,11 @@ let set_cognates_from_clusters df clusters =
   (*     (Array.append (Dataframe.get_heads df) [| "NewCogID" |]); *)
   let new_column_reversed = ref [] in
   Dataframe.iter_row
-    (function
-      | [| Int id; _taxon; _gloss; _gloss_id; _ipa; _tokens; _original_cog_id |]
-        ->
-          new_column_reversed := id_to_new_cogid.@![id] :: !new_column_reversed
-      | _ -> failwith "Unexpected row shape in dataframe")
+    (fun row ->
+      let id, _taxon, _gloss, _gloss_id, _tokens, _cog_id =
+        Dataset_utils.load_row row_format row
+      in
+      new_column_reversed := id_to_new_cogid.@![id] :: !new_column_reversed)
     df;
   let new_column =
     !new_column_reversed |> List.rev |> Array.of_list

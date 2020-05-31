@@ -1,0 +1,92 @@
+Concept: big, False Positives: no, False Negatives: yes
+Armenian	mɛʦ    	   1	   1
+Greek   	meɣalos	   1	   2
+#
+Concept: claw, False Positives: no, False Negatives: yes
+Armenian	jɛʁung	   1	   1
+Greek   	niçi  	   1	   2
+#
+Concept: ear, False Positives: no, False Negatives: yes
+Armenian	ɑkɑnʤ	   1	   1
+Greek   	afti 	   1	   2
+#
+Concept: eye, False Positives: no, False Negatives: yes
+Armenian	ɑʧʰkʰ	   1	   1
+Greek   	mati 	   1	   2
+#
+Concept: fly (V), False Positives: no, False Negatives: yes
+Armenian	tʰərʧʰɛl	   1	   1
+Greek   	peto    	   1	   2
+#
+Concept: foot, False Positives: no, False Negatives: yes
+Armenian	votkʰ	   1	   1
+Greek   	poði 	   1	   2
+#
+Concept: give (V), False Positives: no, False Negatives: yes
+Armenian	tɑl 	   1	   1
+Greek   	ðino	   1	   2
+#
+Concept: hand, False Positives: no, False Negatives: yes
+Armenian	ʣɛrkʰ	   1	   1
+Greek   	çeri 	   1	   2
+#
+Concept: heart, False Positives: no, False Negatives: yes
+Armenian	siɾt  	   1	   1
+Greek   	karðʝa	   1	   2
+#
+Concept: I, False Positives: no, False Negatives: yes
+Armenian	jɛs	   1	   1
+Greek   	eɣo	   1	   2
+#
+Concept: knee, False Positives: no, False Negatives: yes
+Armenian	ʦunk  	   1	   1
+Greek   	ɣonato	   1	   2
+#
+Concept: name, False Positives: no, False Negatives: yes
+Armenian	ɑnun 	   1	   1
+Greek   	onoma	   1	   2
+#
+Concept: nose, False Positives: yes, False Negatives: no
+Armenian	kʰitʰ	   1	   1
+Greek   	miti 	   2	   1
+#
+Concept: one, False Positives: no, False Negatives: yes
+Armenian	mɛk	   1	   1
+Greek   	ena	   1	   2
+#
+Concept: salt, False Positives: no, False Negatives: yes
+Armenian	ɑʁ   	   1	   1
+Greek   	alati	   1	   2
+#
+Concept: snake, False Positives: no, False Negatives: yes
+Armenian	oʦʰ 	   1	   1
+Greek   	fiði	   1	   2
+#
+Concept: star, False Positives: no, False Negatives: yes
+Armenian	ɑstəʁ 	   1	   1
+Greek   	asteri	   1	   2
+#
+Concept: this, False Positives: no, False Negatives: yes
+Armenian	ɑɪs 	   1	   1
+Greek   	afto	   1	   2
+#
+Concept: thou, False Positives: no, False Negatives: yes
+Armenian	du 	   1	   1
+Greek   	esi	   1	   2
+#
+Concept: tooth, False Positives: no, False Negatives: yes
+Armenian	ɑtɑm 	   1	   1
+Greek   	ðondi	   1	   2
+#
+Concept: two, False Positives: no, False Negatives: yes
+Armenian	jɛɾku	   1	   1
+Greek   	ðʝo  	   1	   2
+#
+Concept: we, False Positives: no, False Negatives: yes
+Armenian	mɛnkʰ	   1	   1
+Greek   	emis 	   1	   2
+#
+Concept: woman, False Positives: no, False Negatives: yes
+Armenian	kin   	   1	   1
+Greek   	ʝineka	   1	   2
+#

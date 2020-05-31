@@ -31,27 +31,48 @@ let ipa_df =
       |]
     "/home/roddy/iii/project/code/ipa_all.csv"
 
-type change = WasNasalised | WasVoiceless | WasAspirated
+type change =
+  | Nasalised
+  | Voiceless
+  | Aspirated
+  | Syllabic
+  | NonSyllabic
+  | Ignored
+
+let suffixes_and_changes =
+  [
+    ("\202\176", Aspirated);
+    ("\202\177", Aspirated);
+    ("\204\165", Voiceless);
+    ("\204\131", Nasalised);
+    ("\204\175", NonSyllabic);
+    ("\204\129", Ignored);
+  ]
+
+let rec changes_from_suffixes (t, changes) =
+  match
+    List.find suffixes_and_changes ~f:(fun (suffix, _change) ->
+        String.is_suffix ~suffix t)
+  with
+  | Some (suffix, change) ->
+      changes_from_suffixes (String.chop_suffix_exn ~suffix t, change :: changes)
+  | None -> (t, changes)
+
+let one_token_change = function
+  | "g" -> "ɡ"
+  | "ǝ" -> "ə" (* just a different encoding? *)
+  | other -> other
 
 let process_phone ~t =
+  let t, changes = changes_from_suffixes (t, []) in
   match t with
-  | "ĩ" -> ("i", Some WasNasalised)
-  | "ã" -> ("a", Some WasNasalised)
-  | "õ" -> ("o", Some WasNasalised)
-  | "b̥" -> ("b", Some WasVoiceless)
-  | "d̥" -> ("d", Some WasVoiceless)
-  | "aʰ" -> ("a", Some WasAspirated)
-  | "ʃʰ" -> ("ʃ", Some WasAspirated)
-  | "sʰ" -> ("s", Some WasAspirated)
-  | "ouʰ" -> ("u", Some WasAspirated)
-  | "ɔʰ" -> ("ɔ", Some WasAspirated)
-  | "ɛʰ" -> ("ɛ", Some WasAspirated)
-  | "ʏʰ" -> ("ʏ", Some WasAspirated)
-  | "bʱ" -> ("b", Some WasAspirated)
-  | "dʱ" -> ("d", Some WasAspirated)
-  | "ɡʱ" -> ("ɡ", Some WasAspirated)
-  | "ʃːʰ" -> ("ʃː", Some WasAspirated)
-  | other -> (other, None)
+  | "ĩ" -> ("i", Nasalised :: changes)
+  | "ã" -> ("a", Nasalised :: changes)
+  | "õ" -> ("o", Nasalised :: changes)
+  | "ẽ" -> ("e", Nasalised :: changes)
+  | "ɿ" ->
+      ("z", Syllabic :: changes) (* https://en.wiktionary.org/wiki/%C9%BF *)
+  | other -> (other, changes)
 
 let phone_exists ~t =
   let t, _change = process_phone ~t in
@@ -72,6 +93,7 @@ let phone_exists ~t =
 let row_cache = Hashtbl.create (module String)
 
 let row_for_phon ~t =
+  let t = one_token_change t in
   let open Dict.Infix in
   match row_cache.@?[t] with
   | Some row -> row
@@ -115,14 +137,28 @@ let identical ~t1 ~t2 = difference_count ~t1 ~t2 = 0
 
 let identical_bar_one ~t1 ~t2 = difference_count ~t1 ~t2 = 1
 
+let feature_encodings =
+  [
+    ("voi", (Voiceless, false));
+    ("sg", (Aspirated, true));
+    ("nas", (Nasalised, true));
+    ("syl", (Syllabic, true));
+    ("syl", (NonSyllabic, false));
+  ]
+
 let feature ~name ~t =
-  let t, change = process_phone ~t in
-  match (change, name) with
-  | Some WasVoiceless, "voi" -> Some false
-  | Some WasAspirated, "asp" -> Some true
-  | _, "asp" -> Some false
-  | Some WasNasalised, "nas" -> Some true
-  | _ -> (
+  let t, changes = process_phone ~t in
+  let answer_from_changes =
+    match List.Assoc.find feature_encodings name ~equal:String.equal with
+    | Some (feature, value) -> (
+        match List.mem changes feature ~equal:Poly.equal with
+        | true -> Some value
+        | false -> None )
+    | None -> None
+  in
+  match answer_from_changes with
+  | Some answer -> Some answer
+  | None -> (
       let row = row_for_phon ~t in
       let column_index = Dataframe.head_to_id ipa_df name in
       match row.(column_index) with

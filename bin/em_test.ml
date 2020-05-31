@@ -68,6 +68,7 @@ let () =
 let () =
   Stdio.print_endline @@ Em.Alpha_family.show Probability.Log.sexp_of_t alphas
 
+(*
 let expect =
   Em.expectations encoders decoders row_pairs weights_tables
     ~base_cognate_prob:(Probability.of_float 0.5)
@@ -132,4 +133,4 @@ let () =
 
 let dist = expect alpha theta
 
-let () = Em.print_dist dist
+let () = Em.print_dist dist*)

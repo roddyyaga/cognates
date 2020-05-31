@@ -26,15 +26,14 @@ def main():
     for r in results:
         print(r)
 """
-    for name in ["PIE", "SLV", "OUG", "GER", "JAP", "ROM"]:
+    for name in ["ROM", "BAI", "GER", "JAP", "OUG", "PIE", "SLV", "IEL", "KSL", "PAN"]:
         print(name)
-        for n in range(1, 8):
+        for n in range(1, 7):
             results = []
-            for i in range(1):
-                lex = LexStat("../{}_one_{}_{}.csv".format(name, i, n))
+            for i in [50]:
+                lex = LexStat("../{}_updating_{}_{}.csv".format(name, i, n))
                 # lex.get_scorer()
                 # lex.cluster(method="lexstat", threshold=0.6, ref="cognates")
-                print(".", end="", flush=True)
                 results.append(
                     (
                         i,
@@ -48,8 +47,6 @@ def main():
                     )
                 )
 
-            print()
-            print("Nu", n)
             for r in results:
                 print(r)
         print()

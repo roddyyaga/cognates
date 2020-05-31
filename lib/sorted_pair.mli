@@ -18,6 +18,8 @@ module Derived : sig
 
   val map2 : 'a t -> 'b t -> f:('a -> 'b -> 'c) -> 'c t
 
+  val equal : 'a t -> 'a t -> equal:('a -> 'a -> bool) -> bool
+
   module Hashable_t (S : Core.Tuple.Hashable_sexpable) :
     Base.Hashtbl.Key.S with type t = S.t t
 end
@@ -25,3 +27,5 @@ end
 val map : 'a t -> f:('a -> 'b) -> 'b Derived.t
 
 val to_derived : 'a t -> 'a Derived.t
+
+val equal : 'a t -> 'a t -> equal:('a -> 'a -> bool) -> bool

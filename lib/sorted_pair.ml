@@ -29,6 +29,8 @@ module Derived = struct
 
   let map2 (x, y) (a, b) ~f = (f x a, f y b)
 
+  let equal (x, y) (x', y') ~equal = equal x x' && equal y y'
+
   module Hashable_t (S : Tuple.Hashable_sexpable) = struct
     type nonrec t = S.t t
 
@@ -45,3 +47,5 @@ end
 let map (x, y) ~f = (f x, f y)
 
 let to_derived = map ~f:Fn.id
+
+let equal (x, y) (x', y') ~equal = equal x x' && equal y y'

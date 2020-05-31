@@ -1,0 +1,455 @@
+ID	Taxon	Gloss	GlossID	IPA	Tokens	CogID	NewCogID	
+1	Russian	all	1	fsʲe	f sʲ e	1	132	
+2	Polish	all	1	fʃɨsʦɨ	f ʃ ɨ s ʦ ɨ	1	197	
+3	Bulgarian	all	1	vsiʧki	v s i ʧ k i	1	8	
+4	Czech	all	1	fʃɪxnʲɪ	f ʃ ɪ x nʲ ɪ	1	249	
+5	Russian	ashes	2	zɐla	z ɐ l a	2	107	
+6	Polish	ashes	2	pɔpʲuw	p ɔ pʲ u w	3	277	
+7	Bulgarian	ashes	2	pɛpɛl	p ɛ p ɛ l	3	165	
+8	Czech	ashes	2	popɛl	p o p ɛ l	3	165	
+9	Russian	ashes	2	pʲepɪlʲ	pʲ e p ɪ lʲ	3	165	
+10	Russian	bark	3	kɐra	k ɐ r a	4	251	
+11	Polish	bark	3	kɔra	k ɔ r a	4	251	
+12	Bulgarian	bark	3	kora	k o r a	4	251	
+13	Czech	bark	3	kuːra	k uː r a	4	251	
+14	Russian	belly	4	ʒɨvot	ʒ ɨ v o t	6	121	
+15	Polish	belly	4	bʒux	b ʒ u x	7	2	
+16	Bulgarian	belly	4	korɛm	k o r ɛ m	-5	50	
+17	Czech	belly	4	brɪxo	b r ɪ x o	7	16	
+18	Russian	big	5	bɐlʲʃoj	b ɐ lʲ ʃ o j	8	56	
+19	Polish	big	5	vʲɛlki	vʲ ɛ l k i	10	43	
+20	Bulgarian	big	5	golʲam	g o lʲ a m	9	178	
+21	Czech	big	5	vɛlkiː	v ɛ l k iː	10	43	
+22	Polish	big	5	duʒɨ	d u ʒ ɨ	11	129	
+23	Russian	bird	6	ptʲiʦə	p tʲ i ʦ ə	12	228	
+24	Polish	bird	6	ptak	p t a k	12	193	
+25	Bulgarian	bird	6	ptiʦə	p t i ʦ ə	12	228	
+26	Czech	bird	6	ptaːk	p t aː k	12	193	
+27	Russian	bite (V)	7	kusatʲ	k u s a tʲ	14	280	
+28	Polish	bite (V)	7	ssaʨ	sː a ʨ	14	79	
+29	Bulgarian	bite (V)	7	xəpa	x ə p a	13	37	
+30	Czech	bite (V)	7	kowsat	k o w s a t	14	280	
+31	Russian	black	8	ʧornɨj	ʧ o r n ɨ j	15	118	
+32	Polish	black	8	ʧarnɨ	ʧ a r n ɨ	15	118	
+33	Bulgarian	black	8	ʧɛrɛn	ʧ ɛ r ɛ n	15	118	
+34	Czech	black	8	ʧɛrniː	ʧ ɛ r n iː	15	118	
+35	Russian	blood	9	krofʲ	k r o fʲ	16	288	
+36	Polish	blood	9	krɛf	k r ɛ f	16	288	
+37	Bulgarian	blood	9	krɤf	k r ɤ f	16	288	
+38	Czech	blood	9	krɛf	k r ɛ f	16	288	
+39	Russian	bone	10	kosʲtʲ	k o sʲ tʲ	17	223	
+40	Polish	bone	10	kɔɕʨ	k ɔ ɕ ʨ	17	114	
+41	Bulgarian	bone	10	kɔst	k ɔ s t	17	223	
+42	Czech	bone	10	kost	k o s t	17	223	
+43	Russian	breast	11	ɡrutʲ	ɡ r u tʲ	19	221	
+44	Polish	breast	11	pʲɛrɕ	pʲ ɛ r ɕ	18	40	
+45	Bulgarian	breast	11	ɡrɤt	ɡ r ɤ t	19	103	
+46	Czech	breast	11	pr̩sa	p r̩ s a	18	154	
+47	Russian	burn (V)	12	ʒetʲ	ʒ e tʲ	20	13	
+48	Polish	burn (V)	12	paliʨ	p a l i ʨ	21	58	
+49	Bulgarian	burn (V)	12	ɡɔra	ɡ ɔ r a	22	41	
+50	Czech	burn (V)	12	paːlit	p aː l i t	21	58	
+51	Russian	claw	13	noɡətʲ	n o ɡ ə tʲ	23	14	
+52	Polish	claw	13	paznɔkʲɛʨ	p a z n ɔ kʲ ɛ ʨ	23	234	
+53	Bulgarian	claw	13	nɔkət	n ɔ k ə t	23	14	
+54	Czech	claw	13	nɛɦɛt	n ɛ ɦ ɛ t	23	91	
+55	Russian	cloud	14	obləkə	o b l ə k ə	24	289	
+56	Polish	cloud	14	ɔbwɔk	ɔ b w ɔ k	24	289	
+57	Bulgarian	cloud	14	ɔblək	ɔ b l ə k	24	289	
+58	Czech	cloud	14	oblak	o b l a k	24	289	
+59	Russian	cold	15	xɐlodnɨj	x ɐ l o d n ɨ j	26	200	
+60	Polish	cold	15	xwɔdnɨ	x w ɔ d n ɨ	26	283	
+61	Bulgarian	cold	15	studɛn	s t u d ɛ n	27	261	
+62	Czech	cold	15	xladniː	x l a d n iː	26	85	
+63	Polish	cold	15	ʑimnɨ	ʑ i m n ɨ	25	93	
+64	Czech	cold	15	stʊdɛniː	s t ʊ d ɛ n iː	27	261	
+65	Russian	come (V)	16	prʲɪjtʲi	p rʲ ɪ j tʲ i	28	3	
+66	Polish	come (V)	16	pʃɨjɕʨ	p ʃ ɨ j ɕ ʨ	28	206	
+67	Bulgarian	come (V)	16	idvam	i d v a m	28	276	
+68	Czech	come (V)	16	prɪjiːt	p r ɪ j iː t	28	219	
+69	Russian	come (V)	16	prʲɪxɐdʲitʲ	p rʲ ɪ x ɐ dʲ i tʲ	29	220	
+70	Polish	come (V)	16	pʃɨxɔʥiʨ	p ʃ ɨ x ɔ ʥ i ʨ	29	26	
+71	Russian	die (V)	17	umʲɪrʲetʲ	u mʲ ɪ rʲ e tʲ	30	207	
+72	Polish	die (V)	17	umʲɛraʨ	u mʲ ɛ r a ʨ	30	207	
+73	Bulgarian	die (V)	17	umrɤ	u m r ɤ	30	271	
+74	Czech	die (V)	17	ʊmiːrat	ʊ m iː r a t	30	38	
+75	Russian	dog	18	sɐbakə	s ɐ b a k ə	32	230	
+76	Polish	dog	18	pʲɛs	pʲ ɛ s	33	140	
+77	Bulgarian	dog	18	kuʧɛ	k u ʧ ɛ	31	213	
+78	Czech	dog	18	pɛs	p ɛ s	33	140	
+79	Russian	dog	18	pʲos	pʲ o s	33	181	
+80	Russian	drink (V)	19	pʲitʲ	pʲ i tʲ	34	130	
+81	Polish	drink (V)	19	piʨ	p i ʨ	34	179	
+82	Bulgarian	drink (V)	19	pijə	p i j ə	34	218	
+83	Czech	drink (V)	19	piːt	p iː t	34	130	
+84	Russian	dry	20	suxoj	s u x o j	35	69	
+85	Polish	dry	20	suxɨ	s u x ɨ	35	248	
+86	Bulgarian	dry	20	sux	s u x	35	248	
+87	Czech	dry	20	sʊxiː	s ʊ x iː	35	54	
+88	Russian	ear 1	21	uxə	u x ə	36	256	
+89	Polish	ear 1	21	uxɔ	u x ɔ	36	256	
+90	Bulgarian	ear 1	21	uxɔ	u x ɔ	36	256	
+91	Czech	ear 1	21	ʊxo	ʊ x o	36	88	
+92	Russian	earth	22	zʲɪmlʲa	zʲ ɪ m lʲ a	37	77	
+93	Polish	earth	22	ʑɛmʲa	ʑ ɛ mʲ a	37	60	
+94	Bulgarian	earth	22	zɛmʲə	z ɛ mʲ ə	37	68	
+95	Czech	earth	22	zɛmʲɛ	z ɛ mʲ ɛ	37	68	
+96	Russian	eat (V)	23	jesʲtʲ	j e sʲ tʲ	38	7	
+97	Polish	eat (V)	23	jɛɕʨ	j ɛ ɕ ʨ	38	1	
+98	Bulgarian	eat (V)	23	jam	j a m	38	74	
+99	Czech	eat (V)	23	jiːst	j iː s t	38	126	
+100	Russian	egg	24	jɪjʦo	j ɪ j ʦ o	39	204	
+101	Polish	egg	24	jajkɔ	j a j k ɔ	39	19	
+102	Bulgarian	egg	24	jəiʦɛ	j əi ʦ ɛ	39	30	
+103	Czech	egg	24	vɛjʦɛ	v ɛ j ʦ ɛ	39	204	
+104	Russian	eye	25	ɡlas	ɡ l a s	40	242	
+105	Polish	eye	25	ɔkɔ	ɔ k ɔ	41	155	
+106	Bulgarian	eye	25	okɔ	o k ɔ	41	155	
+107	Czech	eye	25	oko	o k o	41	155	
+108	Russian	fat	26	ʒɨr	ʒ ɨ r	44	209	
+109	Polish	fat	26	twuʃʧ	t w u ʃ ʧ	45	160	
+110	Bulgarian	fat	26	məznina	m ə z n i n a	43	284	
+111	Czech	fat	26	tʊk	t ʊ k	46	229	
+112	Czech	fat	26	saːdlo	s aː d l o	42	263	
+113	Russian	feather	27	pʲɪro	pʲ ɪ r o	47	265	
+114	Polish	feather	27	pʲurɔ	pʲ u r ɔ	47	265	
+115	Bulgarian	feather	27	pɛrɔ	p ɛ r ɔ	47	265	
+116	Czech	feather	27	pɛːro	p ɛː r o	47	265	
+117	Russian	fire	28	ɐɡonʲ	ɐ ɡ o nʲ	48	104	
+118	Polish	fire	28	ɔɡʲɛnʲ	ɔ ɡʲ ɛ nʲ	48	215	
+119	Bulgarian	fire	28	ɔɡən	ɔ ɡ ə n	48	215	
+120	Czech	fire	28	oɦɛnʲ	o ɦ ɛ nʲ	48	215	
+121	Russian	fish	29	rɨbə	r ɨ b ə	49	199	
+122	Polish	fish	29	rɨba	r ɨ b a	49	199	
+123	Bulgarian	fish	29	ribə	r i b ə	49	199	
+124	Czech	fish	29	rɪba	r ɪ b a	49	199	
+125	Russian	fly (V)	30	lʲɪtʲetʲ	lʲ ɪ tʲ e tʲ	50	216	
+126	Polish	fly (V)	30	lataʨ	l a t a ʨ	50	216	
+127	Bulgarian	fly (V)	30	lɛtʲə	l ɛ tʲ ə	50	188	
+128	Czech	fly (V)	30	lɛːtat	l ɛː t a t	50	216	
+129	Russian	foot	31	nɐɡa	n ɐ ɡ a	51	217	
+130	Polish	foot	31	nɔɡa	n ɔ ɡ a	51	217	
+131	Bulgarian	foot	31	krak	k r a k	52	22	
+132	Czech	foot	31	noɦa	n o ɦ a	51	217	
+133	Russian	full	32	polnɨj	p o l n ɨ j	53	137	
+134	Polish	full	32	pɛwnɨ	p ɛ w n ɨ	53	0	
+135	Bulgarian	full	32	pɤlɛn	p ɤ l ɛ n	53	168	
+136	Czech	full	32	pl̩niː	p l̩ n iː	53	105	
+137	Russian	give (V)	33	datʲ	d a tʲ	54	133	
+138	Polish	give (V)	33	davaʨ	d a v a ʨ	54	161	
+139	Bulgarian	give (V)	33	davəm	d a v ə m	54	255	
+140	Czech	give (V)	33	daːt	d aː t	54	133	
+141	Russian	good	34	xɐroʃɨj	x ɐ r o ʃ ɨ j	55	176	
+142	Polish	good	34	dɔbrɨ	d ɔ b r ɨ	56	189	
+143	Bulgarian	good	34	dobɤr	d o b ɤ r	56	4	
+144	Czech	good	34	dobriː	d o b r iː	56	189	
+145	Russian	green	35	zʲɪlʲonɨj	zʲ ɪ lʲ o n ɨ j	57	102	
+146	Polish	green	35	ʑɛlɔnɨ	ʑ ɛ l ɔ n ɨ	57	102	
+147	Bulgarian	green	35	zɛlɛn	z ɛ l ɛ n	57	78	
+148	Czech	green	35	zɛlɛniː	z ɛ l ɛ n iː	57	78	
+149	Russian	hair	36	voləsɨ	v o l ə s ɨ	58	5	
+150	Polish	hair	36	vwɔsɨ	v w ɔ s ɨ	58	83	
+151	Bulgarian	hair	36	kɔsəm	k ɔ s ə m	59	95	
+152	Czech	hair	36	vlasɪ	v l a s ɪ	58	147	
+153	Russian	hand	37	ruka	r u k a	60	266	
+154	Polish	hand	37	rɛ̃ka	r ɛ̃ k a	60	266	
+155	Bulgarian	hand	37	rəka	r ə k a	60	266	
+156	Czech	hand	37	rʊka	r ʊ k a	60	266	
+157	Russian	head	38	ɡəlɐva	ɡ ə l ɐ v a	61	84	
+158	Polish	head	38	ɡwɔva	ɡ w ɔ v a	61	84	
+159	Bulgarian	head	38	ɡləva	ɡ l ə v a	61	84	
+160	Czech	head	38	ɦlava	ɦ l a v a	61	44	
+161	Russian	hear (V)	39	sluʃatʲ	s l u ʃ a tʲ	63	267	
+162	Polish	hear (V)	39	swɨʃɛʨ	s w ɨ ʃ ɛ ʨ	63	70	
+163	Bulgarian	hear (V)	39	ʧuvəm	ʧ u v ə m	62	24	
+164	Czech	hear (V)	39	slɪʃɛt	s l ɪ ʃ ɛ t	63	267	
+165	Russian	heart	40	sʲɛrʦə	sʲ ɛ r ʦ ə	64	247	
+166	Polish	heart	40	sɛrʦɛ	s ɛ r ʦ ɛ	64	247	
+167	Bulgarian	heart	40	sərʦɛ	s ə r ʦ ɛ	64	247	
+168	Czech	heart	40	sr̩ʦɛ	s r̩ ʦ ɛ	64	247	
+169	Russian	horn	41	rok	r o k	65	222	
+170	Polish	horn	41	ruk	r u k	65	144	
+171	Bulgarian	horn	41	rok	r o k	65	222	
+172	Czech	horn	41	rox	r o x	65	222	
+173	Russian	i	42	ja	j a	66	111	
+174	Polish	i	42	ja	j a	66	111	
+175	Bulgarian	i	42	as	a s	66	11	
+176	Czech	i	42	jaː	j aː	66	82	
+177	Russian	kill (V)	43	ubʲitʲ	u bʲ i tʲ	67	236	
+178	Polish	kill (V)	43	zabijaʨ	z a b i j a ʨ	67	46	
+179	Bulgarian	kill (V)	43	ubivəm	u b i v ə m	67	235	
+180	Czech	kill (V)	43	zabiːjɛt	z a b iː j ɛ t	67	46	
+181	Russian	knee	44	kɐlʲenə	k ɐ lʲ e n ə	68	268	
+182	Polish	knee	44	kɔlanɔ	k ɔ l a n ɔ	68	268	
+183	Bulgarian	knee	44	kolʲano	k o lʲ a n o	68	268	
+184	Czech	knee	44	kolɛno	k o l ɛ n o	68	268	
+185	Russian	know (V)	45	znatʲ	z n a tʲ	70	264	
+186	Polish	know (V)	45	znaʨ	z n a ʨ	70	264	
+187	Bulgarian	know (V)	45	znajə	z n a j ə	70	172	
+188	Czech	know (V)	45	znaːt	z n aː t	70	264	
+189	Polish	know (V)	45	vʲɛʥɛʨ	vʲ ɛ ʥ ɛ ʨ	69	164	
+190	Czech	know (V)	45	vʲɛdʲɛt	vʲ ɛ dʲ ɛ t	69	164	
+191	Russian	leaf	46	lʲist	lʲ i s t	71	90	
+192	Polish	leaf	46	liɕʨ	l i ɕ ʨ	71	21	
+193	Bulgarian	leaf	46	list	l i s t	71	90	
+194	Czech	leaf	46	lɪst	l ɪ s t	71	90	
+195	Russian	lie 1 (V)	47	lʲɪʒatʲ	lʲ ɪ ʒ a tʲ	72	177	
+196	Polish	lie 1 (V)	47	lɛʒɛʨ	l ɛ ʒ ɛ ʨ	72	177	
+197	Bulgarian	lie 1 (V)	47	lɛʒə	l ɛ ʒ ə	72	177	
+198	Czech	lie 1 (V)	47	lɛʒɛt	l ɛ ʒ ɛ t	72	177	
+199	Russian	liver	48	pʲeʧʲɪnʲ	pʲ e ʧʲ ɪ nʲ	76	80	
+200	Polish	liver	48	vɔ̃trɔba	v ɔ̃ t r ɔ b a	74	185	
+201	Bulgarian	liver	48	drop	d r o p	75	128	
+202	Czech	liver	48	jaːtra	j aː t r a	73	52	
+203	Russian	long	49	dlʲinnɨj	d lʲ i nː ɨ j	77	66	
+204	Polish	long	49	dwuɡi	d w u ɡ i	77	72	
+205	Bulgarian	long	49	dɤlək	d ɤ l ə k	77	87	
+206	Czech	long	49	dlowɦiː	d l o w ɦ iː	77	125	
+207	Russian	louse	50	voʃ	v o ʃ	78	243	
+208	Polish	louse	50	vɛʃ	v ɛ ʃ	78	201	
+209	Bulgarian	louse	50	vɤʃkə	v ɤ ʃ k ə	78	143	
+210	Czech	louse	50	vɛʃ	v ɛ ʃ	78	201	
+211	Russian	man	51	muʃʃinə	m u ʃː i n ə	79	195	
+212	Polish	man	51	mɛ̃ʃʧɨzna	m ɛ̃ ʃ ʧ ɨ z n a	79	34	
+213	Bulgarian	man	51	mɤʃ	m ɤ ʃ	79	171	
+214	Czech	man	51	mʊʃ	m ʊ ʃ	79	9	
+215	Russian	many	52	mnoɡə	m n o ɡ ə	80	275	
+216	Polish	many	52	vʲɛlɛ	vʲ ɛ l ɛ	81	212	
+217	Bulgarian	many	52	mnɔgo	m n ɔ g o	80	275	
+218	Czech	many	52	mnoɦo	m n o ɦ o	80	275	
+219	Polish	many	52	duʒɔ	d u ʒ ɔ	82	274	
+220	Russian	meat	53	mʲasə	mʲ a s ə	83	282	
+221	Polish	meat	53	mʲɛ̃sɔ	mʲ ɛ̃ s ɔ	83	282	
+222	Bulgarian	meat	53	mɛsɔ	m ɛ s ɔ	83	282	
+223	Czech	meat	53	maso	m a s o	83	282	
+224	Russian	moon	54	luna	l u n a	85	238	
+225	Polish	moon	54	kɕɛ̃ʒɨʦ	k ɕ ɛ̃ ʒ ɨ ʦ	-84	31	
+226	Bulgarian	moon	54	luna	l u n a	85	238	
+227	Czech	moon	54	mʲɛsiːʦ	mʲ ɛ s iː ʦ	86	162	
+228	Russian	mountain	55	ɡɐra	ɡ ɐ r a	87	113	
+229	Polish	mountain	55	ɡura	ɡ u r a	87	113	
+230	Bulgarian	mountain	55	plənina	p l ə n i n a	89	184	
+231	Czech	mountain	55	ɦora	ɦ o r a	87	113	
+232	Czech	mountain	55	vr̩x	v r̩ x	88	61	
+233	Russian	mouth	56	rot	r o t	90	99	
+234	Polish	mouth	56	usta	u s t a	91	278	
+235	Bulgarian	mouth	56	usta	u s t a	91	278	
+236	Czech	mouth	56	uːsta	uː s t a	91	278	
+237	Russian	name	57	imʲə	i mʲ ə	92	142	
+238	Polish	name	57	imʲɛ̃	i mʲ ɛ̃	92	142	
+239	Bulgarian	name	57	imɛ	i m ɛ	92	142	
+240	Czech	name	57	jmɛːno	j m ɛː n o	92	55	
+241	Russian	neck	58	ʃejə	ʃ e j ə	94	145	
+242	Polish	neck	58	ʃɨja	ʃ ɨ j a	94	241	
+243	Bulgarian	neck	58	ʃijə	ʃ i j ə	94	145	
+244	Czech	neck	58	kr̩k	k r̩ k	93	86	
+245	Bulgarian	neck	58	vrat	v r a t	95	112	
+246	Russian	new	59	novɨj	n o v ɨ j	96	151	
+247	Polish	new	59	nɔvɨ	n ɔ v ɨ	96	151	
+248	Bulgarian	new	59	nɔf	n ɔ f	96	53	
+249	Czech	new	59	noviː	n o v iː	96	151	
+250	Russian	night	60	noʧ	n o ʧ	97	269	
+251	Polish	night	60	nɔʦ	n ɔ ʦ	97	269	
+252	Bulgarian	night	60	nɔʃt	n ɔ ʃ t	97	134	
+253	Czech	night	60	noʦ	n o ʦ	97	269	
+254	Russian	nose	61	nos	n o s	98	187	
+255	Polish	nose	61	nɔs	n ɔ s	98	187	
+256	Bulgarian	nose	61	nɔs	n ɔ s	98	187	
+257	Czech	nose	61	nos	n o s	98	187	
+258	Russian	not	62	nʲɛ	nʲ ɛ	99	136	
+259	Polish	not	62	nʲɛ	nʲ ɛ	99	136	
+260	Bulgarian	not	62	nɛ	n ɛ	99	194	
+261	Czech	not	62	nɛ	n ɛ	99	194	
+262	Russian	one	63	ɐdʲin	ɐ dʲ i n	100	98	
+263	Polish	one	63	jɛdɛn	j ɛ d ɛ n	100	244	
+264	Bulgarian	one	63	ɛdnɔ	ɛ d n ɔ	100	226	
+265	Czech	one	63	jɛdɛn	j ɛ d ɛ n	100	244	
+266	Russian	person	64	ʧʲɪlɐvʲɛk	ʧʲ ɪ l ɐ vʲ ɛ k	101	257	
+267	Polish	person	64	ʧwɔvʲɛk	ʧ w ɔ vʲ ɛ k	101	257	
+268	Bulgarian	person	64	ʧovɛk	ʧ o v ɛ k	101	257	
+269	Czech	person	64	ʧlovʲɛk	ʧ l o vʲ ɛ k	101	257	
+270	Russian	rain (V)	65	doʃtʲ	d o ʃ tʲ	102	270	
+271	Polish	rain (V)	65	dɛʃʧ	d ɛ ʃ ʧ	102	270	
+272	Bulgarian	rain (V)	65	dɤʃt	d ɤ ʃ t	102	270	
+273	Czech	rain (V)	65	dɛːʃtʲ	d ɛː ʃ tʲ	102	270	
+274	Russian	red	66	krasnɨj	k r a s n ɨ j	104	6	
+275	Polish	red	66	ʧɛrvɔnɨ	ʧ ɛ r v ɔ n ɨ	103	157	
+276	Bulgarian	red	66	ʧɛrvɛn	ʧ ɛ r v ɛ n	103	157	
+277	Czech	red	66	ʧɛrvɛniː	ʧ ɛ r v ɛ n iː	103	157	
+278	Russian	road	67	dɐroɡə	d ɐ r o ɡ ə	107	175	
+279	Polish	road	67	drɔɡa	d r ɔ ɡ a	107	183	
+280	Bulgarian	road	67	pɤt	p ɤ t	106	202	
+281	Czech	road	67	ʦɛsta	ʦ ɛ s t a	105	123	
+282	Russian	root	68	korʲɪnʲ	k o rʲ ɪ nʲ	108	100	
+283	Polish	root	68	kɔʒɛɲ	k ɔ ʒ ɛ ɲ	108	110	
+284	Bulgarian	root	68	kɔrɛn	k ɔ r ɛ n	108	100	
+285	Czech	root	68	korɛn	k o r ɛ n	108	100	
+286	Russian	round	69	kruɡlɨj	k r u ɡ l ɨ j	109	10	
+287	Polish	round	69	ɔkrɔ̃ɡwɨ	ɔ k r ɔ̃ ɡ w ɨ	109	47	
+288	Bulgarian	round	69	krɤgəl	k r ɤ g ə l	109	122	
+289	Czech	round	69	okrowɦliː	o k r o w ɦ l iː	109	42	
+290	Russian	sand	70	pʲɪsok	pʲ ɪ s o k	110	180	
+291	Polish	sand	70	pʲasɛk	pʲ a s ɛ k	110	62	
+292	Bulgarian	sand	70	pʲasək	pʲ a s ə k	110	62	
+293	Czech	sand	70	piːsɛk	p iː s ɛ k	110	62	
+294	Russian	say (V)	71	skɐzatʲ	s k ɐ z a tʲ	113	163	
+295	Polish	say (V)	71	pɔvʲɛʥɛʨ	p ɔ vʲ ɛ ʥ ɛ ʨ	112	153	
+296	Bulgarian	say (V)	71	kaʒə	k a ʒ ə	113	57	
+297	Czech	say (V)	71	riːkat	r iː k a t	111	139	
+298	Russian	see (V)	72	vʲidʲɪtʲ	vʲ i dʲ ɪ tʲ	114	119	
+299	Polish	see (V)	72	viʥɛʨ	v i ʥ ɛ ʨ	114	119	
+300	Bulgarian	see (V)	72	viʒdəm	v i ʒ d ə m	114	225	
+301	Czech	see (V)	72	vɪdʲɛt	v ɪ dʲ ɛ t	114	119	
+302	Russian	seed	73	sʲemʲə	sʲ e mʲ ə	115	224	
+303	Polish	seed	73	ɕɛmʲɛ̃	ɕ ɛ mʲ ɛ̃	115	33	
+304	Bulgarian	seed	73	sɛmɛ	s ɛ m ɛ	115	224	
+305	Czech	seed	73	sɛmɛno	s ɛ m ɛ n o	115	106	
+306	Russian	sit (V)	74	sʲɪdʲetʲ	sʲ ɪ dʲ e tʲ	116	109	
+307	Polish	sit (V)	74	ɕɛʥɛʨ	ɕ ɛ ʥ ɛ ʨ	116	196	
+308	Bulgarian	sit (V)	74	sɛdʲɤ	s ɛ dʲ ɤ	116	281	
+309	Czech	sit (V)	74	sɛdʲɛt	s ɛ dʲ ɛ t	116	109	
+310	Russian	skin	75	koʒə	k o ʒ ə	117	182	
+311	Polish	skin	75	skura	s k u r a	118	124	
+312	Bulgarian	skin	75	kɔʒə	k ɔ ʒ ə	117	182	
+313	Czech	skin	75	kuːʒɛ	k uː ʒ ɛ	117	182	
+314	Russian	sleep (V)	76	spatʲ	s p a tʲ	119	239	
+315	Polish	sleep (V)	76	spaʨ	s p a ʨ	119	239	
+316	Bulgarian	sleep (V)	76	spa	s p a	119	239	
+317	Czech	sleep (V)	76	spaːt	s p aː t	119	239	
+318	Russian	small	77	malʲɪnʲkʲɪj	m a lʲ ɪ nʲ kʲ ɪ j	120	59	
+319	Polish	small	77	mawɨ	m a w ɨ	120	273	
+320	Bulgarian	small	77	malək	m a l ə k	120	97	
+321	Czech	small	77	maliː	m a l iː	120	65	
+322	Russian	smoke	78	dɨm	d ɨ m	121	141	
+323	Polish	smoke	78	dɨm	d ɨ m	121	141	
+324	Bulgarian	smoke	78	dim	d i m	121	141	
+325	Czech	smoke	78	diːm	d iː m	121	141	
+326	Russian	stand (V)	79	stɐjatʲ	s t ɐ j a tʲ	122	18	
+327	Polish	stand (V)	79	staʨ	s t a ʨ	122	170	
+328	Bulgarian	stand (V)	79	stɔjə	s t ɔ j ə	122	237	
+329	Czech	stand (V)	79	staːt	s t aː t	122	170	
+330	Russian	star	80	zvʲɪzda	z vʲ ɪ z d a	123	252	
+331	Polish	star	80	ɡvʲazda	ɡ vʲ a z d a	123	252	
+332	Bulgarian	star	80	zvɛzda	z v ɛ z d a	123	252	
+333	Czech	star	80	ɦvʲɛzda	ɦ vʲ ɛ z d a	123	252	
+334	Russian	stone	81	kamʲɪnʲ	k a mʲ ɪ nʲ	124	198	
+335	Polish	stone	81	kamʲɛɲ	k a mʲ ɛ ɲ	124	198	
+336	Bulgarian	stone	81	kamək	k a m ə k	124	198	
+337	Czech	stone	81	kaːmɛn	k aː m ɛ n	124	198	
+338	Russian	sun	82	sonʦə	s o n ʦ ə	125	208	
+339	Polish	sun	82	swɔnʲʦɛ	s w ɔ nʲ ʦ ɛ	125	208	
+340	Bulgarian	sun	82	slɤnʦɛ	s l ɤ n ʦ ɛ	125	208	
+341	Czech	sun	82	slʊnʦɛ	s l ʊ n ʦ ɛ	125	208	
+342	Russian	swim (V)	83	plɨtʲ	p l ɨ tʲ	126	96	
+343	Polish	swim (V)	83	pwɨvaʨ	p w ɨ v a ʨ	126	192	
+344	Bulgarian	swim (V)	83	pluvəm	p l u v ə m	126	167	
+345	Czech	swim (V)	83	plavat	p l a v a t	126	117	
+346	Russian	tail	84	xvost	x v o s t	127	166	
+347	Polish	tail	84	ɔɡɔn	ɔ ɡ ɔ n	129	29	
+348	Bulgarian	tail	84	opaʃkə	o p a ʃ k ə	128	262	
+349	Czech	tail	84	oʦas	o ʦ a s	130	45	
+350	Russian	that	85	to	t o	132	28	
+351	Polish	that	85	tamtɔ	t a m t ɔ	132	89	
+352	Bulgarian	that	85	ɔnzi	ɔ n z i	131	186	
+353	Czech	that	85	tamto	t a m t o	132	89	
+354	Russian	this	86	ɛtə	ɛ t ə	133	120	
+355	Polish	this	86	tɔ	t ɔ	133	73	
+356	Bulgarian	this	86	tɔzi	t ɔ z i	133	227	
+357	Czech	this	86	toto	t o t o	133	116	
+358	Russian	thou	87	tɨ	t ɨ	134	250	
+359	Polish	thou	87	tɨ	t ɨ	134	250	
+360	Bulgarian	thou	87	ti	t i	134	20	
+361	Czech	thou	87	tɪ	t ɪ	134	76	
+362	Russian	tongue	88	jɪzɨk	j ɪ z ɨ k	135	245	
+363	Polish	tongue	88	jɛ̃zɨk	j ɛ̃ z ɨ k	135	245	
+364	Bulgarian	tongue	88	ɛzik	ɛ z i k	135	245	
+365	Czech	tongue	88	jazɪk	j a z ɪ k	135	253	
+366	Russian	tooth	89	zup	z u p	136	190	
+367	Polish	tooth	89	zɔ̃p	z ɔ̃ p	136	272	
+368	Bulgarian	tooth	89	zɤp	z ɤ p	136	39	
+369	Czech	tooth	89	zʊp	z ʊ p	136	231	
+370	Russian	tree	90	dʲerʲɪvə	dʲ e rʲ ɪ v ə	138	49	
+371	Polish	tree	90	dʒɛvɔ	d ʒ ɛ v ɔ	138	63	
+372	Bulgarian	tree	90	dərvɔ	d ə r v ɔ	138	149	
+373	Czech	tree	90	strom	s t r o m	137	15	
+374	Russian	two	91	dva	d v a	139	240	
+375	Polish	two	91	dva	d v a	139	240	
+376	Bulgarian	two	91	dva	d v a	139	240	
+377	Czech	two	91	dva	d v a	139	240	
+378	Russian	walk (V)	92	ɪtʲi	ɪ tʲ i	140	92	
+379	Polish	walk (V)	92	iɕʨ	i ɕ ʨ	140	27	
+380	Bulgarian	walk (V)	92	vɛrvʲə	v ɛ r vʲ ə	141	35	
+381	Czech	walk (V)	92	jiːt	j iː t	140	148	
+382	Russian	warm	93	tʲoplɨj	tʲ o p l ɨ j	142	205	
+383	Polish	warm	93	ʨɛpwɨ	ʨ ɛ p w ɨ	142	152	
+384	Bulgarian	warm	93	tɔpəl	t ɔ p ə l	142	64	
+385	Czech	warm	93	tɛpliː	t ɛ p l iː	142	71	
+386	Russian	water	94	vɐda	v ɐ d a	143	169	
+387	Polish	water	94	vɔda	v ɔ d a	143	169	
+388	Bulgarian	water	94	voda	v o d a	143	169	
+389	Czech	water	94	voda	v o d a	143	169	
+390	Russian	we	95	mɨ	m ɨ	144	127	
+391	Polish	we	95	mɨ	m ɨ	144	127	
+392	Bulgarian	we	95	niɛ	n iɛ	145	51	
+393	Czech	we	95	mɪ	m ɪ	144	94	
+394	Russian	what	96	ʃto	ʃ t o	146	258	
+395	Polish	what	96	ʦɔ	ʦ ɔ	146	150	
+396	Bulgarian	what	96	kakvɔ	k a k v ɔ	146	25	
+397	Czech	what	96	ʦo	ʦ o	146	150	
+398	Russian	white	97	bʲelɨj	bʲ e l ɨ j	147	174	
+399	Polish	white	97	bʲawɨ	bʲ a w ɨ	147	17	
+400	Bulgarian	white	97	bal	b a l	147	115	
+401	Czech	white	97	biːliː	b iː l iː	147	146	
+402	Russian	who	98	kto	k t o	148	290	
+403	Polish	who	98	ktɔ	k t ɔ	148	290	
+404	Bulgarian	who	98	koj	k o j	148	259	
+405	Czech	who	98	ɡdo	ɡ d o	148	290	
+406	Russian	woman	99	ʒɛnʃʃʲɪnə	ʒ ɛ n ʃːʲ ɪ n ə	149	214	
+407	Polish	woman	99	kɔbʲɛta	k ɔ bʲ ɛ t a	150	12	
+408	Bulgarian	woman	99	ʒɛna	ʒ ɛ n a	149	159	
+409	Czech	woman	99	ʒɛna	ʒ ɛ n a	149	159	
+410	Russian	yellow	100	ʒoltɨj	ʒ o l t ɨ j	151	232	
+411	Polish	yellow	100	ʒuwtɨ	ʒ u w t ɨ	151	67	
+412	Bulgarian	yellow	100	ʒɤlt	ʒ ɤ l t	151	36	
+413	Czech	yellow	100	ʒlʊtiː	ʒ l ʊ t iː	151	287	
+414	Russian	far	101	dɐlʲokʲɪj	d ɐ lʲ o kʲ ɪ j	152	191	
+415	Polish	far	101	dalɛki	d a l ɛ k i	152	254	
+416	Bulgarian	far	101	dəlɛʧɛn	d ə l ɛ ʧ ɛ n	152	108	
+417	Czech	far	101	dalɛkiː	d a l ɛ k iː	152	254	
+418	Russian	heavy	102	tʲɪʒolɨj	tʲ ɪ ʒ o l ɨ j	153	101	
+419	Polish	heavy	102	ʨɛ̃ʃki	ʨ ɛ̃ ʃ k i	153	279	
+420	Bulgarian	heavy	102	tɛʒək	t ɛ ʒ ə k	153	260	
+421	Czech	heavy	102	tʲɛʃkiː	tʲ ɛ ʃ k iː	153	279	
+422	Russian	near	103	blʲizkʲɪj	b lʲ i z kʲ ɪ j	154	286	
+423	Polish	near	103	bliskɨ	b l i s k ɨ	154	286	
+424	Bulgarian	near	103	blizək	b l i z ə k	154	286	
+425	Czech	near	103	bliːskiː	b l iː s k iː	154	286	
+426	Russian	salt	104	solʲ	s o lʲ	155	32	
+427	Polish	salt	104	sul	s u l	155	285	
+428	Bulgarian	salt	104	sol	s o l	155	32	
+429	Czech	salt	104	suːl	s uː l	155	285	
+430	Russian	short	105	kɐrotkʲɪj	k ɐ r o t kʲ ɪ j	157	233	
+431	Polish	short	105	krutki	k r u t k i	157	246	
+432	Bulgarian	short	105	kratək	k r a t ə k	157	246	
+433	Czech	short	105	kraːtkiː	k r aː t k iː	157	246	
+434	Bulgarian	short	105	kɤs	k ɤ s	156	81	
+435	Russian	snake	106	zmʲɪja	z mʲ ɪ j a	158	135	
+436	Polish	snake	106	ʒmija	ʒ m i j a	158	135	
+437	Bulgarian	snake	106	zmija	z m i j a	158	135	
+438	Czech	snake	106	ɦat	ɦ a t	160	138	
+439	Polish	snake	106	vɔ̃ʒ	v ɔ̃ ʒ	159	203	
+440	Russian	thin	107	tonkʲɪj	t o n kʲ ɪ j	161	23	
+441	Polish	thin	107	ʨɛ̃nki	ʨ ɛ̃ n k i	161	211	
+442	Bulgarian	thin	107	tɤnək	t ɤ n ə k	161	48	
+443	Czech	thin	107	tɛŋkiː	t ɛ ŋ k iː	161	210	
+444	Russian	wind	108	vʲetʲɪr	vʲ e tʲ ɪ r	162	158	
+445	Polish	wind	108	vʲatr	vʲ a t r	162	158	
+446	Bulgarian	wind	108	vʲatər	vʲ a t ə r	162	158	
+447	Russian	worm	109	ʧerfʲ	ʧ e r fʲ	163	173	
+448	Polish	worm	109	ʧɛrf	ʧ ɛ r f	163	173	
+449	Bulgarian	worm	109	ʧɛrvɛj	ʧ ɛ r v ɛ j	163	173	
+450	Czech	worm	109	ʧɛrf	ʧ ɛ r f	163	173	
+451	Russian	year	110	ɡot	ɡ o t	165	75	
+452	Polish	year	110	rɔk	r ɔ k	164	131	
+453	Bulgarian	year	110	ɡodinə	ɡ o d i n ə	165	156	
+454	Czech	year	110	rok	r o k	164	131	

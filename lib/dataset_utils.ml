@@ -16,43 +16,7 @@ end
 
 open Infix
 
-let string_to_token_list s =
-  let chars_to_collapse =
-    [
-      ([ '\203'; '\144' ], "ː");
-      ([ '\201'; '\170' ], "ɪ");
-      ([ '\202'; '\138' ], "ʊ");
-      ([ '\201'; '\153' ], "ə");
-      ([ '\201'; '\155' ], "ɛ");
-      ([ '\201'; '\145' ], "ɑ");
-      ([ '\201'; '\144' ], "ɐ");
-      ([ '\202'; '\138' ], "ʊ");
-      ([ '\201'; '\168' ], "ɨ");
-      ([ '\201'; '\148' ], "ɔ");
-      ([ '\195'; '\166' ], "æ");
-    ]
-  in
-  let chars = String.to_list s in
-  let rec iter accum chars =
-    match chars with
-    | [] -> accum
-    | non_empty_chars -> (
-        match
-          List.find chars_to_collapse ~f:(fun (prefix, _prefix_as_string) ->
-              Utils.is_list_prefix ~equal:Char.equal ~prefix non_empty_chars)
-        with
-        | Some (prefix_chars, prefix_string) ->
-            iter
-              (accum @ [ prefix_string ])
-              (List.drop non_empty_chars (List.length prefix_chars))
-        | None ->
-            iter
-              (accum @ [ Char.to_string (List.hd_exn non_empty_chars) ])
-              (List.tl_exn chars) )
-  in
-  iter [] chars
-
-let vowels =
+let base_vowels =
   [
     "a";
     "e";
@@ -69,54 +33,125 @@ let vowels =
     "ɨ";
     "ɔ";
     "æ";
+    "y";
+    "ʌ";
+    "ɶ";
+    "œ";
+    "ø";
   ]
 
+let string_to_token_list s =
+  let chars_to_collapse =
+    base_vowels |> List.map ~f:(fun s -> (String.to_list s, s))
+  in
+  let suffixes =
+    [
+      [ '\203'; '\144' ] (* "ː" *);
+      [ '\204'; '\175' ] (* "̯" *);
+      [ '\204'; '\131' ] (* nasalised *);
+      [ '\204'; '\158' ] (* lowered *);
+      [ '\204'; '\132' ] (* bar *);
+      [ '\204'; '\129' ] (* acute *);
+      [ '\202'; '\176' ] (* aspirated *);
+    ]
+  in
+
+  let chars = String.to_list s in
+  let rec iter accum chars =
+    match chars with
+    | [] -> accum
+    | non_empty_chars -> (
+        match
+          List.find chars_to_collapse ~f:(fun (prefix, _prefix_as_string) ->
+              Utils.is_list_prefix ~equal:Char.equal ~prefix non_empty_chars)
+        with
+        | Some (prefix_chars, prefix_string) ->
+            iter
+              (accum @ [ prefix_string ])
+              (List.drop non_empty_chars (List.length prefix_chars))
+        | None -> (
+            match
+              List.find suffixes ~f:(fun suffix ->
+                  Utils.is_list_prefix ~equal:Char.equal ~prefix:suffix
+                    non_empty_chars)
+            with
+            | Some suffix ->
+                let accum_start, accum_last =
+                  (List.drop_last_exn accum, List.last_exn accum)
+                in
+                let new_element = accum_last ^ String.of_char_list suffix in
+                let new_accum = accum_start @ [ new_element ] in
+                let new_chars =
+                  List.drop non_empty_chars (List.length suffix)
+                in
+                iter new_accum new_chars
+            | None ->
+                iter
+                  (accum @ [ Char.to_string (List.hd_exn non_empty_chars) ])
+                  (List.tl_exn chars) ) )
+  in
+  iter [] chars
+
+let vowels =
+  List.concat_map base_vowels ~f:(fun v ->
+      [
+        v;
+        v ^ "ː";
+        v ^ "\204\131" (* nasalised *);
+        v ^ "\204\175";
+        (* lowered *)
+        v ^ "\204\158";
+        (* non-syllabic *)
+        v ^ "\202\176";
+        (* aspirated *)
+      ])
+
 let vowel_pairs =
-  List.cartesian_product vowels vowels |> List.map ~f:(fun (s1, s2) -> s1 ^ s2)
+  List.cartesian_product vowels vowels
+  |> List.map ~f:(fun (s1, s2) -> s1 ^ s2)
+  |> Hash_set.of_list (module String)
+
+let vowel_triples =
+  let ( * ) = List.cartesian_product in
+  vowels * vowels * vowels
+  |> List.map ~f:(fun ((s1, s2), s3) -> s1 ^ s2 ^ s3)
+  |> Hash_set.of_list (module String)
 
 let split_fused s =
   let slist = string_to_token_list s in
   match slist with
-  | [ a; b ] when List.mem vowel_pairs (a ^ b) ~equal:String.equal -> [ a; b ]
-  | [ a; b; "ː" ] when List.mem vowel_pairs (a ^ b) ~equal:String.equal ->
-      [ a; b ^ "ː" ]
-  | [ a; "ː"; b ] when List.mem vowel_pairs (a ^ b) ~equal:String.equal ->
-      [ a ^ "ː"; b ]
+  | [ a; b ] when Hash_set.mem vowel_pairs (a ^ b) -> [ a; b ]
+  | [ a; b; c ] when Hash_set.mem vowel_triples (a ^ b ^ c) -> [ a; b; c ]
   | _ -> (
       match s with
-      | "aɪə" -> [ "a"; "ɪ"; "ə" ]
-      | "uiu" -> [ "u"; "i"; "u" ]
-      | "oie" -> [ "o"; "i"; "e" ]
-      | "ʊãː" -> [ "ʊ"; "ãː" ]
-      | "yi" -> [ "y"; "i" ]
-      | "yɨ" -> [ "y"; "ɨ" ]
+      (* velarised lateral approximant e.g. in Albanian (although symbol sometimes used for voiceless alveolar lateral fricative *)
+      | "tˡˀ" -> [ "tˡ" ]
+      | "ł" -> [ "lˤ" ]
+      | "kw" -> [ "k"; "w" ]
       | "ʧ" -> [ "t"; "ʃ" ]
       | "ʧː" -> [ "t"; "ʃː" ]
       | "ʧʲ" -> [ "t"; "ʃʲ" ]
+      | "ʧˀ" -> [ "t"; "ʃˀ" ]
       | "ʤ" -> [ "d"; "ʒ" ]
       | "ʤː" -> [ "d"; "ʒː" ]
       | "œy" -> [ "œ"; "y" ]
       | "ɔy" -> [ "ɔ"; "y" ]
       | "ʦʲ" -> [ "t"; "sʲ" ]
       | "ɑɪ̯" -> [ "ɑ"; "ɪ̯" ]
-      | "eːə" -> [ "eː"; "ə" ]
       | "øːʌ" -> [ "øː"; "ʌ" ]
-      | "øyː" -> [ "ø"; "yː" ]
-      | "ɔyə" -> [ "ɔ"; "y"; "ə" ]
       | "ɐ̃uː" -> [ "ɐ̃"; "uː" ]
-      | "ɪyaː" -> [ "ɪ"; "y"; "aː" ]
       | "ʦʰ" -> [ "t"; "sʰ" ]
       | "ʧʰ" -> [ "t"; "ʃʰ" ]
       | "ʦ" -> [ "t"; "s" ]
       | "ʦː" -> [ "t"; "sː" ]
+      | "ʦˀ" -> [ "t"; "sˀ" ]
       (* "small scripted g" :-( *)
       | "iːː" -> [ "iː" ]
-      | "g" -> [ "ɡ" ]
-      | "gʱ" -> [ "ɡʱ" ]
-      | "gː" -> [ "ɡː" ]
       | "ç" -> [ "ç" ]
       | "ʣ" -> [ "d"; "z" ]
-      | "ʨ" -> [ "t"; "ɕ" ]
+      | "ʤ\202\176" -> [ "d"; "ʒ\202\176" ]
+      | "\202\168" -> [ "t"; "ɕ" ]
+      | "\202\168ʰ" -> [ "t"; "ɕʰ" ]
       | "ʨː" -> [ "t"; "ɕː" ]
       | "ʥ" -> [ "d"; "ʑ" ]
       | "ʧːʰ" -> [ "t"; "ʃːʰ" ]
@@ -125,10 +160,47 @@ let split_fused s =
       | "k͡s" -> [ "k"; "s" ]
       | "p͡s" -> [ "p"; "s" ]
       | "b͡z" -> [ "b"; "z" ]
-      (* TODO - check this is right *)
+      | "t͡ʂ" -> [ "t"; "ʂ" ]
+      | "d͡ʐ" -> [ "d"; "ʐ" ]
+      | "t͡ʂʰ" -> [ "t"; "ʂʰ" ]
+      | "ǝɯ" -> [ "ǝ"; "ɯ" ]
+      | "iǝ" -> [ "i"; "ǝ" ] (* schwa from BAI.csv *)
+      (* Probably from North American Phonetic alphabet *)
+      | "č" | "c\204\140" -> [ "t"; "ʃ" ]
+      | "ǰ" | "j\204\140" -> [ "d͡ʒ" ]
+      | "š" | "s\204\140" -> [ "ʃ" ]
+      | "ž" | "z\204\140" -> [ "ʒ" ]
+      | "t͜s" -> [ "t"; "s" ]
+      | "a͜iː" -> [ "a"; "i\203\144" ]
+      | "ə͜uː" -> [ "ə"; "u\203\144" ]
+      | "p͜f" -> [ "p"; "f" ]
+      | "ə͜i" -> [ "ə"; "i" ]
+      | "ø̞ːʌ" -> [ "ø\203\144"; "ʌ" ]
+      | "ã̄" -> [ "a\204\131" ]
+      | "gː" -> [ "ɡː" ]
+      | "ʊãː" -> [ "ʊ"; "ãː" ]
       | _ -> [ s ] )
 
-let degrade = function "ḷ" -> "l" | other -> other
+let degrade = function
+  | "ḷ" -> "l"
+  | "ɚ" -> "ə" (* r-coloured schwa *)
+  | "ɚ̃" -> "ə\204\131" (* nasalised r-coloured schwa *)
+  | "m\204\163" -> "m" (* not sure *)
+  | "œ̞ː" -> "œ\203\144" (* no lowering *)
+  | "t̝" -> "t"
+  | "ń" -> "n"
+  | "ĩ́ː" -> "i\204\131\203\144"
+  | "ã́ː" -> "a\204\131\203\144"
+  | "é" -> "ɛ" (* e.g. Palauan "mei" *)
+  | other -> other
+
+let shouldn't_skip = function
+  | "₁₂" | "₂₂" | "₄₂" | "₂₁" | "₃₁" | "₃₅" | "₅₅"
+  | "₃₃" | "₂₄" | "₄₄" | "₄₃" | "₅₃" ->
+      false
+  | "#" -> false
+  | "#ː" -> false
+  | _other -> true
 
 type word = Phone.t list
 
@@ -140,91 +212,128 @@ type dataset = {
   phone_counts: (Phone.t, int) Hashtbl.t;
 }
 
-let load_row column_count =
+type row_format = Basic | Iel | Ksl | Pan
+
+let load_row =
   let open Owl.Dataframe in
-  match column_count with
-  | 7 -> (
+  function
+  | Basic -> (
       function
       | [|
           Int id;
           String taxon;
-          _gloss;
+          String gloss;
           Int gloss_id;
           _ipa;
           String tokens;
-          _cog_id;
+          Int cog_id;
         |] ->
-          (id, taxon, gloss_id, tokens)
+          (id, taxon, gloss, gloss_id, tokens, cog_id)
       | _ -> failwith "Row in dataset has unexpected length" )
-  | 8 -> (
+  | Pan -> (
       function
       | [|
           Int id;
           String taxon;
-          _gloss;
+          String gloss;
           Int gloss_id;
-          _ids_id;
+          Int cog_id;
           _ipa;
           String tokens;
-          _cog_id;
         |] ->
-          (id, taxon, gloss_id, tokens)
+          (id, taxon, gloss, gloss_id, tokens, cog_id)
       | _ -> failwith "Row in dataset has unexpected length" )
-  | _ -> failwith "Unsupported column count"
+  | Iel -> (
+      function
+      | [|
+          Int id;
+          String taxon;
+          String gloss;
+          Int gloss_id;
+          _original_form;
+          _ipa;
+          String tokens;
+          Int cog_id;
+        |] ->
+          (id, taxon, gloss, gloss_id, tokens, cog_id)
+      | _ -> failwith "Row in dataset has unexpected length" )
+  | Ksl -> (
+      function
+      | [|
+          Int id;
+          String taxon;
+          String gloss;
+          Int gloss_id;
+          _orthography;
+          _ipa;
+          String tokens;
+          Int cog_id;
+        |] ->
+          (id, taxon, gloss, gloss_id, tokens, cog_id)
+      | _ -> failwith "Row in dataset has unexpected length" )
 
 (** New function to load dataset *)
-let load_rows path =
+let load_rows ?(row_format = Basic) path =
   let df = Owl.Dataframe.of_csv path in
   let rows = ref [] in
-  let process_row =
-    let open Owl.Dataframe in
-    function
-    | [|
-        Int id; String taxon; _gloss; Int gloss_id; _ipa; String tokens; _cog_id;
-      |] ->
-        let tokens =
-          String.split ~on:' ' tokens
-          |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
-          |> List.map ~f:Phone.of_string
-        in
-        rows :=
-          { Row.id; tokens; taxon = Taxon.of_string taxon; gloss_id } :: !rows
-    | _ -> failwith "Row in dataset has unexpected length"
+  let process_row row =
+    let id, taxon, _gloss, gloss_id, tokens, _cog_id =
+      load_row row_format row
+    in
+    let tokens =
+      String.split ~on:' ' tokens
+      |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
+      |> List.filter ~f:shouldn't_skip
+      |> List.map ~f:Phone.of_string
+    in
+    rows := { Row.id; tokens; taxon = Taxon.of_string taxon; gloss_id } :: !rows
   in
   Owl.Dataframe.iter_row process_row df;
   !rows |> List.rev
 
-let get_missing_tokens path =
+let load_rows_with_cog_ids ?(row_format = Basic) path =
   let df = Owl.Dataframe.of_csv path in
-  let process_row =
-    let open Owl.Dataframe in
-    function
-    | [|
-        Int _id;
-        String _taxon;
-        _gloss;
-        Int _gloss_id;
-        _ipa;
-        String tokens;
-        _cog_id;
-      |] ->
-        let _ =
-          try
-            String.split ~on:' ' tokens
-            |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
-            |> List.map ~f:(fun t ->
-                   Phon.process_phone ~t |> fst |> fun t -> Phon.row_for_phon ~t)
-          with Failure message ->
-            Stdio.print_endline message;
-            []
-        in
-        ()
-    | _ -> failwith "Row in dataset has unexpected length"
+  let rows = ref [] in
+  let process_row row =
+    let id, taxon, _gloss, gloss_id, tokens, cog_id = load_row row_format row in
+    let tokens =
+      String.split ~on:' ' tokens
+      |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
+      |> List.filter ~f:shouldn't_skip
+      |> List.map ~f:Phone.of_string
+    in
+    rows :=
+      ({ Row.id; tokens; taxon = Taxon.of_string taxon; gloss_id }, cog_id)
+      :: !rows
+  in
+  Owl.Dataframe.iter_row process_row df;
+  !rows |> List.rev
+
+let get_missing_tokens ?(row_format = Basic) path =
+  let df = Owl.Dataframe.of_csv path in
+  let process_row row =
+    let _id, _taxon, _gloss, _gloss_id, tokens, _cog_id =
+      load_row row_format row
+    in
+    let _ =
+      String.split ~on:' ' tokens
+      |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
+      |> List.filter ~f:shouldn't_skip
+      |> List.map ~f:(fun t ->
+             try
+               let _ =
+                 Phon.process_phone ~t |> fst |> fun t -> Phon.row_for_phon ~t
+               in
+               ()
+             with Failure message ->
+               Stdio.print_endline (message ^ Printf.sprintf " OG %s" t))
+    in
+    ()
   in
   Owl.Dataframe.iter_row process_row df
 
 (** Load a dataset from a CSV at a path *)
-let load_dataset ?verbose path =
+let load_dataset ?verbose ?(row_format = Basic) path =
   let verbose =
     match verbose with Some true -> true | Some false | None -> false
   in
@@ -245,47 +354,38 @@ let load_dataset ?verbose path =
   let cognate_candidates = Hashtbl.create (module Int) in
   let concept_to_gloss_id = Hashtbl.create (module String) in
   let phone_counts = Hashtbl.create (module Phone) in
-  let process_row =
-    let open Owl.Dataframe in
-    function
-    | [|
-        _id;
-        String taxon;
-        String gloss;
-        Int gloss_id;
-        _ipa;
-        String tokens;
-        _cog_id;
-      |] ->
-        let taxon = Taxon.of_string taxon in
-        let token_list =
-          String.split ~on:' ' tokens
-          |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
-          |> List.map ~f:Phone.of_string
-        in
-        List.iter token_list ~f:(fun t -> Hashtbl.incr phone_counts t ~by:1);
-        let previous_set =
-          match phones.@?[taxon] with
-          | None -> Set.empty (module Phone)
-          | Some set -> set
-        in
-        let new_set =
-          List.fold token_list ~init:previous_set ~f:(fun set s ->
-              Set.add set s)
-        in
-        phones.@[taxon] <- new_set;
-        let previous_list = Option.value ~default:[] @@ words.@?[taxon] in
-        let new_list = token_list :: previous_list in
-        words.@[taxon] <- new_list;
-        let previous_cognate_candidates =
-          Option.value ~default:[] @@ cognate_candidates.@?[gloss_id]
-        in
-        let new_cognate_candidates =
-          (taxon, token_list) :: previous_cognate_candidates
-        in
-        cognate_candidates.@[gloss_id] <- new_cognate_candidates;
-        concept_to_gloss_id.@[gloss] <- gloss_id
-    | other -> Stdio.print_endline (Int.to_string @@ Array.length other)
+  let process_row row =
+    let _id, taxon, gloss, gloss_id, tokens, _cog_id =
+      load_row row_format row
+    in
+    let taxon = Taxon.of_string taxon in
+    let token_list =
+      String.split ~on:' ' tokens
+      |> List.map ~f:split_fused |> List.concat |> List.map ~f:degrade
+      |> List.filter ~f:shouldn't_skip
+      |> List.map ~f:Phone.of_string
+    in
+    List.iter token_list ~f:(fun t -> Hashtbl.incr phone_counts t ~by:1);
+    let previous_set =
+      match phones.@?[taxon] with
+      | None -> Set.empty (module Phone)
+      | Some set -> set
+    in
+    let new_set =
+      List.fold token_list ~init:previous_set ~f:(fun set s -> Set.add set s)
+    in
+    phones.@[taxon] <- new_set;
+    let previous_list = Option.value ~default:[] @@ words.@?[taxon] in
+    let new_list = token_list :: previous_list in
+    words.@[taxon] <- new_list;
+    let previous_cognate_candidates =
+      Option.value ~default:[] @@ cognate_candidates.@?[gloss_id]
+    in
+    let new_cognate_candidates =
+      (taxon, token_list) :: previous_cognate_candidates
+    in
+    cognate_candidates.@[gloss_id] <- new_cognate_candidates;
+    concept_to_gloss_id.@[gloss] <- gloss_id
   in
   let () = Owl.Dataframe.iter_row process_row df in
   let () =
@@ -341,14 +441,12 @@ let print_weights first_decoder second_decoder weights =
   (* TODO - check correct *)
   let width = shape.(0) in
   let height = shape.(1) in
-  Stdio.print_endline "oy";
   (*let max_number_width =
       1
       + ( Generic.max'
         @@ Generic.map (fun n -> (*String.length @@ Int.to_string*) n) weights )
     in*)
   let max_number_width = 4 in
-  Stdio.print_endline "yo";
   let element_pattern =
     Caml.Scanf.format_from_string
       ("%" ^ Int.to_string max_number_width ^ "d")

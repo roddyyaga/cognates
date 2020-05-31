@@ -64,7 +64,8 @@ val expectations :
   Dict.t ->
   Probability.Log.t Alpha_family.t ->
   Probability.Log.t Theta_family.t ->
-  base_cognate_prob:Probability.t ->
+  base_cognate_probs:(Taxon.t Sorted_pair.t, float) Dict.t ->
+  default_base_cognate_prob:float ->
   word_pair_distribution list
 
 val initialise_parameters :
@@ -89,3 +90,6 @@ val sorted_thetas :
   * Phone.t Sorted_pair.Derived.t
   * Probability.Log.t )
   list
+
+val infer_taxon_pair_cognate_probs :
+  word_pair_distribution list -> (Taxon.t Sorted_pair.t, float) Dict.t

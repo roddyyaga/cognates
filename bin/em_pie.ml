@@ -26,7 +26,6 @@ let rows = Dataset_utils.load_rows data_path
 
 let make_init_offset () = 2 ** Random.int 10
 
-
 let make_initialiser ~different ~null ~syl_match ~two_match ~one_match
     ~identical t1 t2 =
   if Phone.(t1 = null || t2 = null) then Float.of_int null
@@ -89,6 +88,7 @@ let () =
 
 let row_pairs = Em.possible_pairs rows
 
+(*
 let expect =
   Em.expectations ~explain:false encoders decoders row_pairs weights_tables
     ~base_cognate_prob:(Probability.of_float 0.005)
@@ -333,4 +333,4 @@ let () =
   List.iter f_scoreses ~f:(fun f_scores ->
       Stdio.print_endline "Next iteration";
       let sorted_scores = Dict.sorted_items f_scores ~compare:Float.compare in
-      List.iter sorted_scores ~f:(fun (p, s) -> Stdio.printf "%s - %.4f\n" p s))*)
+      List.iter sorted_scores ~f:(fun (p, s) -> Stdio.printf "%s - %.4f\n" p s))*)*)

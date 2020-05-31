@@ -1,8 +1,8 @@
 Concept: all, False Positives: no, False Negatives: yes
 Bulgarian 	vsiʧki 	   1	   1
-Czech     	fʃɪxnʲɪ	   1	   1
-Polish    	fʃɨsʦɨ 	   1	   1
-Russian   	fsʲe   	   1	   1
+Czech     	fʃɪxnʲɪ	   1	   2
+Polish    	fʃɨsʦɨ 	   1	   2
+Russian   	fsʲe   	   1	   2
 Danish    	æˀl    	   3	   3
 English   	ɔːl    	   3	   3
 German    	al     	   3	   3
@@ -36,10 +36,10 @@ Icelandic 	aska   	   4	   4
 Swedish   	asːka  	   4	   4
 German    	aʃə    	   4	   8
 French    	sɑ̃dʁ  	   7	   7
+Portuguese	sĩzɐ   	   7	   8
 Italian   	ʧenere 	   7	  12
-Romanian  	ʧenuʃə 	   7	  12
-Portuguese	sĩzɐ   	   7	  15
-Spanish   	θeniθa 	   7	  15
+Romanian  	ʧenuʃə 	   7	  16
+Spanish   	θeniθa 	   7	  18
 Greek     	staxti 	   9	   9
 Hindi     	raːkʰ  	  10	  10
 Norwegian 	ɑsk    	  13	   4
@@ -52,7 +52,7 @@ Czech     	kuːra   	   2	   2
 Polish    	kɔra    	   2	   2
 Russian   	kɐra    	   2	   2
 French    	ekɔʁs   	   2	   7
-Romanian  	skwarʦə 	   2	   7
+Romanian  	skwarʦə 	   2	  16
 Danish    	bɑːg    	   4	   4
 Icelandic 	bœrkʏr  	   4	   4
 Swedish   	barːk   	   4	   4
@@ -62,8 +62,8 @@ Norwegian 	bɑɾk    	   6	   4
 German    	rɪndə   	   8	   8
 Greek     	flios   	   9	   9
 Hindi     	ʧʰaːl   	  10	  10
-Italian   	korteʧʧa	  12	   7
-Spanish   	koɾteθa 	  12	   7
+Italian   	korteʧʧa	  12	  12
+Spanish   	koɾteθa 	  12	  12
 Portuguese	kaʃkɐ   	  15	  15
 #
 Concept: belly, False Positives: yes, False Negatives: yes
@@ -93,8 +93,8 @@ Portuguese	bɐʀigɐ  	  22	   2
 #
 Concept: big, False Positives: yes, False Negatives: yes
 Armenian  	mɛʦ     	   1	   1
+Icelandic 	mɪːcɪt͡l	   1	   1
 Greek     	meɣalos 	   1	   9
-Icelandic 	mɪːcɪt͡l	   1	  21
 Bulgarian 	golʲam  	   2	   2
 Czech     	vɛlkiː  	   3	   3
 Polish    	vʲɛlki  	   3	   3
@@ -104,7 +104,7 @@ Swedish   	stoːr   	   4	   4
 Dutch     	xroːt   	   5	   5
 German    	ɡroːs   	   5	   5
 English   	ɡreɪt   	   5	   5
-English   	bɪɡ     	   6	   1
+English   	bɪɡ     	   6	   6
 French    	ɡʁã     	   7	   7
 Italian   	ɡrande  	   7	   7
 Portuguese	grɐ̃də  	   7	   7
@@ -166,16 +166,16 @@ Czech     	ʧɛrniː  	   2	   3
 Polish    	ʧarnɨ   	   2	   3
 Russian   	ʧornɨj  	   2	   3
 Danish    	sɒːd    	   4	   4
-Dutch     	zʋɑrt   	   4	   4
-German    	ʃvart͡s 	   4	   4
-Icelandic 	svar̥tʏr	   4	   4
 Norwegian 	sɔʈ     	   4	   4
-Swedish   	svartː  	   4	   4
+Dutch     	zʋɑrt   	   4	   5
+German    	ʃvart͡s 	   4	   5
+Icelandic 	svar̥tʏr	   4	   5
+Swedish   	svartː  	   4	   5
 English   	blæk    	   6	   6
 French    	nwaʁ    	   7	   7
-Italian   	nero    	   7	   7
-Romanian  	neɡru   	   7	   7
-Spanish   	neɣɾo   	   7	   7
+Italian   	nero    	   7	  12
+Romanian  	neɡru   	   7	  12
+Spanish   	neɣɾo   	   7	  12
 Greek     	mavros  	   9	   9
 Hindi     	kaːlaː  	  10	  10
 Portuguese	pretu   	  15	  15
@@ -188,9 +188,9 @@ Portuguese	sɐ̃gə 	   1	  11
 Romanian  	sɨnʤe 	   1	  11
 Spanish   	saŋɡɾe	   1	  11
 Bulgarian 	krɤf  	   2	   2
-Czech     	krɛf  	   2	   3
-Polish    	krɛf  	   2	   3
-Russian   	krofʲ 	   2	   3
+Czech     	krɛf  	   2	   2
+Polish    	krɛf  	   2	   2
+Russian   	krofʲ 	   2	   2
 Danish    	bloˀð 	   4	   4
 Dutch     	bluːt 	   4	   4
 English   	blʌd  	   4	   4
@@ -200,13 +200,13 @@ Norwegian 	bluː  	   4	   4
 Swedish   	bloːd 	   4	   4
 Greek     	ema   	   9	   9
 #
-Concept: bone, False Positives: yes, False Negatives: yes
+Concept: bone, False Positives: no, False Negatives: yes
 Armenian  	voskoɾ	   1	   1
-French    	ɔs    	   1	   2
-Italian   	ɔsso  	   1	  12
-Portuguese	osu   	   1	  12
-Romanian  	os    	   1	  12
-Spanish   	weso  	   1	  12
+French    	ɔs    	   1	   7
+Italian   	ɔsso  	   1	   7
+Portuguese	osu   	   1	   7
+Romanian  	os    	   1	   7
+Spanish   	weso  	   1	  18
 Bulgarian 	kɔst  	   2	   2
 Czech     	kost  	   2	   2
 Polish    	kɔɕʨ  	   2	   2
@@ -223,12 +223,12 @@ Hindi     	həɖɖiː	  10	  10
 #
 Concept: breast, False Positives: yes, False Negatives: yes
 Armenian  	kuɾʦkʰ   	   1	   1
-Bulgarian 	ɡrɤt     	   1	   1
-Russian   	ɡrutʲ    	   1	   1
+Bulgarian 	ɡrɤt     	   1	   2
+Russian   	ɡrutʲ    	   1	   2
 Czech     	pr̩sa    	   3	   3
 Polish    	pʲɛrɕ    	   3	   3
+Dutch     	bɔrst    	   4	   3
 Danish    	bʁœsd    	   4	   4
-Dutch     	bɔrst    	   4	   4
 English   	brɛst    	   4	   4
 German    	brʊst    	   4	   4
 Icelandic 	b̥rjousd̥	   4	   4
@@ -241,9 +241,9 @@ Romanian  	pjept    	   7	  16
 Greek     	stiθos   	   9	   9
 Italian   	seno     	   9	  12
 Spanish   	seno     	   9	  12
-French    	sɛ̃      	   9	  12
-Portuguese	sɐju     	   9	  12
 Romanian  	sɨn      	   9	  12
+French    	sɛ̃      	   9	  20
+Portuguese	sɐju     	   9	  22
 Hindi     	ʧaːtiː   	  10	  10
 Norwegian 	bɾyst    	  13	   4
 #
@@ -262,7 +262,7 @@ Swedish   	brɛnːa  	   4	   4
 French    	bʁyle   	   7	   7
 Italian   	bruʧːare	   7	   7
 Greek     	ceo     	   9	   9
-Hindi     	ʤəlnaː  	  10	   2
+Hindi     	ʤəlnaː  	  10	  10
 Portuguese	kɐjmar  	  15	  15
 Spanish   	kemaɾ   	  15	  15
 Romanian  	arde    	  16	  16
@@ -282,10 +282,10 @@ Icelandic 	nakl     	   1	   4
 Norwegian 	næjl     	   1	   4
 Swedish   	naːgel   	   1	   4
 French    	ɔ̃ɡl     	   1	   7
-Italian   	unɡja    	   1	   7
-Romanian  	ungje    	   1	   7
 Greek     	niçi     	   1	   9
 Hindi     	naːkʰ    	   1	  10
+Italian   	unɡja    	   1	  12
+Romanian  	ungje    	   1	  12
 Portuguese	uɲɐ      	   1	  15
 Spanish   	uɲa      	   1	  15
 #
@@ -302,9 +302,9 @@ Dutch     	ʋɔlk  	   5	   5
 German    	vɔlkə 	   5	   5
 English   	klaʊd 	   6	   6
 French    	nɥaj  	   7	   7
-Italian   	nuvola	   7	   9
-Portuguese	nuvɐ̃j	   7	   9
-Spanish   	nuβe  	   7	   9
+Italian   	nuvola	   7	  12
+Portuguese	nuvɐ̃j	   7	  12
+Spanish   	nuβe  	   7	  12
 Romanian  	nor   	   7	  16
 Greek     	sinefo	   9	   9
 Hindi     	baːdəl	  10	  10
@@ -338,8 +338,8 @@ Concept: come (V), False Positives: no, False Negatives: yes
 Armenian  	gɑl        	   1	   1
 Bulgarian 	idvam      	   2	   2
 Czech     	prɪjiːt    	   2	   3
-Polish    	pʃɨjɕʨ     	   2	   3
 Russian   	prʲɪjtʲi   	   2	   3
+Polish    	pʃɨjɕʨ     	   2	  14
 Danish    	kʌmə       	   4	   4
 Dutch     	aːŋkoːmə   	   4	   4
 English   	kʌm        	   4	   4
@@ -392,8 +392,8 @@ Russian   	pʲos  	   3	   3
 English   	dɔɡ   	   6	   6
 French    	ʃjɛ̃  	   7	   7
 Italian   	kane  	   7	  12
-Portuguese	kɐ̃uː 	   7	  12
 Romanian  	kɨjne 	   7	  12
+Portuguese	kɐ̃uː 	   7	  15
 Greek     	scilos	   9	   9
 Hindi     	kʊttaː	  10	   2
 Norwegian 	hʉn   	  13	   1
@@ -421,12 +421,12 @@ Icelandic 	trɛʰka 	   4	   4
 Swedish   	drikːa 	   4	   4
 Norwegian 	dɾikə  	  13	   4
 #
-Concept: dry, False Positives: no, False Negatives: yes
+Concept: dry, False Positives: yes, False Negatives: yes
 Bulgarian 	sux    	   1	   1
 Czech     	sʊxiː  	   1	   2
-Hindi     	suːkʰaː	   1	   2
 Polish    	suxɨ   	   1	   2
 Russian   	suxoj  	   1	   2
+Hindi     	suːkʰaː	   1	   9
 Danish    	tɶˀʁ   	   3	   3
 Icelandic 	θʏrː   	   3	   3
 Norwegian 	tœɾ    	   3	   3
@@ -435,10 +435,10 @@ Dutch     	droːx  	   4	   4
 English   	draɪ   	   4	   4
 German    	trɔkən 	   4	   4
 French    	sɛk    	   6	   6
-Italian   	sekko  	   6	   6
-Portuguese	seku   	   6	   6
-Romanian  	sek    	   6	   6
-Spanish   	seko   	   6	   6
+Italian   	sekko  	   6	   9
+Portuguese	seku   	   6	   9
+Romanian  	sek    	   6	   9
+Spanish   	seko   	   6	   9
 Greek     	k͡seros	   8	   8
 Italian   	aʃʃutto	  19	  19
 Portuguese	ẽʃutu  	  19	  19
@@ -482,22 +482,22 @@ Italian   	tɛrra  	   7	   7
 Portuguese	tɛʀɐ   	   7	   7
 Spanish   	tjera  	   7	   7
 Greek     	ʝi     	   9	   9
-Hindi     	dʱərtiː	  10	   1
+Hindi     	dʱərtiː	  10	   5
 Norwegian 	juːɾ   	  13	   4
 Romanian  	pəmɨnt 	  16	  16
 #
 Concept: eat (V), False Positives: no, False Negatives: yes
 Armenian  	utɛl   	   1	   1
-Portuguese	kumer  	   1	   1
-Spanish   	komeɾ  	   1	   1
+Dutch     	eːtə   	   1	   1
+Swedish   	ɛːta   	   1	   1
 Bulgarian 	jam    	   1	   2
 Czech     	jiːst  	   1	   3
 Polish    	jɛɕʨ   	   1	   3
 Russian   	jesʲtʲ 	   1	   3
-Dutch     	eːtə   	   1	   5
-German    	ɛsən   	   1	   5
-Swedish   	ɛːta   	   1	   5
 English   	iːt    	   1	   6
+German    	ɛsən   	   1	   8
+Portuguese	kumer  	   1	  15
+Spanish   	komeɾ  	   1	  15
 Danish    	sbiːsə 	   4	   4
 Norwegian 	spiːsə 	   4	   4
 French    	mɑ̃ʒe  	   7	   7
@@ -533,7 +533,6 @@ Armenian  	ɑʧʰkʰ	   1	   1
 Hindi     	ãːkʰ 	   1	   1
 Bulgarian 	okɔ  	   1	   2
 Czech     	oko  	   1	   2
-Icelandic 	øyːɣa	   1	   2
 Italian   	ɔkkjo	   1	   2
 Polish    	ɔkɔ  	   1	   2
 Danish    	ʌjə  	   1	   4
@@ -541,12 +540,13 @@ Norwegian 	œjə  	   1	   4
 Dutch     	oːx  	   1	   5
 English   	aɪ   	   1	   6
 French    	œj   	   1	   7
-Portuguese	oʎu  	   1	   7
-Spanish   	oxo  	   1	   7
 German    	auɡə 	   1	   8
 Romanian  	oki  	   1	   8
 Swedish   	øːga 	   1	   8
 Greek     	mati 	   1	   9
+Icelandic 	øyːɣa	   1	  11
+Portuguese	oʎu  	   1	  15
+Spanish   	oxo  	   1	  15
 Russian   	ɡlas 	  17	  17
 #
 Concept: far, False Positives: yes, False Negatives: yes
@@ -557,20 +557,20 @@ Polish    	dalɛki   	   2	   2
 Russian   	dɐlʲokʲɪj	   2	   2
 French    	lwɛ̃     	   2	   7
 Icelandic 	laŋ      	   2	  11
-Italian   	lontano  	   2	  11
-Portuguese	lõʒə     	   2	  11
 Swedish   	loŋ      	   2	  11
 Danish    	lɑŋˀ     	   2	  11
+Italian   	lontano  	   2	  12
 Norwegian 	buʈ      	   2	  13
+Portuguese	lõʒə     	   2	  15
 Danish    	fjæʁˀn   	   4	   4
 Dutch     	vɛr      	   4	   4
 English   	fɑːr     	   4	   4
 German    	fɛrn     	   4	   4
 Swedish   	fjɛrːan  	   4	   4
 Greek     	makran   	   9	   9
-Hindi     	duːr     	  10	   1
+Hindi     	duːr     	  10	  10
 Romanian  	depərte  	  16	  16
-Spanish   	lexano   	  18	  11
+Spanish   	lexano   	  18	  12
 #
 Concept: fat, False Positives: yes, False Negatives: no
 Armenian  	ʧɑɾp   	   1	   1
@@ -595,14 +595,14 @@ Spanish   	ɡoɾðo  	  15	  15
 Russian   	ʒɨr    	  17	  17
 Czech     	saːdlo 	  20	  20
 #
-Concept: feather, False Positives: no, False Negatives: yes
+Concept: feather, False Positives: yes, False Negatives: yes
 Armenian  	pʰɛtuɾ 	   1	   1
 Bulgarian 	pɛrɔ   	   2	   2
 Czech     	pɛːro  	   2	   2
 Polish    	pʲurɔ  	   2	   2
 Russian   	pʲɪro  	   2	   2
+Dutch     	veːr   	   4	   1
 Danish    	fjeðˀʌ 	   4	   4
-Dutch     	veːr   	   4	   4
 English   	fɛðər  	   4	   4
 German    	feːdər 	   4	   4
 Icelandic 	fjœːðʏr	   4	   4
@@ -617,25 +617,25 @@ Italian   	pjuma  	   7	   7
 Spanish   	pluma  	   7	   7
 Hindi     	pə̃ŋkʰ 	  10	  10
 #
-Concept: fire, False Positives: yes, False Negatives: yes
+Concept: fire, False Positives: no, False Negatives: yes
 Armenian  	kəɾɑk 	   1	   1
-Hindi     	aːg   	   2	   1
 Bulgarian 	ɔɡən  	   2	   2
 Czech     	oɦɛnʲ 	   2	   2
 Polish    	ɔɡʲɛnʲ	   2	   2
 Russian   	ɐɡonʲ 	   2	   2
+Hindi     	aːg   	   2	  10
 Danish    	ilˀ   	   4	   4
 Icelandic 	ɛltʏr 	   4	   4
 Swedish   	elːd  	   4	   4
 Norwegian 	il    	   4	   4
 Dutch     	vyːr  	   5	   5
-English   	faɪər 	   5	   6
-German    	fɔyər 	   5	   6
-French    	fø    	   7	   6
-Italian   	fwɔko 	   7	  12
-Portuguese	fogu  	   7	  12
-Romanian  	fok   	   7	  12
-Spanish   	fweɣo 	   7	  12
+English   	faɪər 	   5	   5
+German    	fɔyər 	   5	   5
+French    	fø    	   7	   7
+Italian   	fwɔko 	   7	   7
+Portuguese	fogu  	   7	   7
+Romanian  	fok   	   7	   7
+Spanish   	fweɣo 	   7	   7
 Greek     	fotça 	   9	   9
 Norwegian 	ʋɑɾmə 	  13	  13
 #
@@ -705,9 +705,6 @@ Russian   	nɐɡa   	   3	   3
 Concept: full, False Positives: no, False Negatives: yes
 Armenian  	likʰə  	   1	   1
 Bulgarian 	pɤlɛn  	   1	   2
-French    	plɛ̃   	   1	   2
-Hindi     	puːraː 	   1	   2
-Romanian  	plin   	   1	   2
 Czech     	pl̩niː 	   1	   3
 Danish    	fulˀ   	   1	   4
 Dutch     	vɔl    	   1	   4
@@ -715,12 +712,15 @@ English   	fʊl    	   1	   4
 German    	fɔl    	   1	   4
 Norwegian 	fʉl    	   1	   4
 Swedish   	fulː   	   1	   4
+French    	plɛ̃   	   1	   7
+Italian   	pjɛno  	   1	   7
+Spanish   	ʎeno   	   1	   7
+Hindi     	puːraː 	   1	  10
+Romanian  	plin   	   1	  10
 Icelandic 	fʏt͡lʏr	   1	  11
-Italian   	pjɛno  	   1	  12
-Portuguese	ʃɐju   	   1	  12
-Spanish   	ʎeno   	   1	  12
 Polish    	pɛwnɨ  	   1	  14
 Russian   	polnɨj 	   1	  14
+Portuguese	ʃɐju   	   1	  15
 Greek     	ʝematos	   9	   9
 #
 Concept: give (V), False Positives: no, False Negatives: yes
@@ -737,12 +737,33 @@ French    	dɔne  	   1	   7
 Greek     	ðino  	   1	   7
 Hindi     	deːnaː	   1	   7
 Danish    	giˀ   	   4	   4
-English   	ɡɪv   	   4	   4
 Dutch     	xeːvə 	   4	   5
 German    	ɡeːbən	   4	   5
 Icelandic 	cɛːva 	   4	   5
+English   	ɡɪv   	   4	   6
 Norwegian 	jiː   	   4	  13
 Swedish   	jiːva 	   4	  13
+#
+Concept: good, False Positives: no, False Negatives: yes
+Armenian  	lɑv    	   1	   1
+Bulgarian 	dobɤr  	   2	   2
+Czech     	dobriː 	   2	   2
+Polish    	dɔbrɨ  	   2	   2
+Danish    	goˀ    	   4	   4
+Dutch     	xuːt   	   4	   4
+English   	ɡʊd    	   4	   4
+German    	ɡuːt   	   4	   4
+Norwegian 	guː    	   4	   4
+Swedish   	guːd   	   4	   4
+Icelandic 	kouːðʏr	   4	  11
+French    	bɔ̃    	   7	   7
+Italian   	bwɔno  	   7	   7
+Portuguese	bõ     	   7	   7
+Romanian  	bun    	   7	   7
+Spanish   	bweno  	   7	   7
+Greek     	kalos  	   9	   9
+Hindi     	əʧʧʰaː 	  10	  10
+Russian   	xɐroʃɨj	  17	  17
 #
 Concept: green, False Positives: no, False Negatives: yes
 Armenian  	kɑnɑʧʰ   	   1	   1
@@ -801,10 +822,10 @@ German    	hant 	   4	   4
 Icelandic 	hœnt 	   4	   4
 Swedish   	hanːd	   4	   4
 French    	mɛ̃  	   7	   7
-Italian   	mano 	   7	   7
 Portuguese	mɐ̃w 	   7	   7
-Romanian  	mɨnə 	   7	   7
-Spanish   	mano 	   7	   7
+Italian   	mano 	   7	  12
+Romanian  	mɨnə 	   7	  12
+Spanish   	mano 	   7	  12
 Norwegian 	hɔn  	  13	   4
 #
 Concept: head, False Positives: no, False Negatives: yes
@@ -814,11 +835,11 @@ Czech     	ɦlava 	   1	   2
 Polish    	ɡwɔva 	   1	   2
 Russian   	ɡəlɐva	   1	   2
 Danish    	hoːəð 	   4	   4
-Dutch     	hoːft 	   4	   4
 English   	hɛd   	   4	   4
 Icelandic 	hœvʏð 	   4	   4
 Norwegian 	huːdə 	   4	   4
 Swedish   	huːvud	   4	   4
+Dutch     	hoːft 	   4	   5
 French    	tɛt   	   7	   7
 Italian   	tɛsta 	   7	  12
 German    	kɔp͡f 	   8	   8
@@ -828,11 +849,11 @@ Portuguese	kɐbesɐ	  15	  15
 Spanish   	kaβeθa	  15	  15
 Romanian  	kap   	  15	  16
 #
-Concept: hear (V), False Positives: yes, False Negatives: yes
+Concept: hear (V), False Positives: no, False Negatives: yes
 Armenian  	ləsɛl  	   1	   1
-Czech     	slɪʃɛt 	   1	   1
-Polish    	swɨʃɛʨ 	   1	   1
-Russian   	sluʃatʲ	   1	   1
+Czech     	slɪʃɛt 	   1	   3
+Polish    	swɨʃɛʨ 	   1	   3
+Russian   	sluʃatʲ	   1	   3
 Hindi     	sʊnnaː 	   1	  10
 Bulgarian 	ʧuvəm  	   2	   2
 Danish    	høːʌ   	   2	   4
@@ -844,7 +865,7 @@ Norwegian 	høːɾə  	   2	   4
 Swedish   	høːra  	   2	   4
 Greek     	akuo   	   2	   9
 French    	ɑ̃tɑ̃dʁ	   7	   7
-Italian   	udire  	  12	   7
+Italian   	udire  	  12	  12
 Portuguese	ovir   	  12	  15
 Spanish   	o.ir   	  12	  15
 Romanian  	awzi   	  12	  16
@@ -854,7 +875,6 @@ Armenian  	siɾt   	   1	   1
 Dutch     	hɑrt   	   1	   1
 English   	hɑːrt  	   1	   1
 German    	hɛrt͡s 	   1	   1
-Icelandic 	çar̥ta 	   1	   1
 Bulgarian 	sərʦɛ  	   1	   2
 Czech     	sr̩ʦɛ  	   1	   2
 Polish    	sɛrʦɛ  	   1	   2
@@ -863,9 +883,10 @@ Danish    	jæʁdə  	   1	   4
 Swedish   	jɛrta  	   1	   4
 French    	kœʁ    	   1	   7
 Italian   	kwɔre  	   1	   7
-Portuguese	kurɐsõ 	   1	   7
-Spanish   	koraθon	   1	   7
 Greek     	karðʝa 	   1	   9
+Icelandic 	çar̥ta 	   1	  11
+Portuguese	kurɐsõ 	   1	  15
+Spanish   	koraθon	   1	  15
 Hindi     	dɪl    	  10	  10
 Norwegian 	jæʈə   	  13	   4
 Romanian  	inimə  	  16	  16
@@ -875,9 +896,9 @@ Bulgarian 	tɛʒək   	   1	   1
 Czech     	tʲɛʃkiː 	   1	   1
 Polish    	ʨɛ̃ʃki  	   1	   1
 Danish    	tɔŋˀ    	   1	   3
-Icelandic 	θuŋkʏr  	   1	   3
 Norwegian 	tuŋ     	   1	   3
 Swedish   	tuŋː    	   1	   3
+Icelandic 	θuŋkʏr  	   1	  10
 Russian   	tʲɪʒolɨj	   1	  16
 Dutch     	zʋaːr   	   4	   4
 German    	ʃveːr   	   4	   4
@@ -958,6 +979,7 @@ Spanish   	mataɾ   	  15	  15
 #
 Concept: knee, False Positives: no, False Negatives: yes
 Armenian  	ʦunk    	   1	   1
+Romanian  	ʤenunkʲ 	   1	   1
 Danish    	knɛˀ    	   1	   4
 Dutch     	kniː    	   1	   4
 English   	niː     	   1	   4
@@ -966,9 +988,8 @@ Icelandic 	kʰniɛː  	   1	   4
 Norwegian 	kneː    	   1	   4
 Swedish   	knɛː    	   1	   4
 French    	ʒənu    	   1	   7
-Italian   	ʤinɔkkjo	   1	   7
-Romanian  	ʤenunkʲ 	   1	   7
 Greek     	ɣonato  	   1	   9
+Italian   	ʤinɔkkjo	   1	  12
 Portuguese	ʒuɐʎu   	   1	  15
 Bulgarian 	kolʲano 	   2	   2
 Czech     	kolɛno  	   2	   2
@@ -984,9 +1005,9 @@ Dutch     	ʋeːtə    	   1	   4
 German    	vɪsən    	   1	   4
 Icelandic 	vɪːta    	   1	   4
 Norwegian 	ʋiːtə    	   1	   4
-Czech     	vʲɛdʲɛt  	   1	   4
-Polish    	vʲɛʥɛʨ   	   1	   4
 Swedish   	veta     	   1	   4
+Czech     	vʲɛdʲɛt  	   1	  20
+Polish    	vʲɛʥɛʨ   	   1	  20
 Bulgarian 	znajə    	   2	   2
 Czech     	znaːt    	   2	   2
 Polish    	znaʨ     	   2	   2
@@ -994,10 +1015,10 @@ Russian   	znatʲ    	   2	   2
 Swedish   	ɕɛnna    	   2	   2
 Norwegian 	çenə     	   2	   2
 English   	nəʊ      	   2	   6
-Hindi     	ʤaːnnaː  	   2	   6
-Danish    	kɛnə     	   2	   6
-Dutch     	kɛnə     	   2	   6
-German    	kɛnən    	   2	   6
+Hindi     	ʤaːnnaː  	   2	  10
+Danish    	kɛnə     	   2	  10
+Dutch     	kɛnə     	   2	  10
+German    	kɛnən    	   2	  10
 Italian   	konoʃʃere	   2	  12
 Portuguese	kuɲəser  	   2	  12
 Spanish   	konoθer  	   2	  12
@@ -1024,13 +1045,13 @@ Icelandic 	plaːð 	   4	   4
 Swedish   	blad  	   4	   4
 Swedish   	blad  	   4	   4
 French    	fœj   	   4	   7
-Spanish   	oxa   	   4	   7
 Greek     	filo  	   4	   9
 Italian   	fɔʎʎa 	   4	   9
 Portuguese	foʎɐ  	   4	   9
 Romanian  	fwaje 	   4	  16
-Icelandic 	løyːv 	   6	   2
+Spanish   	oxa   	   4	  18
 English   	liːf  	   6	   6
+Icelandic 	løyːv 	   6	  20
 Norwegian 	løːʋ  	   6	  21
 Hindi     	pəttaː	  10	  10
 Norwegian 	blɑː  	  13	   4
@@ -1041,13 +1062,13 @@ Bulgarian 	lɛʒə   	   2	   2
 Czech     	lɛʒɛt  	   2	   2
 Danish    	legə   	   2	   2
 Dutch     	lɪɣə   	   2	   2
-English   	laɪ    	   2	   2
 German    	liːɡən 	   2	   2
 Icelandic 	lɪcːa  	   2	   2
 Norwegian 	ligə   	   2	   2
 Polish    	lɛʒɛʨ  	   2	   2
 Russian   	lʲɪʒatʲ	   2	   2
 Swedish   	ligːa  	   2	   2
+English   	laɪ    	   2	   6
 French    	kuʃe   	   7	   7
 Romanian  	kulka  	   7	   7
 Hindi     	leʈnaː 	   9	   9
@@ -1073,25 +1094,25 @@ Spanish   	iɣaðo   	   7	  12
 Greek     	sikoti  	   9	   9
 Hindi     	kəleːʤaː	  10	  10
 Norwegian 	leʋəɾ   	  13	   4
-Polish    	vɔ̃trɔba	  14	   2
+Polish    	vɔ̃trɔba	  14	  14
 Russian   	pʲeʧʲɪnʲ	  17	  17
 #
 Concept: long, False Positives: no, False Negatives: yes
 Armenian  	jɛɾkɑɾ  	   1	   1
 Bulgarian 	dɤlək   	   2	   2
-Polish    	dwuɡi   	   2	   2
 Czech     	dlowɦiː 	   2	   3
+Polish    	dwuɡi   	   2	   3
 Danish    	lɑŋˀ    	   2	   4
 Dutch     	lɑŋ     	   2	   4
 English   	lɔŋ     	   2	   4
-French    	lõ      	   2	   4
 German    	laŋ     	   2	   4
 Icelandic 	laŋkʏr  	   2	   4
-Italian   	lunɡo   	   2	   4
 Norwegian 	lɑŋ     	   2	   4
-Portuguese	lõgu    	   2	   4
-Romanian  	luŋ     	   2	   4
 Swedish   	loŋː    	   2	   4
+French    	lõ      	   2	   7
+Italian   	lunɡo   	   2	   7
+Portuguese	lõgu    	   2	   7
+Romanian  	luŋ     	   2	   7
 Russian   	dlʲinnɨj	   2	  17
 Greek     	makris  	   9	   9
 Hindi     	ləmbaː  	  10	  10
@@ -1113,16 +1134,14 @@ Norwegian 	lʉːs    	   4	   4
 Swedish   	luːs    	   4	   4
 French    	pu      	   7	   7
 Italian   	pidɔkkjo	   7	  12
-Portuguese	pi.oʎu  	   7	  12
 Romanian  	pəduke  	   7	  12
+Portuguese	pi.oʎu  	   7	  15
 Spanish   	pjoxo   	   7	  18
 Greek     	p͡sira  	   9	   9
 #
 Concept: man, False Positives: no, False Negatives: yes
 Bulgarian 	mɤʃ      	   1	   1
 Czech     	mʊʃ      	   1	   1
-Polish    	mɛ̃ʃʧɨzna	   1	   1
-Russian   	muʃʃinə  	   1	   1
 Danish    	manˀ     	   1	   3
 Dutch     	mɑn      	   1	   3
 English   	mæn      	   1	   3
@@ -1130,13 +1149,15 @@ German    	man      	   1	   3
 Norwegian 	mɑn      	   1	   3
 Swedish   	manː     	   1	   3
 Icelandic 	maːðʏr   	   1	   9
+Polish    	mɛ̃ʃʧɨzna	   1	  11
+Russian   	muʃʃinə  	   1	  11
 Greek     	anðras   	   7	   7
 Hindi     	mərd     	   8	   8
 Portuguese	ɔmɐ̃     	  12	  12
 Romanian  	om       	  12	  12
 Romanian  	bərbat   	  13	  13
 #
-Concept: many, False Positives: yes, False Negatives: yes
+Concept: many, False Positives: no, False Negatives: yes
 Armenian  	ʃɑt        	   1	   1
 Bulgarian 	mnɔgo      	   2	   2
 Czech     	mnoɦo      	   2	   2
@@ -1155,13 +1176,13 @@ Swedish   	mʏkɛt      	  11	  11
 Norwegian 	meːgət     	  11	  11
 English   	mʌʧ        	  11	  20
 Italian   	molto      	  12	  12
-Portuguese	mũj̃tu     	  12	  12
-Spanish   	muʧo       	  12	  12
+Portuguese	mũj̃tu     	  12	  15
+Spanish   	muʧo       	  12	  15
 Romanian  	mulʦʲ      	  12	  16
-Polish    	vʲɛlɛ      	  14	   7
+Polish    	vʲɛlɛ      	  14	  14
 Polish    	duʒɔ       	  22	  22
 #
-Concept: meat, False Positives: yes, False Negatives: yes
+Concept: meat, False Positives: no, False Negatives: yes
 Armenian  	mis   	   1	   1
 Bulgarian 	mɛsɔ  	   1	   1
 Czech     	maso  	   1	   1
@@ -1169,8 +1190,8 @@ Polish    	mʲɛ̃sɔ	   1	   1
 Russian   	mʲasə 	   1	   1
 Danish    	køð   	   4	   4
 Icelandic 	kʰjœːt	   4	   4
-Norwegian 	çœt   	   4	   7
-Swedish   	ɕøtː  	   4	   7
+Norwegian 	çœt   	   4	  13
+Swedish   	ɕøtː  	   4	  13
 Dutch     	vleːs 	   5	   5
 German    	flaiʃ 	   5	   5
 English   	miːt  	   6	   6
@@ -1185,13 +1206,13 @@ French    	vjɑ̃d 	  20	  20
 #
 Concept: moon, False Positives: yes, False Negatives: yes
 Armenian  	lusin  	   1	   1
-Bulgarian 	luna   	   1	   1
-French    	lyn    	   1	   1
-Italian   	luna   	   1	   1
-Portuguese	luɐ    	   1	   1
-Romanian  	lunə   	   1	   1
-Russian   	luna   	   1	   1
-Spanish   	luna   	   1	   1
+Bulgarian 	luna   	   1	   2
+French    	lyn    	   1	   2
+Italian   	luna   	   1	   2
+Portuguese	luɐ    	   1	   2
+Romanian  	lunə   	   1	   2
+Russian   	luna   	   1	   2
+Spanish   	luna   	   1	   2
 Czech     	mʲɛsiːʦ	   3	   3
 Danish    	mɔːnə  	   3	   4
 Dutch     	maːn   	   3	   4
@@ -1222,67 +1243,67 @@ Portuguese	mõtə    	   7	   6
 Romanian  	munte   	   7	   6
 Spanish   	montaɲa 	   7	   6
 Greek     	oros    	   9	   9
-Hindi     	pəɦaːɽ  	  10	   1
+Hindi     	pəɦaːɽ  	  10	  10
 Icelandic 	fjat͡l  	  10	  11
 Norwegian 	fjel    	  10	  11
 Danish    	fjɛlˀ   	  10	  11
 Czech     	vr̩x    	  20	  20
 #
-Concept: mouth, False Positives: yes, False Negatives: yes
+Concept: mouth, False Positives: no, False Negatives: yes
 Armenian  	bɛɾɑn 	   1	   1
 Bulgarian 	usta  	   2	   2
 Czech     	uːsta 	   2	   2
 Polish    	usta  	   2	   2
 Danish    	mɔnˀ  	   4	   4
 Dutch     	mɔnt  	   4	   4
-English   	maʊð  	   4	   4
 German    	mʊnt  	   4	   4
 Icelandic 	mʏnːʏr	   4	   4
 Norwegian 	mʉn   	   4	   4
 Swedish   	munː  	   4	   4
+English   	maʊð  	   4	   6
 French    	buʃ   	   7	   7
 Italian   	bokka 	   7	  12
 Portuguese	bokɐ  	   7	  12
 Spanish   	boka  	   7	  12
 Greek     	stoma 	   9	   9
 Hindi     	mʊ̃ɦ  	  10	  10
-Romanian  	gurə  	  16	   1
+Romanian  	gurə  	  16	  16
 Russian   	rot   	  17	  17
 #
 Concept: name, False Positives: yes, False Negatives: yes
 Armenian  	ɑnun  	   1	   1
 Bulgarian 	imɛ   	   1	   2
+German    	naːmə 	   1	   2
+Italian   	nome  	   1	   2
 Polish    	imʲɛ̃ 	   1	   2
+Portuguese	nomə  	   1	   2
+Romanian  	nume  	   1	   2
 Russian   	imʲə  	   1	   2
 Czech     	jmɛːno	   1	   3
 Danish    	nɑwˀn 	   1	   4
 Dutch     	naːm  	   1	   5
 English   	neɪm  	   1	   5
 French    	nɔ̃   	   1	   5
-German    	naːmə 	   1	   5
-Greek     	onoma 	   1	   5
 Hindi     	naːm  	   1	   5
-Italian   	nome  	   1	   5
-Portuguese	nomə  	   1	   5
-Romanian  	nume  	   1	   5
 Swedish   	namːn 	   1	   5
+Greek     	onoma 	   1	   9
 Icelandic 	napn  	   1	  11
 Spanish   	nombɾe	   1	  18
 Norwegian 	nɑʋn  	  13	   4
 #
-Concept: near, False Positives: yes, False Negatives: yes
+Concept: near, False Positives: no, False Negatives: yes
 Armenian  	mot      	   1	   1
 Bulgarian 	blizək   	   2	   2
 Czech     	bliːskiː 	   2	   2
 Polish    	bliskɨ   	   2	   2
 Russian   	blʲizkʲɪj	   2	   2
 Danish    	nɛˀʁ     	   4	   4
-Dutch     	naːbɛɪ   	   4	   4
 English   	nɪər     	   4	   4
-German    	naːə     	   4	   4
-Icelandic 	nauː     	   4	   4
 Norwegian 	næːɾ     	   4	   4
 Swedish   	nɛːra    	   4	   4
+Dutch     	naːbɛɪ   	   4	   5
+German    	naːə     	   4	   5
+Icelandic 	nauː     	   4	   5
 French    	prɔʃ     	   7	   7
 Italian   	prossimo 	   7	   7
 Portuguese	prɔsimu  	   7	   7
@@ -1291,7 +1312,7 @@ Greek     	konda    	   9	   9
 Hindi     	paːs     	  10	  10
 Spanish   	θerka    	  18	  18
 Dutch     	dɪɣdbɛɪ  	  20	  20
-English   	kləʊs    	  21	   2
+English   	kləʊs    	  21	  21
 #
 Concept: neck, False Positives: yes, False Negatives: yes
 Armenian  	viz  	   1	   1
@@ -1319,35 +1340,35 @@ Concept: new, False Positives: no, False Negatives: yes
 Armenian  	noɾ  	   1	   1
 Bulgarian 	nɔf  	   1	   2
 Czech     	noviː	   1	   3
-French    	nœf  	   1	   3
-Italian   	nwɔvo	   1	   3
 Polish    	nɔvɨ 	   1	   3
-Portuguese	novu 	   1	   3
-Romanian  	now  	   1	   3
 Russian   	novɨj	   1	   3
-Spanish   	nweβo	   1	   3
 Danish    	nyˀ  	   1	   4
 English   	njuː 	   1	   4
 German    	nɔy  	   1	   4
-Greek     	neos 	   1	   4
-Icelandic 	niːr 	   1	   4
 Norwegian 	nyː  	   1	   4
 Swedish   	nyː  	   1	   4
 Dutch     	niːʋ 	   1	   5
+Icelandic 	niːr 	   1	   5
+French    	nœf  	   1	   7
+Italian   	nwɔvo	   1	   7
+Portuguese	novu 	   1	   7
+Romanian  	now  	   1	   7
+Spanish   	nweβo	   1	   7
+Greek     	neos 	   1	   9
 Hindi     	nəjaː	   1	  10
 #
 Concept: night, False Positives: no, False Negatives: yes
 Armenian  	giʃɛɾ 	   1	   1
 Bulgarian 	nɔʃt  	   2	   2
-Czech     	noʦ   	   2	   2
 Danish    	nad   	   2	   2
 Dutch     	nɑxt  	   2	   2
 English   	naɪt  	   2	   2
 German    	naxt  	   2	   2
 Icelandic 	nouʰt 	   2	   2
 Norwegian 	nɑt   	   2	   2
-Polish    	nɔʦ   	   2	   2
 Swedish   	natː  	   2	   2
+Czech     	noʦ   	   2	   3
+Polish    	nɔʦ   	   2	   3
 French    	nɥi   	   2	   7
 Greek     	nixta 	   2	   9
 Italian   	nɔtte 	   2	  12
@@ -1364,15 +1385,15 @@ Czech     	nos  	   2	   2
 Danish    	nɛːsə	   2	   2
 Dutch     	nœːs 	   2	   2
 English   	nəʊz 	   2	   2
-French    	ne   	   2	   2
 German    	naːzə	   2	   2
-Hindi     	naːk 	   2	   2
 Italian   	naso 	   2	   2
 Norwegian 	neːsə	   2	   2
 Polish    	nɔs  	   2	   2
 Romanian  	nas  	   2	   2
 Russian   	nos  	   2	   2
 Swedish   	nɛːsa	   2	   2
+French    	ne   	   2	   7
+Hindi     	naːk 	   2	   7
 Portuguese	nɐriʃ	   2	  15
 Spanish   	naɾiθ	   2	  15
 Greek     	miti 	   9	   9
@@ -1385,12 +1406,12 @@ Czech     	nɛ  	   2	   2
 Dutch     	niːt	   2	   2
 English   	nɔt 	   2	   2
 French    	nə  	   2	   2
+German    	nɪxt	   2	   2
 Italian   	non 	   2	   2
 Polish    	nʲɛ 	   2	   2
 Romanian  	nu  	   2	   2
 Russian   	nʲɛ 	   2	   2
 Spanish   	no  	   2	   2
-German    	nɪxt	   2	   8
 Hindi     	naɦĩ	   2	   9
 Portuguese	nɐ̃w	   2	  14
 Danish    	egə 	   4	   4
@@ -1403,9 +1424,9 @@ Armenian  	mɛk  	   1	   1
 Greek     	ena  	   1	   9
 Hindi     	eːk  	   2	   1
 Bulgarian 	ɛdnɔ 	   2	   2
-Czech     	jɛdɛn	   2	   2
-Polish    	jɛdɛn	   2	   2
-Russian   	ɐdʲin	   2	   2
+Czech     	jɛdɛn	   2	   3
+Polish    	jɛdɛn	   2	   3
+Russian   	ɐdʲin	   2	   3
 Danish    	eˀn  	   2	   4
 Dutch     	eːn  	   2	   4
 English   	ʋʌn  	   2	   4
@@ -1428,14 +1449,14 @@ Russian   	ʧʲɪlɐvʲɛk	   2	   2
 Icelandic 	maːðʏr   	   4	   1
 Danish    	mɛnəsgə  	   4	   4
 Dutch     	mɛns     	   4	   4
-English   	mæn      	   4	   4
 German    	mɛnʃ     	   4	   4
 Norwegian 	menəskə  	   4	   4
 Swedish   	mɛniʃa   	   4	   4
-French    	ɔm       	   7	   7
+English   	mæn      	   4	   6
+French    	ɔm       	   7	   6
+Portuguese	ɔmɐ̃     	   7	  10
+Romanian  	om       	   7	  10
 Italian   	wɔmo     	   7	  12
-Portuguese	ɔmɐ̃     	   7	  12
-Romanian  	om       	   7	  12
 Spanish   	ombɾe    	   7	  18
 Greek     	anθropos 	   9	   9
 Hindi     	aːdmiː   	  10	  10
@@ -1454,8 +1475,8 @@ Icelandic 	rɛkn  	   4	   4
 Norwegian 	ɾæjnə 	   4	   4
 Swedish   	reŋːn 	   4	   4
 French    	plɥi  	   7	   7
-Italian   	pjɔʤːa	   7	   7
 Romanian  	plwaje	   7	   7
+Italian   	pjɔʤːa	   7	  11
 Portuguese	ʃuvɐ  	   7	  14
 Spanish   	ʎuβja 	   7	  14
 Greek     	vroçi 	   9	   9
@@ -1469,15 +1490,15 @@ Danish    	ʁœðˀ    	   4	   4
 Dutch     	roːt    	   4	   4
 English   	rɛd     	   4	   4
 German    	roːt    	   4	   4
+Icelandic 	røyːðʏr 	   4	   4
 Swedish   	røːd    	   4	   4
 French    	ʁuj     	   4	   7
-Spanish   	roxo    	   4	   7
 Hindi     	laːl    	   4	  10
-Icelandic 	røyːðʏr 	   4	  11
-Italian   	rosso   	   4	  11
+Italian   	rosso   	   4	  12
+Spanish   	roxo    	   4	  12
 Greek     	kocinos 	   9	   9
 Portuguese	vərmeʎu 	  14	  14
-Romanian  	roʃu    	  15	  11
+Romanian  	roʃu    	  15	  12
 Russian   	krasnɨj 	  16	  16
 #
 Concept: road, False Positives: no, False Negatives: yes
@@ -1489,7 +1510,7 @@ Icelandic 	vekʏr  	   4	   4
 Swedish   	vɛːg   	   4	   4
 Dutch     	ʋɛx    	   4	   5
 German    	veːk   	   4	   5
-English   	ʋeɪ    	   4	   5
+English   	ʋeɪ    	   4	  19
 English   	rəʊd   	   6	   6
 French    	ʃɛmɛ̃  	   7	   7
 Greek     	ðromos 	   9	   9
@@ -1516,15 +1537,15 @@ Swedish   	roːt    	   4	   4
 Dutch     	ʋɔrtəl  	   4	   5
 German    	vʊrt͡səl	   4	   5
 French    	ʁasin   	   4	   7
-Italian   	radiʧe  	   4	   7
-Romanian  	rədəʧinə	   4	   7
+Italian   	radiʧe  	   4	  12
+Romanian  	rədəʧinə	   4	  12
 Portuguese	ʀɐ.iʃ   	   4	  14
 Spanish   	ra.iθ   	   4	  14
 Greek     	riza    	   4	  19
 Greek     	oðos    	   9	   9
 Hindi     	ʤəɽ     	  10	  10
 #
-Concept: round, False Positives: yes, False Negatives: no
+Concept: round, False Positives: no, False Negatives: yes
 Armenian  	kəloɾ       	   1	   1
 Bulgarian 	krɤgəl      	   2	   2
 Czech     	okrowɦliː   	   2	   2
@@ -1535,17 +1556,18 @@ Dutch     	rɔnt        	   4	   4
 English   	raʊnd       	   4	   4
 German    	rʊnt        	   4	   4
 Swedish   	runːd       	   4	   4
-French    	ʁɔ̃         	   7	   4
-Italian   	rotondo     	   7	   4
-Portuguese	ʀədõdu      	   7	   4
-Romanian  	rotund      	   7	   4
-Spanish   	reðondo     	   7	   4
+French    	ʁɔ̃         	   7	   7
+Italian   	rotondo     	   7	  12
+Portuguese	ʀədõdu      	   7	  12
+Romanian  	rotund      	   7	  12
+Spanish   	reðondo     	   7	  12
 Greek     	stroɲɟilos  	   9	   9
 Hindi     	gol         	  10	  10
 Icelandic 	kʰriŋlouʰtʏr	  11	  11
 #
 Concept: salt, False Positives: no, False Negatives: yes
 Armenian  	ɑʁ    	   1	   1
+French    	sɛl   	   1	   1
 Bulgarian 	sol   	   1	   2
 Czech     	suːl  	   1	   2
 Polish    	sul   	   1	   2
@@ -1555,14 +1577,13 @@ Dutch     	zɑut  	   1	   4
 English   	sɔːlt 	   1	   4
 German    	zalt͡s	   1	   4
 Icelandic 	sal̥t 	   1	   4
-Italian   	sale  	   1	   4
 Norwegian 	sɑlt  	   1	   4
-Portuguese	sal   	   1	   4
-Romanian  	sare  	   1	   4
-Spanish   	sal   	   1	   4
 Swedish   	salːt 	   1	   4
-French    	sɛl   	   1	   7
 Greek     	alati 	   1	   9
+Italian   	sale  	   1	  11
+Portuguese	sal   	   1	  11
+Romanian  	sare  	   1	  11
+Spanish   	sal   	   1	  11
 #
 Concept: sand, False Positives: no, False Negatives: yes
 Armenian  	ɑvɑz  	   1	   1
@@ -1585,25 +1606,25 @@ Spanish   	aɾena 	  14	  14
 Romanian  	nisip 	  15	  15
 Hindi     	baːluː	  19	  19
 #
-Concept: say (V), False Positives: yes, False Negatives: yes
+Concept: say (V), False Positives: no, False Negatives: yes
 Armenian  	ɑsɛl    	   1	   1
 Bulgarian 	kaʒə    	   2	   2
-Russian   	skɐzatʲ 	   2	   3
+Russian   	skɐzatʲ 	   2	   2
 Czech     	riːkat  	   3	   3
 Danish    	siː     	   4	   4
-Dutch     	zɛɣə    	   4	   4
-English   	seɪ     	   4	   4
-German    	zaːɡən  	   4	   4
-Icelandic 	seiːja  	   4	   4
 Norwegian 	siː     	   4	   4
-Swedish   	sɛja    	   4	   4
+Dutch     	zɛɣə    	   4	   5
+English   	seɪ     	   4	   5
+German    	zaːɡən  	   4	   5
+Icelandic 	seiːja  	   4	   5
+Swedish   	sɛja    	   4	   5
 French    	diʁ     	   7	   7
 Italian   	dire    	   7	   7
 Portuguese	dizer   	   7	   7
 Spanish   	deθiɾ   	   7	   7
 Romanian  	ziʧe    	   7	  16
 Greek     	leɣo    	   9	   9
-Hindi     	kəɦnaː  	  10	   2
+Hindi     	kəɦnaː  	  10	  10
 Polish    	pɔvʲɛʥɛʨ	  14	  14
 Hindi     	boːlnaː 	  20	  20
 #
@@ -1614,10 +1635,10 @@ Czech     	vɪdʲɛt  	   2	   2
 Polish    	viʥɛʨ   	   2	   2
 Russian   	vʲidʲɪtʲ	   2	   2
 French    	vwaʁ    	   2	   7
-Italian   	vedere  	   2	   7
 Portuguese	ver     	   2	   7
-Romanian  	vedea   	   2	   7
 Spanish   	beɾ     	   2	   7
+Italian   	vedere  	   2	  12
+Romanian  	vedea   	   2	  12
 Danish    	seˀ     	   4	   4
 Dutch     	ziːn    	   4	   4
 English   	siː     	   4	   4
@@ -1653,22 +1674,22 @@ French    	ɡʁɛn   	  20	  20
 Concept: short, False Positives: yes, False Negatives: yes
 Armenian  	kɑɾʧ     	   1	   1
 Bulgarian 	kratək   	   1	   2
-Czech     	kraːtkiː 	   1	   2
-Russian   	kɐrotkʲɪj	   1	   2
+Czech     	kraːtkiː 	   1	   3
+Polish    	krutki   	   1	   3
+Russian   	kɐrotkʲɪj	   1	   3
 English   	ʃɔːrt    	   1	   6
 Romanian  	skurt    	   1	   6
 French    	kuʁ      	   1	   7
 Portuguese	kurtu    	   1	   7
 Spanish   	koɾto    	   1	   7
 Italian   	korto    	   1	   7
-Polish    	krutki   	   1	  14
-Danish    	kɒːd     	   4	   1
 Dutch     	kɔrt     	   4	   1
 German    	kʊrt͡s   	   4	   1
 Norwegian 	kɔʈ      	   4	   1
 Swedish   	kɔrt     	   4	   1
+Danish    	kɒːd     	   4	   4
 Greek     	kondos   	   9	   9
-Hindi     	ʧʰoʈaː   	  10	  10
+Hindi     	ʧʰoʈaː   	  10	   2
 Icelandic 	stʏʰtʏr  	  11	  11
 Italian   	brɛve    	  12	  12
 French    	bʁɛf     	  12	  12
@@ -1691,9 +1712,9 @@ Polish    	ɕɛʥɛʨ   	   1	   2
 Portuguese	sẽtar   	   1	   2
 Romanian  	ʃedea   	   1	   2
 Russian   	sʲɪdʲetʲ	   1	   2
-Spanish   	sentaðo 	   1	   2
 Swedish   	sitːa   	   1	   2
 French    	ɛtʁasi  	   1	   7
+Spanish   	sentaðo 	   1	  18
 Greek     	kaθome  	   9	   9
 Hindi     	bɛːʈʰnaː	  10	  10
 #
@@ -1709,11 +1730,11 @@ Norwegian 	hʉːd   	   4	   4
 Dutch     	hœyt   	   4	   4
 Swedish   	huːd   	   4	   4
 Dutch     	vɛl    	   5	   5
-Italian   	pɛlle  	   5	   5
-Portuguese	pɛlə   	   5	   5
-Romanian  	pjele  	   5	   5
-Spanish   	pjel   	   5	   5
 French    	po     	   5	   7
+Italian   	pɛlle  	   5	  12
+Portuguese	pɛlə   	   5	  12
+Romanian  	pjele  	   5	  12
+Spanish   	pjel   	   5	  12
 English   	skɪn   	   6	   6
 Greek     	ðerma  	   9	   9
 Hindi     	ʧəməɽiː	  10	  10
@@ -1724,7 +1745,6 @@ Icelandic 	scɪnː  	  19	   6
 #
 Concept: sleep (V), False Positives: no, False Negatives: yes
 Armenian  	kʰənɛl 	   1	   1
-Hindi     	sɔːnaː 	   1	   1
 Bulgarian 	spa    	   1	   2
 Czech     	spaːt  	   1	   2
 Polish    	spaʨ   	   1	   2
@@ -1733,6 +1753,7 @@ Danish    	sɒwə   	   1	   4
 Icelandic 	sɔːva  	   1	   4
 Norwegian 	soːʋə  	   1	   4
 Swedish   	soːva  	   1	   4
+Hindi     	sɔːnaː 	   1	  10
 Dutch     	slaːpə 	   5	   5
 German    	ʃlaːfən	   5	   5
 English   	sliːp  	   5	   6
@@ -1756,11 +1777,11 @@ English   	smɔːl      	   2	   6
 Icelandic 	smauːr     	   2	   6
 Swedish   	smoː       	   2	   6
 Danish    	lilə       	   4	   4
-Icelandic 	liːtɪt͡l   	   4	   4
-Norwegian 	liːtən     	   4	   4
-Swedish   	liːten     	   4	   4
-Danish    	liːðən     	   4	   4
 English   	lɪtḷ       	   4	   4
+Icelandic 	liːtɪt͡l   	   4	  11
+Norwegian 	liːtən     	   4	  11
+Swedish   	liːten     	   4	  11
+Danish    	liːðən     	   4	  11
 Dutch     	klɛɪn      	   5	   5
 German    	klain      	   5	   5
 French    	pəti       	   7	   7
@@ -1770,9 +1791,9 @@ Romanian  	mik        	  16	  16
 #
 Concept: smoke, False Positives: no, False Negatives: yes
 Bulgarian 	dim    	   1	   1
-Czech     	diːm   	   1	   1
 Hindi     	dʱʊãː  	   1	   1
-Polish    	dɨm    	   1	   1
+Czech     	diːm   	   1	   2
+Polish    	dɨm    	   1	   2
 French    	fyme   	   1	   6
 Italian   	fumo   	   1	   6
 Portuguese	fumu   	   1	   6
@@ -1780,11 +1801,11 @@ Romanian  	fum    	   1	   6
 Spanish   	umo    	   1	   6
 Russian   	dɨm    	   1	  16
 Danish    	ʁʌjˀ   	   3	   3
-Dutch     	roːk   	   3	   3
-German    	raux   	   3	   3
 Icelandic 	reiːkʏr	   3	   3
-Norwegian 	ɾœjk   	   3	   3
-Swedish   	røk    	   3	   3
+Dutch     	roːk   	   3	   4
+German    	raux   	   3	   4
+Norwegian 	ɾœjk   	   3	   4
+Swedish   	røk    	   3	   4
 English   	sməʊk  	   5	   5
 Greek     	kapnos 	   8	   8
 #
@@ -1800,13 +1821,13 @@ Dutch     	slɑŋ     	   4	   4
 German    	ʃlaŋə    	   4	   4
 Norwegian 	ʃlɑŋə    	   4	   4
 Icelandic 	st͡lauŋka	   4	  11
-English   	sneɪk    	   6	   1
-Hindi     	sãːp     	   7	   4
+English   	sneɪk    	   6	   6
 French    	sɛʁpɑ̃   	   7	   7
 Italian   	sɛrpɛnte 	   7	   7
 Portuguese	sərpẽtə  	   7	   7
 Romanian  	ʃarpe    	   7	   7
 Spanish   	seɾpjente	   7	   7
+Hindi     	sãːp     	   7	  10
 Norwegian 	ɔɾm      	  13	  13
 Swedish   	orːm     	  13	  13
 Spanish   	kulevra  	  18	  18
@@ -1839,14 +1860,14 @@ English   	stɑːr    	   1	   1
 German    	ʃtɛrn    	   1	   1
 Icelandic 	stjart͡na	   1	   1
 Norwegian 	stjæːɳə  	   1	   1
-Romanian  	stea     	   1	   1
 Swedish   	ɧɛːrna   	   1	   1
 French    	etwal    	   1	   7
 Greek     	asteri   	   1	   9
 Hindi     	taːraː   	   1	  10
 Italian   	stella   	   1	  12
-Portuguese	əʃtrelɐ  	   1	  12
-Spanish   	estɾeʎa  	   1	  12
+Romanian  	stea     	   1	  12
+Portuguese	əʃtrelɐ  	   1	  15
+Spanish   	estɾeʎa  	   1	  15
 Bulgarian 	zvɛzda   	   2	   2
 Czech     	ɦvʲɛzda  	   2	   2
 Polish    	ɡvʲazda  	   2	   2
@@ -1880,7 +1901,6 @@ Czech     	slʊnʦɛ 	   2	   2
 Polish    	swɔnʲʦɛ	   2	   2
 Russian   	sonʦə  	   2	   2
 Danish    	soˀl   	   2	   4
-French    	sɔlɛj  	   2	   4
 Icelandic 	souːl  	   2	   4
 Italian   	sole   	   2	   4
 Norwegian 	suːl   	   2	   4
@@ -1891,8 +1911,9 @@ Swedish   	soːl   	   2	   4
 Dutch     	zɔn    	   2	   5
 English   	sʌn    	   2	   5
 German    	zɔnə   	   2	   5
+French    	sɔlɛj  	   2	   7
 Greek     	iʎos   	   2	   9
-Hindi     	suːrəʤ 	   2	   9
+Hindi     	suːrəʤ 	   2	  10
 #
 Concept: swim (V), False Positives: no, False Negatives: yes
 Armenian  	loʁɑl  	   1	   1
@@ -1912,13 +1933,13 @@ Hindi     	tɛːrnaː	  10	  10
 Icelandic 	synta  	  11	  11
 Italian   	nwotare	  12	  12
 Portuguese	nɐdar  	  12	  12
-Romanian  	ɨnota  	  12	  12
 Spanish   	naðaɾ  	  12	  12
+Romanian  	ɨnota  	  12	  16
 #
 Concept: tail, False Positives: yes, False Negatives: yes
 Armenian  	poʧʰ   	   1	   1
 Bulgarian 	opaʃkə 	   2	   2
-Czech     	oʦas   	   3	   2
+Czech     	oʦas   	   3	   3
 Danish    	hæːlə  	   4	   4
 Icelandic 	haːlɪ  	   4	   4
 Norwegian 	hɑːlə  	   4	   4
@@ -1928,14 +1949,14 @@ English   	teɪl   	   6	   6
 French    	kø     	   7	   7
 Italian   	koda   	   7	   7
 Romanian  	kwadə  	   7	   7
-Spanish   	kola   	   7	   7
 Portuguese	kawdɐ  	   7	  15
+Spanish   	kola   	   7	  18
 German    	ʃvant͡s	   8	   8
 Greek     	ura    	   9	   9
-Hindi     	puːʧʰ  	  10	  10
+Hindi     	puːʧʰ  	  10	   3
 Polish    	ɔɡɔn   	  14	  14
 Russian   	xvost  	  17	  17
-Icelandic 	skɔʰt  	  20	   8
+Icelandic 	skɔʰt  	  20	  20
 Portuguese	ʀabu   	  21	  21
 Spanish   	ravo   	  21	  21
 #
@@ -1946,10 +1967,10 @@ Czech     	tamto 	   3	   3
 Polish    	tamtɔ 	   3	   3
 Danish    	de    	   3	   4
 Dutch     	diː   	   3	   4
-English   	ðæt   	   3	   4
 Norwegian 	deː   	   3	   4
 Russian   	to    	   3	   4
 Swedish   	də    	   3	   4
+English   	ðæt   	   3	   6
 Icelandic 	θɛsːɪ 	   3	  11
 French    	səla  	   7	   7
 Greek     	ecino 	   7	   9
@@ -1967,18 +1988,18 @@ Armenian  	bɑɾɑk  	   1	   1
 Bulgarian 	tɤnək  	   2	   2
 Icelandic 	θʏnːʏr 	   2	   2
 Czech     	tɛŋkiː 	   2	   3
-Danish    	tønˀ   	   2	   3
-English   	θɪn    	   2	   3
-German    	dʏn    	   2	   3
-Norwegian 	tyn    	   2	   3
 Polish    	ʨɛ̃nki 	   2	   3
 Russian   	tonkʲɪj	   2	   3
-Dutch     	dʉn    	   2	   3
-Swedish   	tunː   	   2	   3
+Danish    	tønˀ   	   2	   4
+English   	θɪn    	   2	   4
+German    	dʏn    	   2	   4
+Norwegian 	tyn    	   2	   4
+Dutch     	dʉn    	   2	   4
+Swedish   	tunː   	   2	   4
 Dutch     	fɛɪn   	   5	   5
 French    	mɛ̃s   	   7	   7
 Greek     	leptos 	   9	   9
-Hindi     	pətlaː 	  10	  10
+Hindi     	pətlaː 	  10	   1
 Italian   	fine   	  12	   5
 Portuguese	finu   	  12	   5
 Romanian  	fin    	  12	   5
@@ -1994,23 +2015,23 @@ Norwegian 	smɑːl  	  19	  19
 Concept: this, False Positives: yes, False Negatives: yes
 Armenian  	ɑɪs   	   1	   1
 Bulgarian 	tɔzi  	   1	   2
-Czech     	toto  	   1	   2
-Danish    	dɛnə  	   1	   2
-Norwegian 	detə  	   1	   2
-Polish    	tɔ    	   1	   2
-Russian   	ɛtə   	   1	   2
-Swedish   	dɛta  	   1	   2
-Danish    	dɛnə  	   1	   2
+Czech     	toto  	   1	   3
+Danish    	dɛnə  	   1	   3
+Norwegian 	detə  	   1	   3
+Polish    	tɔ    	   1	   3
+Russian   	ɛtə   	   1	   3
+Swedish   	dɛta  	   1	   3
+Danish    	dɛnə  	   1	   3
 Dutch     	deːzə 	   1	   5
-English   	ðɪs   	   1	   5
 German    	diːzər	   1	   5
 Icelandic 	θɛsːɪ 	   1	   5
+English   	ðɪs   	   1	   6
 Greek     	afto  	   1	   9
 Portuguese	əʃtə  	   1	  15
 Spanish   	este  	   1	  15
 French    	səsi  	   7	   5
 Italian   	kwesto	   7	  12
-Romanian  	aʧest 	   7	  15
+Romanian  	aʧest 	   7	  16
 Hindi     	jə    	  10	  10
 #
 Concept: thou, False Positives: no, False Negatives: yes
@@ -2048,10 +2069,10 @@ Icelandic 	tʰuŋka	   1	   4
 Norwegian 	tuŋə  	   1	   4
 Swedish   	tuŋːa 	   1	   4
 French    	lɑ̃ɡ  	   1	   7
-Italian   	liŋɡwa	   1	   7
-Portuguese	lĩgwɐ 	   1	   7
-Spanish   	leŋɡwa	   1	   7
 Hindi     	ʤiːbʱ 	   1	  10
+Italian   	liŋɡwa	   1	  12
+Portuguese	lĩgwɐ 	   1	  12
+Spanish   	leŋɡwa	   1	  12
 Romanian  	limbə 	   1	  16
 Greek     	ɣlosa 	   9	   1
 #
@@ -2059,24 +2080,24 @@ Concept: tooth, False Positives: no, False Negatives: yes
 Armenian  	ɑtɑm  	   1	   1
 Danish    	tanˀ  	   1	   4
 Dutch     	tɑnt  	   1	   4
+French    	dɑ̃   	   1	   4
 German    	t͡saːn	   1	   4
-Greek     	ðondi 	   1	   4
 Hindi     	dãt   	   1	   4
 Icelandic 	tʰœnː 	   1	   4
-Italian   	dɛnte 	   1	   4
 Norwegian 	tɑn   	   1	   4
-Portuguese	dẽtə  	   1	   4
-Romanian  	dinte 	   1	   4
-Spanish   	djente	   1	   4
 Swedish   	tanːd 	   1	   4
 English   	tuːθ  	   1	   6
-French    	dɑ̃   	   1	   6
+Greek     	ðondi 	   1	   9
+Italian   	dɛnte 	   1	   9
+Portuguese	dẽtə  	   1	   9
+Romanian  	dinte 	   1	   9
+Spanish   	djente	   1	   9
 Bulgarian 	zɤp   	   2	   2
 Czech     	zʊp   	   2	   3
 Polish    	zɔ̃p  	   2	  14
 Russian   	zup   	   2	  17
 #
-Concept: tree, False Positives: yes, False Negatives: yes
+Concept: tree, False Positives: no, False Negatives: yes
 Armenian  	ʦɑr     	   1	   1
 Bulgarian 	dərvɔ   	   2	   2
 Polish    	dʒɛvɔ   	   2	   2
@@ -2096,28 +2117,28 @@ Portuguese	arvurə  	   7	  15
 Romanian  	arbore  	   7	  15
 Spanish   	arvol   	   7	  15
 Hindi     	peɽ     	  10	  10
-Icelandic 	vɪːðʏr  	  20	  10
+Icelandic 	vɪːðʏr  	  20	  20
 #
 Concept: two, False Positives: no, False Negatives: yes
 Armenian  	jɛɾku 	   1	   1
 Bulgarian 	dva   	   1	   2
 Czech     	dva   	   1	   2
 Dutch     	tʋeː  	   1	   2
-German    	t͡svai	   1	   2
 Icelandic 	tʰveir	   1	   2
 Polish    	dva   	   1	   2
 Russian   	dva   	   1	   2
 Swedish   	tvoː  	   1	   2
 Danish    	toˀ   	   1	   4
 English   	tuː   	   1	   4
-French    	dø    	   1	   4
 Italian   	due   	   1	   4
 Norwegian 	tuː   	   1	   4
-Portuguese	doiʃ  	   1	   4
 Romanian  	doj   	   1	   4
-Spanish   	dos   	   1	   4
+French    	dø    	   1	   7
+German    	t͡svai	   1	   7
 Greek     	ðʝo   	   1	   9
 Hindi     	doː   	   1	  10
+Portuguese	doiʃ  	   1	  15
+Spanish   	dos   	   1	  15
 #
 Concept: walk (V), False Positives: no, False Negatives: yes
 Bulgarian 	vɛrvʲə	   1	   1
@@ -2167,24 +2188,24 @@ Concept: water, False Positives: yes, False Negatives: yes
 Armenian  	ʤuɾ   	   1	   1
 Bulgarian 	voda  	   2	   2
 Czech     	voda  	   2	   2
-Danish    	vanˀ  	   2	   2
-Icelandic 	vaʰtn̥	   2	   2
-Norwegian 	ʋɑn   	   2	   2
 Polish    	vɔda  	   2	   2
 Russian   	vɐda  	   2	   2
-Swedish   	vatːen	   2	   2
+Danish    	vanˀ  	   2	   4
+Icelandic 	vaʰtn̥	   2	   4
+Norwegian 	ʋɑn   	   2	   4
+Swedish   	vatːen	   2	   4
 Dutch     	ʋaːtər	   2	   5
 English   	ʋɔːtər	   2	   5
 German    	vasər 	   2	   5
 French    	o     	   7	   7
 Italian   	akkwa 	   7	  12
 Portuguese	agwɐ  	   7	  12
+Romanian  	apə   	   7	  12
 Spanish   	aɣwa  	   7	  12
-Romanian  	apə   	   7	  16
 Greek     	nero  	   9	   1
 Hindi     	paːniː	  10	  10
 #
-Concept: we, False Positives: yes, False Negatives: yes
+Concept: we, False Positives: no, False Negatives: yes
 Armenian  	mɛnkʰ   	   1	   1
 Czech     	mɪ      	   1	   3
 Polish    	mɨ      	   1	   3
@@ -2195,7 +2216,7 @@ French    	nu      	   2	   2
 Italian   	noi     	   2	   2
 Portuguese	nɔʃ     	   2	   2
 Romanian  	noj     	   2	   2
-Hindi     	ɦəm     	   2	   9
+Hindi     	ɦəm     	   2	  10
 Spanish   	nosotɾos	   2	  18
 Danish    	viˀ     	   4	   4
 Dutch     	ʋɛɪ     	   4	   4
@@ -2234,9 +2255,9 @@ Russian   	bʲelɨj 	   2	   2
 Danish    	viðˀ   	   4	   4
 Dutch     	ʋɪt    	   4	   4
 English   	ʋaɪt   	   4	   4
-German    	vais   	   4	   4
 Norwegian 	ʋiːt   	   4	   4
 Swedish   	viːt   	   4	   4
+German    	vais   	   4	   8
 Icelandic 	xʷiːtʏr	   4	  10
 French    	blɑ̃   	   7	   7
 Italian   	bjanko 	   7	   7
@@ -2251,19 +2272,19 @@ Czech     	ɡdo  	   1	   2
 Polish    	ktɔ  	   1	   2
 Russian   	kto  	   1	   2
 Danish    	vɛmˀ 	   1	   3
-Dutch     	ʋiː  	   1	   3
 Norwegian 	ʋem  	   1	   3
 Swedish   	vem  	   1	   3
+Dutch     	ʋiː  	   1	   4
 English   	huː  	   1	   5
 French    	ki   	   1	   6
 Italian   	ki   	   1	   6
 Portuguese	kɐ̃j 	   1	   6
-Spanish   	kjen 	   1	   6
 German    	veːr 	   1	   7
 Icelandic 	xʷɛːr	   1	   7
 Greek     	opios	   1	   8
 Hindi     	kɔːn 	   1	   9
 Romanian  	ʧine 	   1	  15
+Spanish   	kjen 	   1	  17
 #
 Concept: wind, False Positives: no, False Negatives: yes
 Bulgarian 	vʲatər 	   1	   1
@@ -2274,25 +2295,25 @@ Dutch     	ʋɪnt   	   1	   2
 English   	ʋɪnd   	   1	   2
 German    	vɪnt   	   1	   2
 Icelandic 	vɪntʏr 	   1	   2
-Italian   	vɛnto  	   1	   2
 Norwegian 	ʋin    	   1	   2
-Portuguese	vẽtu   	   1	   2
-Romanian  	vɨnt   	   1	   2
-Spanish   	bjento 	   1	   2
 Swedish   	vind   	   1	   2
 French    	vɑ̃    	   1	   5
+Italian   	vɛnto  	   1	   9
+Portuguese	vẽtu   	   1	   9
+Romanian  	vɨnt   	   1	   9
+Spanish   	bjento 	   1	   9
 Greek     	anemos 	   7	   7
 #
 Concept: woman, False Positives: yes, False Negatives: yes
 Armenian  	kin      	   1	   1
 Danish    	kvenə    	   1	   1
-Icelandic 	kʰɔːna   	   1	   1
 Norwegian 	kʋinə    	   1	   1
 Swedish   	kvinːa   	   1	   1
 Bulgarian 	ʒɛna     	   1	   2
 Czech     	ʒɛna     	   1	   2
 Greek     	ʝineka   	   1	   2
-Russian   	ʒɛnʃʃʲɪnə	   1	   2
+Icelandic 	kʰɔːna   	   1	  11
+Russian   	ʒɛnʃʃʲɪnə	   1	  17
 Dutch     	vrɑuʋ    	   5	   5
 German    	frau     	   5	   5
 English   	ʋʊmən    	   6	   6
@@ -2300,16 +2321,16 @@ German    	vaip     	   6	  20
 French    	fam      	   7	   6
 Romanian  	femeje   	   7	  16
 Hindi     	ɔːrət    	  10	  10
-Italian   	dɔnna    	  12	  12
+Italian   	dɔnna    	  12	  11
 Polish    	kɔbʲɛta  	  14	  14
 Portuguese	muʎɛr    	  15	  15
 Spanish   	muxeɾ    	  15	  15
 #
-Concept: worm, False Positives: yes, False Negatives: yes
+Concept: worm, False Positives: no, False Negatives: yes
 Bulgarian 	ʧɛrvɛj 	   1	   1
-Czech     	ʧɛrf   	   1	   2
-Polish    	ʧɛrf   	   1	   2
-Russian   	ʧerfʲ  	   1	   2
+Czech     	ʧɛrf   	   1	   1
+Polish    	ʧɛrf   	   1	   1
+Russian   	ʧerfʲ  	   1	   1
 Danish    	oʁˀm   	   3	   3
 Dutch     	ʋɔrm   	   3	   3
 English   	ʋɜːrm  	   3	   3
@@ -2321,11 +2342,11 @@ Romanian  	vjerme 	   3	   6
 Spanish   	berme  	   3	   6
 Icelandic 	ɔrmʏr  	   3	  10
 Greek     	skulici	   8	   8
-Hindi     	kiːɽaː 	   9	   8
+Hindi     	kiːɽaː 	   9	   9
 Norwegian 	mɑɾk   	  12	  12
 Swedish   	masːk  	  12	  12
-Icelandic 	maθkʏr 	  12	  12
 Dutch     	maːdə  	  12	  19
+Icelandic 	maθkʏr 	  12	  19
 #
 Concept: year, False Positives: no, False Negatives: yes
 Armenian  	tɑɾi  	   1	   1
@@ -2334,32 +2355,32 @@ Russian   	ɡot   	   2	   2
 Czech     	rok   	   3	   3
 Polish    	rɔk   	   3	   3
 Danish    	ɒˀʁ   	   4	   4
-Dutch     	jaːr  	   4	   4
-English   	jɪər  	   4	   4
 German    	jaːr  	   4	   4
 Icelandic 	auːr  	   4	   4
 Norwegian 	oːɾ   	   4	   4
 Swedish   	oːr   	   4	   4
+Dutch     	jaːr  	   4	   5
+English   	jɪər  	   4	   5
 French    	ɑ̃    	   7	   7
 Italian   	anno  	   7	  12
 Portuguese	ɐnu   	   7	  12
-Romanian  	an    	   7	  12
 Spanish   	aɲo   	   7	  12
+Romanian  	an    	   7	  16
 Greek     	etos  	   9	   9
 Hindi     	bərəs 	  10	  10
 #
 Concept: yellow, False Positives: yes, False Negatives: yes
 Armenian  	dɛʁin   	   1	   1
 Bulgarian 	ʒɤlt    	   2	   2
-Czech     	ʒlʊtiː  	   2	   2
 Polish    	ʒuwtɨ   	   2	   2
 Russian   	ʒoltɨj  	   2	   2
+Czech     	ʒlʊtiː  	   2	   3
 Danish    	guˀl    	   2	   4
-Dutch     	xeːl    	   2	   4
-German    	ɡɛlp    	   2	   4
 Icelandic 	kʏːlʏr  	   2	   4
 Norwegian 	gʉːl    	   2	   4
 Swedish   	guːl    	   2	   4
+Dutch     	xeːl    	   2	   5
+German    	ɡɛlp    	   2	   5
 English   	jɛləʊ   	   2	   6
 Italian   	ʤallo   	   7	   4
 French    	ʒon     	   7	   7

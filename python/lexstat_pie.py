@@ -4,10 +4,12 @@ from lingpy.evaluate.acd import bcubes  # type: ignore
 
 def main():
     results = []
-    for threshold in [0.6, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0]:
-        lex = LexStat("../PIE_bognates.csv")
+    for threshold in [0.5, 0.55, 0.6, 0.65]:
+        lex = LexStat("../data/KSL.csv")
         lex.get_scorer()
-        lex.cluster(method="lexstat", threshold=threshold, ref="cognates")
+        lex.cluster(
+            method="lexstat", threshold=threshold, ref="cognates", verbose=False
+        )
         results.append(
             (
                 threshold,
