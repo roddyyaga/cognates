@@ -1,0 +1,193 @@
+ID	Taxon	Gloss	GlossID	IPA	Tokens	CogID	NewCogID	
+31	Greek	ashes	2	staxti	s t a x t i	14	59	
+32	Armenian	ashes	2	moχiɾ	m o χ i ɾ	9	161	
+51	Greek	bark	3	flios	f l io s	16	20	
+52	Armenian	bark	3	kɛʁɛv	k ɛ ʁ ɛ v	22	120	
+93	Greek	big	5	meɣalos	m e ɣ a l o s	37	92	
+94	Armenian	big	5	mɛʦ	m ɛ ʦ	37	92	
+115	Greek	bird	6	puli	p u l i	-50	153	
+116	Armenian	bird	6	tʰərʧʰun	tʰ ə r ʧʰ u n	48	75	
+136	Greek	bite (V)	7	ðaŋɡono	ð a ŋ ɡ o n o	59	159	
+137	Armenian	bite (V)	7	kəʦɛl	k ə ʦ ɛ l	57	38	
+155	Greek	black	8	mavros	m a v r o s	64	14	
+156	Armenian	black	8	sɛv	s ɛ v	62	96	
+174	Greek	blood	9	ema	e m a	70	6	
+175	Armenian	blood	9	ɑɾɪun	ɑ ɾ ɪu n	69	30	
+192	Greek	bone	10	kokalo	k o k a l o	-72	45	
+193	Armenian	bone	10	voskoɾ	v o s k o ɾ	73	45	
+211	Greek	breast	11	stiθos	s t i θ o s	78	83	
+212	Armenian	breast	11	kuɾʦkʰ	k u ɾ ʦ kʰ	83	49	
+235	Greek	burn (V)	12	ceo	c eo	87	107	
+236	Armenian	burn (V)	12	ɑɪɾvɛl	ɑɪ ɾ v ɛ l	85	44	
+254	Greek	claw	13	niçi	n i ç i	94	4	
+255	Armenian	claw	13	jɛʁung	j ɛ ʁ u n g	94	68	
+273	Greek	cloud	14	sinefo	s i n e f o	98	74	
+274	Armenian	cloud	14	ɑmp	ɑ m p	99	18	
+314	Greek	come (V)	16	erxome	e r x o m e	117	12	
+315	Armenian	come (V)	16	gɑl	g ɑ l	113	0	
+335	Greek	die (V)	17	peθeno	p e θ e n o	120	28	
+336	Armenian	die (V)	17	mɛrnɛl	m ɛ r n ɛ l	121	86	
+354	Greek	dog	18	scilos	s c i l o s	127	22	
+355	Armenian	dog	18	ʃun	ʃ u n	123	110	
+374	Greek	drink (V)	19	pino	p i n o	132	69	
+375	Armenian	drink (V)	19	χəmɛl	χ ə m ɛ l	131	46	
+414	Greek	ear	21	afti	a f t i	141	81	
+415	Armenian	ear	21	ɑkɑnʤ	ɑ k ɑ n ʤ	141	71	
+433	Greek	earth	22	ʝi	ʝ i	142	23	
+434	Armenian	earth	22	hoʁ	h o ʁ	146	118	
+452	Greek	eat (V)	23	troɣo	t r o ɣ o	153	56	
+453	Armenian	eat (V)	23	utɛl	u t ɛ l	150	52	
+471	Greek	egg	24	avɣo	a v ɣ o	154	151	
+472	Armenian	egg	24	ʣu	ʣ u	155	17	
+490	Greek	eye	25	mati	m a t i	158	15	
+491	Armenian	eye	25	ɑʧʰkʰ	ɑ ʧʰ kʰ	158	24	
+509	Greek	fat	26	lipos	l i p o s	168	29	
+510	Armenian	fat	26	ʧɑɾp	ʧ ɑ ɾ p	-161	155	
+530	Greek	feather	27	ftero	f t e r o	170	146	
+531	Armenian	feather	27	pʰɛtuɾ	pʰ ɛ t u ɾ	170	146	
+550	Greek	fire	28	fotça	f o t ç a	175	169	
+551	Armenian	fire	28	kəɾɑk	k ə ɾ ɑ k	180	125	
+570	Greek	fish	29	p͡sari	p͡s a r i	185	43	
+571	Armenian	fish	29	ʣuk	ʣ u k	183	80	
+589	Greek	fly (V)	30	peto	p e t o	191	79	
+590	Armenian	fly (V)	30	tʰərʧʰɛl	tʰ ə r ʧʰ ɛ l	191	116	
+608	Greek	foot	31	poði	p o ð i	194	1	
+609	Armenian	foot	31	votkʰ	v o t kʰ	194	37	
+627	Greek	full	32	ʝematos	ʝ e m a t o s	195	162	
+628	Armenian	full	32	likʰə	l i kʰ ə	196	57	
+646	Greek	give (V)	33	ðino	ð i n o	198	104	
+647	Armenian	give (V)	33	tɑl	t ɑ l	198	61	
+665	Greek	good	34	kalos	k a l o s	199	138	
+666	Armenian	good	34	lɑv	l ɑ v	202	102	
+684	Greek	green	35	prasinos	p r a s i n o s	210	172	
+685	Armenian	green	35	kɑnɑʧʰ	k ɑ n ɑ ʧʰ	-206	97	
+703	Greek	hair	36	trixa	t r i x a	214	164	
+704	Armenian	hair	36	mɑz	m ɑ z	-211	140	
+722	Greek	hand	37	çeri	ç e r i	219	78	
+723	Armenian	hand	37	ʣɛrkʰ	ʣ ɛ r kʰ	219	167	
+741	Greek	head	38	cefali	c e f a l i	225	2	
+742	Armenian	head	38	gəluχ	g ə l u χ	228	70	
+760	Greek	hear (V)	39	akuo	a k uo	230	84	
+761	Armenian	hear (V)	39	ləsɛl	l ə s ɛ l	231	25	
+779	Greek	heart	40	karðʝa	k a r ð ʝ a	235	89	
+780	Armenian	heart	40	siɾt	s i ɾ t	235	128	
+798	Greek	horn	41	cerato	c e r a t o	238	58	
+799	Armenian	horn	41	poz	p o z	-236	73	
+817	Greek	I	42	eɣo	e ɣ o	240	152	
+818	Armenian	I	42	jɛs	j ɛ s	240	143	
+836	Greek	kill (V)	43	skotono	s k o t o n o	244	91	
+837	Armenian	kill (V)	43	spɑnɛl	s p ɑ n ɛ l	241	88	
+856	Greek	knee	44	ɣonato	ɣ o n a t o	254	132	
+857	Armenian	knee	44	ʦunk	ʦ u n k	254	105	
+875	Greek	know (V)	45	k͡sero	k͡s e r o	258	176	
+876	Armenian	know (V)	45	gitɛnɑl	g i t ɛ n ɑ l	256	54	
+892	Greek	know (V)	45	ɣnorizo	ɣ n o r i z o	257	27	
+907	Greek	leaf	46	filo	f i l o	262	103	
+908	Armenian	leaf	46	tɛɾɛv	t ɛ ɾ ɛ v	260	8	
+947	Greek	liver	48	sikoti	s i k o t i	-274	32	
+948	Armenian	liver	48	lɪɑrtʰ	l ɪɑ r tʰ	273	82	
+966	Greek	long	49	makris	m a k r i s	282	150	
+967	Armenian	long	49	jɛɾkɑɾ	j ɛ ɾ k ɑ ɾ	280	42	
+985	Greek	louse	50	p͡sira	p͡s i r a	285	158	
+986	Armenian	louse	50	voʧʰil	v o ʧʰ i l	287	19	
+1020	Greek	many	52	poliariθmos	p o l ia r i θ m o s	302	170	
+1021	Armenian	many	52	ʃɑt	ʃ ɑ t	-298	39	
+1043	Greek	meat	53	kreas	k r ea s	304	67	
+1044	Armenian	meat	53	mis	m i s	307	67	
+1063	Greek	moon	54	selini	s e l i n i	-316	156	
+1064	Armenian	moon	54	lusin	l u s i n	311	156	
+1083	Greek	mountain	55	oros	o r o s	321	98	
+1084	Armenian	mountain	55	sɑɾ	s ɑ ɾ	320	126	
+1104	Greek	mouth	56	stoma	s t o m a	330	175	
+1105	Armenian	mouth	56	bɛɾɑn	b ɛ ɾ ɑ n	333	77	
+1123	Greek	name	57	onoma	o n o m a	334	160	
+1124	Armenian	name	57	ɑnun	ɑ n u n	334	160	
+1162	Greek	new	59	neos	n eo s	343	99	
+1163	Armenian	new	59	noɾ	n o ɾ	343	99	
+1181	Greek	night	60	nixta	n i x t a	346	106	
+1182	Armenian	night	60	giʃɛɾ	g i ʃ ɛ ɾ	344	133	
+1200	Greek	nose	61	miti	m i t i	348	109	
+1201	Armenian	nose	61	kʰitʰ	kʰ i tʰ	-349	109	
+1237	Greek	one	63	ena	e n a	355	53	
+1238	Armenian	one	63	mɛk	m ɛ k	355	41	
+1256	Greek	person	64	anθropos	a n θ r o p o s	358	85	
+1257	Armenian	person	64	mɑɾtʰ	m ɑ ɾ tʰ	-359	33	
+1275	Greek	rain (V)	65	vroçi	v r o ç i	366	9	
+1276	Armenian	rain (V)	65	ɑnʣɾɛv	ɑ n ʣ ɾ ɛ v	364	112	
+1293	Greek	red	66	kocinos	k o c i n o s	-369	139	
+1294	Armenian	red	66	kɑɾmiɾ	k ɑ ɾ m i ɾ	-372	145	
+1311	Greek	road	67	ðromos	ð r o m o s	374	65	
+1312	Armenian	road	67	ʧɑmpʰɑ	ʧ ɑ m pʰ ɑ	-382	157	
+1332	Greek	root	68	oðos	o ð o s	388	129	
+1333	Armenian	root	68	ɑɾmɑt	ɑ ɾ m ɑ t	387	141	
+1343	Greek	root	68	riza	r i z a	386	114	
+1351	Greek	round	69	stroɲɟilos	s t r o ɲ ɟ i l o s	393	135	
+1352	Armenian	round	69	kəloɾ	k ə l o ɾ	394	137	
+1369	Greek	sand	70	amos	a m o s	398	149	
+1370	Armenian	sand	70	ɑvɑz	ɑ v ɑ z	397	149	
+1388	Greek	say (V)	71	leɣo	l e ɣ o	410	72	
+1389	Armenian	say (V)	71	ɑsɛl	ɑ s ɛ l	406	142	
+1408	Greek	see (V)	72	vlepo	v l e p o	415	108	
+1409	Armenian	see (V)	72	tɛsnɛl	t ɛ s n ɛ l	416	51	
+1427	Greek	seed	73	sporos	s p o r o s	423	144	
+1428	Armenian	seed	73	seɾm	s e ɾ m	-419	144	
+1447	Greek	sit (V)	74	kaθome	k a θ o m e	426	55	
+1448	Armenian	sit (V)	74	nəstɛl	n ə s t ɛ l	424	64	
+1466	Greek	skin	75	ðerma	ð e r m a	428	100	
+1467	Armenian	skin	75	mɑʃk	m ɑ ʃ k	-431	124	
+1489	Greek	sleep (V)	76	cimume	c i m u m e	434	76	
+1490	Armenian	sleep (V)	76	kʰənɛl	kʰ ə n ɛ l	435	62	
+1508	Greek	small	77	mikros	m i k r o s	438	94	
+1509	Armenian	small	77	pʰokʰəɾ	pʰ o kʰ ə ɾ	440	11	
+1548	Greek	stand (V)	79	stekome	s t e k o m e	451	113	
+1549	Armenian	stand (V)	79	kɑngnɛl	k ɑ n g n ɛ l	450	26	
+1565	Greek	star	80	asteri	a s t e r i	454	34	
+1566	Armenian	star	80	ɑstəʁ	ɑ s t ə ʁ	454	34	
+1584	Greek	stone	81	petra	p e t r a	460	136	
+1585	Armenian	stone	81	kʰɑɾ	kʰ ɑ ɾ	461	47	
+1603	Greek	sun	82	iʎos	i ʎ o s	463	166	
+1604	Armenian	sun	82	ɑɾɛv	ɑ ɾ ɛ v	462	5	
+1622	Greek	swim (V)	83	kolimbo	k o l i m b o	469	93	
+1623	Armenian	swim (V)	83	loʁɑl	l o ʁ ɑ l	467	95	
+1641	Greek	tail	84	ura	u r a	475	66	
+1642	Armenian	tail	84	poʧʰ	p o ʧʰ	474	87	
+1663	Greek	that	85	ecino	e c i n o	486	131	
+1664	Armenian	that	85	ɑɪ̯n	ɑɪ̯ n	485	10	
+1684	Greek	this	86	afto	a f t o	492	63	
+1685	Armenian	this	86	ɑɪs	ɑɪ s	492	119	
+1704	Greek	thou	87	esi	e s i	495	134	
+1705	Armenian	thou	87	du	d u	495	111	
+1723	Greek	tongue	88	ɣlosa	ɣ l o s a	497	21	
+1724	Armenian	tongue	88	lɛzu	l ɛ z u	496	21	
+1742	Greek	tooth	89	ðondi	ð o n d i	499	130	
+1743	Armenian	tooth	89	ɑtɑm	ɑ t ɑ m	499	148	
+1761	Greek	tree	90	ðenðro	ð e n ð r o	501	36	
+1762	Armenian	tree	90	ʦɑr	ʦ ɑ r	-503	16	
+1781	Greek	two	91	ðʝo	ð ʝ o	507	165	
+1782	Armenian	two	91	jɛɾku	j ɛ ɾ k u	507	127	
+1821	Greek	warm	93	xliaros	x l ia r o s	521	101	
+1822	Armenian	warm	93	tɑkʰ	t ɑ kʰ	522	31	
+1840	Greek	water	94	nero	n e r o	524	7	
+1841	Armenian	water	94	ʤuɾ	ʤ u ɾ	527	147	
+1859	Greek	we	95	emis	e m i s	528	60	
+1860	Armenian	we	95	mɛnkʰ	m ɛ n kʰ	528	174	
+1896	Greek	white	97	lefkos	l e f k o s	535	48	
+1897	Armenian	white	97	spitɑk	s p i t ɑ k	-534	171	
+1932	Greek	woman	99	ʝineka	ʝ i n e k a	544	121	
+1933	Armenian	woman	99	kin	k i n	544	121	
+1952	Greek	yellow	100	citrinos	c i t r i n o s	-547	163	
+1953	Armenian	yellow	100	dɛʁin	d ɛ ʁ i n	552	168	
+1971	Greek	far	101	makran	m a k r a n	557	3	
+1972	Armenian	far	101	hɛru	h ɛ r u	553	90	
+2012	Greek	near	103	konda	k o n d a	573	154	
+2013	Armenian	near	103	mot	m o t	-575	154	
+2033	Greek	salt	104	alati	a l a t i	576	122	
+2034	Armenian	salt	104	ɑʁ	ɑ ʁ	576	13	
+2051	Greek	short	105	kondos	k o n d o s	582	50	
+2052	Armenian	short	105	kɑɾʧ	k ɑ ɾ ʧ	581	50	
+2075	Greek	snake	106	fiði	f i ð i	586	40	
+2076	Armenian	snake	106	oʦʰ	o ʦʰ	586	117	
+2098	Greek	thin	107	leptos	l e p t o s	597	35	
+2099	Armenian	thin	107	bɑɾɑk	b ɑ ɾ ɑ k	-594	173	
+2161	Greek	year	110	etos	e t o s	613	123	
+2162	Armenian	year	110	tɑɾi	t ɑ ɾ i	-610	115	

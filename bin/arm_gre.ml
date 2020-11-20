@@ -68,7 +68,7 @@ let run initialiser ?row_format ?params_callback ~smoothing ~base_cognate_prob
         (* CogID NewCogID  *)
         let scoring_rows =
           Pair_accuracy.rows_of_dataframe new_df ~reference_column:"CogID"
-            ~given_column:"NewCogID" ~id_column:"ID"
+            ~given_column:"NewCogID" ~id_column:"ID" ~gloss_column:"GlossID"
         in
         let cog_acc, non_acc = scoring_rows |> Pair_accuracy.accuracies in
         Stdio.printf "%d %d %.3f %.3f \n" i n cog_acc non_acc;
@@ -85,7 +85,49 @@ let run initialiser ?row_format ?params_callback ~smoothing ~base_cognate_prob
   in
   ()
 
+let fancy_initialiser t1 t2 =
+  let open Lib in
+  let open Types in
+  if Phone.(t1 = null || t2 = null) then Float.of_int 10
+  else
+    let t1, t2 = (Phone.to_string t1, Phone.to_string t2) in
+    (*   Stdio.printf "%s %s %d\n" t1 t2 (difference_count ~t1 ~t2); *)
+    if String.(t1 = "ð" && t2 = "t") || String.(t1 = "t" && t2 = "ð") then
+      8500.0
+    else if String.(t1 = "k" && t2 = "-") || String.(t1 = "-" && t2 = "k") then
+      8500.0
+    else if String.(t1 = "ɾ" && t2 = "ð") || String.(t1 = "ð" && t2 = "ɾ")
+    then 8500.0
+    else if String.(t1 = "ɛ" && t2 = "-") || String.(t1 = "-" && t2 = "ɛ")
+    then 8500.0
+    else if String.(t1 = t2) then Float.of_int 8500
+    else
+      match Phon.difference_count ~t1 ~t2 with
+      | 0 -> Float.of_int 8500
+      | 1 -> Float.of_int 500
+      | 2 -> Float.of_int 50
+      | _ ->
+          if Phon.(same_feature_value (syl t1) (syl t2)) then Float.of_int 20
+          else Float.of_int 1
+
+let basic_initialiser t1 t2 =
+  let open Lib in
+  let open Types in
+  if Phone.(t1 = null || t2 = null) then Float.of_int 10
+  else
+    let t1, t2 = (Phone.to_string t1, Phone.to_string t2) in
+    (*   Stdio.printf "%s %s %d\n" t1 t2 (difference_count ~t1 ~t2); *)
+    if String.(t1 = t2) then Float.of_int 8500
+    else
+      match Phon.difference_count ~t1 ~t2 with
+      | 0 -> Float.of_int 8500
+      | 1 -> Float.of_int 500
+      | 2 -> Float.of_int 50
+      | _ ->
+          if Phon.(same_feature_value (syl t1) (syl t2)) then Float.of_int 20
+          else Float.of_int 1
+
 let () =
   Stdio.print_endline data_path;
-  run ~row_format:Basic Lib.Run_em.basic_initialiser ~smoothing:0.0001
-    ~base_cognate_prob:0.5 data_path (get_name data_path) 7 ()
+  run ~row_format:Basic basic_initialiser ~smoothing:0.0001
+    ~base_cognate_prob:0.5 data_path (get_name data_path) 3 ()

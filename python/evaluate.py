@@ -4,28 +4,6 @@ from lingpy.evaluate.acd import bcubes  # type: ignore
 
 def main():
     results = []
-    """for i in range(20):
-        lex = LexStat("../PIE_scored_{}_og.csv".format(i))
-        # lex.get_scorer()
-        # lex.cluster(method="lexstat", threshold=0.6, ref="cognates")
-        print(".", end="", flush=True)
-        results.append( (
-                i,
-                bcubes(
-                    lex,
-                    "cogid",
-                    "newcogid",
-                    pprint=False,
-                    modify_ref=lambda x: abs(int(x)),
-                ),
-            )
-        )
-:
-    print()
-    print("OG")
-    for r in results:
-        print(r)
-"""
     for name in ["ROM", "BAI", "GER", "JAP", "OUG", "PIE", "SLV", "IEL", "KSL", "PAN"]:
         print(name)
         for n in range(1, 7):

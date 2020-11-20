@@ -1,0 +1,1029 @@
+ID	Taxon	Gloss	GlossID	IPA	Tokens	CogID	NewCogID	
+1	Gongxing	all	1	ʦʰæ₂₂ja₄₂	ʦʰ æ ₂₂ j a ₄₂	1	495	
+2	Jinman	all	1	da₄₂t͡ʂɚ₂₂	d a ₄₂ t͡ʂ ɚ ₂₂	5	88	
+3	Mazhelong	all	1	so₂₁ji₂₁	s o ₂₁ j i ₂₁	3	232	
+4	Dashi	all	1	ʨwan₄₂pu₅₅	ʨ w a n ₄₂ p u ₅₅	2	371	
+5	Zhoucheng	all	1	ji₃₁su₃₃	j i ₃₁ s u ₃₃	6	478	
+6	Jinxing	all	1	ʦa₃₅kɑ₂₁ʦi₃₃	ʦ a ₃₅ k ɑ ₂₁ ʦ i ₃₃	1	114	
+7	Tuolo	all	1	ʨʰa₅₅	ʨʰ a ₅₅	4	438	
+8	Enqi	all	1	ʨa₂₄ʁo₂₁ʦi₂₂	ʨ a ₂₄ ʁ o ₂₁ ʦ i ₂₂	1	114	
+9	Ega	all	1	da₅₅ŋwa₂₂	d a ₅₅ ŋ w a ₂₂	5	83	
+10	Gongxing	ashes	2	xwɛ₂₂ɕy₅₅ʁwa₁₂	x w ɛ ₂₂ ɕ y ₅₅ ʁ w a ₁₂	7	348	
+11	Jinman	ashes	2	kʰwa₅₅la₂₁ɕu₅₅	kʰ w a ₅₅ l a ₂₁ ɕ u ₅₅	7	359	
+12	Mazhelong	ashes	2	xwa₃₁la₄₄su₅₅	x w a ₃₁ l a ₄₄ s u ₅₅	7	359	
+13	Zhoucheng	ashes	2	su₅₅	s u ₅₅	7	319	
+14	Jinxing	ashes	2	su₅₅	s u ₅₅	7	319	
+15	Tuolo	ashes	2	ʂɤ₅₅	ʂ ɤ ₅₅	7	118	
+16	Enqi	ashes	2	xwi₂₂ɕu₂₄	x w i ₂₂ ɕ u ₂₄	7	144	
+17	Ega	ashes	2	xwa₅₅lo₂₁ɕu₅₅	x w a ₅₅ l o ₂₁ ɕ u ₅₅	7	359	
+18	Gongxing	bark	3	d͡ʐi₁₂bi₂₁	d͡ʐ i ₁₂ b i ₂₁	8	562	
+19	Mazhelong	bark	3	ɕen₅₅pe₂₁	ɕ e n ₅₅ p e ₂₁	8	425	
+20	Dashi	bark	3	t͡ʂɯ₂₁pe₂₁	t͡ʂ ɯ ₂₁ p e ₂₁	8	562	
+21	Zhoucheng	bark	3	ʦɯ₃₁pe₂₁	ʦ ɯ ₃₁ p e ₂₁	8	562	
+22	Jinxing	bark	3	ʦɯ₃₁pe₂₁	ʦ ɯ ₃₁ p e ₂₁	8	562	
+23	Tuolo	bark	3	djɯ₂₁bi₃₅	d j ɯ ₂₁ b i ₃₅	8	562	
+24	Enqi	bark	3	djɯ₄₃pi₂₁	d j ɯ ₄₃ p i ₂₁	8	562	
+25	Ega	bark	3	ʥi₄₂ʨyj₂₁qa₅₅	ʥ i ₄₂ ʨ y j ₂₁ q a ₅₅	9	437	
+26	Gongxing	belly	4	ʐi₂₁	ʐ i ₂₁	11	195	
+27	Jinman	belly	4	ʐɚ₄₂	ʐ ɚ ₄₂	11	87	
+28	Mazhelong	belly	4	pɯ₄₄	p ɯ ₄₄	12	154	
+29	Dashi	belly	4	fo₄₄	f o ₄₄	12	485	
+30	Zhoucheng	belly	4	fɤ₄₄	f ɤ ₄₄	12	418	
+31	Jinxing	belly	4	fɤ₄₄	f ɤ ₄₄	12	418	
+32	Tuolo	belly	4	fɚ₄₂	f ɚ ₄₂	12	290	
+33	Enqi	belly	4	fo₂₄	f o ₂₄	12	485	
+34	Ega	belly	4	xu₄₄qʰo₂₂	x u ₄₄ qʰ o ₂₂	10	32	
+35	Gongxing	big	5	da₄₂	d a ₄₂	13	224	
+36	Jinman	big	5	do₄₂	d o ₄₂	13	557	
+37	Mazhelong	big	5	do₄₂	d o ₄₂	13	557	
+38	Dashi	big	5	tow₄₂	t o w ₄₂	13	484	
+39	Zhoucheng	big	5	to₄₂	t o ₄₂	13	95	
+40	Jinxing	big	5	tow₄₂	t o w ₄₂	13	484	
+41	Tuolo	big	5	dɔ₂₁	d ɔ ₂₁	13	557	
+42	Enqi	big	5	da₄₃	d a ₄₃	13	224	
+43	Ega	big	5	do₄₂	d o ₄₂	13	557	
+44	Gongxing	bird	6	ʦu₂₄	ʦ u ₂₄	14	422	
+45	Jinman	bird	6	ʦo₅₅	ʦ o ₅₅	14	512	
+46	Mazhelong	bird	6	ʦo₄₄	ʦ o ₄₄	14	512	
+47	Dashi	bird	6	ʦow₃₃	ʦ o w ₃₃	14	512	
+48	Zhoucheng	bird	6	ʦow₄₄	ʦ o w ₄₄	14	512	
+49	Jinxing	bird	6	ʦow₄₄	ʦ o w ₄₄	14	512	
+50	Tuolo	bird	6	ʦu₄₂	ʦ u ₄₂	14	422	
+51	Enqi	bird	6	ʦu₅₅	ʦ u ₅₅	14	422	
+52	Ega	bird	6	ʦu₄₄	ʦ u ₄₄	14	422	
+53	Gongxing	bite (V)	7	ŋa₂₄	ŋ a ₂₄	15	280	
+54	Jinman	bite (V)	7	ŋa₄₄	ŋ a ₄₄	15	280	
+55	Mazhelong	bite (V)	7	ŋɑ₄₄	ŋ ɑ ₄₄	15	166	
+56	Dashi	bite (V)	7	ɣaŋ₄₄	ɣ a ŋ ₄₄	15	225	
+57	Zhoucheng	bite (V)	7	ŋa₄₄	ŋ a ₄₄	15	280	
+58	Jinxing	bite (V)	7	ɑ̃₄₄	ɑ̃ ₄₄	15	271	
+59	Tuolo	bite (V)	7	ŋɔ₄₂	ŋ ɔ ₄₂	15	542	
+60	Enqi	bite (V)	7	ɴa₅₅	ɴ a ₅₅	15	280	
+61	Ega	bite (V)	7	ŋo₄₄	ŋ o ₄₄	15	542	
+62	Gongxing	black	8	χe₂₄	χ e ₂₄	16	276	
+63	Jinman	black	8	xɯ₅₅	x ɯ ₅₅	16	554	
+64	Mazhelong	black	8	xɯ₄₄	x ɯ ₄₄	16	554	
+65	Dashi	black	8	xɯ₄₄	x ɯ ₄₄	16	554	
+66	Zhoucheng	black	8	xɯ₄₄	x ɯ ₄₄	16	554	
+67	Jinxing	black	8	xɯ₄₄	x ɯ ₄₄	16	554	
+68	Tuolo	black	8	xɚ₄₂	x ɚ ₄₂	16	554	
+69	Enqi	black	8	χɯ₅₅	χ ɯ ₅₅	16	554	
+70	Ega	black	8	xɯ₄₄	x ɯ ₄₄	16	554	
+71	Gongxing	blood	9	swa₂₄	s w a ₂₄	17	590	
+72	Jinman	blood	9	swa₅₅	s w a ₅₅	17	590	
+73	Mazhelong	blood	9	swa₄₄	s w a ₄₄	17	590	
+74	Dashi	blood	9	sʰwa₄₄	sʰ w a ₄₄	17	590	
+75	Zhoucheng	blood	9	swa₄₄	s w a ₄₄	17	590	
+76	Jinxing	blood	9	swɑ₄₄	s w ɑ ₄₄	17	33	
+77	Tuolo	blood	9	swɔ₄₂	s w ɔ ₄₂	17	549	
+78	Enqi	blood	9	swa₅₅	s w a ₅₅	17	590	
+79	Ega	blood	9	swa₄₄	s w a ₄₄	17	590	
+80	Gongxing	bone	10	qwa₂₄	q w a ₂₄	18	397	
+81	Jinman	bone	10	qwa₅₅ʦe₅₅	q w a ₅₅ ʦ e ₅₅	18	356	
+82	Mazhelong	bone	10	kwa₄₄twɤ₄₄	k w a ₄₄ t w ɤ ₄₄	18	356	
+83	Dashi	bone	10	kwa₄₄tjǝ₃₃	k w a ₄₄ t j ǝ ₃₃	18	356	
+84	Zhoucheng	bone	10	kwa₄₄tɯ₃₃	k w a ₄₄ t ɯ ₃₃	18	356	
+85	Jinxing	bone	10	kwɑ₄₄tǝ₄₂	k w ɑ ₄₄ t ǝ ₄₂	18	356	
+86	Tuolo	bone	10	ku₄₂djɯ₃₅ʦɛ₄₂	k u ₄₂ d j ɯ ₃₅ ʦ ɛ ₄₂	18	578	
+87	Enqi	bone	10	qwa₅₅	q w a ₅₅	18	397	
+88	Ega	bone	10	qwa₄₄	q w a ₄₄	18	397	
+89	Gongxing	breast	11	ba₂₁	b a ₂₁	20	445	
+90	Jinman	breast	11	pa₄₂	p a ₄₂	20	445	
+91	Mazhelong	breast	11	noŋ₃₃	n o ŋ ₃₃	19	47	
+92	Dashi	breast	11	pa₄₂	p a ₄₂	20	445	
+93	Zhoucheng	breast	11	pa₄₂	p a ₄₂	20	445	
+94	Jinxing	breast	11	pɑ₄₂	p ɑ ₄₂	20	22	
+95	Tuolo	breast	11	bo₄₂	b o ₄₂	20	439	
+96	Enqi	breast	11	pa₂₁	p a ₂₁	20	445	
+97	Ega	breast	11	pa₄₂	p a ₄₂	20	445	
+98	Gongxing	burn (V)	12	ɕy₂₂	ɕ y ₂₂	24	266	
+99	Jinman	burn (V)	12	fɤ₅₅ji₅₅	f ɤ ₅₅ j i ₅₅	21	68	
+100	Mazhelong	burn (V)	12	sɤ₅₅	s ɤ ₅₅	24	532	
+101	Dashi	burn (V)	12	ʂu₅₅	ʂ u ₅₅	24	405	
+102	Zhoucheng	burn (V)	12	ɲɯ₃₃	ɲ ɯ ₃₃	23	18	
+103	Jinxing	burn (V)	12	jĩ₃₃	j ĩ ₃₃	23	545	
+104	Tuolo	burn (V)	12	jen₃₃	j e n ₃₃	23	107	
+105	Enqi	burn (V)	12	xu₂₄	x u ₂₄	22	130	
+106	Ega	burn (V)	12	fi₂₂pɛ₂₂	f i ₂₂ p ɛ ₂₂	21	23	
+107	Gongxing	burn (V)	12	ɕy₅₅	ɕ y ₅₅	24	184	
+108	Mazhelong	burn (V)	12	fi₃₃kʰǝɯ₅₅	f i ₃₃ kʰ ǝɯ ₅₅	21	91	
+109	Zhoucheng	burn (V)	12	su₅₅	s u ₅₅	24	337	
+110	Gongxing	claw	13	t͡ʂi₂₄qa₂₄	t͡ʂ i ₂₄ q a ₂₄	25	384	
+111	Jinman	claw	13	qa₄₄	q a ₄₄	25	203	
+112	Mazhelong	claw	13	sǝɯ₃₃kɚ₄₄	s ǝɯ ₃₃ k ɚ ₄₄	25	586	
+113	Dashi	claw	13	ʂɯ₃₃ka₄₄	ʂ ɯ ₃₃ k a ₄₄	25	587	
+114	Zhoucheng	claw	13	sɯ₃₃ka₄₄	s ɯ ₃₃ k a ₄₄	25	587	
+115	Jinxing	claw	13	sɯ₃₃ka₄₄	s ɯ ₃₃ k a ₄₄	25	587	
+116	Tuolo	claw	13	ɕɯ₃₃qa₄₂	ɕ ɯ ₃₃ q a ₄₂	25	587	
+117	Enqi	claw	13	tjɯ₂₁qa₂₄	t j ɯ ₂₁ q a ₂₄	25	587	
+118	Ega	claw	13	ɕi₂₂qa₄₄	ɕ i ₂₂ q a ₄₄	25	587	
+119	Gongxing	cloud	14	ŋɛ₁₂qǝ₅₅	ŋ ɛ ₁₂ q ǝ ₅₅	26	355	
+120	Jinman	cloud	14	mɯ₂₁ko₄₂	m ɯ ₂₁ k o ₄₂	28	330	
+121	Mazhelong	cloud	14	ɥen₂₁pe₂₁	ɥ e n ₂₁ p e ₂₁	27	67	
+122	Dashi	cloud	14	vɤ̃₂₁nõ₂₁	v ɤ̃ ₂₁ n õ ₂₁	29	272	
+123	Zhoucheng	cloud	14	ɤ₂₁	ɤ ₂₁	30	299	
+124	Jinxing	cloud	14	ɤ̃₂₁	ɤ̃ ₂₁	30	89	
+125	Tuolo	cloud	14	ŋɔ₃₅qa₄₂	ŋ ɔ ₃₅ q a ₄₂	26	551	
+126	Enqi	cloud	14	ʁæ₂₁	ʁ æ ₂₁	30	92	
+127	Ega	cloud	14	mɯ̃₂₁ko₄₂	m ɯ̃ ₂₁ k o ₄₂	28	330	
+128	Gongxing	cold	15	ga₁₂	g a ₁₂	31	496	
+129	Jinman	cold	15	kɯ₅₅	k ɯ ₅₅	32	552	
+130	Mazhelong	cold	15	kɯ₅₅	k ɯ ₅₅	32	552	
+131	Dashi	cold	15	kɯ₃₅	k ɯ ₃₅	32	552	
+132	Zhoucheng	cold	15	kɯ₃₅	k ɯ ₃₅	32	552	
+133	Jinxing	cold	15	kɯ₅₅	k ɯ ₅₅	32	552	
+134	Tuolo	cold	15	kɯ₅₅	k ɯ ₅₅	32	552	
+135	Enqi	cold	15	kɯ₂₄	k ɯ ₂₄	32	552	
+136	Ega	cold	15	kɯ₅₅	k ɯ ₅₅	32	552	
+137	Dashi	cold	15	ka₂₁	k a ₂₁	31	496	
+138	Jinxing	cold	15	kɑ₂₁	k ɑ ₂₁	31	187	
+139	Gongxing	come (V)	16	ji₂₁kǝ₂₂	j i ₂₁ k ǝ ₂₂	34	448	
+140	Jinman	come (V)	16	ʨwa₅₅	ʨ w a ₅₅	36	29	
+141	Mazhelong	come (V)	16	ɣǝɯ₂₁	ɣ ǝɯ ₂₁	35	189	
+142	Dashi	come (V)	16	ɣǝ₃₅	ɣ ǝ ₃₅	35	480	
+143	Zhoucheng	come (V)	16	jɯ₃₅	j ɯ ₃₅	34	392	
+144	Jinxing	come (V)	16	ɣǝ₃₅	ɣ ǝ ₃₅	35	480	
+145	Tuolo	come (V)	16	t͡ʂʰo₄₂	t͡ʂʰ o ₄₂	33	468	
+146	Enqi	come (V)	16	ji₅₅ki₂₄	j i ₅₅ k i ₂₄	34	448	
+147	Ega	come (V)	16	ji₅₅kɯ₂₂	j i ₅₅ k ɯ ₂₂	34	448	
+148	Tuolo	come (V)	16	jɯ₃₃kɯ₅₅	j ɯ ₃₃ k ɯ ₅₅	34	448	
+149	Gongxing	die (V)	17	ɕi₂₂	ɕ i ₂₂	37	509	
+150	Jinman	die (V)	17	ɕi₂₂	ɕ i ₂₂	37	509	
+151	Mazhelong	die (V)	17	ɕi₃₃	ɕ i ₃₃	37	509	
+152	Dashi	die (V)	17	ɕi₃₃	ɕ i ₃₃	37	509	
+153	Zhoucheng	die (V)	17	ɕi₃₃	ɕ i ₃₃	37	509	
+154	Jinxing	die (V)	17	ɕi₃₃	ɕ i ₃₃	37	509	
+155	Tuolo	die (V)	17	ɕi₃₃	ɕ i ₃₃	37	509	
+156	Enqi	die (V)	17	si₂₂	s i ₂₂	37	146	
+157	Ega	die (V)	17	si₂₂	s i ₂₂	37	146	
+158	Gongxing	dog	18	qʰwaŋ₂₂	qʰ w a ŋ ₂₂	38	481	
+159	Jinman	dog	18	qʰõ₂₂	qʰ õ ₂₂	38	410	
+160	Mazhelong	dog	18	kʰwaŋ₃₃	kʰ w a ŋ ₃₃	38	481	
+161	Dashi	dog	18	kʰwaŋ₃₃	kʰ w a ŋ ₃₃	38	481	
+162	Zhoucheng	dog	18	kʰwa₃₃	kʰ w a ₃₃	38	481	
+163	Jinxing	dog	18	kʰwɑ̃₃₃	kʰ w ɑ̃ ₃₃	38	240	
+164	Tuolo	dog	18	qʰwaŋ₃₃	qʰ w a ŋ ₃₃	38	481	
+165	Enqi	dog	18	qʰwa₂₂	qʰ w a ₂₂	38	481	
+166	Ega	dog	18	qʰwa₂₂	qʰ w a ₂₂	38	481	
+167	Gongxing	drink (V)	19	ʔoŋ₂₂	ʔ o ŋ ₂₂	39	30	
+168	Jinman	drink (V)	19	ɯ̃₂₂	ɯ̃ ₂₂	39	210	
+169	Mazhelong	drink (V)	19	oŋ₃₃	o ŋ ₃₃	39	257	
+170	Dashi	drink (V)	19	ǝ̃₃₃	ǝ̃ ₃₃	39	180	
+171	Zhoucheng	drink (V)	19	ɯ₃₃	ɯ ₃₃	39	99	
+172	Jinxing	drink (V)	19	ǝ̃₃₃	ǝ̃ ₃₃	39	548	
+173	Tuolo	drink (V)	19	ɯ̃₃₃	ɯ̃ ₃₃	39	44	
+174	Enqi	drink (V)	19	ɯ₂₂	ɯ ₂₂	39	61	
+175	Ega	drink (V)	19	ɯ̃₂₂	ɯ̃ ₂₂	39	8	
+176	Gongxing	dry	20	qaŋ₅₅	q a ŋ ₅₅	40	157	
+177	Jinman	dry	20	qã₅₅	q ã ₅₅	40	571	
+178	Mazhelong	dry	20	kaŋ₅₅	k a ŋ ₅₅	40	157	
+179	Dashi	dry	20	kã₃₅	k ã ₃₅	40	363	
+180	Zhoucheng	dry	20	ka₃₅	k a ₃₅	40	256	
+181	Jinxing	dry	20	kɑ̃₅₅	k ɑ̃ ₅₅	40	227	
+182	Tuolo	dry	20	qɔŋ₅₅	q ɔ ŋ ₅₅	40	376	
+183	Enqi	dry	20	qa₂₄	q a ₂₄	40	571	
+184	Ega	dry	20	qo₅₅	q o ₅₅	40	498	
+185	Gongxing	ear	21	jaŋ₂₂kʰwaŋ₂₂	j a ŋ ₂₂ kʰ w a ŋ ₂₂	42	584	
+186	Jinman	ear	21	ẽ₄₂ʨwẽ₂₂	ẽ ₄₂ ʨ w ẽ ₂₂	43	375	
+187	Mazhelong	ear	21	jɛ₃₃kɛ₃₃pjen₂₁	j ɛ ₃₃ k ɛ ₃₃ p j e n ₂₁	42	343	
+188	Dashi	ear	21	jen₃₃toŋ₃₁	j e n ₃₃ t o ŋ ₃₁	42	42	
+189	Zhoucheng	ear	21	ɲow₃₃to₄₂	ɲ o w ₃₃ t o ₄₂	44	82	
+190	Jinxing	ear	21	jen₃₃tɯ₃₁kwɑ₅₅	j e n ₃₃ t ɯ ₃₁ k w ɑ ₅₅	42	323	
+191	Tuolo	ear	21	wen₃₃zɥen₃₅	w e n ₃₃ z ɥ e n ₃₅	42	279	
+192	Enqi	ear	21	ŋu₂₂ʦu₂₁qʰwa₂₄	ŋ u ₂₂ ʦ u ₂₁ qʰ w a ₂₄	41	12	
+193	Ega	ear	21	ji₂₂ʨyj₂₁	j i ₂₂ ʨ y j ₂₁	42	133	
+194	Gongxing	earth	22	ʥi₄₂	ʥ i ₄₂	45	527	
+195	Jinman	earth	22	ʥi₄₂	ʥ i ₄₂	45	527	
+196	Mazhelong	earth	22	ti₂₁	t i ₂₁	45	288	
+197	Dashi	earth	22	ʨi₃₁	ʨ i ₃₁	45	527	
+198	Zhoucheng	earth	22	ʨi₃₁	ʨ i ₃₁	45	527	
+199	Jinxing	earth	22	ʨi₃₁	ʨ i ₃₁	45	527	
+200	Tuolo	earth	22	ʑi₂₁	ʑ i ₂₁	45	344	
+201	Enqi	earth	22	ʥi₄₃	ʥ i ₄₃	45	527	
+202	Ega	earth	22	ʨi₄₂pa₂₂	ʨ i ₄₂ p a ₂₂	45	259	
+203	Gongxing	eat (V)	23	ju₂₄	j u ₂₄	46	151	
+204	Jinman	eat (V)	23	ji₅₅	j i ₅₅	46	538	
+205	Mazhelong	eat (V)	23	ji₄₄	j i ₄₄	46	538	
+206	Dashi	eat (V)	23	jɯ₄₄	j ɯ ₄₄	46	575	
+207	Zhoucheng	eat (V)	23	jɯ₄₄	j ɯ ₄₄	46	575	
+208	Jinxing	eat (V)	23	jɯ₄₄	j ɯ ₄₄	46	575	
+209	Tuolo	eat (V)	23	ju₄₂	j u ₄₂	46	151	
+210	Enqi	eat (V)	23	jɯ₅₅	j ɯ ₅₅	46	575	
+211	Ega	eat (V)	23	ji₄₄	j i ₄₄	46	538	
+212	Gongxing	egg	24	sen₄₂	s e n ₄₂	47	419	
+213	Jinman	egg	24	sẽ₄₂	s ẽ ₄₂	47	342	
+214	Mazhelong	egg	24	sɛ₄₂	s ɛ ₄₂	47	220	
+215	Dashi	egg	24	sen₄₂	s e n ₄₂	47	419	
+216	Zhoucheng	egg	24	se₄₂	s e ₄₂	47	94	
+217	Jinxing	egg	24	sen₄₂	s e n ₄₂	47	419	
+218	Tuolo	egg	24	sen₂₁	s e n ₂₁	47	419	
+219	Enqi	egg	24	sɛ₄₃	s ɛ ₄₃	47	220	
+220	Ega	egg	24	sɛ₄₂	s ɛ ₄₂	47	220	
+221	Gongxing	eye	25	wen₂₂	w e n ₂₂	48	339	
+222	Jinman	eye	25	mi₂₂	m i ₂₂	48	519	
+223	Mazhelong	eye	25	ŋwɛ₃₃	ŋ w ɛ ₃₃	48	402	
+224	Dashi	eye	25	wẽ₃₃	w ẽ ₃₃	48	567	
+225	Zhoucheng	eye	25	we₃₃	w e ₃₃	48	20	
+226	Jinxing	eye	25	wẽ₃₃	w ẽ ₃₃	48	567	
+227	Tuolo	eye	25	wen₃₃	w e n ₃₃	48	339	
+228	Enqi	eye	25	ŋwi₂₂	ŋ w i ₂₂	48	241	
+229	Ega	eye	25	ŋwi₂₂	ŋ w i ₂₂	48	241	
+230	Gongxing	fat	26	t͡ʂi₅₅	t͡ʂ i ₅₅	49	531	
+231	Jinman	fat	26	t͡ʂi₅₅	t͡ʂ i ₅₅	49	531	
+232	Mazhelong	fat	26	ʦi₅₅	ʦ i ₅₅	49	531	
+233	Dashi	fat	26	t͡ʂi₅₅	t͡ʂ i ₅₅	49	531	
+234	Zhoucheng	fat	26	ʦi₃₅	ʦ i ₃₅	49	531	
+235	Jinxing	fat	26	ʦi₅₅	ʦ i ₅₅	49	531	
+236	Tuolo	fat	26	t͡ʂi₅₅	t͡ʂ i ₅₅	49	531	
+237	Enqi	fat	26	ʦi₂₄	ʦ i ₂₄	49	531	
+238	Ega	fat	26	ʦɛ₅₅	ʦ ɛ ₅₅	49	178	
+239	Gongxing	feather	27	mi₁₂	m i ₁₂	50	572	
+240	Jinman	feather	27	mje₂₁	m j e ₂₁	50	394	
+241	Mazhelong	feather	27	me₂₁	m e ₂₁	50	572	
+242	Dashi	feather	27	ma₂₁	m a ₂₁	50	572	
+243	Zhoucheng	feather	27	ma₂₁	m a ₂₁	50	572	
+244	Jinxing	feather	27	mɑ̃₂₁	m ɑ̃ ₂₁	50	46	
+245	Tuolo	feather	27	me₃₅	m e ₃₅	50	572	
+246	Enqi	feather	27	mjɛ₂₁	m j ɛ ₂₁	50	394	
+247	Ega	feather	27	mi₂₁	m i ₂₁	50	572	
+248	Gongxing	fire	28	xwɛ₂₂	x w ɛ ₂₂	51	589	
+249	Jinman	fire	28	fi₂₂	f i ₂₂	51	506	
+250	Mazhelong	fire	28	fi₃₃	f i ₃₃	51	506	
+251	Dashi	fire	28	xwi₃₃	x w i ₃₃	51	589	
+252	Zhoucheng	fire	28	xwi₃₃	x w i ₃₃	51	589	
+253	Jinxing	fire	28	xwi₃₃	x w i ₃₃	51	589	
+254	Tuolo	fire	28	xwe₃₃	x w e ₃₃	51	589	
+255	Enqi	fire	28	xwi₂₂	x w i ₂₂	51	589	
+256	Ega	fire	28	fi₂₂	f i ₂₂	51	506	
+257	Gongxing	fish	29	ŋo₅₅	ŋ o ₅₅	52	558	
+258	Jinman	fish	29	ŋu₅₅	ŋ u ₅₅	52	176	
+259	Mazhelong	fish	29	oŋ₅₅	o ŋ ₅₅	52	17	
+260	Dashi	fish	29	wɤ̃₃₅	w ɤ̃ ₃₅	52	72	
+261	Zhoucheng	fish	29	ŋo₃₅	ŋ o ₃₅	52	558	
+262	Jinxing	fish	29	ṃ₅₅	ṃ ₅₅	52	51	
+263	Tuolo	fish	29	ŋɤ₅₅	ŋ ɤ ₅₅	52	577	
+264	Enqi	fish	29	ŋo₂₄	ŋ o ₂₄	52	558	
+265	Ega	fish	29	ŋu₅₅	ŋ u ₅₅	52	176	
+266	Gongxing	fly (V)	30	p͡fu₅₅	p͡f u ₅₅	53	420	
+267	Jinman	fly (V)	30	fi₅₅	f i ₅₅	53	373	
+268	Mazhelong	fly (V)	30	pi₅₅	p i ₅₅	53	296	
+269	Dashi	fly (V)	30	fɤ₃₅	f ɤ ₃₅	53	487	
+270	Zhoucheng	fly (V)	30	fɤ₃₅	f ɤ ₃₅	53	487	
+271	Jinxing	fly (V)	30	fɤ₅₅	f ɤ ₅₅	53	487	
+272	Tuolo	fly (V)	30	fɚ₅₅	f ɚ ₅₅	53	377	
+273	Enqi	fly (V)	30	fɛ₂₄	f ɛ ₂₄	53	377	
+274	Ega	fly (V)	30	xwɛ₅₅	x w ɛ ₅₅	53	120	
+275	Gongxing	foot	31	ku₂₄	k u ₂₄	54	463	
+276	Jinman	foot	31	ko₅₅	k o ₅₅	54	530	
+277	Mazhelong	foot	31	ko₄₄	k o ₄₄	54	530	
+278	Dashi	foot	31	kow₄₄	k o w ₄₄	54	197	
+279	Zhoucheng	foot	31	ko₄₄	k o ₄₄	54	530	
+280	Jinxing	foot	31	kow₄₄	k o w ₄₄	54	197	
+281	Tuolo	foot	31	ko₄₂	k o ₄₂	54	530	
+282	Enqi	foot	31	ku₅₅	k u ₅₅	54	463	
+283	Ega	foot	31	ku₄₄	k u ₄₄	54	463	
+284	Gongxing	full	32	mi₂₂	m i ₂₂	55	427	
+285	Jinman	full	32	me₂₂	m e ₂₂	55	427	
+286	Mazhelong	full	32	mɛ₃₃	m ɛ ₃₃	55	427	
+287	Dashi	full	32	ma₃₃	m a ₃₃	55	427	
+288	Zhoucheng	full	32	ma₃₃	m a ₃₃	55	427	
+289	Jinxing	full	32	mɑ̃₃₃	m ɑ̃ ₃₃	55	253	
+290	Tuolo	full	32	me₃₃	m e ₃₃	55	427	
+291	Enqi	full	32	mjɛ₂₂	m j ɛ ₂₂	55	24	
+292	Ega	full	32	mi₂₂	m i ₂₂	55	427	
+293	Gongxing	give (V)	33	zi₄₂	z i ₄₂	56	433	
+294	Jinman	give (V)	33	zi₄₂	z i ₄₂	56	433	
+295	Mazhelong	give (V)	33	zǝɯ₂₁	z ǝɯ ₂₁	56	183	
+296	Dashi	give (V)	33	zi₂₁	z i ₂₁	56	433	
+297	Zhoucheng	give (V)	33	zɯ₄₂	z ɯ ₄₂	56	326	
+298	Jinxing	give (V)	33	si₃₁	s i ₃₁	56	433	
+299	Tuolo	give (V)	33	zi₂₁	z i ₂₁	56	433	
+300	Enqi	give (V)	33	ʦi₄₃	ʦ i ₄₃	56	100	
+301	Ega	give (V)	33	zi₄₂	z i ₄₂	56	433	
+302	Gongxing	good	34	ʣan₁₂	ʣ a n ₁₂	58	101	
+303	Jinman	good	34	xo₂₂	x o ₂₂	57	413	
+304	Mazhelong	good	34	xǝ₃₃	x ǝ ₃₃	57	432	
+305	Dashi	good	34	xu₃₃	x u ₃₃	57	347	
+306	Zhoucheng	good	34	xu₃₃	x u ₃₃	57	347	
+307	Jinxing	good	34	xu₃₃	x u ₃₃	57	347	
+308	Tuolo	good	34	djaŋ₃₅	d j a ŋ ₃₅	58	219	
+309	Enqi	good	34	djæ₂₁	d j æ ₂₁	58	219	
+310	Ega	good	34	xo₅₅	x o ₅₅	57	413	
+311	Dashi	good	34	ʨʰõ₄₄	ʨʰ õ ₄₄	58	172	
+312	Zhoucheng	good	34	ʨʰow₅₅	ʨʰ o w ₅₅	58	86	
+313	Jinxing	good	34	ʨʰõ₄₄	ʨʰ õ ₄₄	58	172	
+314	Gongxing	green	35	ʦʰan₂₄	ʦʰ a n ₂₄	60	312	
+315	Jinman	green	35	ʨʰã₅₅	ʨʰ ã ₅₅	60	302	
+316	Mazhelong	green	35	lɤ₄₄	l ɤ ₄₄	59	366	
+317	Dashi	green	35	lo₄₄	l o ₄₄	59	261	
+318	Zhoucheng	green	35	lɤ₄₄	l ɤ ₄₄	59	366	
+319	Jinxing	green	35	lu₄₄	l u ₄₄	59	591	
+320	Tuolo	green	35	ʨʰaŋ₂₁	ʨʰ a ŋ ₂₁	60	302	
+321	Enqi	green	35	ʨʰæ₂₄	ʨʰ æ ₂₄	60	302	
+322	Ega	green	35	ʨʰa₄₂	ʨʰ a ₄₂	60	302	
+323	Gongxing	hair	36	di₂₄mjɛ₁₂	d i ₂₄ m j ɛ ₁₂	62	388	
+324	Jinman	hair	36	ʈe₂₁me₅₅	ʈ e ₂₁ m e ₅₅	62	474	
+325	Mazhelong	hair	36	tɛ₂₁mɛ₅₅	t ɛ ₂₁ m ɛ ₅₅	62	474	
+326	Dashi	hair	36	ɕa₄₄	ɕ a ₄₄	61	11	
+327	Zhoucheng	hair	36	tɯ₂₁ma₃₅	t ɯ ₂₁ m a ₃₅	62	388	
+328	Jinxing	hair	36	ɕɔ₄₄	ɕ ɔ ₄₄	61	364	
+329	Tuolo	hair	36	djɯ₃₅me₅₅	d j ɯ ₃₅ m e ₅₅	62	388	
+330	Enqi	hair	36	tjɯ₂₁mjɛ₂₄	t j ɯ ₂₁ m j ɛ ₂₄	62	388	
+331	Ega	hair	36	ti₂₁mi₅₅	t i ₂₁ m i ₅₅	62	474	
+332	Jinxing	hair	36	tǝ₂₁mã₅₅	t ǝ ₂₁ m ã ₅₅	62	388	
+333	Gongxing	hand	37	ʂi₂₂	ʂ i ₂₂	63	212	
+334	Jinman	hand	37	ɕi₂₂	ɕ i ₂₂	63	429	
+335	Mazhelong	hand	37	sǝɯ₃₃	s ǝɯ ₃₃	63	125	
+336	Dashi	hand	37	ʂʰɯ₃₃	ʂʰ ɯ ₃₃	63	540	
+337	Zhoucheng	hand	37	sɯ₃₃	s ɯ ₃₃	63	233	
+338	Jinxing	hand	37	sɯ₃₃	s ɯ ₃₃	63	233	
+339	Tuolo	hand	37	ɕɯ₃₃	ɕ ɯ ₃₃	63	547	
+340	Enqi	hand	37	ɕɯ₂₂	ɕ ɯ ₂₂	63	547	
+341	Ega	hand	37	ɕi₂₂	ɕ i ₂₂	63	429	
+342	Gongxing	head	38	di₁₂	d i ₁₂	64	460	
+343	Jinman	head	38	ʈo₂₂	ʈ o ₂₂	64	536	
+344	Mazhelong	head	38	ta₄₂po₂₁	t a ₄₂ p o ₂₁	64	84	
+345	Dashi	head	38	ti₄₂	t i ₄₂	64	460	
+346	Zhoucheng	head	38	tɯ₃₁po₂₁	t ɯ ₃₁ p o ₂₁	64	84	
+347	Jinxing	head	38	tǝ₃₁	t ǝ ₃₁	64	243	
+348	Tuolo	head	38	djɯ₃₅	d j ɯ ₃₅	64	217	
+349	Enqi	head	38	tiw₂₁	t i w ₂₁	64	426	
+350	Ega	head	38	ʨu₂₂qa₅₅	ʨ u ₂₂ q a ₅₅	64	16	
+351	Gongxing	hear (V)	39	ʨʰjan₅₅	ʨʰ j a n ₅₅	65	537	
+352	Jinman	hear (V)	39	ʨʰjã₅₅	ʨʰ j ã ₅₅	65	537	
+353	Mazhelong	hear (V)	39	ʨʰɚ̃₅₅	ʨʰ ɚ̃ ₅₅	65	537	
+354	Dashi	hear (V)	39	ʨʰjɚ̃₅₅	ʨʰ j ɚ̃ ₅₅	65	537	
+355	Zhoucheng	hear (V)	39	ʨʰjɛ₅₅	ʨʰ j ɛ ₅₅	65	537	
+356	Jinxing	hear (V)	39	ʨʰjan₅₅tǝ₃₃	ʨʰ j a n ₅₅ t ǝ ₃₃	65	537	
+357	Tuolo	hear (V)	39	ʨʰjaŋ₅₅	ʨʰ j a ŋ ₅₅	65	537	
+358	Enqi	hear (V)	39	ʨʰjæ₂₄	ʨʰ j æ ₂₄	65	537	
+359	Ega	hear (V)	39	ʨʰja₅₅	ʨʰ j a ₅₅	65	537	
+360	Gongxing	heart	40	ɕin₅₅	ɕ i n ₅₅	66	581	
+361	Jinman	heart	40	sẽ₅₅	s ẽ ₅₅	66	268	
+362	Mazhelong	heart	40	ɕen₅₅	ɕ e n ₅₅	66	581	
+363	Dashi	heart	40	ɕen₅₅	ɕ e n ₅₅	66	581	
+364	Zhoucheng	heart	40	ɕi₃₅	ɕ i ₃₅	66	208	
+365	Jinxing	heart	40	ɕen₅₅	ɕ e n ₅₅	66	581	
+366	Tuolo	heart	40	ɕen₅₅	ɕ e n ₅₅	66	581	
+367	Enqi	heart	40	si₂₄	s i ₂₄	66	378	
+368	Ega	heart	40	sɛ₅₅	s ɛ ₅₅	66	421	
+369	Gongxing	horn	41	qwa₂₄	q w a ₂₄	67	361	
+370	Jinman	horn	41	qo₅₅	q o ₅₅	67	205	
+371	Mazhelong	horn	41	koŋ₄₄	k o ŋ ₄₄	67	34	
+372	Dashi	horn	41	ko₄₄	k o ₄₄	67	205	
+373	Zhoucheng	horn	41	kɤ₄₄	k ɤ ₄₄	67	236	
+374	Jinxing	horn	41	kɤ₄₄	k ɤ ₄₄	67	236	
+375	Tuolo	horn	41	qo₄₂qa₂₁	q o ₄₂ q a ₂₁	67	242	
+376	Enqi	horn	41	qo₅₅	q o ₅₅	67	205	
+377	Ega	horn	41	qo₄₄	q o ₄₄	67	205	
+378	Gongxing	I	42	ŋa₄₂	ŋ a ₄₂	68	160	
+379	Jinman	I	42	õ₄₂	õ ₄₂	68	14	
+380	Mazhelong	I	42	ŋo₄₂	ŋ o ₄₂	68	511	
+381	Dashi	I	42	ŋõ₃₁	ŋ õ ₃₁	68	511	
+382	Zhoucheng	I	42	ŋo₃₁	ŋ o ₃₁	68	511	
+383	Jinxing	I	42	wõ₃₁	w õ ₃₁	68	77	
+384	Tuolo	I	42	ŋɔ₂₁	ŋ ɔ ₂₁	68	511	
+385	Enqi	I	42	ɴo₄₃	ɴ o ₄₃	68	511	
+386	Ega	I	42	ŋo₄₂	ŋ o ₄₂	68	511	
+387	Gongxing	kill (V)	43	χa₂₄	χ a ₂₄	69	5	
+388	Jinman	kill (V)	43	ɕa₅₅	ɕ a ₅₅	69	524	
+389	Mazhelong	kill (V)	43	ɕa₄₄	ɕ a ₄₄	69	524	
+390	Dashi	kill (V)	43	ɕʰa₄₄	ɕʰ a ₄₄	69	136	
+391	Zhoucheng	kill (V)	43	ɕa₄₄	ɕ a ₄₄	69	524	
+392	Jinxing	kill (V)	43	ɕɑ₄₄	ɕ ɑ ₄₄	69	145	
+393	Tuolo	kill (V)	43	ɕɔ₄₂	ɕ ɔ ₄₂	69	457	
+394	Enqi	kill (V)	43	xa₅₅	x a ₅₅	69	110	
+395	Ega	kill (V)	43	ɕo₄₄	ɕ o ₄₄	69	457	
+396	Gongxing	knee	44	qa₅₅ʦi₂₂qa₅₅qa₄₂	q a ₅₅ ʦ i ₂₂ q a ₅₅ q a ₄₂	70	309	
+397	Jinman	knee	44	ko₄₄ʦe₄₄	k o ₄₄ ʦ e ₄₄	70	179	
+398	Mazhelong	knee	44	ko₄₄ʦɛ₄₄tǝɯ₂₁	k o ₄₄ ʦ ɛ ₄₄ t ǝɯ ₂₁	70	85	
+399	Dashi	knee	44	kʰwa₃₁tjow₃₁ʦe₄₄	kʰ w a ₃₁ t j o w ₃₁ ʦ e ₄₄	70	129	
+400	Zhoucheng	knee	44	kʰwa₃₃te₅₅tɯ₂₁	kʰ w a ₃₃ t e ₅₅ t ɯ ₂₁	70	170	
+401	Jinxing	knee	44	kʰwɑ₃₁ʦɿ₃₃te₄₄kɔ₃₃	kʰ w ɑ ₃₁ ʦ ɿ ₃₃ t e ₄₄ k ɔ ₃₃	70	76	
+402	Tuolo	knee	44	qʰoŋ₅₅mo₄₂qɔ₄₂	qʰ o ŋ ₅₅ m o ₄₂ q ɔ ₄₂	70	387	
+403	Enqi	knee	44	qʰa₄₃ʦo₂₁qa₅₅	qʰ a ₄₃ ʦ o ₂₁ q a ₅₅	70	309	
+404	Ega	knee	44	qʰo₄₂ʦu₂₁qo₅₅	qʰ o ₄₂ ʦ u ₂₁ q o ₅₅	70	215	
+405	Gongxing	know (V)	45	t͡ʂi₄₂ʦʰwa₅₅	t͡ʂ i ₄₂ ʦʰ w a ₅₅	71	109	
+406	Jinman	know (V)	45	sɿ₄₄	s ɿ ₄₄	72	354	
+407	Mazhelong	know (V)	45	sɯ₄₄	s ɯ ₄₄	72	9	
+408	Dashi	know (V)	45	se₃₃	s e ₃₃	72	386	
+409	Zhoucheng	know (V)	45	zɯ₄₄tɯ₄₄	z ɯ ₄₄ t ɯ ₄₄	72	81	
+410	Jinxing	know (V)	45	sen₃₃	s e n ₃₃	72	105	
+411	Tuolo	know (V)	45	t͡ʂɤ₅₅t͡ʂʰɤ₂₁	t͡ʂ ɤ ₅₅ t͡ʂʰ ɤ ₂₁	71	264	
+412	Enqi	know (V)	45	swɛ₂₂	s w ɛ ₂₂	72	415	
+413	Ega	know (V)	45	si₄₄	s i ₄₄	72	386	
+414	Gongxing	leaf	46	sɛ₂₄	s ɛ ₂₄	73	576	
+415	Jinman	leaf	46	ʂɚ₅₅	ʂ ɚ ₅₅	73	143	
+416	Mazhelong	leaf	46	sɛ₄₄	s ɛ ₄₄	73	576	
+417	Dashi	leaf	46	ʂʰe₄₄	ʂʰ e ₄₄	73	213	
+418	Zhoucheng	leaf	46	se₄₄	s e ₄₄	73	576	
+419	Jinxing	leaf	46	se₄₄	s e ₄₄	73	576	
+420	Tuolo	leaf	46	djɯ₂₁mɯ₄₂ɕi₄₂	d j ɯ ₂₁ m ɯ ₄₂ ɕ i ₄₂	73	583	
+421	Enqi	leaf	46	ɕɛ₅₅	ɕ ɛ ₅₅	73	126	
+422	Ega	leaf	46	sɛ₄₄	s ɛ ₄₄	73	576	
+423	Gongxing	lie (V)	47	nen₁₂	n e n ₁₂	79	56	
+424	Jinman	lie (V)	47	lo₂₁	l o ₂₁	76	209	
+425	Mazhelong	lie (V)	47	mi₅₅	m i ₅₅	75	221	
+426	Dashi	lie (V)	47	t͡ʂʰɚ̃₃₃	t͡ʂʰ ɚ̃ ₃₃	74	124	
+427	Zhoucheng	lie (V)	47	ʦʰɛ₃₃	ʦʰ ɛ ₃₃	74	491	
+428	Jinxing	lie (V)	47	ʦʰan₃₃	ʦʰ a n ₃₃	74	244	
+429	Tuolo	lie (V)	47	ʐa₄₂	ʐ a ₄₂	77	222	
+430	Enqi	lie (V)	47	to₂₄ʨi₂₂	t o ₂₄ ʨ i ₂₂	78	565	
+431	Ega	lie (V)	47	lo₂₁	l o ₂₁	76	209	
+432	Gongxing	liver	48	qaŋ₅₅	q a ŋ ₅₅	80	168	
+433	Jinman	liver	48	qã₅₅	q ã ₅₅	80	318	
+434	Mazhelong	liver	48	kaŋ₅₅	k a ŋ ₅₅	80	168	
+435	Dashi	liver	48	kã₃₅	k ã ₃₅	80	493	
+436	Zhoucheng	liver	48	ka₃₅	k a ₃₅	80	499	
+437	Jinxing	liver	48	kɑ₅₅	k ɑ ₅₅	80	451	
+438	Tuolo	liver	48	qɔŋ₅₅	q ɔ ŋ ₅₅	80	500	
+439	Enqi	liver	48	qa₂₄	q a ₂₄	80	318	
+440	Ega	liver	48	qo₅₅	q o ₅₅	80	13	
+441	Gongxing	long	49	ʥow₁₂	ʥ o w ₁₂	81	336	
+442	Jinman	long	49	ʈõ₂₁	ʈ õ ₂₁	81	25	
+443	Mazhelong	long	49	ʦoŋ₂₁	ʦ o ŋ ₂₁	81	336	
+444	Dashi	long	49	t͡ʂõ₂₁	t͡ʂ õ ₂₁	81	467	
+445	Zhoucheng	long	49	ʦow₂₁	ʦ o w ₂₁	81	336	
+446	Jinxing	long	49	ʦõ₂₁	ʦ õ ₂₁	81	467	
+447	Tuolo	long	49	dɤ₃₅	d ɤ ₃₅	81	314	
+448	Enqi	long	49	tjo₂₁	t j o ₂₁	81	505	
+449	Ega	long	49	ʨu₂₁	ʨ u ₂₁	81	464	
+450	Gongxing	louse	50	ɕi₂₄	ɕ i ₂₄	82	456	
+451	Jinman	louse	50	ɕi₅₅	ɕ i ₅₅	82	456	
+452	Mazhelong	louse	50	ɕi₄₄	ɕ i ₄₄	82	456	
+453	Dashi	louse	50	ɕi₃₃	ɕ i ₃₃	82	456	
+454	Zhoucheng	louse	50	ɕe₄₄	ɕ e ₄₄	82	494	
+455	Jinxing	louse	50	ɕi₄₄	ɕ i ₄₄	82	456	
+456	Tuolo	louse	50	ɕi₄₂	ɕ i ₄₂	82	456	
+457	Enqi	louse	50	ɕi₅₅	ɕ i ₅₅	82	456	
+458	Ega	louse	50	ɕi₄₄	ɕ i ₄₄	82	456	
+459	Gongxing	man	51	ʦi₂₂	ʦ i ₂₂	83	406	
+460	Jinman	man	51	da₅₃xõ₅₅ʦi₂₂	d a ₅₃ x õ ₅₅ ʦ i ₂₂	83	455	
+461	Mazhelong	man	51	ʦi₃₃	ʦ i ₃₃	83	406	
+462	Dashi	man	51	ʦi₃₃	ʦ i ₃₃	83	406	
+463	Zhoucheng	man	51	ʦi₄₄	ʦ i ₄₄	83	406	
+464	Jinxing	man	51	ʦi₃₃	ʦ i ₃₃	83	406	
+465	Tuolo	man	51	ɕa₅₅tʰjo₂₁po₅₅	ɕ a ₅₅ tʰ j o ₂₁ p o ₅₅	84	566	
+466	Enqi	man	51	da₄₃xo₂₄	d a ₄₃ x o ₂₄	83	335	
+467	Ega	man	51	do₄₂xõ₅₅ʦi₂₂	d o ₄₂ x õ ₅₅ ʦ i ₂₂	83	455	
+468	Gongxing	many	52	ti₅₅	t i ₅₅	85	534	
+469	Jinman	many	52	ti₅₅	t i ₅₅	85	534	
+470	Mazhelong	many	52	ti₅₅	t i ₅₅	85	534	
+471	Dashi	many	52	ʨi₃₅	ʨ i ₃₅	85	287	
+472	Zhoucheng	many	52	ʨi₃₅	ʨ i ₃₅	85	287	
+473	Jinxing	many	52	ʨi₅₅	ʨ i ₅₅	85	287	
+474	Tuolo	many	52	ʨɯ₅₅	ʨ ɯ ₅₅	85	411	
+475	Enqi	many	52	ti₂₄	t i ₂₄	85	534	
+476	Ega	many	52	ti₅₅	t i ₅₅	85	534	
+477	Gongxing	meat	53	ɢæ₁₂	ɢ æ ₁₂	86	520	
+478	Jinman	meat	53	qa₂₁	q a ₂₁	86	520	
+479	Mazhelong	meat	53	kɚ₂₁	k ɚ ₂₁	86	311	
+480	Dashi	meat	53	kɚ₂₁	k ɚ ₂₁	86	311	
+481	Zhoucheng	meat	53	kɛ₂₁	k ɛ ₂₁	86	79	
+482	Jinxing	meat	53	ka₂₁	k a ₂₁	86	520	
+483	Tuolo	meat	53	ʁa₃₅	ʁ a ₃₅	86	520	
+484	Enqi	meat	53	qæ₂₁	q æ ₂₁	86	520	
+485	Ega	meat	53	qa₂₁	q a ₂₁	86	520	
+486	Gongxing	moon	54	ɲi₂₄waŋ₅₅	ɲ i ₂₄ w a ŋ ₅₅	87	102	
+487	Jinman	moon	54	ɲo₅₅ŋõ₅₅	ɲ o ₅₅ ŋ õ ₅₅	87	357	
+488	Mazhelong	moon	54	mjen₅₅ŋwa₄₄	m j e n ₅₅ ŋ w a ₄₄	87	128	
+489	Dashi	moon	54	mi₅₅wã₄₄	m i ₅₅ w ã ₄₄	87	395	
+490	Zhoucheng	moon	54	mi₃₅wa₄₄	m i ₃₅ w a ₄₄	87	395	
+491	Jinxing	moon	54	mi₅₅wɑ̃₅₅	m i ₅₅ w ɑ̃ ₅₅	87	395	
+492	Tuolo	moon	54	jen₅₅wo₄₂	j e n ₅₅ w o ₄₂	87	235	
+493	Enqi	moon	54	mjɛ₂₄wa₅₅	m j ɛ ₂₄ w a ₅₅	87	128	
+494	Ega	moon	54	ɲa₅₅ŋwa₄₄	ɲ a ₅₅ ŋ w a ₄₄	87	440	
+495	Gongxing	mountain	55	swa₄₂	s w a ₄₂	89	353	
+496	Jinman	mountain	55	ʂɚ̃₅₅	ʂ ɚ̃ ₅₅	88	60	
+497	Mazhelong	mountain	55	sen₅₅	s e n ₅₅	88	292	
+498	Dashi	mountain	55	ʂo₄₂	ʂ o ₄₂	89	331	
+499	Zhoucheng	mountain	55	sɤ₅₃	s ɤ ₅₃	89	0	
+500	Jinxing	mountain	55	sɤ̃₄₂	s ɤ̃ ₄₂	89	486	
+501	Tuolo	mountain	55	ɕen₅₅	ɕ e n ₅₅	88	383	
+502	Enqi	mountain	55	ɕo₄₃	ɕ o ₄₃	89	518	
+503	Ega	mountain	55	sɛ₅₅	s ɛ ₅₅	88	247	
+504	Gongxing	mouth	56	ʦu₂₂qwɛ₅₅	ʦ u ₂₂ q w ɛ ₅₅	90	390	
+505	Jinman	mouth	56	ʨu₂₂kwe₅₅	ʨ u ₂₂ k w e ₅₅	90	390	
+506	Mazhelong	mouth	56	ʦwi₃₃	ʦ w i ₃₃	91	207	
+507	Dashi	mouth	56	ʦwi₃₃	ʦ w i ₃₃	91	207	
+508	Zhoucheng	mouth	56	ʨy₃₃kɤ₃₃	ʨ y ₃₃ k ɤ ₃₃	90	390	
+509	Jinxing	mouth	56	ʨyj₃₃kwe₅₅	ʨ y j ₃₃ k w e ₅₅	90	390	
+510	Tuolo	mouth	56	ʨu₃₃qwa₅₅	ʨ u ₃₃ q w a ₅₅	90	390	
+511	Enqi	mouth	56	ʨu₂₂qwa₂₄	ʨ u ₂₂ q w a ₂₄	90	390	
+512	Ega	mouth	56	ʨu₂₂kwa₅₅qo₄₂	ʨ u ₂₂ k w a ₅₅ q o ₄₂	90	390	
+513	Gongxing	name	57	ɲwɛ₅₅	ɲ w ɛ ₅₅	92	137	
+514	Jinman	name	57	ɲo₅₅	ɲ o ₅₅	92	430	
+515	Mazhelong	name	57	mjɚ₅₅	m j ɚ ₅₅	92	362	
+516	Dashi	name	57	mjɚ₃₅	m j ɚ ₃₅	92	362	
+517	Zhoucheng	name	57	mjɛ₃₅	m j ɛ ₃₅	92	362	
+518	Jinxing	name	57	mjan₅₅	m j a n ₅₅	92	573	
+519	Tuolo	name	57	ɲwa₅₅	ɲ w a ₅₅	92	164	
+520	Enqi	name	57	mjæ₂₄	m j æ ₂₄	92	573	
+521	Ega	name	57	ɲɥa₅₅	ɲ ɥ a ₅₅	92	196	
+522	Gongxing	neck	58	qoŋ₅₅noŋ₄₂	q o ŋ ₅₅ n o ŋ ₄₂	95	517	
+523	Jinman	neck	58	qo₄₂te₃₃me₄₂	q o ₄₂ t e ₃₃ m e ₄₂	96	556	
+524	Mazhelong	neck	58	kɤ₄₂tɛ₅₅	k ɤ ₄₂ t ɛ ₅₅	96	108	
+525	Dashi	neck	58	mjɚ₄₂tʰõ₅₅	m j ɚ ₄₂ tʰ õ ₅₅	93	582	
+526	Zhoucheng	neck	58	po₃₅ʦɿ₃₃ku₃₅	p o ₃₅ ʦ ɿ ₃₃ k u ₃₅	94	543	
+527	Jinxing	neck	58	kɤ₄₂mi₄₂ʦɿ₃₃	k ɤ ₄₂ m i ₄₂ ʦ ɿ ₃₃	96	482	
+528	Tuolo	neck	58	qoŋ₂₁mo₂₁	q o ŋ ₂₁ m o ₂₁	95	517	
+529	Enqi	neck	58	qo₄₃tæ₅₅	q o ₄₃ t æ ₅₅	96	489	
+530	Ega	neck	58	qo₄₂tɛ₄₄me₄₂	q o ₄₂ t ɛ ₄₄ m e ₄₂	96	556	
+531	Dashi	neck	58	ɚ₄₄mjɚ₄₂	ɚ ₄₄ m j ɚ ₄₂	93	78	
+532	Gongxing	new	59	ɕen₅₅	ɕ e n ₅₅	97	514	
+533	Jinman	new	59	sẽ₅₅	s ẽ ₅₅	97	349	
+534	Mazhelong	new	59	ɕen₅₅	ɕ e n ₅₅	97	514	
+535	Dashi	new	59	ɕʰen₅₅	ɕʰ e n ₅₅	97	514	
+536	Zhoucheng	new	59	ɕi₃₅	ɕ i ₃₅	97	231	
+537	Jinxing	new	59	ɕen₅₅	ɕ e n ₅₅	97	514	
+538	Tuolo	new	59	ɕen₅₅	ɕ e n ₅₅	97	514	
+539	Enqi	new	59	si₂₄	s i ₂₄	97	98	
+540	Ega	new	59	sɛ₅₅	s ɛ ₅₅	97	407	
+541	Gongxing	night	60	ja₅₅xɯ₄₂	j a ₅₅ x ɯ ₄₂	98	316	
+542	Jinman	night	60	ɕa₅₅xɯ̃₄₂	ɕ a ₅₅ x ɯ̃ ₄₂	98	316	
+543	Mazhelong	night	60	ɕɚ₅₅pʰo₅₅	ɕ ɚ ₅₅ pʰ o ₅₅	101	313	
+544	Dashi	night	60	pe₃₃kɚ₄₂	p e ₃₃ k ɚ ₄₂	100	211	
+545	Zhoucheng	night	60	pe₃₃kɛ₄₂	p e ₃₃ k ɛ ₄₂	100	211	
+546	Jinxing	night	60	pẽ₅₅ka₄₂	p ẽ ₅₅ k a ₄₂	100	211	
+547	Tuolo	night	60	pɛ₃₃ʨa₂₁	p ɛ ₃₃ ʨ a ₂₁	100	374	
+548	Enqi	night	60	ɕa₂₄xɯ₂₂	ɕ a ₂₄ x ɯ ₂₂	98	316	
+549	Ega	night	60	ɲi₄₄u₂₂	ɲ i ₄₄ u ₂₂	99	36	
+550	Tuolo	night	60	xa₄₂xɯ₂₁	x a ₄₂ x ɯ ₂₁	98	316	
+551	Gongxing	nose	61	ty₂₁tjy₂₄	t y ₂₁ t j y ₂₄	106	568	
+552	Jinman	nose	61	qʰwe₄₂tjɯ₂₁	qʰ w e ₄₂ t j ɯ ₂₁	105	117	
+553	Mazhelong	nose	61	pʰjen₄₂	pʰ j e n ₄₂	103	462	
+554	Dashi	nose	61	wɤ₄₂tiǝ₂₁	w ɤ ₄₂ t iǝ ₂₁	102	66	
+555	Zhoucheng	nose	61	pi₃₁fɤ₄₄ʦɿ₄₄	p i ₃₁ f ɤ ₄₄ ʦ ɿ ₄₄	104	186	
+556	Jinxing	nose	61	pjen₂₁	p j e n ₂₁	103	462	
+557	Tuolo	nose	61	vɚ₄₂djɯ₃₅	v ɚ ₄₂ d j ɯ ₃₅	102	159	
+558	Enqi	nose	61	ʦo₂₁qʰo₂₂tjɯ₂₁	ʦ o ₂₁ qʰ o ₂₂ t j ɯ ₂₁	105	466	
+559	Ega	nose	61	kʰwɛ₄₂ʨyj₂₁	kʰ w ɛ ₄₂ ʨ y j ₂₁	105	53	
+560	Gongxing	not	62	ɛ₅₅	ɛ ₅₅	108	501	
+561	Jinman	not	62	a₄₂	a ₄₂	107	10	
+562	Mazhelong	not	62	a₃₁mow₃₃	a ₃₁ m o w ₃₃	110	329	
+563	Dashi	not	62	ma₃₃xa₅₅	m a ₃₃ x a ₅₅	110	237	
+564	Zhoucheng	not	62	mo₃₃	m o ₃₃	110	175	
+565	Jinxing	not	62	ɣa₃₅	ɣ a ₃₅	109	193	
+566	Tuolo	not	62	e₃₅	e ₃₅	108	306	
+567	Enqi	not	62	a₄₃	a ₄₃	107	281	
+568	Ega	not	62	a₄₂	a ₄₂	107	40	
+569	Mazhelong	not	62	pu₂₁	p u ₂₁	111	115	
+570	Dashi	not	62	a₄₂ɣẽ₅₅	a ₄₂ ɣ ẽ ₅₅	107	238	
+571	Tuolo	not	62	a₂₁	a ₂₁	107	194	
+572	Gongxing	one	63	a₅₅	a ₅₅	112	27	
+573	Jinman	one	63	a₄₂	a ₄₂	112	171	
+574	Mazhelong	one	63	a₂₁	a ₂₁	112	298	
+575	Dashi	one	63	ji₄₄	j i ₄₄	113	580	
+576	Zhoucheng	one	63	a₃₁	a ₃₁	112	412	
+577	Jinxing	one	63	a₄₂	a ₄₂	112	123	
+578	Tuolo	one	63	a₂₁	a ₂₁	112	521	
+579	Enqi	one	63	ji₅₅	j i ₅₅	113	580	
+580	Ega	one	63	a₄₂	a ₄₂	112	135	
+581	Gongxing	one	63	ji₂₄	j i ₂₄	113	580	
+582	Mazhelong	one	63	ji₄₂	j i ₄₂	113	580	
+583	Zhoucheng	one	63	ji₄₄	j i ₄₄	113	580	
+584	Jinxing	one	63	ji₄₄	j i ₄₄	113	580	
+585	Tuolo	one	63	ji₄₂	j i ₄₂	113	580	
+586	Enqi	one	63	a₄₃	a ₄₃	112	57	
+587	Ega	one	63	ji₅₅	j i ₅₅	113	580	
+588	Gongxing	person	64	ɲi₁₂	ɲ i ₁₂	114	304	
+589	Jinman	person	64	ɲi₂₁	ɲ i ₂₁	114	304	
+590	Mazhelong	person	64	ɲen₂₁	ɲ e n ₂₁	114	449	
+591	Dashi	person	64	jen₂₁	j e n ₂₁	114	254	
+592	Zhoucheng	person	64	ɲi₂₁	ɲ i ₂₁	114	304	
+593	Jinxing	person	64	jen₂₁	j e n ₂₁	114	254	
+594	Tuolo	person	64	jen₃₅	j e n ₃₅	114	254	
+595	Enqi	person	64	ɲi₂₁qa₂₄	ɲ i ₂₁ q a ₂₄	114	479	
+596	Ega	person	64	ɲi₂₁	ɲ i ₂₁	114	304	
+597	Gongxing	rain (V)	65	ʐi₂₂	ʐ i ₂₂	117	301	
+598	Jinman	rain (V)	65	ʐɚ₂₂wo₄₂	ʐ ɚ ₂₂ w o ₄₂	117	198	
+599	Mazhelong	rain (V)	65	ju₅₅	j u ₅₅	115	360	
+600	Dashi	rain (V)	65	wɤ₃₃	w ɤ ₃₃	115	19	
+601	Zhoucheng	rain (V)	65	ow₄₂ɤ₃₃ɕi₄₄	o w ₄₂ ɤ ₃₃ ɕ i ₄₄	116	321	
+602	Jinxing	rain (V)	65	ɤ₃₃	ɤ ₃₃	115	62	
+603	Tuolo	rain (V)	65	ʐi₃₃	ʐ i ₃₃	117	301	
+604	Enqi	rain (V)	65	zi₂₂	z i ₂₂	117	301	
+605	Ega	rain (V)	65	zɛ₂₂u₄₂	z ɛ ₂₂ u ₄₂	117	28	
+606	Enqi	rain (V)	65	u₂₁	u ₂₁	115	278	
+607	Gongxing	red	66	tʰæ₂₄	tʰ æ ₂₄	118	303	
+608	Jinman	red	66	ʈʰa₅₅	ʈʰ a ₅₅	118	303	
+609	Mazhelong	red	66	xoŋ₃₃	x o ŋ ₃₃	119	173	
+610	Dashi	red	66	t͡ʂʰɚ₄₄	t͡ʂʰ ɚ ₄₄	118	502	
+611	Zhoucheng	red	66	ʦʰɛ₄₄	ʦʰ ɛ ₄₄	118	502	
+612	Jinxing	red	66	ʦʰa₄₄	ʦʰ a ₄₄	118	214	
+613	Tuolo	red	66	tʰa₄₂	tʰ a ₄₂	118	303	
+614	Enqi	red	66	tʰjæ₅₅	tʰ j æ ₅₅	118	380	
+615	Ega	red	66	ʨʰa₄₄	ʨʰ a ₄₄	118	270	
+616	Gongxing	road	67	tʰy₂₂	tʰ y ₂₂	120	473	
+617	Jinman	road	67	ʈʰu₂₂	ʈʰ u ₂₂	120	473	
+618	Mazhelong	road	67	tʰǝɯ₃₃	tʰ ǝɯ ₃₃	120	393	
+619	Dashi	road	67	tʰu₃₃	tʰ u ₃₃	120	473	
+620	Zhoucheng	road	67	tʰo₃₃	tʰ o ₃₃	120	64	
+621	Jinxing	road	67	tʰu₃₃	tʰ u ₃₃	120	473	
+622	Tuolo	road	67	tʰɤ₃₃	tʰ ɤ ₃₃	120	142	
+623	Enqi	road	67	tʰiw₂₂	tʰ i w ₂₂	120	443	
+624	Ega	road	67	ʨiw₂₂	ʨ i w ₂₂	120	165	
+625	Gongxing	root	68	tɛ₂₄	t ɛ ₂₄	121	560	
+626	Jinman	root	68	me₄₂	m e ₄₂	122	310	
+627	Mazhelong	root	68	ʦo₃₃	ʦ o ₃₃	121	55	
+628	Dashi	root	68	te₄₄	t e ₄₄	121	560	
+629	Zhoucheng	root	68	mi₄₄	m i ₄₄	122	372	
+630	Jinxing	root	68	te₄₄	t e ₄₄	121	560	
+631	Tuolo	root	68	mɛ₂₁	m ɛ ₂₁	122	310	
+632	Enqi	root	68	tɛ₅₅	t ɛ ₅₅	121	560	
+633	Ega	root	68	mɛ₄₂	m ɛ ₄₂	122	310	
+634	Jinman	root	68	te₄₂	t e ₄₂	121	560	
+635	Dashi	root	68	mi₄₄	m i ₄₄	122	372	
+636	Enqi	root	68	mɛ₄₃	m ɛ ₄₃	122	310	
+637	Ega	root	68	tɛ₄₂	t ɛ ₄₂	121	560	
+638	Gongxing	round	69	wen₁₂	w e n ₁₂	123	579	
+639	Jinman	round	69	ŋwe₂₁	ŋ w e ₂₁	123	528	
+640	Mazhelong	round	69	ɣen₂₁	ɣ e n ₂₁	123	106	
+641	Dashi	round	69	wẽ₃₁	w ẽ ₃₁	123	352	
+642	Zhoucheng	round	69	we₂₁	w e ₂₁	123	226	
+643	Jinxing	round	69	wẽ₂₁	w ẽ ₂₁	123	352	
+644	Tuolo	round	69	wen₃₅	w e n ₃₅	123	579	
+645	Enqi	round	69	ʁwɛ₂₁	ʁ w ɛ ₂₁	123	334	
+646	Ega	round	69	kʰwɛ₄₄	kʰ w ɛ ₄₄	124	96	
+647	Gongxing	sand	70	swa₅₅	s w a ₅₅	125	340	
+648	Jinman	sand	70	ɕo₅₅	ɕ o ₅₅	125	382	
+649	Mazhelong	sand	70	sa₅₅	s a ₅₅	125	328	
+650	Dashi	sand	70	ʂʰow₅₅	ʂʰ o w ₅₅	125	381	
+651	Zhoucheng	sand	70	so₅₅	s o ₅₅	125	570	
+652	Jinxing	sand	70	sow₅₅	s o w ₅₅	125	26	
+653	Tuolo	sand	70	ɕwɨ₅₅	ɕ w ɨ ₅₅	125	248	
+654	Enqi	sand	70	ɕo₂₄	ɕ o ₂₄	125	382	
+655	Ega	sand	70	ɕo₅₅mi₂₂	ɕ o ₅₅ m i ₂₂	125	185	
+656	Gongxing	say (V)	71	ʣu₂₁	ʣ u ₂₁	128	338	
+657	Mazhelong	say (V)	71	swa₄₄	s w a ₄₄	127	526	
+658	Dashi	say (V)	71	ʨaŋ₂₁	ʨ a ŋ ₂₁	126	367	
+659	Zhoucheng	say (V)	71	swa₄₄	s w a ₄₄	127	526	
+660	Jinxing	say (V)	71	swɑ₄₄	s w ɑ ₄₄	127	472	
+661	Tuolo	say (V)	71	zu₄₂	z u ₄₂	128	274	
+662	Enqi	say (V)	71	ʦu₂₁	ʦ u ₂₁	128	338	
+663	Ega	say (V)	71	ʦo₄₂	ʦ o ₄₂	128	503	
+664	Tuolo	say (V)	71	swa₄₂	s w a ₄₂	127	526	
+665	Gongxing	see (V)	72	en₂₂qen₄₂	e n ₂₂ q e n ₄₂	129	550	
+666	Jinman	see (V)	72	e₂₂tɯ₄₄	e ₂₂ t ɯ ₄₄	130	592	
+667	Mazhelong	see (V)	72	xã₅₅kɛ₄₂	x ã ₅₅ k ɛ ₄₂	129	391	
+668	Dashi	see (V)	72	aŋ₃₃ke₃₁	a ŋ ₃₃ k e ₃₁	129	121	
+669	Zhoucheng	see (V)	72	a₃₃tɯ₄₄	a ₃₃ t ɯ ₄₄	130	592	
+670	Jinxing	see (V)	72	xɑ̃₅₅	x ɑ̃ ₅₅	129	246	
+671	Tuolo	see (V)	72	en₃₃qɛ₂₁	e n ₃₃ q ɛ ₂₁	129	550	
+672	Enqi	see (V)	72	ɛ₂₂tɯ₅₅la₂₂	ɛ ₂₂ t ɯ ₅₅ l a ₂₂	130	470	
+673	Ega	see (V)	72	e₂₂tɯ₄₄	e ₂₂ t ɯ ₄₄	130	592	
+674	Gongxing	seed	73	ʦoŋ₂₂	ʦ o ŋ ₂₂	131	564	
+675	Jinman	seed	73	ʨõ₂₂	ʨ õ ₂₂	131	286	
+676	Mazhelong	seed	73	ʦoŋ₃₃	ʦ o ŋ ₃₃	131	564	
+677	Dashi	seed	73	t͡ʂoŋ₃₃	t͡ʂ o ŋ ₃₃	131	564	
+678	Zhoucheng	seed	73	ʦɤ₃₃	ʦ ɤ ₃₃	131	400	
+679	Jinxing	seed	73	ʦɤ̃₃₃	ʦ ɤ̃ ₃₃	131	400	
+680	Tuolo	seed	73	t͡ʂɤŋ₃₃	t͡ʂ ɤ ŋ ₃₃	131	564	
+681	Enqi	seed	73	ʨo₂₂	ʨ o ₂₂	131	286	
+682	Ega	seed	73	ʨu₂₂	ʨ u ₂₂	131	273	
+683	Gongxing	sit (V)	74	kwa₄₂	k w a ₄₂	132	59	
+684	Jinman	sit (V)	74	kɤ₄₂	k ɤ ₄₂	132	588	
+685	Mazhelong	sit (V)	74	kɤ₄₂	k ɤ ₄₂	132	588	
+686	Dashi	sit (V)	74	ko₄₂	k o ₄₂	132	488	
+687	Zhoucheng	sit (V)	74	kɤ₄₂	k ɤ ₄₂	132	588	
+688	Jinxing	sit (V)	74	kɤ₄₂	k ɤ ₄₂	132	588	
+689	Tuolo	sit (V)	74	kɤ₂₁	k ɤ ₂₁	132	588	
+690	Enqi	sit (V)	74	ku₄₃	k u ₄₃	132	138	
+691	Ega	sit (V)	74	kɤ₄₂	k ɤ ₄₂	132	588	
+692	Gongxing	skin	75	bi₁₂	b i ₁₂	133	595	
+693	Jinman	skin	75	ʨyj₂₁	ʨ y j ₂₁	133	251	
+694	Mazhelong	skin	75	pe₂₁	p e ₂₁	133	595	
+695	Dashi	skin	75	pe₂₁	p e ₂₁	133	595	
+696	Zhoucheng	skin	75	pe₂₁	p e ₂₁	133	595	
+697	Jinxing	skin	75	pe₂₁	p e ₂₁	133	595	
+698	Tuolo	skin	75	bi₃₅	b i ₃₅	133	595	
+699	Enqi	skin	75	pi₂₁	p i ₂₁	133	595	
+700	Ega	skin	75	ʨyj₂₁qa₅₅	ʨ y j ₂₁ q a ₅₅	133	251	
+701	Gongxing	sleep (V)	76	nɛ₁₂	n ɛ ₁₂	137	3	
+702	Jinman	sleep (V)	76	wɤ̃₄₂ti₄₂	w ɤ̃ ₄₂ t i ₄₂	137	351	
+703	Mazhelong	sleep (V)	76	mi₅₅	m i ₅₅	134	163	
+704	Dashi	sleep (V)	76	t͡ʂʰɚ̃₃₃	t͡ʂʰ ɚ̃ ₃₃	135	161	
+705	Zhoucheng	sleep (V)	76	ʦʰɛ₃₃	ʦʰ ɛ ₃₃	135	284	
+706	Jinxing	sleep (V)	76	ʦʰan₃₃	ʦʰ a n ₃₃	135	158	
+707	Tuolo	sleep (V)	76	ʐa₄₂ma₄₂	ʐ a ₄₂ m a ₄₂	136	490	
+708	Enqi	sleep (V)	76	ʦʰi₂₂	ʦʰ i ₂₂	135	141	
+709	Ega	sleep (V)	76	ŋu₄₂ti₄₂	ŋ u ₄₂ t i ₄₂	137	167	
+710	Gongxing	small	77	sɛ₄₂	s ɛ ₄₂	138	563	
+711	Jinman	small	77	sẽ₄₂	s ẽ ₄₂	138	563	
+712	Mazhelong	small	77	sɛ₂₁	s ɛ ₂₁	138	563	
+713	Dashi	small	77	sʰe₂₁	sʰ e ₂₁	138	563	
+714	Zhoucheng	small	77	se₃₁	s e ₃₁	138	563	
+715	Jinxing	small	77	se₃₁	s e ₃₁	138	563	
+716	Tuolo	small	77	se₂₁	s e ₂₁	138	563	
+717	Enqi	small	77	sɛ₄₃	s ɛ ₄₃	138	563	
+718	Ega	small	77	sɛ₄₂	s ɛ ₄₂	138	563	
+719	Gongxing	smoke	78	xwi₂₂ɕi₅₅	x w i ₂₂ ɕ i ₅₅	139	599	
+720	Jinman	smoke	78	fi₂₂se₅₅	f i ₂₂ s e ₅₅	139	295	
+721	Mazhelong	smoke	78	fi₃₃ɕen₅₅	f i ₃₃ ɕ e n ₅₅	139	599	
+722	Dashi	smoke	78	xwi₃₃ɕen₃₅	x w i ₃₃ ɕ e n ₃₅	139	599	
+723	Zhoucheng	smoke	78	xwi₃₃ɕe₅₅	x w i ₃₃ ɕ e ₅₅	139	599	
+724	Jinxing	smoke	78	xwi₃₃ɕen₅₅	x w i ₃₃ ɕ e n ₅₅	139	599	
+725	Tuolo	smoke	78	xwe₃₃ɕen₅₅	x w e ₃₃ ɕ e n ₅₅	139	599	
+726	Enqi	smoke	78	xwi₂₂si₂₄	x w i ₂₂ s i ₂₄	139	599	
+727	Ega	smoke	78	fi₂₂sɛ₅₅	f i ₂₂ s ɛ ₅₅	139	295	
+728	Gongxing	stand (V)	79	ji₂₁	j i ₂₁	141	282	
+729	Jinman	stand (V)	79	djõ₂₂	d j õ ₂₂	140	191	
+730	Mazhelong	stand (V)	79	zi₄₂	z i ₄₂	142	561	
+731	Dashi	stand (V)	79	t͡ʂɯ₂₁	t͡ʂ ɯ ₂₁	140	574	
+732	Zhoucheng	stand (V)	79	ʦɯ₃₁	ʦ ɯ ₃₁	140	574	
+733	Jinxing	stand (V)	79	ʦɯ₃₁	ʦ ɯ ₃₁	140	574	
+734	Tuolo	stand (V)	79	ji₄₂kʰɯ₃₃	j i ₄₂ kʰ ɯ ₃₃	141	218	
+735	Enqi	stand (V)	79	djɯ₄₃	d j ɯ ₄₃	140	325	
+736	Ega	stand (V)	79	ji₄₂	j i ₄₂	141	282	
+737	Ega	stand (V)	79	ʥõ₂₂	ʥ õ ₂₂	140	453	
+738	Gongxing	star	80	san₅₅	s a n ₅₅	143	322	
+739	Jinman	star	80	ɕã₅₅	ɕ ã ₅₅	143	275	
+740	Mazhelong	star	80	ɕɚ̃₅₅	ɕ ɚ̃ ₅₅	143	305	
+741	Dashi	star	80	ɕɚ̃₅₅	ɕ ɚ̃ ₅₅	143	305	
+742	Zhoucheng	star	80	ɕɛ₅₅	ɕ ɛ ₅₅	143	190	
+743	Jinxing	star	80	ɕan₅₅	ɕ a n ₅₅	143	260	
+744	Tuolo	star	80	ɕaŋ₅₅	ɕ a ŋ ₅₅	143	345	
+745	Enqi	star	80	ɕæ₂₄	ɕ æ ₂₄	143	275	
+746	Ega	star	80	ɕa₅₅	ɕ a ₅₅	143	275	
+747	Gongxing	stone	81	ʣu₂₁qʰwɛ₅₅	ʣ u ₂₁ qʰ w ɛ ₅₅	144	465	
+748	Jinman	stone	81	ʈo₂₁	ʈ o ₂₁	144	469	
+749	Mazhelong	stone	81	ʦʰɤ₄₂	ʦʰ ɤ ₄₂	144	140	
+750	Dashi	stone	81	t͡ʂow₄₂	t͡ʂ o w ₄₂	144	535	
+751	Zhoucheng	stone	81	ʦow₄₂	ʦ o w ₄₂	144	535	
+752	Jinxing	stone	81	ʦow₄₂	ʦ o w ₄₂	144	535	
+753	Tuolo	stone	81	diw₄₂	d i w ₄₂	144	539	
+754	Enqi	stone	81	tiw₂₁	t i w ₂₁	144	539	
+755	Ega	stone	81	ʨiw₄₂	ʨ i w ₄₂	144	539	
+756	Jinman	stone	81	da₄₂ŋã₂₁	d a ₄₂ ŋ ã ₂₁	145	399	
+757	Gongxing	sun	82	ɲi₂₄	ɲ i ₂₄	146	293	
+758	Jinman	sun	82	ɲi₅₅	ɲ i ₅₅	146	293	
+759	Mazhelong	sun	82	ɲɛ₄₄	ɲ ɛ ₄₄	146	74	
+760	Dashi	sun	82	jen₄₄	j e n ₄₄	146	459	
+761	Zhoucheng	sun	82	mi₄₄	m i ₄₄	146	320	
+762	Jinxing	sun	82	jjen₄₄	jː e n ₄₄	146	459	
+763	Tuolo	sun	82	jjen₄₂	jː e n ₄₂	146	459	
+764	Enqi	sun	82	ɲi₅₅	ɲ i ₅₅	146	293	
+765	Ega	sun	82	ɲi₄₄	ɲ i ₄₄	146	293	
+766	Gongxing	swim (V)	83	ɕi₂₂qoŋ₅₅	ɕ i ₂₂ q o ŋ ₅₅	149	155	
+767	Jinman	swim (V)	83	ɕyj₂₂lu₂₁	ɕ y j ₂₂ l u ₂₁	150	516	
+768	Mazhelong	swim (V)	83	ʦʰɛ₃₁ɕu₃₃si₅₅	ʦʰ ɛ ₃₁ ɕ u ₃₃ s i ₅₅	151	70	
+769	Dashi	swim (V)	83	se₃₃pe₂₁	s e ₃₃ p e ₂₁	153	434	
+770	Zhoucheng	swim (V)	83	se₃₃ʦʰi₅₅kʰow₅₅	s e ₃₃ ʦʰ i ₅₅ kʰ o w ₅₅	147	156	
+771	Jinxing	swim (V)	83	se₃₃pe₂₁	s e ₃₃ p e ₂₁	153	434	
+772	Tuolo	swim (V)	83	fɤ₃₅ɕyj₃₃	f ɤ ₃₅ ɕ y j ₃₃	152	508	
+773	Enqi	swim (V)	83	sɛ₂₄ɕyj₂₂	s ɛ ₂₄ ɕ y j ₂₂	148	541	
+774	Ega	swim (V)	83	ɕyj₂₂qu₅₅	ɕ y j ₂₂ q u ₅₅	149	516	
+775	Gongxing	tail	84	mu₂₂qwa₂₄	m u ₂₂ q w a ₂₄	156	435	
+776	Jinman	tail	84	mo₂₂qwa₄₄	m o ₂₂ q w a ₄₄	156	435	
+777	Mazhelong	tail	84	mi₃₃	m i ₃₃	155	65	
+778	Dashi	tail	84	wɤ₃₃to₅₅	w ɤ ₃₃ t o ₅₅	154	475	
+779	Zhoucheng	tail	84	mi₄₂tu₃₅	m i ₄₂ t u ₃₅	154	148	
+780	Jinxing	tail	84	ɤ̃₃₃tɤ̃₅₅	ɤ̃ ₃₃ t ɤ̃ ₅₅	154	277	
+781	Tuolo	tail	84	mɔ₄₂qɔ₄₂	m ɔ ₄₂ q ɔ ₄₂	156	403	
+782	Enqi	tail	84	mæ₂₂qwa₅₅	m æ ₂₂ q w a ₅₅	156	435	
+783	Ega	tail	84	mu₂₂qwa₄₄	m u ₂₂ q w a ₄₄	156	435	
+784	Gongxing	that	85	twa₅₅ɣǝ₂₁	t w a ₅₅ ɣ ǝ ₂₁	158	289	
+785	Jinman	that	85	tõ₅₅	t õ ₅₅	158	409	
+786	Mazhelong	that	85	pu₃₃ʦoŋ₂₁	p u ₃₃ ʦ o ŋ ₂₁	159	447	
+787	Dashi	that	85	na₅₅	n a ₅₅	157	52	
+788	Zhoucheng	that	85	na₅₅wi₃₃	n a ₅₅ w i ₃₃	157	31	
+789	Jinxing	that	85	no₅₅	n o ₅₅	157	492	
+790	Tuolo	that	85	bo₂₁	b o ₂₁	159	559	
+791	Enqi	that	85	vɯ₄₃	v ɯ ₄₃	160	444	
+792	Ega	that	85	a₅₅po₂₁	a ₅₅ p o ₂₁	159	294	
+793	Jinxing	that	85	lo₅₅	l o ₅₅	161	139	
+794	Gongxing	this	86	ɣǝ₂₁	ɣ ǝ ₂₁	163	476	
+795	Jinman	this	86	nõ₅₅	n õ ₅₅	165	396	
+796	Mazhelong	this	86	ne₃₃ʦoŋ₂₁	n e ₃₃ ʦ o ŋ ₂₁	165	149	
+797	Dashi	this	86	a₅₅ta₃₃	a ₅₅ t a ₃₃	164	223	
+798	Zhoucheng	this	86	te₃₃le₃₁	t e ₃₃ l e ₃₁	164	249	
+799	Jinxing	this	86	lɯ₃₁	l ɯ ₃₁	162	192	
+800	Tuolo	this	86	djɯ₂₁	d j ɯ ₂₁	164	398	
+801	Enqi	this	86	nɯ₅₅	n ɯ ₅₅	165	201	
+802	Ega	this	86	a₅₅na₂₄	a ₅₅ n a ₂₄	165	553	
+803	Mazhelong	this	86	lɛ₄₂	l ɛ ₄₂	162	255	
+804	Gongxing	thou	87	na₄₂	n a ₄₂	166	162	
+805	Jinman	thou	87	no₄₂	n o ₄₂	166	507	
+806	Mazhelong	thou	87	nen₄₂	n e n ₄₂	166	504	
+807	Dashi	thou	87	nõ₃₁	n õ ₃₁	166	507	
+808	Zhoucheng	thou	87	no₃₁	n o ₃₁	166	507	
+809	Jinxing	thou	87	now₃₁	n o w ₃₁	166	174	
+810	Tuolo	thou	87	nɔ₂₁	n ɔ ₂₁	166	507	
+811	Enqi	thou	87	no₄₃	n o ₄₃	166	507	
+812	Ega	thou	87	no₄₂	n o ₄₂	166	507	
+813	Gongxing	tongue	88	djɛ₂₁	d j ɛ ₂₁	167	263	
+814	Jinman	tongue	88	ʈɚ₄₂	ʈ ɚ ₄₂	167	21	
+815	Mazhelong	tongue	88	ʦʰɛ₄₂	ʦʰ ɛ ₄₂	167	134	
+816	Dashi	tongue	88	t͡ʂe₄₂	t͡ʂ e ₄₂	167	134	
+817	Zhoucheng	tongue	88	ʦe₄₂	ʦ e ₄₂	167	134	
+818	Jinxing	tongue	88	ʦe₄₂	ʦ e ₄₂	167	134	
+819	Tuolo	tongue	88	de₄₂	d e ₄₂	167	368	
+820	Enqi	tongue	88	tjɛ₂₁	t j ɛ ₂₁	167	263	
+821	Ega	tongue	88	ti₂₁pʰɛ₄₂	t i ₂₁ pʰ ɛ ₄₂	167	452	
+822	Gongxing	tooth	89	xu₅₅ja₂₁	x u ₅₅ j a ₂₁	169	229	
+823	Jinman	tooth	89	ʨu₂₂pa₄₄	ʨ u ₂₂ p a ₄₄	168	585	
+824	Mazhelong	tooth	89	ʦi₃₃pɑ₄₄	ʦ i ₃₃ p ɑ ₄₄	168	594	
+825	Dashi	tooth	89	t͡ʂʰi₄₄pa₄₄	t͡ʂʰ i ₄₄ p a ₄₄	168	594	
+826	Zhoucheng	tooth	89	ʦi₃₃pa₄₄	ʦ i ₃₃ p a ₄₄	168	594	
+827	Jinxing	tooth	89	ʦɤ₄₄pɑ₄₄	ʦ ɤ ₄₄ p ɑ ₄₄	168	594	
+828	Tuolo	tooth	89	jaŋ₃₅	j a ŋ ₃₅	169	483	
+829	Enqi	tooth	89	qʰwa₂₂ɲa₂₁	qʰ w a ₂₂ ɲ a ₂₁	169	37	
+830	Ega	tooth	89	ʨu₂₂pa₄₄qwa₄₄	ʨ u ₂₂ p a ₄₄ q w a ₄₄	168	297	
+831	Gongxing	tooth	89	t͡ʂi₂₁pa₂₄	t͡ʂ i ₂₁ p a ₂₄	168	594	
+832	Tuolo	tooth	89	ʨu₄₂po₄₂	ʨ u ₄₂ p o ₄₂	168	585	
+833	Enqi	tooth	89	ʨu₂₂pa₅₅	ʨ u ₂₂ p a ₅₅	168	585	
+834	Gongxing	tree	90	d͡ʐi₄₂	d͡ʐ i ₄₂	170	112	
+835	Jinman	tree	90	ɖɯ₄₂	ɖ ɯ ₄₂	170	15	
+836	Mazhelong	tree	90	ʣǝɯ₂₁	ʣ ǝɯ ₂₁	170	350	
+837	Dashi	tree	90	t͡ʂɯ₂₁	t͡ʂ ɯ ₂₁	170	510	
+838	Zhoucheng	tree	90	ʦɯ₃₁	ʦ ɯ ₃₁	170	510	
+839	Jinxing	tree	90	ʦɯ₃₁	ʦ ɯ ₃₁	170	510	
+840	Tuolo	tree	90	djɯ₂₁	d j ɯ ₂₁	170	442	
+841	Enqi	tree	90	djɯ₄₃	d j ɯ ₄₃	170	442	
+842	Ega	tree	90	ʥi₄₂	ʥ i ₄₂	170	250	
+843	Gongxing	two	91	koŋ₃₃	k o ŋ ₃₃	171	544	
+844	Jinman	two	91	koŋ₃₃	k o ŋ ₃₃	171	544	
+845	Mazhelong	two	91	koŋ₃₃	k o ŋ ₃₃	171	544	
+846	Dashi	two	91	koŋ₃₃	k o ŋ ₃₃	171	544	
+847	Zhoucheng	two	91	kow₃₃	k o w ₃₃	171	252	
+848	Jinxing	two	91	kõ₃₃	k õ ₃₃	171	267	
+849	Tuolo	two	91	koŋ₃₃	k o ŋ ₃₃	171	544	
+850	Enqi	two	91	ku₂₂	k u ₂₂	171	104	
+851	Ega	two	91	kɤ₃₃	k ɤ ₃₃	171	269	
+852	Gongxing	walk (V)	92	ʁan₁₂	ʁ a n ₁₂	174	93	
+853	Jinman	walk (V)	92	ja₅₅	j a ₅₅	173	365	
+854	Mazhelong	walk (V)	92	ɣaŋ₂₁	ɣ a ŋ ₂₁	174	41	
+855	Dashi	walk (V)	92	pe₄₄	p e ₄₄	175	202	
+856	Zhoucheng	walk (V)	92	pe₄₄	p e ₄₄	175	202	
+857	Jinxing	walk (V)	92	pe₄₄	p e ₄₄	175	202	
+858	Tuolo	walk (V)	92	jɔ₄₂	j ɔ ₄₂	173	598	
+859	Enqi	walk (V)	92	ɴa₂₁	ɴ a ₂₁	172	525	
+860	Ega	walk (V)	92	ŋa₂₁	ŋ a ₂₁	172	525	
+861	Tuolo	walk (V)	92	ŋa₃₅	ŋ a ₃₅	172	525	
+862	Gongxing	warm	93	ɲi₂₄	ɲ i ₂₄	176	546	
+863	Jinman	warm	93	ɲi₄₄	ɲ i ₄₄	176	546	
+864	Mazhelong	warm	93	ɲɛ₄₄	ɲ ɛ ₄₄	176	401	
+865	Dashi	warm	93	jen₄₄	j e n ₄₄	176	315	
+866	Zhoucheng	warm	93	ɲe₄₄	ɲ e ₄₄	176	45	
+867	Jinxing	warm	93	jẽ₄₄	j ẽ ₄₄	176	116	
+868	Tuolo	warm	93	jen₄₂	j e n ₄₂	176	315	
+869	Enqi	warm	93	ɲi₅₅	ɲ i ₅₅	176	546	
+870	Ega	warm	93	ɲi₄₄	ɲ i ₄₄	176	546	
+871	Gongxing	water	94	ɕy₂₂	ɕ y ₂₂	177	113	
+872	Jinman	water	94	ɕyj₂₂	ɕ y j ₂₂	177	416	
+873	Mazhelong	water	94	ɕyj₃₃	ɕ y j ₃₃	177	416	
+874	Dashi	water	94	ɕuj₃₃	ɕ u j ₃₃	177	416	
+875	Zhoucheng	water	94	ɕyj₃₃	ɕ y j ₃₃	177	416	
+876	Jinxing	water	94	ɕyj₃₃	ɕ y j ₃₃	177	416	
+877	Tuolo	water	94	ɕyj₃₃	ɕ y j ₃₃	177	416	
+878	Enqi	water	94	ɕyj₂₂	ɕ y j ₂₂	177	416	
+879	Ega	water	94	ɕyj₂₂	ɕ y j ₂₂	177	416	
+880	Gongxing	we	95	ʁaŋ₂₄	ʁ a ŋ ₂₄	182	35	
+881	Jinman	we	95	ɲa₂₁t͡ʂɚ₂₂	ɲ a ₂₁ t͡ʂ ɚ ₂₂	178	341	
+882	Mazhelong	we	95	ŋa₅₅xo₃₃	ŋ a ₅₅ x o ₃₃	178	523	
+883	Dashi	we	95	ɲã₅₅	ɲ ã ₅₅	178	38	
+884	Zhoucheng	we	95	ɲa₅₅	ɲ a ₅₅	178	307	
+885	Jinxing	we	95	jɑ̃₅₅	j ɑ̃ ₅₅	179	428	
+886	Tuolo	we	95	a₅₅ŋɔ₂₁	a ₅₅ ŋ ɔ ₂₁	181	111	
+887	Enqi	we	95	a₅₅ʁo₂₁	a ₅₅ ʁ o ₂₁	181	2	
+888	Ega	we	95	ɲo₂₁ɣo₂₂	ɲ o ₂₁ ɣ o ₂₂	178	285	
+889	Gongxing	we	95	ŋa₄₂xõ₂₂	ŋ a ₄₂ x õ ₂₂	178	523	
+890	Jinman	we	95	mi₅₅	m i ₅₅	180	153	
+891	Jinxing	we	95	ŋɑ₅₅	ŋ ɑ ₅₅	178	80	
+892	Tuolo	we	95	we₅₅	w e ₅₅	178	7	
+893	Enqi	we	95	wi₂₄ʦɿ₂₁	w i ₂₄ ʦ ɿ ₂₁	178	132	
+894	Ega	we	95	ŋwi₅₅	ŋ w i ₅₅	178	122	
+895	Gongxing	what	96	a₅₅qʰa₅₅	a ₅₅ qʰ a ₅₅	183	97	
+896	Jinman	what	96	a₅₅xã₄₂	a ₅₅ x ã ₄₂	183	450	
+897	Mazhelong	what	96	a₅₅se₅₅	a ₅₅ s e ₅₅	184	49	
+898	Dashi	what	96	ɚ₅₅xɚ₄₂	ɚ ₅₅ x ɚ ₄₂	183	458	
+899	Zhoucheng	what	96	xa₃₁le₃₁	x a ₃₁ l e ₃₁	185	423	
+900	Jinxing	what	96	ɑ₅₅xan₃₁	ɑ ₅₅ x a n ₃₁	183	414	
+901	Tuolo	what	96	a₅₅haŋ₂₁	a ₅₅ h a ŋ ₂₁	183	152	
+902	Enqi	what	96	a₅₅χa₅₅	a ₅₅ χ a ₅₅	183	450	
+903	Ega	what	96	a₅₅xa₄₂	a ₅₅ x a ₄₂	183	450	
+904	Gongxing	white	97	bæ₂₁	b æ ₂₁	186	522	
+905	Jinman	white	97	pa₄₂	p a ₄₂	186	522	
+906	Mazhelong	white	97	pʰɚ₄₂	pʰ ɚ ₄₂	186	147	
+907	Dashi	white	97	pɚ₄₂	p ɚ ₄₂	186	39	
+908	Zhoucheng	white	97	pɛ₄₂	p ɛ ₄₂	186	389	
+909	Jinxing	white	97	pa₄₂	p a ₄₂	186	522	
+910	Tuolo	white	97	ba₄₂	b a ₄₂	186	522	
+911	Enqi	white	97	pa₂₁	p a ₂₁	186	522	
+912	Ega	white	97	pa₄₂	p a ₄₂	186	522	
+913	Gongxing	who	98	a₂₂ma₅₅bu₂₂ɲǝn₂₄	a ₂₂ m a ₅₅ b u ₂₂ ɲ ǝ n ₂₄	189	300	
+914	Jinman	who	98	a₅₅ma₅₅	a ₅₅ m a ₅₅	189	265	
+915	Mazhelong	who	98	a₅₅to₃₃	a ₅₅ t o ₃₃	188	358	
+916	Dashi	who	98	a₅₅ma₃₃tjɯ₃₁	a ₅₅ m a ₃₃ t j ɯ ₃₁	189	75	
+917	Zhoucheng	who	98	a₅₅ɲi₂₁	a ₅₅ ɲ i ₂₁	187	332	
+918	Jinxing	who	98	ɑ₃₁tow₃₁	ɑ ₃₁ t o w ₃₁	188	515	
+919	Tuolo	who	98	a₂₁do₃₅	a ₂₁ d o ₃₅	188	358	
+920	Enqi	who	98	a₄₃to₂₁	a ₄₃ t o ₂₁	188	358	
+921	Ega	who	98	a₅₅to₂₁	a ₅₅ t o ₂₁	188	358	
+922	Jinxing	who	98	ɑ₅₅nɑ̃₄₄jen₂₁	ɑ ₅₅ n ɑ̃ ₄₄ j e n ₂₁	187	127	
+923	Jinman	woman	99	ɲu₂₂ɲi₂₁ʦi₂₂	ɲ u ₂₂ ɲ i ₂₁ ʦ i ₂₂	191	379	
+924	Mazhelong	woman	99	ɲõ₃₃ɲĩ₂₁	ɲ õ ₃₃ ɲ ĩ ₂₁	191	258	
+925	Dashi	woman	99	jũ₃₃lã₄₂	j ũ ₃₃ l ã ₄₂	192	369	
+926	Zhoucheng	woman	99	ɲɤ₃₃	ɲ ɤ ₃₃	191	291	
+927	Jinxing	woman	99	jɤ̃₃₃jen₂₁jen₂₁	j ɤ̃ ₃₃ j e n ₂₁ j e n ₂₁	193	431	
+928	Tuolo	woman	99	jen₃₅hoŋ₅₅mo₃₃	j e n ₃₅ h o ŋ ₅₅ m o ₃₃	190	131	
+929	Ega	woman	99	ɲyj₂₂ʦi₂₂	ɲ y j ₂₂ ʦ i ₂₂	191	379	
+930	Gongxing	yellow	100	ʁaŋ₁₂	ʁ a ŋ ₁₂	194	150	
+931	Jinman	yellow	100	õ₂₁	õ ₂₁	194	4	
+932	Mazhelong	yellow	100	ɣoŋ₂₁	ɣ o ŋ ₂₁	194	90	
+933	Dashi	yellow	100	wɤ̃₂₁	w ɤ̃ ₂₁	194	308	
+934	Zhoucheng	yellow	100	ŋɤ₂₁	ŋ ɤ ₂₁	194	69	
+935	Jinxing	yellow	100	ɤ̃₂₁	ɤ̃ ₂₁	194	200	
+936	Tuolo	yellow	100	ŋoŋ₃₅	ŋ o ŋ ₃₅	194	446	
+937	Enqi	yellow	100	ʁo₂₁	ʁ o ₂₁	194	477	
+938	Ega	yellow	100	ŋõ₂₁	ŋ õ ₂₁	194	333	
+939	Gongxing	far	101	tɥen₂₂	t ɥ e n ₂₂	195	555	
+940	Jinman	far	101	tyj₂₂	t y j ₂₂	195	206	
+941	Mazhelong	far	101	ʦwen₃₃	ʦ w e n ₃₃	195	555	
+942	Dashi	far	101	twen₃₃	t w e n ₃₃	195	555	
+943	Zhoucheng	far	101	twe₃₃	t w e ₃₃	195	555	
+944	Jinxing	far	101	twen₃₃	t w e n ₃₃	195	555	
+945	Tuolo	far	101	twe₃₃	t w e ₃₃	195	555	
+946	Enqi	far	101	tɥɛ₂₂	t ɥ ɛ ₂₂	195	48	
+947	Ega	far	101	ti₂₂	t i ₂₂	195	234	
+948	Gongxing	heavy	102	ʣoŋ₂₂	ʣ o ŋ ₂₂	196	346	
+949	Jinman	heavy	102	ʥõ₂₂	ʥ õ ₂₂	196	182	
+950	Mazhelong	heavy	102	ʦõ₂₁	ʦ õ ₂₁	196	385	
+951	Dashi	heavy	102	t͡ʂõ₃₃	t͡ʂ õ ₃₃	196	385	
+952	Zhoucheng	heavy	102	ʦɤ₃₃	ʦ ɤ ₃₃	196	43	
+953	Jinxing	heavy	102	ʦɤ̃₃₃	ʦ ɤ̃ ₃₃	196	43	
+954	Tuolo	heavy	102	ʐɤŋ₃₃	ʐ ɤ ŋ ₃₃	196	461	
+955	Enqi	heavy	102	d͡ʐo₂₂	d͡ʐ o ₂₂	196	385	
+956	Ega	heavy	102	ʥo₂₂	ʥ o ₂₂	196	182	
+957	Gongxing	near	103	ʥen₂₂	ʥ e n ₂₂	197	529	
+958	Jinman	near	103	ʦʰo₅₅	ʦʰ o ₅₅	197	533	
+959	Mazhelong	near	103	ʨen₃₃	ʨ e n ₃₃	197	529	
+960	Dashi	near	103	ʨen₃₃	ʨ e n ₃₃	197	529	
+961	Zhoucheng	near	103	ʨe₃₃	ʨ e ₃₃	197	529	
+962	Jinxing	near	103	ʨen₃₃	ʨ e n ₃₃	197	529	
+963	Tuolo	near	103	jen₃₃	j e n ₃₃	198	50	
+964	Enqi	near	103	ʨi₂₂	ʨ i ₂₂	197	529	
+965	Ega	near	103	ʦʰo₅₅	ʦʰ o ₅₅	197	533	
+966	Gongxing	salt	104	ʨwen₅₅	ʨ w e n ₅₅	199	216	
+967	Jinman	salt	104	ʦwẽ₅₅	ʦ w ẽ ₅₅	199	181	
+968	Mazhelong	salt	104	ʦʰoŋ₂₁	ʦʰ o ŋ ₂₁	199	63	
+969	Dashi	salt	104	pjẽ₃₅	p j ẽ ₃₅	199	188	
+970	Zhoucheng	salt	104	pi₃₅	p i ₃₅	199	454	
+971	Jinxing	salt	104	pjen₅₅	p j e n ₅₅	199	73	
+972	Tuolo	salt	104	ʨwen₅₅	ʨ w e n ₅₅	199	216	
+973	Enqi	salt	104	ʦwɛ₂₄	ʦ w ɛ ₂₄	199	181	
+974	Ega	salt	104	ʦwɛ₅₅	ʦ w ɛ ₅₅	199	181	
+975	Gongxing	short	105	ʦʰwa₂₄	ʦʰ w a ₂₄	200	230	
+976	Jinman	short	105	ʨʰi₅₅	ʨʰ i ₅₅	200	593	
+977	Mazhelong	short	105	ʦʰǝɯ₅₅	ʦʰ ǝɯ ₅₅	200	169	
+978	Dashi	short	105	ʦʰɯ₅₅	ʦʰ ɯ ₅₅	200	169	
+979	Zhoucheng	short	105	ʦʰɯ₅₅	ʦʰ ɯ ₅₅	200	169	
+980	Jinxing	short	105	ʦʰɯ₅₅	ʦʰ ɯ ₅₅	200	169	
+981	Tuolo	short	105	ʦʰɤ₄₂	ʦʰ ɤ ₄₂	200	239	
+982	Enqi	short	105	ʦʰo₅₅	ʦʰ o ₅₅	200	1	
+983	Ega	short	105	ʨʰi₅₅	ʨʰ i ₅₅	200	593	
+984	Gongxing	snake	106	t͡ʂʰi₂₂	t͡ʂʰ i ₂₂	201	71	
+985	Jinman	snake	106	ʨʰɚ̃₂₂	ʨʰ ɚ̃ ₂₂	201	54	
+986	Mazhelong	snake	106	ʨʰiw₃₃	ʨʰ i w ₃₃	201	228	
+987	Dashi	snake	106	kʰo₃₃	kʰ o ₃₃	201	424	
+988	Zhoucheng	snake	106	kʰɤ₃₃	kʰ ɤ ₃₃	201	327	
+989	Jinxing	snake	106	kʰɤ₃₃	kʰ ɤ ₃₃	201	327	
+990	Tuolo	snake	106	t͡ʂʰɚ̃₃₃	t͡ʂʰ ɚ̃ ₃₃	201	177	
+991	Enqi	snake	106	ʦʰɿ₂₂	ʦʰ ɿ ₂₂	201	370	
+992	Ega	snake	106	ʦʰɛ₂₂	ʦʰ ɛ ₂₂	201	119	
+993	Gongxing	thin	107	bwa₂₁	b w a ₂₁	202	417	
+994	Jinman	thin	107	po₄₂	p o ₄₂	202	245	
+995	Mazhelong	thin	107	pʰo₄₂	pʰ o ₄₂	202	245	
+996	Dashi	thin	107	pow₄₂	p o w ₄₂	202	513	
+997	Zhoucheng	thin	107	pow₄₂	p o w ₄₂	202	513	
+998	Jinxing	thin	107	pow₄₂	p o w ₄₂	202	513	
+999	Tuolo	thin	107	bɯ₄₂	b ɯ ₄₂	202	497	
+1000	Enqi	thin	107	pɯ₂₁	p ɯ ₂₁	202	497	
+1001	Ega	thin	107	pu₄₂	p u ₄₂	202	436	
+1002	Gongxing	wind	108	ʨwen₅₅	ʨ w e n ₅₅	203	199	
+1003	Jinman	wind	108	ʨyj₅₅	ʨ y j ₅₅	203	597	
+1004	Mazhelong	wind	108	pjen₅₅	p j e n ₅₅	203	441	
+1005	Dashi	wind	108	pjɛ̃₃₅	p j ɛ̃ ₃₅	203	317	
+1006	Zhoucheng	wind	108	pi₃₅	p i ₃₅	203	262	
+1007	Jinxing	wind	108	pi₅₅	p i ₅₅	203	262	
+1008	Tuolo	wind	108	ʨwen₅₅	ʨ w e n ₅₅	203	199	
+1009	Enqi	wind	108	ʦwɛ₂₄	ʦ w ɛ ₂₄	203	324	
+1010	Ega	wind	108	ʨyj₅₅	ʨ y j ₅₅	203	597	
+1011	Gongxing	worm	109	ʣwa₁₂	ʣ w a ₁₂	204	6	
+1012	Jinman	worm	109	ʨu₂₁	ʨ u ₂₁	204	404	
+1013	Mazhelong	worm	109	ʣõ₂₁	ʣ õ ₂₁	204	103	
+1014	Dashi	worm	109	t͡ʂo₂₁	t͡ʂ o ₂₁	204	58	
+1015	Zhoucheng	worm	109	ʦɤ₂₁	ʦ ɤ ₂₁	204	569	
+1016	Jinxing	worm	109	ʦɤ₂₁	ʦ ɤ ₂₁	204	569	
+1017	Tuolo	worm	109	ʐɤ₃₅	ʐ ɤ ₃₅	204	204	
+1018	Enqi	worm	109	ʨo₂₁	ʨ o ₂₁	204	408	
+1019	Ega	worm	109	ʨu₂₁	ʨ u ₂₁	204	404	
+1020	Gongxing	year	110	swa₂₄	s w a ₂₄	205	596	
+1021	Jinman	year	110	swa₅₅	s w a ₅₅	205	596	
+1022	Mazhelong	year	110	swa₄₄	s w a ₄₄	205	596	
+1023	Dashi	year	110	sʰwa₄₄	sʰ w a ₄₄	205	596	
+1024	Zhoucheng	year	110	swa₄₄	s w a ₄₄	205	596	
+1025	Jinxing	year	110	swɑ₄₄	s w ɑ ₄₄	205	283	
+1026	Tuolo	year	110	swɔ₄₂	s w ɔ ₄₂	205	471	
+1027	Enqi	year	110	swa₅₅	s w a ₅₅	205	596	
+1028	Ega	year	110	swa₄₄	s w a ₄₄	205	596	

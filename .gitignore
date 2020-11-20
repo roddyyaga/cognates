@@ -29,3 +29,9 @@ perf.*
 
 # mypy
 .mypy_cache
+
+*.png
+
+*.diff
+
+outputs
